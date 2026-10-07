@@ -1,0 +1,384 @@
+{
+  "symbolic_checks": 9,
+  "root_X_packet": {
+    "parameters": [
+      2,
+      2,
+      -2
+    ],
+    "polynomial": [
+      -2,
+      12,
+      20,
+      8
+    ],
+    "half_row": [
+      38,
+      36,
+      20,
+      8
+    ],
+    "defects": [
+      -388,
+      424,
+      48,
+      64
+    ]
+  },
+  "coarse_gate_records": [
+    {
+      "m": 0,
+      "plain": {
+        "lambda": [
+          2,
+          1
+        ],
+        "alpha": [
+          16,
+          1
+        ],
+        "b0": 1,
+        "gate": true
+      },
+      "smooth": {
+        "lambda": [
+          4,
+          1
+        ],
+        "alpha": [
+          32,
+          1
+        ],
+        "b0": 1,
+        "gate": true
+      }
+    },
+    {
+      "m": 1,
+      "plain": {
+        "lambda": [
+          8,
+          1
+        ],
+        "alpha": [
+          31,
+          1
+        ],
+        "b0": 3,
+        "gate": true
+      },
+      "smooth": {
+        "lambda": [
+          8,
+          1
+        ],
+        "alpha": [
+          241,
+          7
+        ],
+        "b0": 7,
+        "gate": true
+      }
+    },
+    {
+      "m": 2,
+      "plain": {
+        "lambda": [
+          16,
+          1
+        ],
+        "alpha": [
+          559,
+          16
+        ],
+        "b0": 16,
+        "gate": true
+      },
+      "smooth": {
+        "lambda": [
+          16,
+          1
+        ],
+        "alpha": [
+          299,
+          8
+        ],
+        "b0": 40,
+        "gate": true
+      }
+    },
+    {
+      "m": 3,
+      "plain": {
+        "lambda": [
+          32,
+          1
+        ],
+        "alpha": [
+          1152,
+          31
+        ],
+        "b0": 93,
+        "gate": true
+      },
+      "smooth": {
+        "lambda": [
+          32,
+          1
+        ],
+        "alpha": [
+          9424,
+          241
+        ],
+        "b0": 241,
+        "gate": false
+      }
+    },
+    {
+      "m": 4,
+      "plain": {
+        "lambda": [
+          64,
+          1
+        ],
+        "alpha": [
+          21745,
+          559
+        ],
+        "b0": 559,
+        "gate": false
+      },
+      "smooth": {
+        "lambda": [
+          64,
+          1
+        ],
+        "alpha": [
+          60121,
+          1495
+        ],
+        "b0": 1495,
+        "gate": false
+      }
+    },
+    {
+      "m": 5,
+      "plain": {
+        "lambda": [
+          128,
+          1
+        ],
+        "alpha": [
+          46177,
+          1152
+        ],
+        "b0": 3456,
+        "gate": false
+      },
+      "smooth": {
+        "lambda": [
+          128,
+          1
+        ],
+        "alpha": [
+          387007,
+          9424
+        ],
+        "b0": 9424,
+        "gate": false
+      }
+    },
+    {
+      "m": 6,
+      "plain": {
+        "lambda": [
+          256,
+          1
+        ],
+        "alpha": [
+          178160,
+          4349
+        ],
+        "b0": 21745,
+        "gate": false
+      },
+      "smooth": {
+        "lambda": [
+          256,
+          1
+        ],
+        "alpha": [
+          2508664,
+          60121
+        ],
+        "b0": 60121,
+        "gate": false
+      }
+    },
+    {
+      "m": 7,
+      "plain": {
+        "lambda": [
+          512,
+          1
+        ],
+        "alpha": [
+          1923199,
+          46177
+        ],
+        "b0": 138531,
+        "gate": false
+      },
+      "smooth": {
+        "lambda": [
+          512,
+          1
+        ],
+        "alpha": [
+          16352809,
+          387007
+        ],
+        "b0": 387007,
+        "gate": false
+      }
+    },
+    {
+      "m": 8,
+      "plain": {
+        "lambda": [
+          1024,
+          1
+        ],
+        "alpha": [
+          7516883,
+          178160
+        ],
+        "b0": 890800,
+        "gate": false
+      },
+      "smooth": {
+        "lambda": [
+          1024,
+          1
+        ],
+        "alpha": [
+          107084719,
+          2508664
+        ],
+        "b0": 2508664,
+        "gate": false
+      }
+    },
+    {
+      "m": 9,
+      "plain": {
+        "lambda": [
+          2048,
+          1
+        ],
+        "alpha": [
+          81994752,
+          1923199
+        ],
+        "b0": 5769597,
+        "gate": false
+      },
+      "smooth": {
+        "lambda": [
+          2048,
+          1
+        ],
+        "alpha": [
+          703909792,
+          16352809
+        ],
+        "b0": 16352809,
+        "gate": false
+      }
+    },
+    {
+      "m": 10,
+      "plain": {
+        "lambda": [
+          4096,
+          1
+        ],
+        "alpha": [
+          323243885,
+          7516883
+        ],
+        "b0": 37584415,
+        "gate": false
+      },
+      "smooth": {
+        "lambda": [
+          4096,
+          1
+        ],
+        "alpha": [
+          663144583,
+          15297817
+        ],
+        "b0": 107084719,
+        "gate": false
+      }
+    },
+    {
+      "m": 11,
+      "plain": {
+        "lambda": [
+          8192,
+          1
+        ],
+        "alpha": [
+          3551419777,
+          81994752
+        ],
+        "b0": 245984256,
+        "gate": false
+      },
+      "smooth": {
+        "lambda": [
+          8192,
+          1
+        ],
+        "alpha": [
+          30696946999,
+          703909792
+        ],
+        "b0": 703909792,
+        "gate": false
+      }
+    },
+    {
+      "m": 12,
+      "plain": {
+        "lambda": [
+          16384,
+          1
+        ],
+        "alpha": [
+          70431933904,
+          1616219425
+        ],
+        "b0": 1616219425,
+        "gate": false
+      },
+      "smooth": {
+        "lambda": [
+          16384,
+          1
+        ],
+        "alpha": [
+          203480908744,
+          4642012081
+        ],
+        "b0": 4642012081,
+        "gate": false
+      }
+    }
+  ],
+  "analytic_obstruction_plain_from_m": 6,
+  "analytic_obstruction_smooth_from_m": 5,
+  "scope": "Symbolic identities and analytic scalar gates; bounded records only replay minimal coarse failures."
+}

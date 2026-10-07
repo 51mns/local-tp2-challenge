@@ -1,0 +1,105 @@
+{
+  "arithmetic": "Python stdlib Fraction sparse polynomial ring",
+  "universal": {
+    "mixture_defect_identity": true,
+    "degree_separation_selector": true
+  },
+  "root": {
+    "root_Fricke": true,
+    "seed_mixed": "-4",
+    "single_blocks": [
+      {
+        "mode": "raw",
+        "degrees": [
+          3,
+          5
+        ],
+        "columns": [
+          4,
+          5
+        ],
+        "character": [
+          8,
+          0
+        ],
+        "mixed_coefficient": "-144",
+        "parameters": "symbolic r,s"
+      },
+      {
+        "mode": "y",
+        "degrees": [
+          4,
+          6
+        ],
+        "columns": [
+          5,
+          6
+        ],
+        "character": [
+          10,
+          0
+        ],
+        "mixed_coefficient": "-144",
+        "parameters": "symbolic r,s"
+      }
+    ],
+    "targeted_run_normalizations": [
+      {
+        "N": 1,
+        "degrees": [
+          3,
+          5
+        ],
+        "mixed_coefficient": "-144"
+      },
+      {
+        "N": 2,
+        "degrees": [
+          6,
+          8
+        ],
+        "mixed_coefficient": "-5184"
+      }
+    ]
+  },
+  "monotonicity": {
+    "state": "actual third short child from normalized root",
+    "normalized_Fricke": true,
+    "degree_n": 3,
+    "columns": [
+      3,
+      4
+    ],
+    "character": [
+      6,
+      0
+    ],
+    "J_L2_n": "-6386912",
+    "delta_n_terminal": "64",
+    "derivative_theta_at3": "6386912",
+    "claim": "monotone-decreasing shortcut false; no packet failure asserted"
+  },
+  "weak_packet_independent_review": {
+    "raw_y_defect_formulas": true,
+    "quadratic_field_endpoint_zero": true,
+    "full_square_root_bound_identity": true,
+    "yH_selector02_identity": true,
+    "reference_positive_selectors": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "uniform_reference_bound": 16,
+    "raw_central_CB_bound": 20000,
+    "y_selector02_bound": 375801,
+    "y_selector12_bound": 91611,
+    "review": "packet_algebra_weakening_audit.md; conditional theorem PASS"
+  },
+  "proof": "packet_algebra.md; no complete mixed compensation",
+  "scope": "ROOT witnesses and universal canonical degree obstruction; BOTH/TARGET OPEN"
+}

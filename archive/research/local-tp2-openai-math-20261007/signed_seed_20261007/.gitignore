@@ -1,0 +1,4 @@
+__pycache__/
+replay_output/
+certificate_*.json
+independent_*.json

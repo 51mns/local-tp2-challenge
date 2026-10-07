@@ -1,0 +1,98 @@
+{
+  "scope": "Current paired MP0 candidate at actual canonical records; all characters checked at prescribed rational points; not a continuous-domain certificate",
+  "parameter_shifts": [
+    "-2",
+    "-3/2",
+    "0",
+    "3/2",
+    "2"
+  ],
+  "parameter_pairs": [
+    [
+      "-2",
+      "-2"
+    ],
+    [
+      "-2",
+      "2"
+    ],
+    [
+      "2",
+      "2"
+    ],
+    [
+      "-3/2",
+      "3/2"
+    ],
+    [
+      "-2",
+      "0"
+    ],
+    [
+      "0",
+      "2"
+    ],
+    [
+      "-1/2",
+      "3/2"
+    ]
+  ],
+  "records": [
+    {
+      "path": "SS",
+      "degree_T": 5,
+      "exact_sample_cases": 53,
+      "first_failure": null,
+      "complete_P0": "not certified by finite rational testing"
+    },
+    {
+      "path": "SL",
+      "degree_T": 7,
+      "exact_sample_cases": 53,
+      "first_failure": null,
+      "complete_P0": "not certified by finite rational testing"
+    },
+    {
+      "path": "LS",
+      "degree_T": 7,
+      "exact_sample_cases": 53,
+      "first_failure": null,
+      "complete_P0": "not certified by finite rational testing"
+    },
+    {
+      "path": "LL",
+      "degree_T": 8,
+      "exact_sample_cases": 53,
+      "first_failure": null,
+      "complete_P0": "not certified by finite rational testing"
+    },
+    {
+      "path": "SSS",
+      "degree_T": 6,
+      "exact_sample_cases": 53,
+      "first_failure": null,
+      "complete_P0": "not certified by finite rational testing"
+    },
+    {
+      "path": "SSL",
+      "degree_T": 9,
+      "exact_sample_cases": 53,
+      "first_failure": null,
+      "complete_P0": "not certified by finite rational testing"
+    },
+    {
+      "path": "SLL",
+      "degree_T": 11,
+      "exact_sample_cases": 53,
+      "first_failure": null,
+      "complete_P0": "not certified by finite rational testing"
+    },
+    {
+      "path": "LSL",
+      "degree_T": 12,
+      "exact_sample_cases": 53,
+      "first_failure": null,
+      "complete_P0": "not certified by finite rational testing"
+    }
+  ]
+}

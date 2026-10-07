@@ -1,0 +1,29 @@
+{
+  "defects_verified": 14,
+  "Bernstein_coefficients_verified": 376,
+  "supplementary_prefix_identities": 17,
+  "exact_minima": {
+    "pair_of_general_pairs": [
+      "19633/256",
+      "2857/32",
+      "267/4",
+      "35/2",
+      "1"
+    ],
+    "middle_times_general_pair": [
+      "69/8",
+      "129/8",
+      "19/2",
+      "1"
+    ],
+    "isolated_innermost_pair": [
+      "1/4",
+      "7/4",
+      "1"
+    ],
+    "middle_linear": [
+      "1/4",
+      "1"
+    ]
+  }
+}

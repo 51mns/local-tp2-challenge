@@ -1,0 +1,23 @@
+{
+  "scope": "symbolic identities over Z[x,a,e,r], not finite-state interpolation",
+  "checks": {
+    "fricke_residual": "PASS",
+    "short_gap": "PASS",
+    "long_difference": "PASS",
+    "short_next_g": "PASS",
+    "long_next_g": "PASS",
+    "short_preserves_fricke": "PASS",
+    "long_preserves_fricke": "PASS",
+    "short_remainder_bound": "PASS",
+    "long_remainder_bound": "PASS",
+    "growth_positive_decomposition": "PASS",
+    "growth_decomposition_coefficients": "NONNEGATIVE",
+    "cassini_residual": "PASS",
+    "square_dominance_residual": "PASS",
+    "root_g": "PASS",
+    "root_s": "PASS",
+    "root_d": "PASS"
+  },
+  "fricke_monomials": 29,
+  "all_pass": true
+}

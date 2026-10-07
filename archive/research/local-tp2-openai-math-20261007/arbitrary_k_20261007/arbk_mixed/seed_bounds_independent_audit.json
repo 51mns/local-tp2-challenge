@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "independent_method": "ordinary-x inner Chebyshev recurrence; binomial Laurent conversion; endpoint polarization",
+  "seed_pairs": 122,
+  "seed_margin_count": 16048,
+  "seed_margin_sha256": "bcab368de7ff11a996d7472040068da5f7014b77cdb35b709313ba462dd3d20b",
+  "old_m_range": [
+    0,
+    69
+  ],
+  "old_interval_coefficient_pairs": 38745,
+  "old_interval_coefficient_pair_sha256": "6860ff2dec9611d3d8531bf3f1baebe73436e9d434e27986fa303a367c8fada9",
+  "all_recorded_rows_margins_bounds_and_digests_match": true,
+  "infinite_tail_scalar_anchors_match": true
+}

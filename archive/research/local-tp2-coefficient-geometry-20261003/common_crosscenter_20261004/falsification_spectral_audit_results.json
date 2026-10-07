@@ -1,0 +1,30 @@
+{
+  "classification": "RELAXED STRICT CONE/LC/SHIFTED-TRACE COUNTEREXAMPLE; NOT MP_sharp OR CANONICAL",
+  "modes": [
+    {
+      "mode": "raw",
+      "degree": 6,
+      "minimum_defect": "2899/1000000",
+      "minimum_nonzero_character": "2899/1000000",
+      "character_count": 49
+    },
+    {
+      "mode": "y",
+      "degree": 7,
+      "minimum_defect": "1491/200000",
+      "minimum_nonzero_character": "1491/200000",
+      "character_count": 64
+    }
+  ],
+  "parent_shifted_trace_character_lower_bounds": [
+    144,
+    112,
+    16,
+    43,
+    8,
+    1
+  ],
+  "beta_v_border_defect": "8079579/500000",
+  "beta_v_border_correction": "1869/25",
+  "failed_border_defect": "-29300421/500000"
+}

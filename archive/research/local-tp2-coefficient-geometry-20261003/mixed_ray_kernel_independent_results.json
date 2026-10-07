@@ -1,0 +1,379 @@
+{
+  "status": "PASS",
+  "method": "fresh direct Laurent substitution and exact rational Bernstein reconstruction",
+  "certificate_sha256": "31e3870b07019bd7ea50df60d8ac0297ffbb97c1b50f4070d77ecb7fa9c50e2b",
+  "verified_blocks": 17,
+  "verified_defect_arrays": 105,
+  "blocks": {
+    "cubic": {
+      "degree": 3,
+      "positive_row_lower_bounds": [
+        "61",
+        "50",
+        "24",
+        "6"
+      ],
+      "defect_lower_bounds": [
+        "185",
+        "664",
+        "240",
+        "36"
+      ],
+      "all_author_arrays_match": true
+    },
+    "y_cubic": {
+      "degree": 4,
+      "positive_row_lower_bounds": [
+        "161",
+        "135",
+        "80",
+        "30",
+        "6"
+      ],
+      "defect_lower_bounds": [
+        "1783",
+        "2995",
+        "1810",
+        "384",
+        "36"
+      ],
+      "all_author_arrays_match": true
+    },
+    "w": {
+      "degree": 2,
+      "positive_row_lower_bounds": [
+        "20",
+        "14",
+        "4"
+      ],
+      "defect_lower_bounds": [
+        "88",
+        "100",
+        "16"
+      ],
+      "all_author_arrays_match": true
+    },
+    "w_minus_one": {
+      "degree": 2,
+      "positive_row_lower_bounds": [
+        "19",
+        "14",
+        "4"
+      ],
+      "defect_lower_bounds": [
+        "45",
+        "104",
+        "16"
+      ],
+      "all_author_arrays_match": true
+    },
+    "y_w": {
+      "degree": 3,
+      "positive_row_lower_bounds": [
+        "48",
+        "38",
+        "18",
+        "4"
+      ],
+      "defect_lower_bounds": [
+        "280",
+        "408",
+        "156",
+        "16"
+      ],
+      "all_author_arrays_match": true
+    },
+    "t_plus_w": {
+      "degree": 3,
+      "positive_row_lower_bounds": [
+        "83",
+        "64",
+        "28",
+        "6"
+      ],
+      "defect_lower_bounds": [
+        "1021",
+        "1372",
+        "364",
+        "36"
+      ],
+      "all_author_arrays_match": true
+    },
+    "t_plus_w_plus_one": {
+      "degree": 3,
+      "positive_row_lower_bounds": [
+        "84",
+        "64",
+        "28",
+        "6"
+      ],
+      "defect_lower_bounds": [
+        "1216",
+        "1344",
+        "364",
+        "36"
+      ],
+      "all_author_arrays_match": true
+    },
+    "y_t_plus_w": {
+      "degree": 4,
+      "positive_row_lower_bounds": [
+        "211",
+        "175",
+        "98",
+        "34",
+        "6"
+      ],
+      "defect_lower_bounds": [
+        "3949",
+        "6293",
+        "3086",
+        "532",
+        "36"
+      ],
+      "all_author_arrays_match": true
+    },
+    "y_t_plus_w_plus_one": {
+      "degree": 4,
+      "positive_row_lower_bounds": [
+        "212",
+        "176",
+        "98",
+        "34",
+        "6"
+      ],
+      "defect_lower_bounds": [
+        "3768",
+        "6580",
+        "3052",
+        "532",
+        "36"
+      ],
+      "all_author_arrays_match": true
+    },
+    "lr_single": {
+      "degree": 5,
+      "positive_row_lower_bounds": [
+        "2813",
+        "2414",
+        "1508",
+        "656",
+        "180",
+        "24"
+      ],
+      "defect_lower_bounds": [
+        "500181",
+        "894912",
+        "531584",
+        "139360",
+        "16080",
+        "576"
+      ],
+      "all_author_arrays_match": true
+    },
+    "rl_single": {
+      "degree": 6,
+      "positive_row_lower_bounds": [
+        "12878",
+        "11302",
+        "7584",
+        "3800",
+        "1356",
+        "312",
+        "36"
+      ],
+      "defect_lower_bounds": [
+        "8039228",
+        "15498996",
+        "10413360",
+        "3502960",
+        "597120",
+        "47232",
+        "1296"
+      ],
+      "all_author_arrays_match": true
+    },
+    "y_lr_single": {
+      "degree": 6,
+      "positive_row_lower_bounds": [
+        "7641",
+        "6735",
+        "4578",
+        "2344",
+        "860",
+        "204",
+        "24"
+      ],
+      "defect_lower_bounds": [
+        "2644929",
+        "5208483",
+        "3613988",
+        "1295832",
+        "237184",
+        "20400",
+        "576"
+      ],
+      "all_author_arrays_match": true
+    },
+    "y_rl_single": {
+      "degree": 7,
+      "positive_row_lower_bounds": [
+        "35482",
+        "31764",
+        "22686",
+        "12740",
+        "5468",
+        "1704",
+        "348",
+        "36"
+      ],
+      "defect_lower_bounds": [
+        "46013584",
+        "94025808",
+        "71720684",
+        "30070488",
+        "7189312",
+        "932640",
+        "58464",
+        "1296"
+      ],
+      "all_author_arrays_match": true
+    },
+    "y_lr_degree_two": {
+      "degree": 9,
+      "positive_row_lower_bounds": [
+        "1418179",
+        "1299361",
+        "997232",
+        "636798",
+        "334158",
+        "141184",
+        "46464",
+        "11256",
+        "1800",
+        "144"
+      ],
+      "defect_lower_bounds": [
+        "48807139927",
+        "107044352047",
+        "94762533598",
+        "50522762016",
+        "17349275588",
+        "3836868352",
+        "526673856",
+        "41443200",
+        "1598400",
+        "20736"
+      ],
+      "all_author_arrays_match": true
+    },
+    "y_rl_degree_two": {
+      "degree": 10,
+      "positive_row_lower_bounds": [
+        "6725173",
+        "6210607",
+        "4883692",
+        "3254114",
+        "1821254",
+        "844300",
+        "317292",
+        "93444",
+        "20376",
+        "2952",
+        "216"
+      ],
+      "defect_lower_bounds": [
+        "928346841747",
+        "2087541366067",
+        "1945610028438",
+        "1125296652912",
+        "434544516484",
+        "113193721768",
+        "19512804720",
+        "2127304656",
+        "135021600",
+        "4266432",
+        "46656"
+      ],
+      "all_author_arrays_match": true
+    },
+    "lr_pair_midpoint": {
+      "degree": 8,
+      "positive_row_lower_bounds": [
+        "493249",
+        "447112",
+        "331948",
+        "199806",
+        "95656",
+        "35256",
+        "9456",
+        "1656",
+        "144"
+      ],
+      "defect_lower_bounds": [
+        "7209313965",
+        "15320979268",
+        "12684194684",
+        "6063909748",
+        "1767247600",
+        "307430400",
+        "29333376",
+        "1359936",
+        "20736"
+      ],
+      "all_author_arrays_match": true
+    },
+    "rl_pair_midpoint": {
+      "degree": 9,
+      "positive_row_lower_bounds": [
+        "2325386",
+        "2128610",
+        "1629024",
+        "1035020",
+        "539008",
+        "225336",
+        "73140",
+        "17424",
+        "2736",
+        "216"
+      ],
+      "defect_lower_bounds": [
+        "133568588060",
+        "292299142364",
+        "257355838168",
+        "135907074864",
+        "45949089568",
+        "9930062640",
+        "1319229648",
+        "98974656",
+        "3675456",
+        "46656"
+      ],
+      "all_author_arrays_match": true
+    }
+  },
+  "margin_certificate_sha256": "68146b0d79d44752ea55a11e2cce12d795a927a11f53bfcfbb7eb8cda98ebc95",
+  "verified_mass_margin_arrays": 4,
+  "mass_margins": {
+    "single_root": {
+      "mass_factor": "4/5",
+      "strict_lower_bound": "41/5",
+      "all_author_arrays_match": true
+    },
+    "balanced_pair": {
+      "mass_factor": "90",
+      "strict_lower_bound": "169619",
+      "all_author_arrays_match": true
+    },
+    "left_right_resolvent": {
+      "mass_factor": "40",
+      "strict_lower_bound": "5101",
+      "all_author_arrays_match": true
+    },
+    "right_left_resolvent": {
+      "mass_factor": "100",
+      "strict_lower_bound": "1873428",
+      "all_author_arrays_match": true
+    }
+  }
+}

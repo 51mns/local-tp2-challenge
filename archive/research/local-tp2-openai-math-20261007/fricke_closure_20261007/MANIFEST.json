@@ -1,0 +1,16 @@
+{
+  "base_commit": "0f7bb105a3330ba890528bb60b1f85ef6debcef5",
+  "fixed_sources": {
+    "README.md": "4088458bf44c2c2d8a2a3f34efb3b349ae61bea47bc4336197742a877441b3e8",
+    "THEOREM.md": "14c5a7bc92cb9484aaf4b3a321eceb67298c609daa2633b0779c6836a9426bc6",
+    "author.py": "a3cd8e84b491b38d8befe9c853dc86a90419db9962aeb3350f1f68ac2c1ca2a4",
+    "verifier.py": "c5aeef31cb9ae2bce7e77350fd3bdc50f99ada16e222648f2f72382a72753600",
+    "symbolic.py": "161cdf05a118cf948f300e7e95e4e1bfeddd150a78f443a66a5fab6615a1b8d6",
+    "reproduce.py": "f90fadf9624c93aa6f487c7776a05c5a4437d07280e74a39a5b48bef7d2dc554"
+  },
+  "expected_results": {
+    "author_results.json": "3b3fa92cfd566821165d3edcdfcb495519758ddfc2d3d163f40fb2585570ac1e",
+    "verifier_results.json": "3b3fa92cfd566821165d3edcdfcb495519758ddfc2d3d163f40fb2585570ac1e",
+    "symbolic_results.json": "e40924764532591469d18ca1ad6ee47e0ffd0a0390cd4b9184e5b3557de9b079"
+  }
+}

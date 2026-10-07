@@ -1,0 +1,97 @@
+{
+  "scope": "Finite identity/implementation checks only; the all-index theorem is algebraic.",
+  "direct_relative_minor_identity_checks": 80,
+  "direct_mixed_minor_identity_checks": 80,
+  "examples": [
+    {
+      "all_ordered_minors_certified": false,
+      "character_terms": 4,
+      "negative_witness": {
+        "character": [
+          0,
+          0
+        ],
+        "rows": [
+          0,
+          1
+        ],
+        "columns": [
+          0,
+          1
+        ],
+        "value": -1
+      }
+    },
+    {
+      "all_ordered_minors_certified": true,
+      "character_terms": 9,
+      "negative_witness": null
+    },
+    {
+      "all_ordered_minors_certified": false,
+      "character_terms": 9,
+      "negative_witness": {
+        "character": [
+          1,
+          1
+        ],
+        "rows": [
+          0,
+          1
+        ],
+        "columns": [
+          0,
+          2
+        ],
+        "value": "-5"
+      }
+    },
+    {
+      "all_ordered_minors_certified": false,
+      "character_terms": 16,
+      "negative_witness": {
+        "character": [
+          2,
+          0
+        ],
+        "rows": [
+          0,
+          1
+        ],
+        "columns": [
+          1,
+          2
+        ],
+        "value": "-8"
+      }
+    }
+  ],
+  "paired_root_midpoint_normalizations": [
+    {
+      "raw": {
+        "all_ordered_minors_certified": true,
+        "character_terms": 81,
+        "negative_witness": null
+      },
+      "smoothed": {
+        "all_ordered_minors_certified": true,
+        "character_terms": 100,
+        "negative_witness": null
+      }
+    },
+    {
+      "raw": {
+        "all_ordered_minors_certified": true,
+        "character_terms": 49,
+        "negative_witness": null
+      },
+      "smoothed": {
+        "all_ordered_minors_certified": true,
+        "character_terms": 64,
+        "negative_witness": null
+      }
+    }
+  ],
+  "imports": [],
+  "arithmetic": "exact integers and Fractions"
+}

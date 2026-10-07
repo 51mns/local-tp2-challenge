@@ -1,0 +1,298 @@
+{
+  "status": "exact identities and finite sanity checks PASS",
+  "analytical_theorem": "strict K_Q from retained MP2_exact origin (older MP_2 suffices); see proxy_robin.md",
+  "universal_symbolic_checks": [
+    "Pi=P Q+V",
+    "A Pi=3yXP Q+XP(A+Px)",
+    "A+Px=3yX+P(x-1)"
+  ],
+  "robin_continuant_checks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "actual_state_support_checks": [
+    {
+      "state": "root",
+      "degrees": {
+        "X": 0,
+        "C": 2,
+        "Q": 3,
+        "Pi": 4,
+        "V": 4
+      },
+      "Q_halfrow": [
+        33,
+        27,
+        14,
+        4
+      ],
+      "V_halfrow": [
+        108,
+        87,
+        45,
+        14,
+        2
+      ],
+      "deltaQ": [
+        93,
+        179,
+        72,
+        16
+      ],
+      "correction": [
+        -45,
+        -3,
+        16,
+        8
+      ],
+      "proxy": [
+        48,
+        176,
+        88,
+        24
+      ],
+      "terminal": 24
+    },
+    {
+      "state": "short",
+      "degrees": {
+        "X": 0,
+        "C": 3,
+        "Q": 4,
+        "Pi": 5,
+        "V": 5
+      },
+      "Q_halfrow": [
+        201,
+        171,
+        102,
+        40,
+        8
+      ],
+      "V_halfrow": [
+        636,
+        539,
+        325,
+        134,
+        34,
+        4
+      ],
+      "deltaQ": [
+        2421,
+        5175,
+        2780,
+        720,
+        64
+      ],
+      "correction": [
+        -417,
+        597,
+        668,
+        288,
+        32
+      ],
+      "proxy": [
+        2004,
+        5772,
+        3448,
+        1008,
+        96
+      ],
+      "terminal": 96
+    },
+    {
+      "state": "long",
+      "degrees": {
+        "X": 1,
+        "C": 4,
+        "Q": 6,
+        "Pi": 7,
+        "V": 6
+      },
+      "Q_halfrow": [
+        5532,
+        4876,
+        3316,
+        1700,
+        626,
+        150,
+        18
+      ],
+      "V_halfrow": [
+        2888,
+        2514,
+        1648,
+        796,
+        270,
+        58,
+        6
+      ],
+      "deltaQ": [
+        1396384,
+        2724608,
+        1892472,
+        677308,
+        125644,
+        10908,
+        324
+      ],
+      "correction": [
+        -174440,
+        -300776,
+        -162064,
+        -39296,
+        -4192,
+        -144,
+        0
+      ],
+      "proxy": [
+        1221944,
+        2423832,
+        1730408,
+        638012,
+        121452,
+        10764,
+        324
+      ],
+      "terminal": 324
+    },
+    {
+      "state": "long,long",
+      "degrees": {
+        "X": 2,
+        "C": 7,
+        "Q": 10,
+        "Pi": 11,
+        "V": 9
+      },
+      "Q_halfrow": [
+        6689269,
+        6178493,
+        4860810,
+        3241306,
+        1815774,
+        842596,
+        316944,
+        93408,
+        20376,
+        2952,
+        216
+      ],
+      "V_halfrow": [
+        521012,
+        475283,
+        360021,
+        224912,
+        114428,
+        46438,
+        14534,
+        3312,
+        492,
+        36
+      ],
+      "deltaQ": [
+        914033900153,
+        2057422678917,
+        1921155255546,
+        1114008419996,
+        431454404140,
+        112721052592,
+        19481288448,
+        2127562560,
+        135127872,
+        4266432,
+        46656
+      ],
+      "correction": [
+        -39773156789,
+        -85873130877,
+        -73683728706,
+        -37493198920,
+        -12095662076,
+        -2471955208,
+        -307873344,
+        -21528576,
+        -718848,
+        -7776,
+        0
+      ],
+      "proxy": [
+        874260743364,
+        1971549548040,
+        1847471526840,
+        1076515221076,
+        419358742064,
+        110249097384,
+        19173415104,
+        2106033984,
+        134409024,
+        4258656,
+        46656
+      ],
+      "terminal": 46656
+    }
+  ],
+  "trace_source_checks": [
+    {
+      "X": [
+        1
+      ],
+      "A_halfrow": [
+        1,
+        2
+      ],
+      "adjacent_trace_block": [
+        -15,
+        6
+      ]
+    },
+    {
+      "X": [
+        2,
+        1
+      ],
+      "A_halfrow": [
+        10,
+        8,
+        3
+      ],
+      "adjacent_trace_block": [
+        -6,
+        21,
+        9
+      ]
+    },
+    {
+      "X": [
+        5,
+        6,
+        2
+      ],
+      "A_halfrow": [
+        61,
+        50,
+        24,
+        6
+      ],
+      "adjacent_trace_block": [
+        129,
+        714,
+        234,
+        36
+      ]
+    }
+  ],
+  "scope": {
+    "strict_K_Q_BOTH": "PROVED conditional on certified registers and audited boundary theorem",
+    "proxy_outside_overlap_and_terminal": "PROVED conditional consequence",
+    "proxy_overlap": "OPEN",
+    "strict_proxy_BOTH": "OPEN",
+    "full_tree_Local_TP2": "OPEN"
+  }
+}

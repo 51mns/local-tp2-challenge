@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "certificates": [
+    {
+      "name": "root_delta_0",
+      "degrees": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "2"
+    },
+    {
+      "name": "root_delta_1",
+      "degrees": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "13"
+    },
+    {
+      "name": "root_delta_2",
+      "degrees": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "9"
+    },
+    {
+      "name": "initial_delta_0",
+      "degrees": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "276"
+    },
+    {
+      "name": "initial_delta_1",
+      "degrees": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "571"
+    },
+    {
+      "name": "initial_delta_2",
+      "degrees": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "322"
+    },
+    {
+      "name": "initial_delta_3",
+      "degrees": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "70"
+    },
+    {
+      "name": "initial_delta_4",
+      "degrees": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "9"
+    },
+    {
+      "name": "propagation_margin",
+      "degrees": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "34"
+    },
+    {
+      "name": "initial_mass_margin",
+      "degrees": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "lower_bound": "1425"
+    }
+  ]
+}

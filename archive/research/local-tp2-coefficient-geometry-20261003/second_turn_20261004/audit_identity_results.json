@@ -1,0 +1,653 @@
+{
+  "scope": "Exact identity/orientation audit, plus bounded direct Local TP2 evidence only.",
+  "independence": "No imports from sibling or parent implementations; ordinary-x recurrence and binomial Laurent conversion.",
+  "m_range": [
+    0,
+    12
+  ],
+  "ell_range": [
+    0,
+    6
+  ],
+  "identity_cases": 91,
+  "status": "PASS",
+  "records": [
+    {
+      "m": 0,
+      "ell": 0,
+      "short_degree": 6,
+      "actual_local_tp2_minimum": 648,
+      "minor_digest": "aa751bc60fd332f97b35224181bd4d3d0b9b9b5a9e77730e28580fc2ab80d389"
+    },
+    {
+      "m": 0,
+      "ell": 1,
+      "short_degree": 10,
+      "actual_local_tp2_minimum": 2286144,
+      "minor_digest": "1bae367f01d7dddd28f914b3b64c95ad03a808e50adbc8b931d1cc97d965e0c6"
+    },
+    {
+      "m": 0,
+      "ell": 2,
+      "short_degree": 13,
+      "actual_local_tp2_minimum": 452779123968,
+      "minor_digest": "17da07170e88271a27798ad956fa7df86618d2aa0670563d30f4d2044f4d2012"
+    },
+    {
+      "m": 0,
+      "ell": 3,
+      "short_degree": 16,
+      "actual_local_tp2_minimum": 49557311642373120,
+      "minor_digest": "f24bec7582dc5171b65496f1610832aa781bdac2554699c3411c5f9e570823cf"
+    },
+    {
+      "m": 0,
+      "ell": 4,
+      "short_degree": 19,
+      "actual_local_tp2_minimum": 4571328532449855135744,
+      "minor_digest": "185bd80e939ee2b6b0eaa4efeb43d52d77cf0fc66faf309ef1540e1369b0a824"
+    },
+    {
+      "m": 0,
+      "ell": 5,
+      "short_degree": 22,
+      "actual_local_tp2_minimum": 392538091585295445575712768,
+      "minor_digest": "0be73c6f25e8e3e496bb1cb56eaf2e1842edfbbf2a40d6057a2f9e2aa6bb1548"
+    },
+    {
+      "m": 0,
+      "ell": 6,
+      "short_degree": 25,
+      "actual_local_tp2_minimum": 32525423782351473379098204241920,
+      "minor_digest": "a4e22f50ed46508a1badd563404fa07dd045a7e41450c2815362a95e0f9b391a"
+    },
+    {
+      "m": 1,
+      "ell": 0,
+      "short_degree": 9,
+      "actual_local_tp2_minimum": 41472,
+      "minor_digest": "61939dfdcd4266e2b3a16b70132849e72add64b8b348107397527df4500cd638"
+    },
+    {
+      "m": 1,
+      "ell": 1,
+      "short_degree": 14,
+      "actual_local_tp2_minimum": 19773186048,
+      "minor_digest": "fb026c509b7c3d69535ee6630f17673ca0e792579f1c9ed627f2ef2d5aa5842e"
+    },
+    {
+      "m": 1,
+      "ell": 2,
+      "short_degree": 18,
+      "actual_local_tp2_minimum": 281097824445333504,
+      "minor_digest": "d7fb1c16c0c609d8c7db02810d89cbd82418648d4404d1616c4afb656cf46d24"
+    },
+    {
+      "m": 1,
+      "ell": 3,
+      "short_degree": 22,
+      "actual_local_tp2_minimum": 2037284407813674534174720,
+      "minor_digest": "edb3ba27e761789e865a0252eeb5c8232e54464e99232e8a3a8077c85be14218"
+    },
+    {
+      "m": 1,
+      "ell": 4,
+      "short_degree": 26,
+      "actual_local_tp2_minimum": 11969708880224025316516744396800,
+      "minor_digest": "ea7aa32a6b18b9488a4dbb9a23d010be414528426342a224fb1e95e2a26fcc0d"
+    },
+    {
+      "m": 1,
+      "ell": 5,
+      "short_degree": 30,
+      "actual_local_tp2_minimum": 64156955189393356271537905733361205248,
+      "minor_digest": "2badcc4436c7c12bcc4876f9e73af0ad60011ee0efe298ac8243f1c42059deb6"
+    },
+    {
+      "m": 1,
+      "ell": 6,
+      "short_degree": 34,
+      "actual_local_tp2_minimum": 327940190767403537111304935949553684784873472,
+      "minor_digest": "431ff5b4d984bd18c35f26353fb061d29a7863736e722aa1d3bb6965285255f7"
+    },
+    {
+      "m": 2,
+      "ell": 0,
+      "short_degree": 12,
+      "actual_local_tp2_minimum": 2654208,
+      "minor_digest": "d44f582c1e3e3e8c589fd0e08472958a5f3ec9e569e57e696b55b6c13415f81c"
+    },
+    {
+      "m": 2,
+      "ell": 1,
+      "short_degree": 18,
+      "actual_local_tp2_minimum": 179522135654400,
+      "minor_digest": "71395f8d6e500ea214dde18d8e7f1a6eda06c31fe53e7a9d3aaec1cd35a74412"
+    },
+    {
+      "m": 2,
+      "ell": 2,
+      "short_degree": 23,
+      "actual_local_tp2_minimum": 189846215415249663688704,
+      "minor_digest": "b0b29398028469a21cf42bb18895d44bcae36a3bd5948394f6cb5fbba2ccff8e"
+    },
+    {
+      "m": 2,
+      "ell": 3,
+      "short_degree": 28,
+      "actual_local_tp2_minimum": 92394324237265544547919271559168,
+      "minor_digest": "cf590dba52fbf0a1abdc7e66257bd15b1fef437ab1b99e7e395a1fce8aaf6608"
+    },
+    {
+      "m": 2,
+      "ell": 4,
+      "short_degree": 33,
+      "actual_local_tp2_minimum": 34926105727342659016105492194427221835776,
+      "minor_digest": "d6fa9f9f388065bbcf263c34b126c464a60a1f989d1106e07d42e008a5fbfedc"
+    },
+    {
+      "m": 2,
+      "ell": 5,
+      "short_degree": 38,
+      "actual_local_tp2_minimum": 11787499739301536591777273411822707728050389254144,
+      "minor_digest": "03cd9422d2c6d7ef5a08c5d8108bc1b9ce98879868306349040573ac379a2db8"
+    },
+    {
+      "m": 2,
+      "ell": 6,
+      "short_degree": 43,
+      "actual_local_tp2_minimum": 3747220809863811532008214463192571413824136891719659552768,
+      "minor_digest": "ea32d17a05ca0c79f6b58cce589c147d3c3d32f334eaedfc9110813db893c0c4"
+    },
+    {
+      "m": 3,
+      "ell": 0,
+      "short_degree": 15,
+      "actual_local_tp2_minimum": 169869312,
+      "minor_digest": "279df4a17cdb5220e5e4f024262f65329b3b1e28cb85461def14074a0baae858"
+    },
+    {
+      "m": 3,
+      "ell": 1,
+      "short_degree": 22,
+      "actual_local_tp2_minimum": 1661709466925531136,
+      "minor_digest": "c4664a299753fad7aff28d55d0c6f7c4055ba7c6a59560d03515f77614e9e59f"
+    },
+    {
+      "m": 3,
+      "ell": 2,
+      "short_degree": 28,
+      "actual_local_tp2_minimum": 131575390757138164534619406336,
+      "minor_digest": "5df0e35e0c715a028bd97688fdafd2c892e8d0cf6f06a8416305ef8667543be7"
+    },
+    {
+      "m": 3,
+      "ell": 3,
+      "short_degree": 34,
+      "actual_local_tp2_minimum": 4307074641666957035779149293748354023424,
+      "minor_digest": "0c66710698eb2c11b4a547126010e9cca2e92a0fc19e5d861cd074d95bd3828a"
+    },
+    {
+      "m": 3,
+      "ell": 4,
+      "short_degree": 40,
+      "actual_local_tp2_minimum": 104862677589075268135341294243854815099467224580096,
+      "minor_digest": "55e8bdf66f0664f46c1e860c305823783eb73ab732e207cd047c5158af7c17cd"
+    },
+    {
+      "m": 3,
+      "ell": 5,
+      "short_degree": 46,
+      "actual_local_tp2_minimum": 2230473930639284360683042000027843336673699007870302743953408,
+      "minor_digest": "c9935965fa5e8d70304a83085b50984874b7323d65702a63900ecbba9b9fb40a"
+    },
+    {
+      "m": 3,
+      "ell": 6,
+      "short_degree": 52,
+      "actual_local_tp2_minimum": 44135721638379552966350610892194011785156680513005034630457998301986816,
+      "minor_digest": "87d23c5aadb564f0b792f09032685d1a75663b3440aca49c73a5960513bba826"
+    },
+    {
+      "m": 4,
+      "ell": 0,
+      "short_degree": 18,
+      "actual_local_tp2_minimum": 10871635968,
+      "minor_digest": "c208302d23e6dd016f6e72c503d4a4df1beb1c138a7391b928c907ab88e932c2"
+    },
+    {
+      "m": 4,
+      "ell": 1,
+      "short_degree": 26,
+      "actual_local_tp2_minimum": 15585777453670191857664,
+      "minor_digest": "dc95b433e3270d12cc885d66539208467016d22f5fd83785fdc8fdbea538db2c"
+    },
+    {
+      "m": 4,
+      "ell": 2,
+      "short_degree": 33,
+      "actual_local_tp2_minimum": 92621179438699307760309311882919936,
+      "minor_digest": "2f1f22fcb553deb5517c348d3c2e479032e9f30a59bc26cd5dd7b5d6bb715ce8"
+    },
+    {
+      "m": 4,
+      "ell": 3,
+      "short_degree": 40,
+      "actual_local_tp2_minimum": 203949571824635693851234533630968869098916675584,
+      "minor_digest": "86b792b424f5697f57986a12ce56c7b50cf802a1f5e7725be533d6696cbf7972"
+    },
+    {
+      "m": 4,
+      "ell": 4,
+      "short_degree": 47,
+      "actual_local_tp2_minimum": 319797164149221249831066744590005665692939354573962790043648,
+      "minor_digest": "1b046295d91fd2f9b14c90bda2aa0513b541583c36ca948f5b0a693fc0708e4e"
+    },
+    {
+      "m": 4,
+      "ell": 5,
+      "short_degree": 54,
+      "actual_local_tp2_minimum": 428685747382051480929382539995897388044868309028115871395917248627474432,
+      "minor_digest": "fbcaa3b5950ba88bebcf82e17ca217996f35806b852ec49d7b49515efe8fb7aa"
+    },
+    {
+      "m": 4,
+      "ell": 6,
+      "short_degree": 61,
+      "actual_local_tp2_minimum": 527996416374374654037048584592780321961047511857854114137762844669924294020470669312,
+      "minor_digest": "5e4ba17213bde4001c70d77d74e50206d25be825a82c98d1de4cda7705163c4e"
+    },
+    {
+      "m": 5,
+      "ell": 0,
+      "short_degree": 21,
+      "actual_local_tp2_minimum": 695784701952,
+      "minor_digest": "3c5205b57de4d0f65d5dbe1aba5c4c4e576f1b2570b887ff55e9eb8179b327af"
+    },
+    {
+      "m": 5,
+      "ell": 1,
+      "short_degree": 30,
+      "actual_local_tp2_minimum": 147622051554566174228348928,
+      "minor_digest": "166c1605354b6737b8940cfca10d168fdea874950512df51206d60fd83e749d7"
+    },
+    {
+      "m": 5,
+      "ell": 2,
+      "short_degree": 38,
+      "actual_local_tp2_minimum": 65928054066330182855661297175806200512512,
+      "minor_digest": "0a73a79a3f4edfbbc2ae87005174957289120e1cbc37abedec73cc5318dd2af5"
+    },
+    {
+      "m": 5,
+      "ell": 3,
+      "short_degree": 46,
+      "actual_local_tp2_minimum": 9764997897136608023023822180775062115101527438526513152,
+      "minor_digest": "b46eac669e5b6af6f28ee1b8b4c459aa23f724179f1c9aa02f0dd73a88f0b7a2"
+    },
+    {
+      "m": 5,
+      "ell": 4,
+      "short_degree": 54,
+      "actual_local_tp2_minimum": 986027006397605170134568273331825329420194395610318694029672509865984,
+      "minor_digest": "70d8731fcc4e2196629d43040344da008104580c1fa209f30fe912f79eb50fb8"
+    },
+    {
+      "m": 5,
+      "ell": 5,
+      "short_degree": 62,
+      "actual_local_tp2_minimum": 83291254058583532770155614100033687567416943624497256761915991769236704852942258176,
+      "minor_digest": "0ceb4aaed1dead048ac897a234d66573177d8a5625cd314c3ecc009ec2c80062"
+    },
+    {
+      "m": 5,
+      "ell": 6,
+      "short_degree": 70,
+      "actual_local_tp2_minimum": 6384941931341227005824228902280705292356429917095306994260125014086269885175701308433080208326656,
+      "minor_digest": "e1afd6d255d78beffd73025496ad5c3be0525267f3fd78ec91a920af7be4d270"
+    },
+    {
+      "m": 6,
+      "ell": 0,
+      "short_degree": 24,
+      "actual_local_tp2_minimum": 44530220924928,
+      "minor_digest": "6466bc403ca193436c9362e9e38edc175929b0d27f3027f5c4ee4c8ca9766246"
+    },
+    {
+      "m": 6,
+      "ell": 1,
+      "short_degree": 34,
+      "actual_local_tp2_minimum": 1408800998722621376201263939584,
+      "minor_digest": "e53dd40a51096c10c72af79ef66e77d9121b7dc70dde843099f12fac669dfcfb"
+    },
+    {
+      "m": 6,
+      "ell": 2,
+      "short_degree": 43,
+      "actual_local_tp2_minimum": 47323232656542727052058459920021939633239621632,
+      "minor_digest": "a50e93d6b6a164efae96eed53cd045a878ca6e6285bd4ea2af66757b65af790e"
+    },
+    {
+      "m": 6,
+      "ell": 3,
+      "short_degree": 52,
+      "actual_local_tp2_minimum": 471468537438985780378151048679669937947894172122088831004442624,
+      "minor_digest": "67a197e101d7535d220ac56fe053b7c21091269c3bea1b72352674447c82d738"
+    },
+    {
+      "m": 6,
+      "ell": 4,
+      "short_degree": 61,
+      "actual_local_tp2_minimum": 3065480273638225671336734118671482388445710412105564117420475795251682961522688,
+      "minor_digest": "c128e6c8d0281f39efe71ccc8075e52fec2dae7404f184323a9fb8af49251485"
+    },
+    {
+      "m": 6,
+      "ell": 5,
+      "short_degree": 70,
+      "actual_local_tp2_minimum": 16316375662419578477093882691661502871251879959482592446538877443669498275651117907138534440960,
+      "minor_digest": "b5cb1892e6842e4a0b68d82fac1bd636740de71f4124b45b4fab1fb811449bca"
+    },
+    {
+      "m": 6,
+      "ell": 6,
+      "short_degree": 79,
+      "actual_local_tp2_minimum": 77843305688672611211712301430278781218940083196335373311241394145090432721604135127637291286967662241269153792,
+      "minor_digest": "cca119e51b6cdf44f30c9a83203f3486294f07be3e1ac622677321731afdb835"
+    },
+    {
+      "m": 7,
+      "ell": 0,
+      "short_degree": 27,
+      "actual_local_tp2_minimum": 2849934139195392,
+      "minor_digest": "ceb4cbb789ce09b7c35fb4b103df9291f4a8a8435682ca25b985a96bf1ab6b7a"
+    },
+    {
+      "m": 7,
+      "ell": 1,
+      "short_degree": 38,
+      "actual_local_tp2_minimum": 13525377215653400655774463649906688,
+      "minor_digest": "8e36aafa1839508de4e6034eee1705736d71a3a0544ef57ba4df09969558dde9"
+    },
+    {
+      "m": 7,
+      "ell": 2,
+      "short_degree": 48,
+      "actual_local_tp2_minimum": 34192531534970399183628240414994531368965258046603264,
+      "minor_digest": "65204822d21eae519d95274d57fd1c95795da6685ec630cfa0326741324bd797"
+    },
+    {
+      "m": 7,
+      "ell": 3,
+      "short_degree": 58,
+      "actual_local_tp2_minimum": 22912757842968452656957671405600685213380609668050095817158014080647168,
+      "minor_digest": "fe09fa3facb4045f3331c6d09b786930bddba646838707e2a36de4ac36621714"
+    },
+    {
+      "m": 7,
+      "ell": 4,
+      "short_degree": 68,
+      "actual_local_tp2_minimum": 9592401974855599126507570469941370897520509901184218502772873462452776313855451615723520,
+      "minor_digest": "7394c243cd1f78799688e8c181692f82131a52e54c444d80917d5179f867432e"
+    },
+    {
+      "m": 7,
+      "ell": 5,
+      "short_degree": 78,
+      "actual_local_tp2_minimum": 3216953641219343386954347960780118239053401981767087059706992375950180011380598215377140897236803444015104,
+      "minor_digest": "aa0a76b35a12dbcd7e2a846a6fd9691012990a1bf7b6a0f04ab1ecc601fe7131"
+    },
+    {
+      "m": 7,
+      "ell": 6,
+      "short_degree": 88,
+      "actual_local_tp2_minimum": 955133708748876509699499583531135237177401444588998448990251878674368600887163702420851869883736136308327374807021482147840,
+      "minor_digest": "711391c1ac65e9aad006a1f7383a6473d78076939517c535713b7854be176911"
+    },
+    {
+      "m": 8,
+      "ell": 0,
+      "short_degree": 30,
+      "actual_local_tp2_minimum": 182395784908505088,
+      "minor_digest": "17df60a34384fe39df326ed090c751ce8a6a625cc74d38dccd20ef1ced0881d4"
+    },
+    {
+      "m": 8,
+      "ell": 1,
+      "short_degree": 42,
+      "actual_local_tp2_minimum": 130486129615832298309620260961765031936,
+      "minor_digest": "9c9c7264233f137bedae975752fbdc74f14538134e5f41a3ef502dbd72416a89"
+    },
+    {
+      "m": 8,
+      "ell": 2,
+      "short_degree": 53,
+      "actual_local_tp2_minimum": 24836043292177057710145004251065553195899105756208743579648,
+      "minor_digest": "9261a25d3fab1639b9af67ea605a5d29286a7f4e165b375459be2f7e349176c2"
+    },
+    {
+      "m": 8,
+      "ell": 3,
+      "short_degree": 64,
+      "actual_local_tp2_minimum": 1119413387023918005912716834062277111617688029587976621404061766012738633465856,
+      "minor_digest": "7d742aed53569edab659fc2cc0409fb90410c76b0f01166814ee0141a88fb90d"
+    },
+    {
+      "m": 8,
+      "ell": 4,
+      "short_degree": 75,
+      "actual_local_tp2_minimum": 30173575479990731589747135827292095318687339449670718168897850884206231516487190199744609069826048,
+      "minor_digest": "2efa1508f41b6088e60a3a3fc90a7595f6efcaa015837c986036ce55a29365a4"
+    },
+    {
+      "m": 8,
+      "ell": 5,
+      "short_degree": 86,
+      "actual_local_tp2_minimum": 637558924599391045265800958268011394427685974800148720185366025938814909575676235069609095543794578970550341621252096,
+      "minor_digest": "7f605d7062c509c95174a81375a938c715ad318ed071af79f4e5379efdd73643"
+    },
+    {
+      "m": 8,
+      "ell": 6,
+      "short_degree": 97,
+      "actual_local_tp2_minimum": 11780080538348045597653834802030063467935217370394492236367275678942245966342962381765372178094520829083819944517133110548611269610438656,
+      "minor_digest": "1577049b2c25894960435b83ead6816072950f41916546513ecdf8c98cd1021e"
+    },
+    {
+      "m": 9,
+      "ell": 0,
+      "short_degree": 33,
+      "actual_local_tp2_minimum": 11673330234144325632,
+      "minor_digest": "3a8762a26dd0dbff008bcba1447a338c9100c1c56e72ea0bf99a2ade03d17b68"
+    },
+    {
+      "m": 9,
+      "ell": 1,
+      "short_degree": 46,
+      "actual_local_tp2_minimum": 1263958253103959516251802309371274459086848,
+      "minor_digest": "983ac8b364b9f3741debcd47b77dd2dd411c06f19e21107b3f6c9d2d0331b4df"
+    },
+    {
+      "m": 9,
+      "ell": 2,
+      "short_degree": 58,
+      "actual_local_tp2_minimum": 18118363988391135484298268161452829819179142191030420091915206656,
+      "minor_digest": "2e9369028e809d4e02069a3fe4649364d9d3c2816f92f0a77549c163da131034"
+    },
+    {
+      "m": 9,
+      "ell": 3,
+      "short_degree": 70,
+      "actual_local_tp2_minimum": 54926884154539735470432606816960114211694691752728660924952152935400647182701729677312,
+      "minor_digest": "3e04d65fb3ff36d9a8759aae4725559c6cbe9788e7d0f9ada97dd674b5851bd2"
+    },
+    {
+      "m": 9,
+      "ell": 4,
+      "short_degree": 82,
+      "actual_local_tp2_minimum": 95322240335333837311882494569219055381208049324714608058418873381614912956022861950499919785915775669239808,
+      "minor_digest": "7d3de1e1faf2a9e0b8d83290d4ce35f3eacbcf05e78ebed4415466c978838c2e"
+    },
+    {
+      "m": 9,
+      "ell": 5,
+      "short_degree": 94,
+      "actual_local_tp2_minimum": 126897155757613605414387333264357675369206414596957019274980195915565658404346493527016364125315311376080233984303952242048761856,
+      "minor_digest": "2819998f5497c8c391ad0363c14b13e6554d08849be1ff3e3c15efe538fd4d92"
+    },
+    {
+      "m": 9,
+      "ell": 6,
+      "short_degree": 106,
+      "actual_local_tp2_minimum": 145907793430399369665612541936880417987886227885681485827336672900511641370184945790216086213325621975169081355041921340399717752085924743683055288320,
+      "minor_digest": "e14506a37b73e5a98a46477902b599bcf14455ff99583c89186c9851d1d042cb"
+    },
+    {
+      "m": 10,
+      "ell": 0,
+      "short_degree": 36,
+      "actual_local_tp2_minimum": 747093134985236840448,
+      "minor_digest": "885a46d34a76907568fbb55e2adcfdc02be64fc8e897bf97595993f6ba0c9f2c"
+    },
+    {
+      "m": 10,
+      "ell": 1,
+      "short_degree": 50,
+      "actual_local_tp2_minimum": 12285081471341174753968200705931313292811173888,
+      "minor_digest": "dbb6250bb651f37d694356bbdfce8ee0b1baf0a8738feeb19dffd6c73d6e93c7"
+    },
+    {
+      "m": 10,
+      "ell": 2,
+      "short_degree": 63,
+      "actual_local_tp2_minimum": 13265772638688883146639674631691272333347222492118264477327673276760064,
+      "minor_digest": "4a5d398bf191ebafc722ad6ac407351819850af65cab4d968a4958682d9d4c56"
+    },
+    {
+      "m": 10,
+      "ell": 3,
+      "short_degree": 76,
+      "actual_local_tp2_minimum": 2704913980310892856052149189105158420624164709393921615979356003475497335686214724692377337856,
+      "minor_digest": "ab9b50ff5fc87e39732ee03d501dfbd2c6bd4515c8d786607b9233c28a20e1c4"
+    },
+    {
+      "m": 10,
+      "ell": 4,
+      "short_degree": 89,
+      "actual_local_tp2_minimum": 302221687447904573810207613928497753014798315273832430712402773604398184853902175811986810321808812607237306642857984,
+      "minor_digest": "fc8f13c5221ffb00a38f2ed4248962fe8c6737c139de29bb1d6dc22a42d77914"
+    },
+    {
+      "m": 10,
+      "ell": 5,
+      "short_degree": 102,
+      "actual_local_tp2_minimum": 25347677208845439615765890416052261059592464378729596311167305768497386263326896848251951267182547672064672219754476560162282955579322269696,
+      "minor_digest": "3305d73a17d0e8101f8f296a347bbbab8e11534d59b624b5d9340bb73be767ea"
+    },
+    {
+      "m": 10,
+      "ell": 6,
+      "short_degree": 115,
+      "actual_local_tp2_minimum": 1813659943740930112641678121861167206692160981068883822242210487984281123305465214553351959350032312627483895256727129771150020241992427810341663493995522896691200,
+      "minor_digest": "a8b37b972a0d75452c1803771110b5e66573cc5939157e9347e89a06db6136d2"
+    },
+    {
+      "m": 11,
+      "ell": 0,
+      "short_degree": 39,
+      "actual_local_tp2_minimum": 47813960639055157788672,
+      "minor_digest": "9ed6c11833e7caccb655cf5bacd601157fd4116019ef027941c24375e64b55ea"
+    },
+    {
+      "m": 11,
+      "ell": 1,
+      "short_degree": 54,
+      "actual_local_tp2_minimum": 119752418890156766561708352970598435059606442999808,
+      "minor_digest": "8a0f70c59399b660714a28096f8d25e60eac62b60f234dd7584769de61727153"
+    },
+    {
+      "m": 11,
+      "ell": 2,
+      "short_degree": 68,
+      "actual_local_tp2_minimum": 9742820651698929761300958184461366854918445257270094445110614965031182270464,
+      "minor_digest": "88af68f5c5296149a8fcd0a5da19686c6b93f36118a8a58d18d7c62ceefe1840"
+    },
+    {
+      "m": 11,
+      "ell": 3,
+      "short_degree": 82,
+      "actual_local_tp2_minimum": 133615954622790395385071819679159282728531293542322950049719295118831279063587964556012268587457708032,
+      "minor_digest": "948df2a4f4b828fd1f8d94053ce65d9d787945b1c0fce273cbb15a2aff4d878c"
+    },
+    {
+      "m": 11,
+      "ell": 4,
+      "short_degree": 96,
+      "actual_local_tp2_minimum": 961137459420547127826833640546611007297049781243661333741489899820682979948816426214687156784173486141476777735649281162870784,
+      "minor_digest": "716edd4c7ecc2dae2c177287aa7eef6c6ecfd0c6607b36e791c9cf4031325da3"
+    },
+    {
+      "m": 11,
+      "ell": 5,
+      "short_degree": 110,
+      "actual_local_tp2_minimum": 5078620343783472564103610586761034435658103504474206104912920849994887479731253909953951470394130672050416971758282571656675987026606312096013458866176,
+      "minor_digest": "70229861032b23a04769cf7881775ac7105b9aad817df5378c55f42c65f887c7"
+    },
+    {
+      "m": 11,
+      "ell": 6,
+      "short_degree": 124,
+      "actual_local_tp2_minimum": 22612500847168459701446523748400495410745370858483528940745601606467977181389141594874743322930654385420125161633705960798678515086701439347077476569923123251065220713817309184,
+      "minor_digest": "96a5c8b51f432c0038374bfe73c9f5d6474005ad4bb257613a65c65f1db53c6c"
+    },
+    {
+      "m": 12,
+      "ell": 0,
+      "short_degree": 42,
+      "actual_local_tp2_minimum": 3060093480899530098475008,
+      "minor_digest": "528f76b5cc3a2e926ffbfdf78f624237dfcc11b5ccf8d3ee7a1a532a5eef37d6"
+    },
+    {
+      "m": 12,
+      "ell": 1,
+      "short_degree": 58,
+      "actual_local_tp2_minimum": 1170252503440829970754860862581457511518410128391929856,
+      "minor_digest": "0086edf8d48a16d44a301c53eb231eaf0196cfaa007b5427f497d6aa5ef1ad61"
+    },
+    {
+      "m": 12,
+      "ell": 2,
+      "short_degree": 73,
+      "actual_local_tp2_minimum": 7174429051386934362113849647420616660069659899998374086292894613279264312597151744,
+      "minor_digest": "c837df9ae771ae39899e448111dc5f84aaf5b6543e99cf766ba33c46517f4d52"
+    },
+    {
+      "m": 12,
+      "ell": 3,
+      "short_degree": 88,
+      "actual_local_tp2_minimum": 6617774301553956529139736701299990323469573782616080629128525659911952954853624237075512625965943746075820032,
+      "minor_digest": "c1a06960391f3721387d1bb78fcc73e5c6726d2aca133a287e3ea844f9cfb921"
+    },
+    {
+      "m": 12,
+      "ell": 4,
+      "short_degree": 103,
+      "actual_local_tp2_minimum": 3064699535419675445906335672999106919805577901126839726524580637858551630969044556947047554518172375821688246541235944985273611791106048,
+      "minor_digest": "4d11f0671cd129d871d9adb6c786a4310565fac175c72d8c02adc35170458132"
+    },
+    {
+      "m": 12,
+      "ell": 5,
+      "short_degree": 118,
+      "actual_local_tp2_minimum": 1020211276351313649892557186028133215054436551576172994999522716650984951943697009671297980998607007980182093769146307966418129591781999045772602631706363106951168,
+      "minor_digest": "ee4d3cc5aa2b48aea44adac5638b79b848b3edabff3e5a6ae53d11917b104b7d"
+    },
+    {
+      "m": 12,
+      "ell": 6,
+      "short_degree": 133,
+      "actual_local_tp2_minimum": 282665877684664955044141052564278808582063454612531658390246067292348963772694664710722296054799721517377516205254897625934638036018063067471205717376378741449272773264441261944133340102656,
+      "minor_digest": "76d4474c7b47d44a7d2aa542aa71315548ceb965e7b10cecf82efa2b7ae2cc8b"
+    }
+  ]
+}

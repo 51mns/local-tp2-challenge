@@ -1,0 +1,306 @@
+{
+  "scope": "EXACT TARGETED GATES; NO FULL CLOSURE CLAIM",
+  "anchored_flux": [
+    {
+      "move": "short",
+      "trace_degree": 4,
+      "anchor_degree": 5,
+      "central_flux": -10296424,
+      "far_columns": [
+        0,
+        10
+      ],
+      "far_character": [
+        9,
+        9
+      ],
+      "n_fourier_zero": 4,
+      "lc_anchor_times_z": 288,
+      "far_flux": -1152,
+      "identity_checks": 6
+    },
+    {
+      "move": "long",
+      "trace_degree": 5,
+      "anchor_degree": 6,
+      "central_flux": -44762988,
+      "far_columns": [
+        0,
+        12
+      ],
+      "far_character": [
+        11,
+        11
+      ],
+      "n_fourier_zero": 3,
+      "lc_anchor_times_z": 648,
+      "far_flux": -1944,
+      "identity_checks": 6
+    }
+  ],
+  "relaxed_paired_packet_counterexamples": [
+    {
+      "name": "linear_low_complexity",
+      "T": [
+        20,
+        10
+      ],
+      "e": [
+        1
+      ],
+      "c": [
+        2
+      ],
+      "g": [
+        0
+      ],
+      "s": [
+        1
+      ],
+      "u": [
+        17,
+        4,
+        -3
+      ],
+      "short_T": [
+        23,
+        16,
+        3
+      ],
+      "short_c": [
+        19,
+        4,
+        -3
+      ],
+      "short_forward_L0_degree": 4,
+      "short_forward_L0_leading_coefficient": -9
+    },
+    {
+      "name": "cubic_trace_divisibility",
+      "T": [
+        11,
+        22,
+        16,
+        4
+      ],
+      "e": [
+        5,
+        2
+      ],
+      "c": [
+        10,
+        4
+      ],
+      "g": [
+        0
+      ],
+      "s": [
+        5,
+        2
+      ],
+      "u": [
+        -4,
+        -14,
+        -11,
+        -2
+      ],
+      "short_T": [
+        26,
+        58,
+        43,
+        10
+      ],
+      "short_c": [
+        -10,
+        -74,
+        -83,
+        -32,
+        -4
+      ],
+      "short_forward_L0_degree": 7,
+      "short_forward_L0_leading_coefficient": -40,
+      "canonical_B": [
+        "8/3",
+        "4/3"
+      ],
+      "implied_a": [
+        "-7/3",
+        "-2/3"
+      ]
+    }
+  ],
+  "new_canonical_gate_checks": [
+    {
+      "path": "ROOT",
+      "F_fourier_row": [
+        -1
+      ],
+      "negative_characters": {
+        "G_Pi": null,
+        "S_FM": null,
+        "Q_DminusPQ": null,
+        "Q_shortnextQ": null,
+        "short_proxy_increment": null
+      },
+      "Q_DminusPQ_minimum_nonzero": 8
+    },
+    {
+      "path": "s",
+      "F_fourier_row": [
+        6,
+        5,
+        2
+      ],
+      "negative_characters": {
+        "G_Pi": null,
+        "S_FM": null,
+        "Q_DminusPQ": null,
+        "Q_shortnextQ": null,
+        "short_proxy_increment": null
+      },
+      "Q_DminusPQ_minimum_nonzero": 192
+    },
+    {
+      "path": "l",
+      "F_fourier_row": [
+        1,
+        1,
+        1
+      ],
+      "negative_characters": {
+        "G_Pi": null,
+        "S_FM": null,
+        "Q_DminusPQ": null,
+        "Q_shortnextQ": null,
+        "short_proxy_increment": null
+      },
+      "Q_DminusPQ_minimum_nonzero": 324
+    },
+    {
+      "path": "ss",
+      "F_fourier_row": [
+        46,
+        37,
+        18,
+        4
+      ],
+      "negative_characters": {
+        "G_Pi": null,
+        "S_FM": null,
+        "Q_DminusPQ": null,
+        "Q_shortnextQ": null,
+        "short_proxy_increment": null
+      },
+      "Q_DminusPQ_minimum_nonzero": 1536
+    },
+    {
+      "path": "sl",
+      "F_fourier_row": [
+        10,
+        9,
+        6,
+        2
+      ],
+      "negative_characters": {
+        "G_Pi": null,
+        "S_FM": null,
+        "Q_DminusPQ": null,
+        "Q_shortnextQ": null,
+        "short_proxy_increment": null
+      },
+      "Q_DminusPQ_minimum_nonzero": 20736
+    },
+    {
+      "path": "ls",
+      "F_fourier_row": [
+        205,
+        171,
+        97,
+        34,
+        6
+      ],
+      "negative_characters": {
+        "G_Pi": null,
+        "S_FM": null,
+        "Q_DminusPQ": null,
+        "Q_shortnextQ": null,
+        "short_proxy_increment": null
+      },
+      "Q_DminusPQ_minimum_nonzero": 17496
+    },
+    {
+      "path": "ll",
+      "F_fourier_row": [
+        174,
+        147,
+        86,
+        32,
+        6
+      ],
+      "negative_characters": {
+        "G_Pi": null,
+        "S_FM": null,
+        "Q_DminusPQ": null,
+        "Q_shortnextQ": null,
+        "short_proxy_increment": null
+      },
+      "Q_DminusPQ_minimum_nonzero": 139968
+    }
+  ],
+  "restricted_fixed_trace_advance": [
+    {
+      "N": 1,
+      "fixed_pairs": 25,
+      "negative_characters": 0
+    },
+    {
+      "N": 2,
+      "fixed_pairs": 25,
+      "negative_characters": 0
+    },
+    {
+      "N": 3,
+      "fixed_pairs": 25,
+      "negative_characters": 0
+    },
+    {
+      "N": 4,
+      "fixed_pairs": 25,
+      "negative_characters": 0
+    }
+  ],
+  "multiplier_rows": {
+    "y": [
+      1,
+      1
+    ],
+    "beta": [
+      9,
+      6,
+      3
+    ],
+    "y_beta": [
+      21,
+      18,
+      9,
+      3
+    ]
+  },
+  "multiplier_defects": {
+    "y": [
+      -1,
+      1
+    ],
+    "beta": [
+      36,
+      0,
+      9
+    ],
+    "y_beta": [
+      -18,
+      108,
+      18,
+      9
+    ]
+  }
+}

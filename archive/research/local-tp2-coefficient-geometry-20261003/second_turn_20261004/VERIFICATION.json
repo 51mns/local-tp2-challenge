@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Saved full-range certificates and hash comparison; not a replacement for the mathematical proofs.",
+  "matched_kernel_cases": 1640,
+  "matched_exact_positive_Bernstein_margins": 14766150,
+  "positive_fixed_proxy_minors": 85895,
+  "independently_matched_proxy_Bernstein_arrays": 820,
+  "exact_small_outer_cases": 5,
+  "arbitrary_path_Local_TP2_proved": false,
+  "analytic_audit": "PASS; audit_final_report.md; inherited foundations explicit",
+  "claim_status": "PROVED_INTERNAL",
+  "new_theorem": "Strict canonical Local TP2 for every L^m R L^ell, m,ell>=0, through deg S",
+  "formal_proof": false,
+  "external_peer_review": false,
+  "arithmetic": "Exact Python integers and fractions; NumPy dtype=object in independent kernel replay"
+}

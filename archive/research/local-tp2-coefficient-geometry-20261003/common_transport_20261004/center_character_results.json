@@ -1,0 +1,51 @@
+{
+  "classification": "Counterexample to a standalone character-shape implication; not a canonical/Fricke state, not a child-closure counterexample.",
+  "polynomial": [
+    1495,
+    57105,
+    32805
+  ],
+  "halfrow": [
+    67105,
+    57105,
+    32805
+  ],
+  "characters": [
+    10000,
+    24300,
+    32805
+  ],
+  "dimension_normalized_characters": [
+    "10000",
+    "8100",
+    "6561"
+  ],
+  "folded_defects": [
+    182498500,
+    -16566525,
+    1076168025
+  ],
+  "central_2_strength_margin": 182364290,
+  "root": {
+    "polynomial": [
+      5,
+      6,
+      2
+    ],
+    "halfrow": [
+      9,
+      6,
+      2
+    ],
+    "characters": [
+      3,
+      4,
+      2
+    ],
+    "folded_defects": [
+      27,
+      14,
+      4
+    ]
+  }
+}

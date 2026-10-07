@@ -1,0 +1,83 @@
+{
+  "status": "FROZEN_BOUNDED_EXACT_EVIDENCE",
+  "files": {
+    "falsification_abstract.py": {
+      "bytes": 4207,
+      "sha256": "7eee81c5d7ca0e2efa53a3914e6dd4b31d85971695ea3c46bca2d621b79efa89"
+    },
+    "falsification_abstract_results.json": {
+      "bytes": 277,
+      "sha256": "414b74fc3c0171723a83d624a310f8416edf6fa665db9ba5e3f9ae0c379fa4ba"
+    },
+    "falsification_extra.py": {
+      "bytes": 5137,
+      "sha256": "5f6a9f19fad7fa7f5a76f83efb5a49089076351e6c856c935f03400759bf2ab8"
+    },
+    "falsification_extra_results.json": {
+      "bytes": 125409,
+      "sha256": "9f63b72e1f8323e0d1d94407f96356cbd98a245186ae96410b6e02880c90e93f"
+    },
+    "falsification_frozen.md": {
+      "bytes": 5978,
+      "sha256": "c05fa64d2ec4b1c9c474e810cbefcaa94990a87f77f1daf78342e33ccf77c147"
+    },
+    "falsification_packet_ray.py": {
+      "bytes": 1634,
+      "sha256": "f19eda7d96433d071522334e2a5d947abb3e9c1a07fae9bffe064e87d24ce9cc"
+    },
+    "falsification_packet_ray_results.json": {
+      "bytes": 29939,
+      "sha256": "0b07fef9c38946d6750262b9545bd8d69f9ca7c0ddb7913ca487dca379557f6d"
+    },
+    "falsification_probe.py": {
+      "bytes": 8636,
+      "sha256": "ccc010a8841714dc2a4a8d2fdea1071d58fa3e9a455bc916ef364c0a3bc4abf1"
+    },
+    "falsification_relative.py": {
+      "bytes": 2386,
+      "sha256": "c29a73cdc20aa19981acad13b983a768309865e2bfb879a6e6b7770fa853942d"
+    },
+    "falsification_relative_results.json": {
+      "bytes": 40365,
+      "sha256": "2f9eb7ccce766eae77c57a23b66caf05df3f0f62e1b5c9da1f51c381e2bb40d3"
+    },
+    "falsification_report.md": {
+      "bytes": 10037,
+      "sha256": "e7659cb470246ef306f6b113195698a04ac693426e9bc6176978029082eca7db"
+    },
+    "falsification_results.json": {
+      "bytes": 10247,
+      "sha256": "ffb37d603a8329615b133c846ed5ac7dac6b25765760a7f192dc66d6cc34cd27"
+    },
+    "falsification_targeted.py": {
+      "bytes": 5473,
+      "sha256": "84de913410ba8a46365efdc66db5c02fdb3e0f5551ac9557a3deb0d298652c1c"
+    },
+    "falsification_targeted_results.json": {
+      "bytes": 196260,
+      "sha256": "a3440fd133fc6414a39d291705c2c867f5d412e5e564f79c3588c2995e2cab49"
+    }
+  },
+  "commands": [
+    "python falsification_probe.py --depth 6 --output falsification_results.json",
+    "python falsification_targeted.py",
+    "python falsification_relative.py",
+    "python falsification_extra.py",
+    "python falsification_packet_ray.py",
+    "python falsification_abstract.py"
+  ],
+  "counts": {
+    "complete_depth6_actual_states": 127,
+    "focused_reduction_actual_states": 182,
+    "actual_gap_strength_states": 170,
+    "relative_minor_actual_states": 44,
+    "ordered_relative_minors_bounded": 3109051,
+    "packet_corner_actual_states": 40,
+    "fixed_P1_midpoint_endpoint_ray_states": 81,
+    "abstract_integer_states": 4185,
+    "abstract_integer_parent_passes_both_children_pass": 1049,
+    "abstract_rational_states": 1944,
+    "abstract_rational_parent_passes_both_children_pass": 64
+  },
+  "scope_warning": "No bounded pass is an all-index or all-tree theorem. Full exact actual counterexamples distinguish scalar sufficient-gate failures from determinant dominance."
+}

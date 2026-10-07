@@ -1,0 +1,32 @@
+{
+  "defects_verified": 18,
+  "Bernstein_coefficients_verified": 496,
+  "exact_minima": {
+    "y_times_two_pairs": [
+      "62335/256",
+      "176361/256",
+      "13491/32",
+      "603/4",
+      "47/2",
+      "1"
+    ],
+    "y_times_middle": [
+      "2",
+      "7/4",
+      "1"
+    ],
+    "y_times_inner_pair": [
+      "4",
+      "14",
+      "17/4",
+      "1"
+    ],
+    "y_times_middle_pair": [
+      "2909/64",
+      "6867/64",
+      "435/8",
+      "14",
+      "1"
+    ]
+  }
+}

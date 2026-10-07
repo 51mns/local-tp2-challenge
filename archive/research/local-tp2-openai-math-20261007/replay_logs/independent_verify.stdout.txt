@@ -1,0 +1,266 @@
+{
+  "audit_type": "Shared-session independent mathematical and arithmetic audit; not blind; no writer implementation or expected JSON imported",
+  "canonical_root": {
+    "ordinary": {
+      "X": [
+        1
+      ],
+      "Y": [
+        2,
+        1
+      ],
+      "C": [
+        5,
+        6,
+        2
+      ],
+      "U": [
+        13,
+        26,
+        18,
+        4
+      ],
+      "V": [
+        29,
+        74,
+        74,
+        34,
+        6
+      ],
+      "S": [
+        8,
+        20,
+        16,
+        4
+      ],
+      "D": [
+        16,
+        48,
+        56,
+        30,
+        6
+      ]
+    },
+    "H_S": [
+      40,
+      32,
+      16,
+      4
+    ],
+    "H_D": [
+      164,
+      138,
+      80,
+      30,
+      6
+    ],
+    "F": [
+      272,
+      352,
+      160,
+      24
+    ]
+  },
+  "ordinary_homogenization": {
+    "partial_v_terms": {
+      "(0, 2)": 120,
+      "(1, 1)": 64,
+      "(2, 0)": 16
+    },
+    "hessian": [
+      [
+        32,
+        64
+      ],
+      [
+        64,
+        240
+      ]
+    ],
+    "determinant": 3584,
+    "positive_definite": true,
+    "scope": "ordinary homogeneous polynomial from H(S); not every possible lift or normalization"
+  },
+  "root_at_minus_one": {
+    "X": "1",
+    "Y": "1",
+    "C": "1",
+    "U": "1",
+    "V": "1",
+    "S": "0",
+    "D": "0"
+  },
+  "cyclotomic_divisibility": {
+    "S": {
+      "ordinary_quotient": [
+        "8",
+        "12",
+        "4"
+      ],
+      "shifted_degree": 6,
+      "phi3_quotient": [
+        "4",
+        "12",
+        "16",
+        "12",
+        "4"
+      ],
+      "remainder": []
+    },
+    "D": {
+      "ordinary_quotient": [
+        "16",
+        "32",
+        "24",
+        "6"
+      ],
+      "shifted_degree": 8,
+      "phi3_quotient": [
+        "6",
+        "24",
+        "50",
+        "64",
+        "50",
+        "24",
+        "6"
+      ],
+      "remainder": []
+    }
+  },
+  "newton_halfrow": [
+    {
+      "index": 1,
+      "left": "1024/9",
+      "right": "640/3",
+      "difference": "-896/9",
+      "passes": false
+    },
+    {
+      "index": 2,
+      "left": "256/9",
+      "right": "128/3",
+      "difference": "-128/9",
+      "passes": false
+    }
+  ],
+  "newton_absolute_fold": [
+    {
+      "index": 1,
+      "left": "4096/9",
+      "right": "1280/3",
+      "difference": "256/9",
+      "passes": true
+    },
+    {
+      "index": 2,
+      "left": "1024/9",
+      "right": "512/3",
+      "difference": "-512/9",
+      "passes": false
+    }
+  ],
+  "stable_signed_counterexample": {
+    "counts": {
+      "3": {
+        "signed_halfrow": [
+          7,
+          6,
+          3,
+          1
+        ],
+        "absolute_counts": [
+          7,
+          12,
+          6,
+          2
+        ],
+        "cardinality_counts": [
+          1,
+          6,
+          12,
+          8
+        ],
+        "total": 27
+      },
+      "4": {
+        "signed_halfrow": [
+          19,
+          16,
+          10,
+          4,
+          1
+        ],
+        "absolute_counts": [
+          19,
+          32,
+          20,
+          8,
+          2
+        ],
+        "cardinality_counts": [
+          1,
+          8,
+          24,
+          32,
+          16
+        ],
+        "total": 81
+      }
+    },
+    "halfrow_minor": -2,
+    "absolute_minor": -4,
+    "normalized_absolute_minor": "-4/2187"
+  },
+  "quantum_torus": [
+    {
+      "coordinates": [
+        0,
+        1
+      ],
+      "naive_laurent_v": {
+        "0": 272
+      },
+      "ordered_laurent_v": {
+        "0": 272
+      },
+      "classical_minor": 272,
+      "necessary_monomial_correction_kappa": 0
+    },
+    {
+      "coordinates": [
+        1,
+        2
+      ],
+      "naive_laurent_v": {
+        "2": 2560,
+        "-2": -2208
+      },
+      "ordered_laurent_v": {
+        "2": 352
+      },
+      "classical_minor": 352,
+      "necessary_monomial_correction_kappa": 4
+    },
+    {
+      "coordinates": [
+        2,
+        3
+      ],
+      "naive_laurent_v": {
+        "6": 480,
+        "-6": -320
+      },
+      "ordered_laurent_v": {
+        "6": 160
+      },
+      "classical_minor": 160,
+      "necessary_monomial_correction_kappa": 12
+    }
+  ],
+  "ordered_quantum_opposite_sector_1_0": {
+    "0": -272
+  },
+  "full_tree_Local_TP2": "OPEN; none of these obstructions is a canonical target counterexample",
+  "repository_status": "No canonical promotion; no existing file changed"
+}
+

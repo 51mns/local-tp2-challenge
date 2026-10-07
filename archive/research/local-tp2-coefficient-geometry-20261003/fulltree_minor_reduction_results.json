@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "symbolic": {
+    "child_gap_pairs": "PASS",
+    "child_gap_sums": "PASS",
+    "Cassini_with_explicit_Fricke_residual": "PASS",
+    "both_child_gap_exchange_identities": "PASS"
+  },
+  "obstruction": {
+    "scope": "abstract noncanonical pair; NOT a counterexample to canonical Local TP2",
+    "S": [
+      100,
+      150,
+      51,
+      1
+    ],
+    "D": [
+      116,
+      190,
+      87,
+      15,
+      2
+    ],
+    "D_minus_S": [
+      16,
+      40,
+      36,
+      14,
+      2
+    ],
+    "half_rows": {
+      "S": [
+        202,
+        153,
+        51,
+        1
+      ],
+      "D": [
+        302,
+        235,
+        95,
+        15,
+        2
+      ],
+      "D_minus_S": [
+        100,
+        82,
+        44,
+        14,
+        2
+      ]
+    },
+    "character_rows": {
+      "S": [
+        49,
+        102,
+        50,
+        1
+      ],
+      "D": [
+        67,
+        140,
+        80,
+        13,
+        2
+      ],
+      "D_minus_S": [
+        18,
+        38,
+        30,
+        12,
+        2
+      ]
+    },
+    "folded_defects": {
+      "S": [
+        4288,
+        10659,
+        2447,
+        1
+      ],
+      "D": [
+        9444,
+        21035,
+        5465,
+        31,
+        4
+      ],
+      "D_minus_S": [
+        952,
+        1536,
+        680,
+        104,
+        4
+      ]
+    },
+    "strict_first_difference_adjacent_minors": [
+      26,
+      1160,
+      570,
+      2
+    ],
+    "strict_original_adjacent_minors": [
+      1264,
+      2550,
+      670,
+      2
+    ],
+    "sum_half_row": [
+      504,
+      388,
+      146,
+      16,
+      2
+    ],
+    "sum_folded_defects": [
+      26512,
+      61852,
+      15144,
+      -40,
+      4
+    ],
+    "failure_index": 3,
+    "negative_sum_defect": -40,
+    "scaling": "Every positive integer common scaling preserves all hypotheses and the failure."
+  }
+}

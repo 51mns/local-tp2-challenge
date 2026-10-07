@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "scope": "Exact finite witnesses and fixed-file integrity; full Local TP2 remains OPEN",
+  "utc_time": "2026-10-07T10:18:38.325717+00:00",
+  "python": "3.12.14",
+  "python_implementation": "CPython",
+  "arithmetic": "Python integers and fractions.Fraction; no floating-point conclusions",
+  "runs": [
+    {
+      "script": "verify_quantum_applicability.py",
+      "exit_code": 0,
+      "stdout": "replay_logs/verify_quantum_applicability.stdout.txt",
+      "stderr": "replay_logs/verify_quantum_applicability.stderr.txt"
+    },
+    {
+      "script": "verify_rayleigh_transfer.py",
+      "exit_code": 0,
+      "stdout": "replay_logs/verify_rayleigh_transfer.stdout.txt",
+      "stderr": "replay_logs/verify_rayleigh_transfer.stderr.txt"
+    },
+    {
+      "script": "independent_verify.py",
+      "exit_code": 0,
+      "stdout": "replay_logs/independent_verify.stdout.txt",
+      "stderr": "replay_logs/independent_verify.stderr.txt"
+    }
+  ],
+  "fixed_source_hashes": [
+    {
+      "file": "AUDIT_JA.md",
+      "expected_sha256": "843a72486e2c6c98409647a1e8665284e5e5cbd8dd8689b30bc18646ff2f2f3c",
+      "actual_sha256": "843a72486e2c6c98409647a1e8665284e5e5cbd8dd8689b30bc18646ff2f2f3c",
+      "matches": true
+    },
+    {
+      "file": "README.md",
+      "expected_sha256": "fbf1ef35d45556d39d80eb80bdae3a78ac171fd049b247b5a38af499dc99924c",
+      "actual_sha256": "fbf1ef35d45556d39d80eb80bdae3a78ac171fd049b247b5a38af499dc99924c",
+      "matches": true
+    },
+    {
+      "file": "REPORT_JA.md",
+      "expected_sha256": "21696ede9a574511f91dc7fc43780beed2e3cab6a632972885f9c9d838d6e168",
+      "actual_sha256": "21696ede9a574511f91dc7fc43780beed2e3cab6a632972885f9c9d838d6e168",
+      "matches": true
+    },
+    {
+      "file": "independent_verify.py",
+      "expected_sha256": "93839e95c444db6fc6b92d3537223d497fbeb94665f0145314b20f6c03852fc5",
+      "actual_sha256": "93839e95c444db6fc6b92d3537223d497fbeb94665f0145314b20f6c03852fc5",
+      "matches": true
+    },
+    {
+      "file": "lorentzian_obstruction.md",
+      "expected_sha256": "3b702f87f6f692927ee47fde4fbff1eab8aa71581af6279dec2ccc59978fe2a8",
+      "actual_sha256": "3b702f87f6f692927ee47fde4fbff1eab8aa71581af6279dec2ccc59978fe2a8",
+      "matches": true
+    },
+    {
+      "file": "quantum_applicability.md",
+      "expected_sha256": "b2aa883f1b93c9311b40d68d122f958750f0fb4b9f50e401f40ceee27c7a2dcd",
+      "actual_sha256": "b2aa883f1b93c9311b40d68d122f958750f0fb4b9f50e401f40ceee27c7a2dcd",
+      "matches": true
+    },
+    {
+      "file": "rayleigh_transfer_audit.md",
+      "expected_sha256": "62f6feeaa7964c013dd61d37686dd57f40b7ec1702593515d4c3ce86b2c5e1fb",
+      "actual_sha256": "62f6feeaa7964c013dd61d37686dd57f40b7ec1702593515d4c3ce86b2c5e1fb",
+      "matches": true
+    },
+    {
+      "file": "reproduce.py",
+      "expected_sha256": "130b8b03468db531d6068fb923bb5b37e732f57b2f5f5e069c7f2cf86f010d1c",
+      "actual_sha256": "130b8b03468db531d6068fb923bb5b37e732f57b2f5f5e069c7f2cf86f010d1c",
+      "matches": true
+    },
+    {
+      "file": "source_review.md",
+      "expected_sha256": "c585fd6d8fad317d7330cb0671333c00693d8cd4e42a06786bb92cc1684e200d",
+      "actual_sha256": "c585fd6d8fad317d7330cb0671333c00693d8cd4e42a06786bb92cc1684e200d",
+      "matches": true
+    },
+    {
+      "file": "sources.json",
+      "expected_sha256": "d2e851e0066494e443d3874e04f71d8535f8e09ae4fcdc90abf904d35020d359",
+      "actual_sha256": "d2e851e0066494e443d3874e04f71d8535f8e09ae4fcdc90abf904d35020d359",
+      "matches": true
+    },
+    {
+      "file": "verify_quantum_applicability.py",
+      "expected_sha256": "05fe4a50fe2011e07e09715f746ce679cc9a98ca5add9bd76802269c212b7383",
+      "actual_sha256": "05fe4a50fe2011e07e09715f746ce679cc9a98ca5add9bd76802269c212b7383",
+      "matches": true
+    },
+    {
+      "file": "verify_rayleigh_transfer.py",
+      "expected_sha256": "8a94155739409ed163b26dcb7cc65df3b2cc8f9a3a99a0d2656a87e48f0bedc1",
+      "actual_sha256": "8a94155739409ed163b26dcb7cc65df3b2cc8f9a3a99a0d2656a87e48f0bedc1",
+      "matches": true
+    }
+  ],
+  "generated_result_sha256": {
+    "rayleigh_transfer_results.json": "0c78f281ea30676ad37f9e5b04fed7eea696b2d4aa541b7b6b5945ebc545aa53",
+    "independent_results.json": "05d13082515be84e68166ec42be6319c8e9090c96a3f17ecc97999b11c31432a"
+  },
+  "independence": "Separate implementation in the same session; not blind or external review"
+}

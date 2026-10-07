@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "status": "PROVED_INTERNAL",
+  "theorem": "Strict canonical Local TP2 at every L^m R L^ell for integers m,ell>=0, including terminal comparison index deg S",
+  "arbitrary_path_Local_TP2": "OPEN",
+  "unrestricted_middle_R_run": "OPEN: k>1 in L^m R^k L^ell with ell>0",
+  "repository": "51mns/AIMath",
+  "branch": "research/local-tp2-coefficient-geometry-20261003",
+  "path": "research/local-tp2-coefficient-geometry-20261003/second_turn_20261004",
+  "base_commit": "61010cce29d0a82d9ba6db22d8df686fdbe179b7",
+  "base_tree": "5f270c53c39d3fd874836096f9fa54c5c7b90df4",
+  "inherited_one_turn_commit": "bdc6f58529f39d809e5389456379b9492d4ba12b",
+  "public_reference": {
+    "repository": "51mns/AIMath-public",
+    "commit": "6e770f3b3e3f26af5df5308572917559343b68f4",
+    "action": "read-only; ordinary positivity and failed-route boundary checked"
+  },
+  "review": {
+    "model": "gpt-6.1-sol",
+    "new_subagents": 6,
+    "same_session_same_model": true,
+    "external_review": false,
+    "formal_proof": false,
+    "analytic_audit": "PASS",
+    "complete_kernel_replay": "PASS",
+    "complete_proxy_replay": "PASS",
+    "independence_limits": "Separate implementations, but shared mathematical foundations and disclosed packed integer arithmetic. See individual audit provenance."
+  },
+  "finite_bridge": {
+    "m": [
+      0,
+      409
+    ],
+    "kernel_cases": 1640,
+    "positive_integer_Bernstein_margins": 14766150,
+    "proxy_fixed_minors": 85895,
+    "proxy_interval_arrays": 820,
+    "proxy_interval_coefficients": 2460,
+    "paired_square_coefficients": 9,
+    "small_outer_cases": 5
+  },
+  "infinite_argument": {
+    "analytic_inner_tail_starts": 410,
+    "outer_range": "All required outer indices via Jacobi resolvents, prefix factorization, and mass propagation; no finite extrapolation"
+  },
+  "python": "3.12.14",
+  "fast_check": [
+    "python verify_bundle.py"
+  ],
+  "full_replay_commands_in_order": [
+    "python reduction_additional_turn.py",
+    "python audit_identity_check.py",
+    "python kernels_certificate.py --min 0 --max 409 --output kernels_certificate_results.json",
+    "python kernels_checks.py",
+    "python finite_audit_independent.py --min 0 --max 349 --output finite_audit_prefix_results.json",
+    "python finite_audit_independent.py --min 350 --max 409 --output finite_audit_tail_results.json",
+    "python finite_audit_finalize.py",
+    "python proxy_mass_cert.py --limit 409 --output proxy_mass_results.json",
+    "python falsification_proxy_audit.py",
+    "python falsification_proxy_full_audit.py",
+    "python audit_completion_checks.py"
+  ],
+  "replay_note": "Run from this directory in a complete repository checkout. Full replays overwrite result files and include elapsed-time/source provenance, so file hashes may change; the two independent finite segments may run concurrently. Use a disposable copy for replay. The immutable saved bundle is checked by verify_bundle.py.",
+  "read_only_parent_foundations": [
+    {
+      "path": "mixed_kernel_sharp_strength.md",
+      "sha256": "a2d2322dac20dacc33defe364a6e46bdd717aa8bed44519173940203859254d9",
+      "mutation": "read-only"
+    },
+    {
+      "path": "mixed_kernel_strong_cone.md",
+      "sha256": "714cffc688d4c10eb96dee48f6e20a9aef74277d8f49b5ffa67ac4caef9494e4",
+      "mutation": "read-only"
+    },
+    {
+      "path": "recovery_oneturn_closure.md",
+      "sha256": "f2abc526cfbefb0b21e033ef0e117af18ccefc3c417d7ba585a5c77d593da639",
+      "mutation": "read-only"
+    },
+    {
+      "path": "fulltree_oneturn_normalized_tail.md",
+      "sha256": "71a5e09dbabd1e0d882458617d4a26bd1c7849a269fd417b63677fb62b60f5b1",
+      "mutation": "read-only"
+    },
+    {
+      "path": "mixed_kernel_all_minor_strength.md",
+      "sha256": "425cbf297a56267db5aac71d40f2193ef18bc5020c04c23e6c39cea80b36224a",
+      "mutation": "read-only"
+    },
+    {
+      "path": "general_one_turn_kernel_theorem.md",
+      "sha256": "c800b025a81700de32944bc4eabe29bc39602edfc57cf3807ee865d2b7067955",
+      "mutation": "read-only"
+    },
+    {
+      "path": "mixed_ray_kernel_theorem.md",
+      "sha256": "beff73fb9174f3d0431618e34c03f3a9b3876892fad3deff9fd5a80ca60edfac",
+      "mutation": "read-only"
+    },
+    {
+      "path": "fulltree_oneturn_finite.py",
+      "sha256": "1ce674ec36076d65856b13f600e96bbef5eba40af2627f8343c44d4bd42c8ddf",
+      "mutation": "read-only"
+    },
+    {
+      "path": "GENERAL_ONE_TURN_RESULT_JA.md",
+      "sha256": "c368d76fc0bb5df080f7ede50ca554a03ea0536d178113217219437eef930493",
+      "mutation": "read-only"
+    },
+    {
+      "path": "structural_proof.md",
+      "sha256": "bf0fb6e2e4eadbf5d564e62398a5df2e09aed353114e8ef08a7b0a803f52ec5f",
+      "mutation": "read-only"
+    }
+  ],
+  "excluded_local_intermediates": [
+    "falsification_canonical_results.json",
+    "falsification_continuum_results.json",
+    "falsification_fixed_proxy_results.json",
+    "falsification_results.json",
+    "kernels_small_results.json"
+  ],
+  "files": [
+    {
+      "path": "BRIEF.md",
+      "bytes": 2655,
+      "sha256": "7078bea0ccaed487d672a58f7a3529bbaad6c703cda570acb0a4551aedb05aed",
+      "git_blob_sha1": "e85360d6b331051303b602114db3a0371c45173a"
+    },
+    {
+      "path": "RESULT_JA.md",
+      "bytes": 4647,
+      "sha256": "ff1d86e316d71737df372464602c3adfad42b084002f3fedaa1f70b6495a4616",
+      "git_blob_sha1": "8174cd6199677ab383791383bc9e9feaf206e902"
+    },
+    {
+      "path": "THEOREM.md",
+      "bytes": 4527,
+      "sha256": "d54447f359bdaea59e0177ea816a5761274d13527aff2de71831f6fddf16e4db",
+      "git_blob_sha1": "47477c4cddce3beabf8e0225b7558876ec1bade2"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 770,
+      "sha256": "f13e9c306af3a68e9bf6836e4490b5515ae9fe414fc4472a3ed0e7bdfbc3e533",
+      "git_blob_sha1": "1aad677b13b68b1d1d42989112dd5bb7a83c59e8"
+    },
+    {
+      "path": "audit_completion_checks.py",
+      "bytes": 7036,
+      "sha256": "06a379d03cf579768e10eb5203b345869a5451eee1dc5d4feb6845c3d6287f9a",
+      "git_blob_sha1": "994fdbbe0a4b09468acf43543c55bcf3070c2f88"
+    },
+    {
+      "path": "audit_completion_results.json",
+      "bytes": 3046,
+      "sha256": "17afdc0d3af96ae05f52d5ffd5d23cba4acfe674df89f309f1328ade2d3ee634",
+      "git_blob_sha1": "2341b40f881229dfc175ecbf04e49c99f4c9f259"
+    },
+    {
+      "path": "audit_final_report.md",
+      "bytes": 10459,
+      "sha256": "2a757d4351e93b41bc84b9e79261c6fb8e4f54b7340dd0078e1dab4be2d813b3",
+      "git_blob_sha1": "5f94ae73d31af45e1a49e81788f2fc173a925289"
+    },
+    {
+      "path": "audit_frozen_algebra.md",
+      "bytes": 2100,
+      "sha256": "700964c48cae6bad31228e29440f4aa3d97dacd7b63e465dd6e58a53c2313330",
+      "git_blob_sha1": "1d4a96dd5a88c74f45f128ffad0e40fd13282bc3"
+    },
+    {
+      "path": "audit_identity_check.py",
+      "bytes": 4358,
+      "sha256": "39ac5f78f47b63be616070d0727166e5754e1873cb15a20dc425ac86fd8b48cd",
+      "git_blob_sha1": "ede30655d9421eae39cf71aa726d95cf46ba7d42"
+    },
+    {
+      "path": "audit_identity_results.json",
+      "bytes": 23750,
+      "sha256": "6f25e00077f19b26c1c34a1afc78950b73d412504066c4086908f78b34193a68",
+      "git_blob_sha1": "6b1d6aa684de12685fa1607f53e2b8655aa70c76"
+    },
+    {
+      "path": "audit_scaled_relative_minors.md",
+      "bytes": 2448,
+      "sha256": "4186c6f9b65b36e329c9fd54a27bfbed3e6eb97d5176880e3ef52b8148e72227",
+      "git_blob_sha1": "d0132026c2a4fe00da716fd3b792d48d253985c1"
+    },
+    {
+      "path": "falsification_proxy_audit.py",
+      "bytes": 6823,
+      "sha256": "81a3b6332380301c21080aa2f67cff177d28b9e0988a791e4cc435dcdadbd1e2",
+      "git_blob_sha1": "e29ae188b1e05cb7437e437922d64ebe8ce020cb"
+    },
+    {
+      "path": "falsification_proxy_audit_results.json",
+      "bytes": 4725,
+      "sha256": "db3f3a456bcf19b3348ac9202d3e6b566bd725e47b4cf40e1d8fc06dc91719df",
+      "git_blob_sha1": "d8e43a84fc46260b3b5e1ef781a2bd2c5354ba5a"
+    },
+    {
+      "path": "falsification_proxy_full_audit.py",
+      "bytes": 8258,
+      "sha256": "650780d07e8d966913c2ec68c4c67424ebfff9f84131ddb041111d1d169dd5a6",
+      "git_blob_sha1": "873cd3d7bf4c07da094e8ce4360309de42697dee"
+    },
+    {
+      "path": "falsification_proxy_full_audit_results.json",
+      "bytes": 1889823,
+      "sha256": "53fbaa5e970e10c1302953e513ad7c66630798b46b8d5cfee7746261cfede089",
+      "git_blob_sha1": "0f55bfad0c2aa82964fd858b23bfc3862c003b2b"
+    },
+    {
+      "path": "falsification_report.md",
+      "bytes": 7019,
+      "sha256": "795c84ea4c253622ec4bbac49dcfbe11297b74195e582bf21cb7509086f34278",
+      "git_blob_sha1": "f109886233f05579f8e1a667a81f71f468c1c8d9"
+    },
+    {
+      "path": "falsification_summary.json",
+      "bytes": 20194,
+      "sha256": "259c90617959e907f2aabbfcae8228003c547f39cdaff2d57f099727ee5d810d",
+      "git_blob_sha1": "3b0ad0f6ace4589e9e4d30c8d96cbc785abe9665"
+    },
+    {
+      "path": "falsification_targeted.py",
+      "bytes": 18394,
+      "sha256": "b25efc11fc0a1f68a74133f7445d464e31f7a4957c9ed54f8441c700e8589d0d",
+      "git_blob_sha1": "a28afcaee8e4ba10d7b2f72893594a714b0db58d"
+    },
+    {
+      "path": "finite_audit_finalize.py",
+      "bytes": 5397,
+      "sha256": "763828a3e61557a4d943e88252ed705ec0906b268bb3ed88be0f63e29bc37af9",
+      "git_blob_sha1": "45d9e1f32808688c392cc54737483c86cf03f67e"
+    },
+    {
+      "path": "finite_audit_independent.py",
+      "bytes": 12453,
+      "sha256": "c42ec27796f49b73ab0061db710597ed1348cc9d616df223c3c6bc594d515245",
+      "git_blob_sha1": "65bb849daf0f6dac4ce06699d5cfb8d1e67ef4c2"
+    },
+    {
+      "path": "finite_audit_independent_results.json",
+      "bytes": 1900167,
+      "sha256": "88bfa8cf48a918e1812e46d78852061ecf16a4205c3d04ca5d8ddac679fadd44",
+      "git_blob_sha1": "208a0aa1ec1026c015d79994f37f330ac2f2c432"
+    },
+    {
+      "path": "finite_audit_prefix_results.json",
+      "bytes": 1279885,
+      "sha256": "8836b22594483d96a4aec1c42760814e1b4c05c61ad2dede2ecb885d7611c0f3",
+      "git_blob_sha1": "e068068d8bffdb68f2713a5b5cc7f49bdcc3fe33"
+    },
+    {
+      "path": "finite_audit_report.md",
+      "bytes": 9429,
+      "sha256": "0a97ca884532eba10dfc048b816d9cd6d86820638fb961f39e9984351343ae2a",
+      "git_blob_sha1": "a7973c35b5cf20f8e62198f5916870b50da77a5b"
+    },
+    {
+      "path": "finite_audit_tail_results.json",
+      "bytes": 371629,
+      "sha256": "bb3a9e5369ed563b6d7952004ee99e911aced6ed251c6b49dc0ddaad554129f9",
+      "git_blob_sha1": "1284eed68b6f541eee514cc53072edbaaa2e4caa"
+    },
+    {
+      "path": "kernels_certificate.py",
+      "bytes": 5753,
+      "sha256": "f9ef9f2b667c176b6a3ecdd602ae5ec530f0e8839ac3a6e6f3f87c9b9cfd1999",
+      "git_blob_sha1": "468be845b398b02909b88fc9e7e1efee16a74e2f"
+    },
+    {
+      "path": "kernels_certificate_results.json",
+      "bytes": 1689455,
+      "sha256": "217229b56cd5f11029f3eebd8c2df6d2e0955a7e12689f172281fe68750e5725",
+      "git_blob_sha1": "a6e8173d4ee3d60b030eee741a643be75d8414ee"
+    },
+    {
+      "path": "kernels_checks.py",
+      "bytes": 4351,
+      "sha256": "39267caad55caec5375702e4ea210de0daf2f0d2c91c032ea244ff606552d269",
+      "git_blob_sha1": "391d8750b8eb91bec996c1a72c420c5c2389eca2"
+    },
+    {
+      "path": "kernels_checks_results.json",
+      "bytes": 8908,
+      "sha256": "8733dc27715f26ef22f8868859e51b2b6dff99425cfa6213041dbdada605724a",
+      "git_blob_sha1": "d0983722627d707f73df487539e06b93e0658527"
+    },
+    {
+      "path": "kernels_provenance.json",
+      "bytes": 4155,
+      "sha256": "217534092a193facf90be5bed2243c400f78999ee4e7fa45c0c0bf3ce63fecd1",
+      "git_blob_sha1": "a41b91d28e94c167e93a96a4dbecf58d611bca10"
+    },
+    {
+      "path": "kernels_theorem.md",
+      "bytes": 11502,
+      "sha256": "92bcecb6bc9bd03ec3f914af5787b4b2896631d1abf493b2ebcb5c0767b99d47",
+      "git_blob_sha1": "17b392ee892dd23228fcb1bee26ce20c5c131960"
+    },
+    {
+      "path": "proxy_mass_cert.py",
+      "bytes": 9425,
+      "sha256": "96edf4e4a055c8a88e4895e0810d718928816176a2ce9f8f08ad174bcad9a6fc",
+      "git_blob_sha1": "a97a184ac1603d29735c637150af5f98737edd8a"
+    },
+    {
+      "path": "proxy_mass_compare.md",
+      "bytes": 10838,
+      "sha256": "c4cb8c6f122204ebb1d593d44ce4985de35e5dc5ea34444e0d324c25c5e06d45",
+      "git_blob_sha1": "3a8cd092ed3bf5be77c371c1e249df7f92b14c32"
+    },
+    {
+      "path": "proxy_mass_results.json",
+      "bytes": 1928220,
+      "sha256": "b6724aeb776a7a45c9682eea505463b36801a1c3f4b1d4ffb9f8c935519c75bf",
+      "git_blob_sha1": "a68d5e272a16574cc3477a89d3575894c465ae3d"
+    },
+    {
+      "path": "reduction_additional_turn.md",
+      "bytes": 10755,
+      "sha256": "f76c5aaa908b162ced9e30702e2b84dbf9e8375c443b140fce9a90e85bb8bacf",
+      "git_blob_sha1": "9522c7c772e06efb864c9d6a96887253567e7939"
+    },
+    {
+      "path": "reduction_additional_turn.py",
+      "bytes": 8708,
+      "sha256": "181e01a34c9377c887f1a92c9ef38cd77ceb6f0273708cb34f187c09ebfd443c",
+      "git_blob_sha1": "e89f948cb8a0c80129ccb4214bad0e743d5445fc"
+    },
+    {
+      "path": "reduction_additional_turn_results.json",
+      "bytes": 4669,
+      "sha256": "471aa300a14db48a432d3feb16b5eb9461b4fee2a13a9270b4fe33956f3ba615",
+      "git_blob_sha1": "8b73aac5494d4c6dfde7ec5d6b868d23ead1af2f"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 4708,
+      "sha256": "c4a294fc08d62e1fa64978e9c396f92bc2b34ec6ae91c1b8173a4cc740e05274",
+      "git_blob_sha1": "1b239a2bc3b815136dc16b336a87072b491469f0"
+    }
+  ],
+  "manifest_hash_note": "The manifest does not hash itself. Its Git blob identity is checked when saving the append-only research commit."
+}

@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "scope": "exact fixed rows and two interval mass-margin identities; all-k proof in audit note",
+  "ordinary": {
+    "P": [
+      13,
+      26,
+      18,
+      4
+    ],
+    "t": [
+      39,
+      116,
+      132,
+      66,
+      12
+    ],
+    "a": [
+      33,
+      64,
+      40,
+      8
+    ],
+    "b": [
+      4,
+      2
+    ],
+    "F": [
+      37,
+      153,
+      248,
+      198,
+      78,
+      12
+    ],
+    "G": [
+      78,
+      351,
+      654,
+      645,
+      354,
+      102,
+      12
+    ],
+    "K": [
+      104,
+      312,
+      378,
+      228,
+      68,
+      8
+    ]
+  },
+  "half_rows": {
+    "F": [
+      1001,
+      867,
+      560,
+      258,
+      78,
+      12
+    ],
+    "G": [
+      3750,
+      3306,
+      2250,
+      1155,
+      426,
+      102,
+      12
+    ],
+    "K": [
+      1268,
+      1076,
+      650,
+      268,
+      68,
+      8
+    ]
+  },
+  "adjacent_fixed_minors": [
+    58056,
+    99390,
+    66300,
+    19818,
+    2844,
+    144
+  ],
+  "mass_F": 4551,
+  "proxy_corrections_at_256": [
+    9091668,
+    20546964,
+    14014650,
+    3853740,
+    418596,
+    456
+  ],
+  "interval_margin_coefficients_in_u": {
+    "propagator": [
+      3009,
+      3688,
+      16
+    ],
+    "resolvent_template": [
+      9999933,
+      9224984,
+      28816
+    ]
+  },
+  "parameterization": "r=2-4u, 0<=u<=1",
+  "mass_values": {
+    "t": 1519,
+    "a": 385,
+    "b": 8
+  },
+  "canonical_LL_seed_and_first_right_gap": "PASS"
+}

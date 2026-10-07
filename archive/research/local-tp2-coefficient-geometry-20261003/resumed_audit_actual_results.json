@@ -1,0 +1,8 @@
+{
+  "pair_polynomials_verified": 56,
+  "margin_polynomials_verified": 24,
+  "Bernstein_coefficients_verified": 4948,
+  "quartic_delta_lower": "19633",
+  "quartic_mass_upper": "4489",
+  "original_base_minors_reconstructed": 39
+}

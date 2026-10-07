@@ -1,0 +1,450 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-07T10:20:29.268922+00:00",
+  "completed_utc": "2026-10-07T10:20:40.818102+00:00",
+  "scope": "12 new author/audit programs; all regenerated exact JSON byte hashes; inherited mathematical lemmas are pinned separately",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "arithmetic": "Python integers and fractions.Fraction; exact continuum Bernstein certificates",
+  "fixed_manifest_files": 45,
+  "fixed_files_unchanged": true,
+  "fixed_file_checks": [
+    {
+      "path": "COMPRESSED_CERTIFICATES.json",
+      "sha256": "1bea4c89f999e3b3861255fb4ad3fb9954fb0647b80b252c2e0603f59bb4507f",
+      "matches": true
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "sha256": "7b4e58ebf295afed44f20bd95f501a516cac2bd4711b3c25de2bf4f2d684cba0",
+      "matches": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "1b7c02feb3d9c46f09ca9a0a074adbb18792d023ce7d569a1ff2720f61df34c5",
+      "matches": true
+    },
+    {
+      "path": "RESULT_JA.md",
+      "sha256": "10a9567432e6efa83a382f34f1a60912e6b67d7cbad9598121bd15e2885a8369",
+      "matches": true
+    },
+    {
+      "path": "RUN_CONTEXT.json",
+      "sha256": "ea6be82ac41908c0fcd35bddcbee3f0b67ff5a9e2ab704497f2b368160b6ef6e",
+      "matches": true
+    },
+    {
+      "path": "arbk_audit/ARBITRARY_K_POSITIVE_SEEDS_AND_MASS.md",
+      "sha256": "f4173b5388c389b040c89ed517529663824e1684ef6d304e6f959c069e7d3c5a",
+      "matches": true
+    },
+    {
+      "path": "arbk_audit/GENERIC_CLOSURE_AND_SCALAR_AUDIT.md",
+      "sha256": "86b74b0c1365ad2b1b5bc1fd352a019ad6aadf84f8dc0a8406e19403e04c2a56",
+      "matches": true
+    },
+    {
+      "path": "arbk_audit/MIDPOINT_SUBTRACTION_AUDIT.md",
+      "sha256": "19c51fe46d3a0051c225b0ef2fcddce8cd844dce55d687fec1f12bef703c6b2f",
+      "matches": true
+    },
+    {
+      "path": "arbk_audit/NORMALIZED_ALL_MINOR_AUDIT.md",
+      "sha256": "1af4425e7b9f5e8a89a08fc0ec48f4c36c791fee507aff8295775841be7717ca",
+      "matches": true
+    },
+    {
+      "path": "arbk_audit/audit_finite_ray_bridge.py",
+      "sha256": "1a9f4032bfce96a43dcfecc6d5fbb402aa863136ff0dcfd34da60103f07e7067",
+      "matches": true
+    },
+    {
+      "path": "arbk_audit/audit_scalar_closure.py",
+      "sha256": "13ffc813c7fe788a6ed9235a739304844fcecc3ae18effb2300666b096367801",
+      "matches": true
+    },
+    {
+      "path": "arbk_audit/finite_ray_bridge_independent_results.json",
+      "sha256": "ecc32ed64d60aa9302269c2154eec36f28925fa9ec4b877342d61bacb6a850d8",
+      "matches": true
+    },
+    {
+      "path": "arbk_audit/scalar_closure_independent_results.json",
+      "sha256": "ac76def22f07434b08d18ecdd1205f1499ea07a3dc844e0075913d69eda5c93d",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/FINITE_MIXED_KERNELS.md",
+      "sha256": "b78e145e3f39c110486915931cd72997cfd89b4d9312ed51bd827ed602df72cd",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/NORMALIZED_BLOCKS.md",
+      "sha256": "4414f6acd45e44b5d7bd8df66687c75ee5d60fbfc8f0f616870455a46ee606a1",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/SEED_BOUNDS_INDEPENDENT_AUDIT.md",
+      "sha256": "0006e17c5e2aa628427cd4ca691737f13541816e76ee7d3b073b16bf2b1b91ef",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/audit_seed_bounds.py",
+      "sha256": "2f1337b6d699c34e630a88cd5f8d9cd417624da8630251183ce850ea8188f055",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/finite_m_normalized_blocks.py",
+      "sha256": "d38059e65c540588dbcaa38d77c0de7067abdddd2ba3e2853457cd95273c4ace",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/finite_m_normalized_blocks_results.json.gz",
+      "sha256": "0699cfc583b476b62b0522ea5eb83398a1da520bcbc89432c2122d55b9fe27c8",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/finite_mixed_kernels.py",
+      "sha256": "07b85ed3b8d79d92d29f82549831e677c5c9b4b8589c745378668762088b8bb3",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/finite_mixed_kernels_results.json.gz",
+      "sha256": "0b1e2afab541248ce90c6d6714a22ebafccadb990e4538a578f4103fa608b2d0",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/m0_normalized_blocks.py",
+      "sha256": "b85549a0ca71d84c2da5b1f329329064aca0edf5f5e55535028bb3dd36f235d7",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/m0_normalized_blocks_results.json",
+      "sha256": "30f32b24fb9ba35afad70f2ea11507ace6da3983af66f92aba045e5c7474aa83",
+      "matches": true
+    },
+    {
+      "path": "arbk_mixed/seed_bounds_independent_audit.json",
+      "sha256": "5890456d85086ec848d2196d5e032a4ca0765906f52e332dfe3f28731c4b7fb2",
+      "matches": true
+    },
+    {
+      "path": "arbk_root/FINITE_MIXED_INDEPENDENT_AUDIT.md",
+      "sha256": "b5d1591ccba4aa1c71f75a89bfde055a123e724c80d3054d7470cadf349201db",
+      "matches": true
+    },
+    {
+      "path": "arbk_root/GENERIC_ARBITRARY_K_CLOSURE.md",
+      "sha256": "eaf454422144f014db19487e5a4c9bc6f9103dacce767a8c6ea2346fe8e31b98",
+      "matches": true
+    },
+    {
+      "path": "arbk_root/SCALAR_COVERAGE.md",
+      "sha256": "23bed7b073d90e0942085dae8ff187b9f240fe95a4c597121c83b28f8e53acbd",
+      "matches": true
+    },
+    {
+      "path": "arbk_root/audit_finite_mixed.py",
+      "sha256": "84a9e043c5e025910c45e33ebd1da95fddc6b726573348a1313ca2efba19524d",
+      "matches": true
+    },
+    {
+      "path": "arbk_root/finite_mixed_independent_results.json",
+      "sha256": "3eb13e702382e194ad58f525edbba93ad509fc1b4a9f4626940250de04c090c5",
+      "matches": true
+    },
+    {
+      "path": "arbk_root/finite_ray_bridge_results.json",
+      "sha256": "7d0bac517e65de0cac0befac3ed56973b03c9c0ffbfe7e035c74159ccd6b700d",
+      "matches": true
+    },
+    {
+      "path": "arbk_root/scalar_closure_results.json",
+      "sha256": "9f5faa139284d70022dcd2fcb9418362309a1e3fbc2c98794ceee6367695ec42",
+      "matches": true
+    },
+    {
+      "path": "arbk_root/verify_finite_ray_bridge.py",
+      "sha256": "02149cc3b03c607507e6796a07093c7f50df564019d0fcf8c83be32b65614b0d",
+      "matches": true
+    },
+    {
+      "path": "arbk_root/verify_scalar_closure.py",
+      "sha256": "efb0f9065b094208bfbafd3ef2de1f9e5da1b19bcc167ed71d6c0621521fd671",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/ALL_K_SEED_THEOREM.md",
+      "sha256": "b0c40ec6b4baf599cc63a1768b90749ecd26e9e08c6a9fafc4fc7f2c18ee4b3c",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/AUDIT_NORMALIZED_BLOCKS.md",
+      "sha256": "240e2e42787a07b588e9a2408accc6c766ca70f76a1ce5d019a9dbc7842ef6d1",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/OLD_SINGLE_NORMALIZED_BOUND.md",
+      "sha256": "4ab3b9435b8b0af565a71fbe78cbefdbe5337b7972000e48527d2ca246c718aa",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/audit_normalized_blocks.py",
+      "sha256": "a35912367affd56ba70ef8b540e2ca3c8380865a80468c2b32272e72ab2df078",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/laurent_arithmetic.py",
+      "sha256": "d31322eff4449dd9a5076c685f608e6389c038e4e7fa041966ab56ccf088fe1d",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/normalized_blocks_independent_audit.json",
+      "sha256": "d8c3c7cc5818fc0983ce87df8bc7e642694b2b47cfa69f5c4ddbc010749cfa87",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/old_normalized_constants.json",
+      "sha256": "42db87a511ea22b2b9ac188b388eb3e6f14523276bcd04d0f3b79d5fdf3dbfa7",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/ordinary_arithmetic.py",
+      "sha256": "a7e2a5c553e8bcdd6820b3c13dbc426570b280c12d3c08848e3f82dd88acdef0",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/seed_subtraction_certificates.json.gz",
+      "sha256": "f53d2a52a7d83a6db7a9311d56aa2963868f01283b2d177ca75a5ded8d200546",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/verify_old_normalized_constants.py",
+      "sha256": "3c468cbf7e5af148b4eee69481b2fce8d93e699941d5975004d8ae8f7f91d1e5",
+      "matches": true
+    },
+    {
+      "path": "arbk_seed/verify_seed_subtraction.py",
+      "sha256": "ce051931b6666ab3784f0778578fedb6c19710755c10b9f98e7370c4a8c2d277",
+      "matches": true
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "26eae8a8cfad169a67ddf6b8a5827200b8cc92a0c820a6bdb9c21b81d9a8ac35",
+      "matches": true
+    }
+  ],
+  "program_count": 12,
+  "matching_regenerated_results": 12,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "arbk_seed/verify_old_normalized_constants.py",
+        "--max-m",
+        "69"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.289,
+      "result": "arbk_seed/old_normalized_constants.json",
+      "expected_sha256": "42db87a511ea22b2b9ac188b388eb3e6f14523276bcd04d0f3b79d5fdf3dbfa7",
+      "regenerated_sha256": "42db87a511ea22b2b9ac188b388eb3e6f14523276bcd04d0f3b79d5fdf3dbfa7",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "59a752323222341c02e195745a07af0473b85b0825e7b230d7ab6c36b4e7bf4e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "m 0 eta_trace 0.02 eta_single 0.07673155273879584 r2central 0.00011111111111111112 r3central2 3.7037037037037037e-06\nm 25 eta_trace 0.003352934555735653 eta_single 0.0009016220756327983 r2central 9054110562781.559 r3central2 1.369161054694322e+30\nm 50 eta_trace 0.0009660484412489099 eta_single 0.00025100790785346594 r2central 1.2013982566998126e+32 r3central2 1.5837293164051844e+69\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_seed/verify_seed_subtraction.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.196,
+      "result": "arbk_seed/seed_subtraction_certificates.json",
+      "expected_sha256": "41e8368f179a0fea097af2c044420d188274232f3b4f584c24cd07ddea03dea8",
+      "regenerated_sha256": "41e8368f179a0fea097af2c044420d188274232f3b4f584c24cd07ddea03dea8",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "8eb924a3a7021e16ad054794f165f7a0a738952e6406afcf8e29da54aa28912f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "{\n  \"status\": \"PASS: complete finite gates for the half-defect seed theorem\",\n  \"finite_pair_count\": 122,\n  \"finite_defect_margin_count\": 16048,\n  \"j1_tail_start\": 70,\n  \"j1_tail_eta_over_eight_epsilon\": \"331119864809390488824801756815177671184385399802721703066858139134285640269117211090037316145351204566846410503980071448506101038640621086295143624881787968002393394368784171202900021165346496313275239537011542092849489845933519011133004536821513264157629994809164558529862034142154657/183620479932145030943502206355333328247070312500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\n  \"normalized_single_tail_start\": 70,\n  \"single_eta_over_twelve_epsilon\": \"36791096089932276536089084090575296798265044422524633674095348792698404474346356787781924016150133840760712278220007938722900115404513454032793736097976440889154821596531574578100002351705166257030582170779060232538832205103724334570333837424612584906403332756573839836651337126906073/22952559991518128867937775794416666030883789062500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\n  \"both_tail_consecutive_ratio_at_70\": \"7369277/3626000\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_mixed/m0_normalized_blocks.py",
+        "--residues"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.989,
+      "result": "arbk_mixed/m0_normalized_blocks_results.json",
+      "expected_sha256": "30f32b24fb9ba35afad70f2ea11507ace6da3983af66f92aba045e5c7474aa83",
+      "regenerated_sha256": "30f32b24fb9ba35afad70f2ea11507ace6da3983af66f92aba045e5c7474aa83",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "d7b72384355d17aef8e90ef740bc4b2fbe002099eca79e082f5db8a069036c88",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "fficient_count\": 3159, \"minimum_scaled_margin\": 1927359360, \"ordered_margin_sha256\": \"ff6479e42e7be4b923d782461d22380693bbecb9f1101790f7c14aef42a5e9d9\"}\n{\"pairs\": 3, \"seed_2p\": true, \"smooth_y\": false, \"nonpositive_single\": false, \"degree\": 13, \"parameter_dimension\": 6, \"target_eta\": \"1/256\", \"best_tensor_certified_eta\": \"319916786870617/23933710719386258\", \"best_eta_location\": [0, 0], \"best_eta_floor_reciprocal\": 74, \"certified\": true, \"bernstein_coefficient_count\": 10206, \"minimum_scaled_margin\": 34692468480, \"ordered_margin_sha256\": \"bf274cd4402ad1a8d6fcc33b701e61258a679e7a53ee1dbef7ada07af13ace08\"}\n{\"pairs\": 3, \"seed_2p\": true, \"smooth_y\": true, \"nonpositive_single\": false, \"degree\": 14, \"parameter_dimension\": 6, \"target_eta\": \"1/256\", \"best_tensor_certified_eta\": \"4553632211274005/396523001806124176\", \"best_eta_location\": [0, 0], \"best_eta_floor_reciprocal\": 87, \"certified\": true, \"bernstein_coefficient_count\": 10935, \"minimum_scaled_margin\": 34692468480, \"ordered_margin_sha256\": \"04fa3728a0ddffce8a2b0024e1e138cef53e0295636430827b5fed1712191288\"}\n{\"pairs\": 3, \"seed_2p\": true, \"smooth_y\": false, \"nonpositive_single\": true, \"degree\": 15, \"parameter_dimension\": 7, \"target_eta\": \"1/256\", \"best_tensor_certified_eta\": \"3986089179086569775/384516752285224391168\", \"best_eta_location\": [0, 0], \"best_eta_floor_reciprocal\": 96, \"certified\": true, \"bernstein_coefficient_count\": 34992, \"minimum_scaled_margin\": 624464432640, \"ordered_margin_sha256\": \"89947d68ecbae4f06ea49c7dc87760aa87f75c898f1a4c99a7d7d03b045693c6\"}\n{\"pairs\": 3, \"seed_2p\": true, \"smooth_y\": true, \"nonpositive_single\": true, \"degree\": 16, \"parameter_dimension\": 7, \"target_eta\": \"1/256\", \"best_tensor_certified_eta\": \"29185347015183865937/3219102662832254008098\", \"best_eta_location\": [0, 0], \"best_eta_floor_reciprocal\": 110, \"certified\": true, \"bernstein_coefficient_count\": 37179, \"minimum_scaled_margin\": 624464432640, \"ordered_margin_sha256\": \"7bf25e0837501eb0a65b623812ac6820c48e226d70fd22ce2ea6edecdcdc0d0d\"}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_mixed/finite_m_normalized_blocks.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.846,
+      "result": "arbk_mixed/finite_m_normalized_blocks_results.json",
+      "expected_sha256": "2747e272ced6e43c92b81bc69015b7e0aba0efaf898bbc32f31702418219c37c",
+      "regenerated_sha256": "2747e272ced6e43c92b81bc69015b7e0aba0efaf898bbc32f31702418219c37c",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "937e56f111f52d523fe92204c013f1f5b27c6012224fa0c3d5883e84a81c23b0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "{\"m\": 1, \"rate\": \"1/4\", \"residual_eta\": \"1/301\", \"actual_block_eta\": \"1439279587349938245279975237079825/350814343021681029041714708187228609\", \"actual_residual_eta\": \"29444383960091415763907569582114286845/8856551272853732859471935550198251484001\", \"block_histograms\": 1125, \"residue_histograms\": 16020}\n{\"m\": 2, \"rate\": \"1/4\", \"residual_eta\": \"1/513\", \"actual_block_eta\": \"15634065153102597768941071187725077838036780465/6452653784082683260240039724019496579305101537601\", \"actual_residual_eta\": \"14994467212934625557318187646245614012424283590532193/7686155265030583072449082248223170491144608052815183969\", \"block_histograms\": 1485, \"residue_histograms\": 21240}\n{\"m\": 3, \"rate\": \"1/4\", \"residual_eta\": \"1/785\", \"actual_block_eta\": \"49028191244468243828723103998857189289544307205830376199553/30840079911587411314537219714916489260847857515392589956409225\", \"actual_residual_eta\": \"1100474846929091619008702332359675951402691036203034729130874132275/862865886238316073411770850791575561108611955828051163559677865735602\", \"block_histograms\": 1845, \"residue_histograms\": 26460}\n{\"m\": 4, \"rate\": \"1/5\", \"residual_eta\": \"1/1114\", \"actual_block_eta\": \"2743959815129276263886829343018751581653486293763249546987755718093133393/2445519442286982115618788090459451590691163776221806032807981477518196959681\", \"actual_residual_eta\": \"5770075796202160479278953022209146042898810109640387433468058287401916825802804913/6425804928040647659541523821272038714220974229399162685421880597363901104168811564025\", \"block_histograms\": 2205, \"residue_histograms\": 31680}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_mixed/finite_mixed_kernels.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.898,
+      "result": "arbk_mixed/finite_mixed_kernels_results.json",
+      "expected_sha256": "761a406039a910a240940f1225aee265f2fa3400212cc951686cbe7b6fb31c7f",
+      "regenerated_sha256": "761a406039a910a240940f1225aee265f2fa3400212cc951686cbe7b6fb31c7f",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "f73014e43c63759ae165aff7c36b4b7a5089d0c68beebab9d04544450428c72f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": ", \"status\": \"PASS\", \"coefficient_count\": 1206, \"minimum_eta\": \"6125191173863731960228954253002060234393587942870213787923822952001112622322510/6828192971044189235617823876905038817222679559651713708279630146100712544177602843\"}\n{\"m\": 2, \"k\": 5, \"status\": \"PASS\", \"coefficient_count\": 1470, \"minimum_eta\": \"2002227608862773315920294498779033695988263777171926928292899438423736676024728828801234965789771815/3296583887163283631045789736056254406523271567999308651803883645306034905576541764601547828805610650289\"}\n{\"m\": 3, \"k\": 3, \"status\": \"PASS\", \"coefficient_count\": 1164, \"minimum_eta\": \"38400306582078608723514543481834534817712107538565918101808464314799080799238/39774340747845131352959593107201353651210707781329022906562680090020547493956889\"}\n{\"m\": 3, \"k\": 4, \"status\": \"PASS\", \"coefficient_count\": 1494, \"minimum_eta\": \"207890116278658307652442790030074235190698438366038860072924160208387655193472592555689065971483380518/352279956286140492748154714258925166291230798636675737364375754791498123870224735630821118385985111650625\"}\n{\"m\": 4, \"k\": 3, \"status\": \"PASS\", \"coefficient_count\": 1386, \"minimum_eta\": \"43165788603289547141410503621960149484451203301518316448764331348493090238154270551503198609905/62838077196904640163308454249696553468762176882183945715644629809054875764779851085210909203433201\"}\n{\"m\": 5, \"k\": 3, \"status\": \"PASS\", \"coefficient_count\": 1608, \"minimum_eta\": \"1456443675283130537729242980114861495215075302598939418621516598437499924832634016910269518004021964172961132293/2835215396242501097003333052386373781301847767852567409743819422115729949915547896855235914910786626542943785745025\"}\n{\"m\": 5, \"k\": 4, \"status\": \"PASS\", \"coefficient_count\": 2070, \"minimum_eta\": \"1162760671150346270298571715363726295376700022582552329048942479586367632248239047025070771875005504546141363231850324654687836033704247767583111/3735682610793887569974038414025224989347873811272735389787284568460547733121619532725279359626910190021372774445553831489038392449878874896365063442\"}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_root/verify_finite_ray_bridge.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.074,
+      "result": "arbk_root/finite_ray_bridge_results.json",
+      "expected_sha256": "7d0bac517e65de0cac0befac3ed56973b03c9c0ffbfe7e035c74159ccd6b700d",
+      "regenerated_sha256": "7d0bac517e65de0cac0befac3ed56973b03c9c0ffbfe7e035c74159ccd6b700d",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "f7e7462423d710478d4b8160bf4b397ec0594d2bf417afee6978ee05742625aa",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "{\n  \"status\": \"PASS\",\n  \"scope\": \"Finite-ray criterion for 34 exact (m,k) prefixes, every final left length ell>=1\",\n  \"prefix_count\": 34,\n  \"total_strict_bernstein_coefficients\": 3282,\n  \"thresholds\": {\n    \"0\": 21,\n    \"1\": 11,\n    \"2\": 6,\n    \"3\": 5,\n    \"4\": 4,\n    \"5\": 5\n  },\n  \"initial_orders\": \"Inherited all-m/all-k companion theorem; no redundant finite enumeration is used as its proof.\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_root/verify_scalar_closure.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.297,
+      "result": "arbk_root/scalar_closure_results.json",
+      "expected_sha256": "9f5faa139284d70022dcd2fcb9418362309a1e3fbc2c98794ceee6367695ec42",
+      "regenerated_sha256": "9f5faa139284d70022dcd2fcb9418362309a1e3fbc2c98794ceee6367695ec42",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "33ad2747d7b31807dfe0b6a3e50610da2018a97882b8a87c192153c7b9916960",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "{\"status\": \"PASS\", \"fixed_m_thresholds\": {\"0\": 21, \"1\": 11, \"2\": 6, \"3\": 5, \"4\": 4, \"5\": 5, \"6\": 3, \"7\": 3, \"8\": 3, \"9\": 3, \"10\": 3, \"11\": 3, \"12\": 3, \"13\": 3, \"14\": 3, \"15\": 3, \"16\": 3, \"17\": 3, \"18\": 3, \"19\": 3, \"20\": 3, \"21\": 3, \"22\": 3, \"23\": 3, \"24\": 3, \"25\": 3, \"26\": 3, \"27\": 3, \"28\": 3, \"29\": 3, \"30\": 3, \"31\": 3, \"32\": 3, \"33\": 3, \"34\": 3, \"35\": 3, \"36\": 3, \"37\": 3, \"38\": 3, \"39\": 3, \"40\": 3, \"41\": 3, \"42\": 3, \"43\": 3, \"44\": 3, \"45\": 3, \"46\": 3, \"47\": 3, \"48\": 3, \"49\": 3, \"50\": 3, \"51\": 3, \"52\": 3, \"53\": 3, \"54\": 3, \"55\": 3, \"56\": 3, \"57\": 3, \"58\": 3, \"59\": 3, \"60\": 3, \"61\": 3, \"62\": 3, \"63\": 3, \"64\": 3, \"65\": 3, \"66\": 3, \"67\": 3, \"68\": 3, \"69\": 3}, \"analytic_m_tail_from\": 70, \"finite_prefixes\": 34}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_mixed/audit_seed_bounds.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.671,
+      "result": "arbk_mixed/seed_bounds_independent_audit.json",
+      "expected_sha256": "5890456d85086ec848d2196d5e032a4ca0765906f52e332dfe3f28731c4b7fb2",
+      "regenerated_sha256": "5890456d85086ec848d2196d5e032a4ca0765906f52e332dfe3f28731c4b7fb2",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "5890456d85086ec848d2196d5e032a4ca0765906f52e332dfe3f28731c4b7fb2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "{\n  \"status\": \"PASS\",\n  \"independent_method\": \"ordinary-x inner Chebyshev recurrence; binomial Laurent conversion; endpoint polarization\",\n  \"seed_pairs\": 122,\n  \"seed_margin_count\": 16048,\n  \"seed_margin_sha256\": \"bcab368de7ff11a996d7472040068da5f7014b77cdb35b709313ba462dd3d20b\",\n  \"old_m_range\": [\n    0,\n    69\n  ],\n  \"old_interval_coefficient_pairs\": 38745,\n  \"old_interval_coefficient_pair_sha256\": \"6860ff2dec9611d3d8531bf3f1baebe73436e9d434e27986fa303a367c8fada9\",\n  \"all_recorded_rows_margins_bounds_and_digests_match\": true,\n  \"infinite_tail_scalar_anchors_match\": true\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_seed/audit_normalized_blocks.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.952,
+      "result": "arbk_seed/normalized_blocks_independent_audit.json",
+      "expected_sha256": "d8c3c7cc5818fc0983ce87df8bc7e642694b2b47cfa69f5c4ddbc010749cfa87",
+      "regenerated_sha256": "d8c3c7cc5818fc0983ce87df8bc7e642694b2b47cfa69f5c4ddbc010749cfa87",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "f00019263093138489a6ceae6c51c0b31becd8a4d58a7ed5a17a2492d7430dbb",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "m0 block 1 False False False PASS 45\nm0 block 2 False False False PASS 729\nm0 block 3 False False False PASS 9477\nm0 block 4 False False False PASS 111537\nm0 block 0 True False False PASS 2\nm0 block 0 True True False PASS 3\nm0 block 0 True False True PASS 12\nm0 block 0 True True True PASS 15\nm0 block 1 True False False PASS 54\nm0 block 1 True True False PASS 63\nm0 block 1 True False True PASS 216\nm0 block 1 True True True PASS 243\nm0 block 2 True False False PASS 810\nm0 block 2 True True False PASS 891\nm0 block 2 True False True PASS 2916\nm0 block 2 True True True PASS 3159\nm0 block 3 True False False PASS 10206\nm0 block 3 True True False PASS 10935\nm0 block 3 True False True PASS 34992\nm0 block 3 True True True PASS 37179\nfinite m 1 PASS; every full tensor coefficient matches\nfinite m 2 PASS; every full tensor coefficient matches\nfinite m 3 PASS; every full tensor coefficient matches\nfinite m 4 PASS; every full tensor coefficient matches\n{\n  \"status\": \"PASS\",\n  \"m0_coefficients\": 223484,\n  \"m1_to_4_coefficients\": 4021860,\n  \"output\": \"normalized_blocks_independent_audit.json\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_root/audit_finite_mixed.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.867,
+      "result": "arbk_root/finite_mixed_independent_results.json",
+      "expected_sha256": "3eb13e702382e194ad58f525edbba93ad509fc1b4a9f4626940250de04c090c5",
+      "regenerated_sha256": "3eb13e702382e194ad58f525edbba93ad509fc1b4a9f4626940250de04c090c5",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "0ca425a519534cb5ac9d22c14af577eb07e7dc34057ef7203ef5cb537b41e403",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "{\n  \"status\": \"PASS\",\n  \"independence\": \"Original ordinary-x mutations plus exact 3x3 interpolation; no author code imported\",\n  \"prefix_count\": 34,\n  \"all_record_fields_and_coefficients_match\": true,\n  \"strict_defect_bernstein_coefficients\": 51804,\n  \"strict_relative_bernstein_coefficients\": 42246,\n  \"expected_artifact_sha256\": \"761a406039a910a240940f1225aee265f2fa3400212cc951686cbe7b6fb31c7f\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_audit/audit_finite_ray_bridge.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.128,
+      "result": "arbk_audit/finite_ray_bridge_independent_results.json",
+      "expected_sha256": "ecc32ed64d60aa9302269c2154eec36f28925fa9ec4b877342d61bacb6a850d8",
+      "regenerated_sha256": "ecc32ed64d60aa9302269c2154eec36f28925fa9ec4b877342d61bacb6a850d8",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "1bdf079da167b95029569c0ae9fbae1e48acb9a9ccceb403bc3944a7123c89fc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "{\"status\": \"PASS independent Laurent reconstruction; shared-session audit\", \"author_implementation_imported\": false, \"pairs\": 34, \"positive_bernstein_coefficients\": 3282, \"post_reconstruction_author_comparison\": \"All 3282 Bernstein coefficients, all thresholds, indices and shared degrees agree exactly.\"}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "python3",
+        "arbk_audit/audit_scalar_closure.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.125,
+      "result": "arbk_audit/scalar_closure_independent_results.json",
+      "expected_sha256": "ac76def22f07434b08d18ecdd1205f1499ea07a3dc844e0075913d69eda5c93d",
+      "regenerated_sha256": "ac76def22f07434b08d18ecdd1205f1499ea07a3dc844e0075913d69eda5c93d",
+      "byte_hash_matches": true,
+      "status": "PASS",
+      "stdout_sha256": "60b8500713d0d58dab007dbfe5b731f59f4f3123d3f635bb80875d0fc3bb0d28",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "{\"status\": \"PASS shared-session independent exact scalar audit\", \"writer_implementation_imported\": false, \"all_70_fixed_m_gate_vectors_and_ratios_match\": true, \"analytic_corner_and_ratio_vectors_match\": true, \"old_single_gate_ratio\": \"36791096089932276536089084090575296798265044422524633674095348792698404474346356787781924016150133840760712278220007938722900115404513454032793736097976440889154821596531574578100002351705166257030582170779060232538832205103724334570333837424612584906403332756573839836651337126906073/22952559991518128867937775794416666030883789062500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\", \"old_single_m_ratio\": \"7369277/3626000\"}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "independence": "Separate methods/implementations in the same shared session; not blind/external or formal verification"
+}

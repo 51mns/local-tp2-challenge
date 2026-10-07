@@ -1,0 +1,56 @@
+{
+  "status": "PASS original mutation and binomial halfrow reconstruction",
+  "root_exception_respected": true,
+  "rows": {
+    "root_G_le_S": [
+      24,
+      16,
+      8
+    ],
+    "short": {
+      "E_G": [
+        16,
+        32,
+        8
+      ],
+      "R_G": [
+        24,
+        16,
+        8
+      ],
+      "Xp_E": [
+        4,
+        2
+      ],
+      "Yp_G": [
+        40,
+        48,
+        8,
+        0
+      ]
+    },
+    "long": {
+      "E_G": [
+        170,
+        140,
+        68
+      ],
+      "R_G": [
+        136,
+        236,
+        68
+      ],
+      "Xp_E": [
+        2,
+        3,
+        0
+      ],
+      "Yp_G": [
+        408,
+        508,
+        148,
+        12
+      ]
+    }
+  }
+}

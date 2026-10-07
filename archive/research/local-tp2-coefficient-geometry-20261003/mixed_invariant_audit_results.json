@@ -1,0 +1,153 @@
+{
+  "scope": "declared bounded mixed-ray stress cases only; no global conclusion",
+  "declared_paths": 130,
+  "last_path": "RLRLRLRL",
+  "maximum_polynomial_degree": 232,
+  "failures": [],
+  "smallest_relative_margins": {
+    "J_C": {
+      "path": "RLRLRLRL",
+      "index": 0,
+      "relative_margin_float": 4.4999697711732276e-05,
+      "exact_difference": "57912866706922555516510620489416748928948709356074356718562672024502809468467018128876227006768983312024791288577338537286498455952856751522695314110955331731871698210939772079500739478812958306160507779617890083"
+    },
+    "J_M": {
+      "path": "RLRLRLRL",
+      "index": 0,
+      "relative_margin_float": 4.430826296962051e-05,
+      "exact_difference": "4513290136829172659433283127863165934252184980462742093917986165523993575848110015695263233548596779535925518774035773312312869361155503114560780229372272658494937689718732276959101585596544242277955954641002395504"
+    },
+    "alpha_A_to_E": {
+      "path": "LR",
+      "index": 3,
+      "relative_margin_float": 0.0,
+      "exact_difference": "0"
+    },
+    "alpha_S_to_AM": {
+      "path": "RLRLRLRL",
+      "index": 0,
+      "relative_margin_float": 1.7667808003435077e-05,
+      "exact_difference": "406329073321811698756147939281865774858642597459860246355969632350155522255312030969724064282934613608834729954545466121381140535185875875985000105704420084948657274143996719677282069946397191975875106225379083292911122316193906644508863504536590413896858001132607398626341264751992473170958989680"
+    },
+    "alpha_S_to_D": {
+      "path": "RLRLRLRL",
+      "index": 0,
+      "relative_margin_float": 0.0006149605657308241,
+      "exact_difference": "772843308071898674970388891429726946440120272178304066097066729366021543491363848653432915413293569664580753350852842824336311713165598404640750635083854919275561413570931880638650227797108937012819020170547949052806312164335953618268133399105563118871159656598400240990724301041496417762085587727385034955049071184682913252"
+    }
+  },
+  "exact_abstract_obstruction": {
+    "scope": "abstract normalized positive family; NOT a canonical counterexample",
+    "family": "C_lambda=3 lambda x^2+8 lambda x+5 lambda+1, integer lambda>=1",
+    "identities": "verified exactly in the polynomial ring Z[lambda]",
+    "tau_C_coefficients_low_to_high": [
+      [
+        1,
+        14,
+        8
+      ],
+      [
+        0,
+        -3,
+        7
+      ],
+      [
+        0,
+        0,
+        9
+      ]
+    ],
+    "folded_defect_C_coefficients_low_to_high": [
+      [
+        1,
+        25,
+        26
+      ],
+      [
+        0,
+        -3,
+        22
+      ],
+      [
+        0,
+        0,
+        9
+      ]
+    ],
+    "central_folded_defect_yC_coefficients_low_to_high": [
+      -1,
+      -23,
+      58
+    ],
+    "tau_M_coefficients_low_to_high": [
+      [
+        4,
+        72,
+        -9
+      ],
+      [
+        4,
+        102,
+        450
+      ],
+      [
+        0,
+        -18,
+        198
+      ],
+      [
+        0,
+        0,
+        81
+      ]
+    ],
+    "failure": "J_M(0,1;0,1)=-9 lambda^2+72 lambda+4<0 for every lambda>=9",
+    "example": {
+      "lambda": 9,
+      "C": [
+        46,
+        72,
+        27
+      ],
+      "H_C": [
+        100,
+        72,
+        27
+      ],
+      "alpha_C": [
+        28,
+        45,
+        27
+      ],
+      "J_C_top_adjacent_minors": [
+        775,
+        540,
+        729
+      ],
+      "M": [
+        139,
+        353,
+        297,
+        81
+      ],
+      "H_M": [
+        733,
+        596,
+        297,
+        81
+      ],
+      "alpha_M": [
+        137,
+        299,
+        216,
+        81
+      ],
+      "J_M_top_adjacent_minors": [
+        -77,
+        37372,
+        15876,
+        6561
+      ]
+    }
+  }
+}

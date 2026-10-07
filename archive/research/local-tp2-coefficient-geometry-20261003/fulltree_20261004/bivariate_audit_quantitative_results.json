@@ -1,0 +1,7 @@
+{
+  "status": "PASS: stated universal conditional lemmas only",
+  "exact_polynomial_identities": 5,
+  "exact_boundary_examples": 15,
+  "degree_zero_exclusion_verified": true,
+  "canonical_all_depth_strength_proved": false
+}

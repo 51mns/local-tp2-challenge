@@ -1,0 +1,32 @@
+{
+  "status": "PASS_EXACT_FORMAL_IDENTITIES",
+  "checks": [
+    "central polarization",
+    "AMGM square identity",
+    "rational central strength SOS",
+    "translated root central defect",
+    "exact entire shift interval reduction",
+    "weak y squared factor"
+  ],
+  "arithmetic": "Python arbitrary precision integer sparse polynomial ring",
+  "y_squared_halfrow": [
+    3,
+    2,
+    1
+  ],
+  "y_squared_defects": [
+    4,
+    0,
+    1
+  ],
+  "root_trace_shift2_halfrow": [
+    61,
+    50,
+    24,
+    6
+  ],
+  "root_central_lower_bound": 185,
+  "translated_cone_linear_lower_bound": "555/61 times u0",
+  "scope": "Analytic note proves arbitrary BOTH central trace preservation; formal checks alone do not prove packet closure.",
+  "full_tree_Local_TP2": "OPEN"
+}

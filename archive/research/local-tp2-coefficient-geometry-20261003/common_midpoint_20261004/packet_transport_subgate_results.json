@@ -1,0 +1,27 @@
+{
+  "status": "exact symbolic checks PASS",
+  "both_mutations": [
+    {
+      "sigma": 0,
+      "normalized_transport_identities": 6
+    },
+    {
+      "sigma": 1,
+      "normalized_transport_identities": 6
+    }
+  ],
+  "tensor_flux_identity": true,
+  "reverse_midpoint_flux_identity": true,
+  "long_robin_minus_one_identity": true,
+  "robin_characteristic_normalizations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "window_normalizations": 21,
+  "scope": "analytic Robin theorem proves BOTH reverse L_-1 subgate; full regular MP2 transport OPEN"
+}

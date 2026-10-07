@@ -1,0 +1,5 @@
+Positive log-concave autocorrelation counterexample: minor = -71232.
+Strict log-concave autocorrelation counterexample: minor = -9189654.
+Multiplication by x+1 fails folded-cone preservation exactly.
+t_(x+2)+a endpoint-margin formulas verified exactly.
+Natural two-state block TP2 obstruction: minor = -16.

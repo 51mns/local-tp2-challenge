@@ -1,0 +1,63 @@
+{
+  "status": "exact paired-switch algebra and coefficient lemma audited",
+  "coefficient_ring": "Z[x,a,e,r]",
+  "symbolic_checks": [
+    "trace_T",
+    "switch_seed",
+    "short_Cassini_residual",
+    "long_Cassini_residual",
+    "b_short_update",
+    "b_long_growth",
+    "g_minus_k",
+    "strong_e_short_update",
+    "strong_e_long_update",
+    "Te_minus_cA"
+  ],
+  "root": {
+    "C": [
+      5,
+      6,
+      2
+    ],
+    "T": [
+      15,
+      32,
+      24,
+      6
+    ],
+    "e": [
+      1
+    ],
+    "cA": [
+      12,
+      14,
+      4
+    ],
+    "cB": [
+      27,
+      46,
+      28,
+      6
+    ],
+    "Te_minus_cA": [
+      3,
+      18,
+      20,
+      6
+    ]
+  },
+  "Chebyshev_checks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "packet_degree_condition": "deg(d0)<deg(c)+deg(T), N>=1",
+  "forward_root_mapping": "recovery_oneturn_closure.md, m=1",
+  "reversed_root_mapping": "second_turn_20261004/kernels_theorem.md, m=0",
+  "common_packet_closure": "OPEN",
+  "full_P_Q_connection": "OPEN",
+  "full_tree_Local_TP2": "OPEN"
+}

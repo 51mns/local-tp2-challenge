@@ -1,0 +1,233 @@
+{
+  "formal_identities": 7,
+  "initial_cases": [
+    {
+      "m": 0,
+      "comparisons": 8
+    },
+    {
+      "m": 1,
+      "comparisons": 8
+    },
+    {
+      "m": 2,
+      "comparisons": 8
+    },
+    {
+      "m": 3,
+      "comparisons": 8
+    },
+    {
+      "m": 4,
+      "comparisons": 8
+    },
+    {
+      "m": 5,
+      "comparisons": 8
+    },
+    {
+      "m": 6,
+      "comparisons": 8
+    },
+    {
+      "m": 7,
+      "comparisons": 8
+    },
+    {
+      "m": 8,
+      "comparisons": 8
+    },
+    {
+      "m": 9,
+      "comparisons": 8
+    },
+    {
+      "m": 10,
+      "comparisons": 8
+    },
+    {
+      "m": 11,
+      "comparisons": 8
+    },
+    {
+      "m": 12,
+      "comparisons": 8
+    }
+  ],
+  "canonical_cases": [
+    {
+      "m": 0,
+      "ell": 1,
+      "degree_short_gap": 10,
+      "min_local_minor": 2286144
+    },
+    {
+      "m": 0,
+      "ell": 2,
+      "degree_short_gap": 13,
+      "min_local_minor": 452779123968
+    },
+    {
+      "m": 0,
+      "ell": 3,
+      "degree_short_gap": 16,
+      "min_local_minor": 49557311642373120
+    },
+    {
+      "m": 0,
+      "ell": 4,
+      "degree_short_gap": 19,
+      "min_local_minor": 4571328532449855135744
+    },
+    {
+      "m": 1,
+      "ell": 1,
+      "degree_short_gap": 14,
+      "min_local_minor": 19773186048
+    },
+    {
+      "m": 1,
+      "ell": 2,
+      "degree_short_gap": 18,
+      "min_local_minor": 281097824445333504
+    },
+    {
+      "m": 1,
+      "ell": 3,
+      "degree_short_gap": 22,
+      "min_local_minor": 2037284407813674534174720
+    },
+    {
+      "m": 1,
+      "ell": 4,
+      "degree_short_gap": 26,
+      "min_local_minor": 11969708880224025316516744396800
+    },
+    {
+      "m": 2,
+      "ell": 1,
+      "degree_short_gap": 18,
+      "min_local_minor": 179522135654400
+    },
+    {
+      "m": 2,
+      "ell": 2,
+      "degree_short_gap": 23,
+      "min_local_minor": 189846215415249663688704
+    },
+    {
+      "m": 2,
+      "ell": 3,
+      "degree_short_gap": 28,
+      "min_local_minor": 92394324237265544547919271559168
+    },
+    {
+      "m": 2,
+      "ell": 4,
+      "degree_short_gap": 33,
+      "min_local_minor": 34926105727342659016105492194427221835776
+    },
+    {
+      "m": 3,
+      "ell": 1,
+      "degree_short_gap": 22,
+      "min_local_minor": 1661709466925531136
+    },
+    {
+      "m": 3,
+      "ell": 2,
+      "degree_short_gap": 28,
+      "min_local_minor": 131575390757138164534619406336
+    },
+    {
+      "m": 3,
+      "ell": 3,
+      "degree_short_gap": 34,
+      "min_local_minor": 4307074641666957035779149293748354023424
+    },
+    {
+      "m": 3,
+      "ell": 4,
+      "degree_short_gap": 40,
+      "min_local_minor": 104862677589075268135341294243854815099467224580096
+    },
+    {
+      "m": 4,
+      "ell": 1,
+      "degree_short_gap": 26,
+      "min_local_minor": 15585777453670191857664
+    },
+    {
+      "m": 4,
+      "ell": 2,
+      "degree_short_gap": 33,
+      "min_local_minor": 92621179438699307760309311882919936
+    },
+    {
+      "m": 4,
+      "ell": 3,
+      "degree_short_gap": 40,
+      "min_local_minor": 203949571824635693851234533630968869098916675584
+    },
+    {
+      "m": 4,
+      "ell": 4,
+      "degree_short_gap": 47,
+      "min_local_minor": 319797164149221249831066744590005665692939354573962790043648
+    },
+    {
+      "m": 5,
+      "ell": 1,
+      "degree_short_gap": 30,
+      "min_local_minor": 147622051554566174228348928
+    },
+    {
+      "m": 5,
+      "ell": 2,
+      "degree_short_gap": 38,
+      "min_local_minor": 65928054066330182855661297175806200512512
+    },
+    {
+      "m": 5,
+      "ell": 3,
+      "degree_short_gap": 46,
+      "min_local_minor": 9764997897136608023023822180775062115101527438526513152
+    },
+    {
+      "m": 5,
+      "ell": 4,
+      "degree_short_gap": 54,
+      "min_local_minor": 986027006397605170134568273331825329420194395610318694029672509865984
+    },
+    {
+      "m": 6,
+      "ell": 1,
+      "degree_short_gap": 34,
+      "min_local_minor": 1408800998722621376201263939584
+    },
+    {
+      "m": 6,
+      "ell": 2,
+      "degree_short_gap": 43,
+      "min_local_minor": 47323232656542727052058459920021939633239621632
+    },
+    {
+      "m": 6,
+      "ell": 3,
+      "degree_short_gap": 52,
+      "min_local_minor": 471468537438985780378151048679669937947894172122088831004442624
+    },
+    {
+      "m": 6,
+      "ell": 4,
+      "degree_short_gap": 61,
+      "min_local_minor": 3065480273638225671336734118671482388445710412105564117420475795251682961522688
+    }
+  ],
+  "excluded_q0_time_order": {
+    "m": 0,
+    "n": 0,
+    "minor": -36
+  },
+  "scope": "Formal identities plus bounded independent implementation checks; no finite-to-infinite inference."
+}

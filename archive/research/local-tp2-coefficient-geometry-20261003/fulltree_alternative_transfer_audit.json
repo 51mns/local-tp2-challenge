@@ -1,0 +1,28 @@
+{
+  "seed_and_congruence_identities": "pass",
+  "coefficient_zero_matrix_of_That_squared": [
+    [
+      53,
+      48
+    ],
+    [
+      60,
+      53
+    ]
+  ],
+  "its_state_minor": -71,
+  "e_That_cubed_e_ordinary_coefficients": [
+    408,
+    1272,
+    1296,
+    432
+  ],
+  "e_That_cubed_e_half_row": [
+    3000,
+    2568,
+    1296,
+    432
+  ],
+  "its_central_folded_defect": -301248,
+  "tree_scan_performed": false
+}

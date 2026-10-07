@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "replays": [
+    {
+      "script": "center_character_reproducer.py",
+      "result": "center_character_results.json",
+      "exit_code": 0,
+      "result_sha256": "39dab94daf550e0c8b4b0cee9049e4eb460852be7fc27ff53b2df94510f62bec"
+    },
+    {
+      "script": "gap_trace_reproducer.py",
+      "result": "gap_trace_results.json",
+      "exit_code": 0,
+      "result_sha256": "5ea0f756894b03cb885bb3f81cb51d9027ab4c5021b67b4254d29278576115ae"
+    },
+    {
+      "script": "gap_curvature_reproducer.py",
+      "result": "gap_curvature_results.json",
+      "exit_code": 0,
+      "result_sha256": "784c9dca87b868cca288c69b2556550e498e4e8c1b30928684b371dce65b4c4f"
+    },
+    {
+      "script": "multiplier_exact.py",
+      "result": "multiplier_exact_results.json",
+      "exit_code": 0,
+      "result_sha256": "9707b5d28f8b94498d1436212aa57c775d6130cc1e33550f2248c807cf965220"
+    },
+    {
+      "script": "proxy_curvature_verify.py",
+      "result": "proxy_curvature_results.json",
+      "exit_code": 0,
+      "result_sha256": "3751a393220641b89b0b86daffcad4a23c7806a57030944f5f1ecb6568ac9ca5"
+    },
+    {
+      "script": "proxy_fricke_verify.py",
+      "result": "proxy_fricke_results.json",
+      "exit_code": 0,
+      "result_sha256": "9952189a9126dbf803c36107701c9b0bd628add9a2163d910e994d1cd8cd702a"
+    },
+    {
+      "script": "packet_transport_verify.py",
+      "result": "packet_transport_results.json",
+      "exit_code": 0,
+      "result_sha256": "c3e121af38445bd0f22d1aff3f2216f54fc0d220f3448e90522588d6dff9f456"
+    },
+    {
+      "script": "adversarial_packet_check.py",
+      "result": "adversarial_packet_check_results.json",
+      "exit_code": 0,
+      "result_sha256": "5ce88fb45c1eed519b5d4784654ecbd842526764d60c5b009ae3833141ee25c3"
+    }
+  ],
+  "scope": "Exact formal identities and finite seeds/obstacles only; analytical proofs are audited separately.",
+  "full_tree_Local_TP2": "OPEN",
+  "remaining_analytic_obligation_families": [
+    "Both-child current paired midpoint MP_2, including root edges",
+    "Both-child strict proxy on regular expanded states"
+  ],
+  "historical_bounded_scan": "Not rerun; never used as an all-tree proof"
+}

@@ -1,0 +1,171 @@
+{
+  "purpose": "exact algebra and fixed normalization replays, not full closure",
+  "arithmetic": "stdlib Fraction sparse polynomial ring; no external dependencies",
+  "formal": {
+    "both_anchor_identities": 2,
+    "mixed_factor_identity": true,
+    "strict_copositivity_Bernstein_identity": true,
+    "trace_pair_symbolic_tensor": true,
+    "trace_central_identity": true
+  },
+  "correlations": {
+    "canonical_child_tuple_off_Fricke": true,
+    "Fricke_both_invariance": true,
+    "paired_Cassini_residual": true
+  },
+  "fixed_root_edges": [
+    {
+      "child": "short",
+      "orientation": "reverse",
+      "mode": "raw",
+      "degrees": [
+        1,
+        4,
+        5
+      ],
+      "far_columns": [
+        0,
+        10
+      ],
+      "flux_far": "-1152",
+      "flux_central": "-10296424",
+      "factor_identity_replays": 2,
+      "all_outer_layer_coefficients": true,
+      "symbolic_upper_tail_defects": 3,
+      "extra_boundary_identity_r_ge_minus1": true
+    },
+    {
+      "child": "short",
+      "orientation": "reverse",
+      "mode": "y",
+      "degrees": [
+        2,
+        4,
+        6
+      ],
+      "far_columns": [
+        0,
+        11
+      ],
+      "flux_far": "-2304",
+      "flux_central": "-9785608",
+      "factor_identity_replays": 2,
+      "all_outer_layer_coefficients": true,
+      "symbolic_upper_tail_defects": 3,
+      "extra_boundary_identity_r_ge_minus1": true
+    },
+    {
+      "child": "short",
+      "orientation": "forward",
+      "mode": "raw",
+      "degrees": [
+        3,
+        4,
+        7
+      ],
+      "far_columns": [
+        0,
+        12
+      ],
+      "flux_far": "-130176",
+      "flux_central": "-2203559796",
+      "factor_identity_replays": 2,
+      "all_outer_layer_coefficients": true
+    },
+    {
+      "child": "short",
+      "orientation": "forward",
+      "mode": "y",
+      "degrees": [
+        4,
+        4,
+        8
+      ],
+      "far_columns": [
+        0,
+        13
+      ],
+      "flux_far": "-332928",
+      "flux_central": "-7261009140",
+      "factor_identity_replays": 2,
+      "all_outer_layer_coefficients": true
+    },
+    {
+      "child": "long",
+      "orientation": "reverse",
+      "mode": "raw",
+      "degrees": [
+        1,
+        5,
+        6
+      ],
+      "far_columns": [
+        0,
+        12
+      ],
+      "flux_far": "-1944",
+      "flux_central": "-44762988",
+      "factor_identity_replays": 2,
+      "all_outer_layer_coefficients": true,
+      "symbolic_upper_tail_defects": 4,
+      "extra_boundary_identity_r_ge_minus1": true
+    },
+    {
+      "child": "long",
+      "orientation": "reverse",
+      "mode": "y",
+      "degrees": [
+        2,
+        5,
+        7
+      ],
+      "far_columns": [
+        0,
+        13
+      ],
+      "flux_far": "-4536",
+      "flux_central": "-476065828",
+      "factor_identity_replays": 2,
+      "all_outer_layer_coefficients": true,
+      "symbolic_upper_tail_defects": 4,
+      "extra_boundary_identity_r_ge_minus1": true
+    },
+    {
+      "child": "long",
+      "orientation": "forward",
+      "mode": "raw",
+      "degrees": [
+        5,
+        5,
+        10
+      ],
+      "far_columns": [
+        0,
+        16
+      ],
+      "flux_far": "-12824568",
+      "flux_central": "-9699066059860",
+      "factor_identity_replays": 2,
+      "all_outer_layer_coefficients": true
+    },
+    {
+      "child": "long",
+      "orientation": "forward",
+      "mode": "y",
+      "degrees": [
+        6,
+        5,
+        11
+      ],
+      "far_columns": [
+        0,
+        17
+      ],
+      "flux_far": "-34682904",
+      "flux_central": "-45851005181620",
+      "factor_identity_replays": 2,
+      "all_outer_layer_coefficients": true
+    }
+  ],
+  "analytical_claims": "See packet_algebra.md; full MP_sharp BOTH closure remains OPEN"
+}

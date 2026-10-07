@@ -1,0 +1,70 @@
+{
+  "scope": "Exact actual first-short witness only, not gap or target failure.",
+  "actual_state": "first degree-ordered short child",
+  "regular_P_Q_verified": true,
+  "both_curvatures_nonnegative": true,
+  "kappa_X": {
+    "0,0": 45,
+    "0,2": 36,
+    "0,4": 16,
+    "1,1": 68,
+    "1,3": 40,
+    "2,0": 36,
+    "2,2": 56,
+    "3,1": 40,
+    "4,0": 16
+  },
+  "kappa_Y_terms": 14,
+  "kappa_X_boundary0": [
+    45,
+    36,
+    16,
+    0,
+    0
+  ],
+  "kappa_X_boundary2": [
+    36,
+    56,
+    0,
+    0,
+    0
+  ],
+  "a_boundary": [
+    -99,
+    -52,
+    -48,
+    0,
+    0
+  ],
+  "signed_Cassini_correction": [
+    -245,
+    43,
+    -44,
+    48
+  ],
+  "mixed_J_R_S_boundary": [
+    622,
+    470,
+    268,
+    -16
+  ],
+  "Sigma_K_boundary": [
+    7,
+    -1,
+    0,
+    0
+  ],
+  "twice_gap_defects": [
+    384,
+    512,
+    224,
+    32
+  ],
+  "negative_correction_indices": [
+    0,
+    2
+  ],
+  "imports": [
+    "/workspace/scratch/bcb55137482a/AIMath-resume/AIMath-research/research/local-tp2-coefficient-geometry-20261003/common_closure_20261004/network_exterior_reproducer.py (sparse Laurent arithmetic only)"
+  ]
+}

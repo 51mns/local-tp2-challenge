@@ -1,0 +1,13 @@
+# Bounded primary-source bridge triage
+
+Status: DRAFT research triage, not a novelty audit or an exhaustive literature search. These sources do not, by the statements inspected below, supply the missing Fourier-minor preservation theorem. That is a scope comparison, not a claim that no usable theorem exists.
+
+1. Evans, Jouteur, Morier-Genoud and Ovsienko, *On q-deformed Markov numbers. Cohn matrices and perfect matchings with weighted edges*, [arXiv:2507.19080v1](https://arxiv.org/html/2507.19080v1), Introduction, Proposition 2 and Theorem 3. This paper constructs Laurent deformations with a different mutation and weighted snake-graph models. Its positivity/unimodality results concern individual polynomial rows. A mapping to the present generalized k-Markov family, followed by an adjacent two-row coefficient-minor theorem for the actual gaps, would still be required. Neither is established by this triage.
+
+2. Banaian and Huang, *Orderings of Generalized k-Markov Numbers*, [arXiv:2604.17445v1](https://arxiv.org/html/2604.17445v1), Theorem 1 and Proposition 19. This source uses the same equal-parameter generalized Markov equation. The inspected theorem classifies growth of scalar generalized Markov numbers along rational lines; the displayed fixed-direction recurrences agree with the present seed traces. Scalar monotonicity at integer k does not itself certify the Fourier coefficient determinants after x=q+q^-1. No transfer of its conclusion to Local TP2 is claimed.
+
+3. Gyoda, *Words for generalized Markov numbers*, [arXiv:2605.26951v2](https://arxiv.org/html/2605.26951v2), Introduction, Theorems 3.6 and 3.12. The word model provides a binary-tree description and matrix evaluation, with entries expressed by order-ideal counts; the monodromy matrix contains signed entries. It offers a structural language, but a positive resolution of the normalized two-variable gap Bezoutian is not supplied by these statements. Importing word/matrix positivity alone would repeat the previously recorded gap between positive entries and Fourier TP2.
+
+The existing exact warnings in ../fulltree_20261004/external_skein_bridge.md remain relevant: positive products or one-row coefficient positivity cannot replace the target two-row determinant, and cancelling the common x+1 factor is not order-reflecting in general.
+
+Decision: no externally sourced complete bridge obtained in this bounded check. Reopening requires a specific theorem plus a verified mapping of all its hypotheses and its conclusion to the actual normalized coefficient minors. Bibliographic adjacency alone is not a continuation asset.

@@ -1,0 +1,168 @@
+{
+  "base_commit": "604f4369756ecd6e1896a916e5164a4b1fc6a9e2",
+  "base_tree": "dfe3530a20d34da96d8dbdfadc461fe4dee7d160",
+  "research_branch": "research/local-tp2-coefficient-geometry-20261003",
+  "primary_campaign_level": "DRAFT",
+  "strategy_decision": "HOLD current closure scheme",
+  "full_tree_Local_TP2": "OPEN",
+  "arithmetic": "Python integer/Fraction, standard library",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "files": [
+    {
+      "file": "BRIEF.md",
+      "bytes": 2052,
+      "sha256": "9d5bdc9d389ff0932d7c4841a1eea85dfaa35d991792a2edcbad2b4bde405f97"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2656,
+      "sha256": "c64c96b512db940a44d2ee2289247785d76aa83c5cf6c1c060cc951e529b1d79"
+    },
+    {
+      "file": "RESULT_JA.md",
+      "bytes": 4821,
+      "sha256": "4c7076ba38b1f6b647336754bf89dd6b63b841356cb2964c88c5914d6f65766f"
+    },
+    {
+      "file": "alternative_parity_audit.md",
+      "bytes": 8220,
+      "sha256": "acdb28c1efa09a3c01babb90e7ef90021b82df8072166aa264f5c7530fac4582"
+    },
+    {
+      "file": "alternative_parity_results.json",
+      "bytes": 3534,
+      "sha256": "0875ed5a4ab74775ea7b9e5dfcac8f384a0fcda7916a2eb6318248f13b74e04b"
+    },
+    {
+      "file": "alternative_parity_verify.py",
+      "bytes": 4121,
+      "sha256": "370e0a9bc71f0e759e54158bf141465097f0523197612a7ea0e8f4856f7e7d61"
+    },
+    {
+      "file": "audit_dependency.md",
+      "bytes": 8802,
+      "sha256": "b5a4d077ad658773ca16a8b29a9310398403c92e3d173374492abcde086e5367"
+    },
+    {
+      "file": "audit_fresh.md",
+      "bytes": 9722,
+      "sha256": "a102610a1b5d546452a6efc08111d50b07ddc3bb5e836f241e3d03181deadd3d"
+    },
+    {
+      "file": "audit_fresh_results.json",
+      "bytes": 14936,
+      "sha256": "0b87d776f5c0a1a198b7f019723ca355063e98398eb9147ca4c38e3024d901bf"
+    },
+    {
+      "file": "audit_fresh_verify.py",
+      "bytes": 9823,
+      "sha256": "a03fa60896df41097bb50b859a8029c6c6df4823958ef4b140e0e320ac47d99b"
+    },
+    {
+      "file": "external_triage.md",
+      "bytes": 2619,
+      "sha256": "22a69ce40ab19150c6fcc34ae606bd3eb2a5ba6128dede4bdeeed714013a23ba"
+    },
+    {
+      "file": "falsification.md",
+      "bytes": 3864,
+      "sha256": "67efed238edc2c74820adb9942eec5224a1c701bf75d5b86cbe971350e4c9c7a"
+    },
+    {
+      "file": "falsification_continuum_results.json",
+      "bytes": 19021,
+      "sha256": "c8ff9467dec9d6440ea33cba88fd6ac74d58776f9cdc666de68ee96dfea9d9ad"
+    },
+    {
+      "file": "falsification_continuum_verify.py",
+      "bytes": 4874,
+      "sha256": "f1f25ec8637c2f29e32d131b99842cf9eb7304ed881d105212d6251a56671ce4"
+    },
+    {
+      "file": "falsification_packet_results.json",
+      "bytes": 1980,
+      "sha256": "1445a01e184f196dc5bd6c77df36dc03c194f8ae111b7ec81b006427679e5b89"
+    },
+    {
+      "file": "falsification_packet_verify.py",
+      "bytes": 2828,
+      "sha256": "ff1276e2daee23bc63ef32290dcdb1a298e2ed368c6dda862aab21dbba157f16"
+    },
+    {
+      "file": "falsification_results.json",
+      "bytes": 4543,
+      "sha256": "b0e150e900a374b4d9bc9e052a0f428ca5ddacf7d66d50fc9766a39f5a88b112"
+    },
+    {
+      "file": "falsification_verify.py",
+      "bytes": 3532,
+      "sha256": "9c0553ec7a1eabe271a38365536bee2ebcbb5e67879d6cca4b3fa4bd0d1215ea"
+    },
+    {
+      "file": "long_gate.md",
+      "bytes": 6361,
+      "sha256": "f473fee770ef06899c66b587234a9979f93ae0ec351e966aef631cbd574c87ec"
+    },
+    {
+      "file": "long_gate_results.json",
+      "bytes": 2468,
+      "sha256": "635b7653caf73206335f4f48425fd0fc3bc94833199c3f1d6cd82cf7042b0229"
+    },
+    {
+      "file": "long_gate_verify.py",
+      "bytes": 5752,
+      "sha256": "3909d1aa97f5b2c94fec1e589d22254683b8cf7d1dccec0c144df7587c102e02"
+    },
+    {
+      "file": "packet_gate.md",
+      "bytes": 8115,
+      "sha256": "ec85793e9ae626968e02eace1aa870fb86e70f4d09646acd51fa12b591b5df14"
+    },
+    {
+      "file": "packet_gate_probe.py",
+      "bytes": 1110,
+      "sha256": "c570f62f74756bb4e2c5a27a78f78ef32f9861d69efc2c74ba7593ea0d42b779"
+    },
+    {
+      "file": "packet_gate_results.json",
+      "bytes": 1693,
+      "sha256": "1c8fa1e27dadbf7ef34025f467223c1758a2afb19492950ba0ebd190b6d98d25"
+    },
+    {
+      "file": "packet_gate_verify.py",
+      "bytes": 2218,
+      "sha256": "f58d8e872b44a9e01cd6afce3dcb5c6cf98a1a2eefdebfba5640245bdd8639f8"
+    },
+    {
+      "file": "replay_results.json",
+      "bytes": 1331,
+      "sha256": "b3fb1898b7c1a1cdf1230043537281469613a8df26be60a97b01ff2ba9e7a7cf"
+    },
+    {
+      "file": "short_gate.md",
+      "bytes": 6589,
+      "sha256": "aec9a27fc4dea70afa3c5252de109eb665871fa67e8e9af773cefd09c2f25076"
+    },
+    {
+      "file": "short_gate_results.json",
+      "bytes": 10813,
+      "sha256": "20253d4a546af6dca9257557ff98c27834d538a2b7a89041553e3dd7466f959d"
+    },
+    {
+      "file": "short_gate_verify.py",
+      "bytes": 5078,
+      "sha256": "ad724ca105d6ed6acc34fd617cd7958abfdd3d73c98837ac732255d93155fa07"
+    },
+    {
+      "file": "supervisor_witness_results.json",
+      "bytes": 1340,
+      "sha256": "f046cf5f03e675b34f74288a5370ce4c5eabb8a7bf7ca89deaec369ceaae7d94"
+    },
+    {
+      "file": "supervisor_witness_verify.py",
+      "bytes": 7526,
+      "sha256": "d7ddd023a39b9d0d673b575a657b0e8d56e61ca9f7f014388720c4dd34550bfe"
+    }
+  ],
+  "scope": "Final lane-local snapshot; self-hashing manifest excluded; old source tree preserved. No mathematical novelty or canonical promotion claimed."
+}

@@ -1,0 +1,274 @@
+{
+  "status": "PASS",
+  "method": "independent direct Laurent ring",
+  "polynomials_verified": 33,
+  "Bernstein_coefficients_verified": 159,
+  "producer_polynomials_replayed": 9,
+  "producer_Bernstein_coefficients_replayed": 57,
+  "certificates": {
+    "Q_defect_0": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "5492",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_defect_1": {
+      "degrees": [
+        2,
+        1
+      ],
+      "strict_lower_bound": "11184",
+      "Bernstein_coefficient_count": 6
+    },
+    "Q_defect_2": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "5896",
+      "Bernstein_coefficient_count": 3
+    },
+    "Q_defect_3": {
+      "degrees": [
+        1,
+        0
+      ],
+      "strict_lower_bound": "945",
+      "Bernstein_coefficient_count": 2
+    },
+    "Q_defect_4": {
+      "degrees": [
+        0,
+        0
+      ],
+      "strict_lower_bound": "81",
+      "Bernstein_coefficient_count": 1
+    },
+    "Q_amplification": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "884",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_pair_0": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "160113774",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_margin_0": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "151266414",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_pair_1": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "345114372",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_margin_1": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "338478852",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_pair_2": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "293626080",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_margin_2": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "290971872",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_pair_3": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "145997748",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_margin_3": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "145555380",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_pair_4": {
+      "degrees": [
+        2,
+        2
+      ],
+      "strict_lower_bound": "44771268",
+      "Bernstein_coefficient_count": 9
+    },
+    "Q_pair_5": {
+      "degrees": [
+        2,
+        1
+      ],
+      "strict_lower_bound": "8246856",
+      "Bernstein_coefficient_count": 6
+    },
+    "Q_pair_6": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "854442",
+      "Bernstein_coefficient_count": 3
+    },
+    "Q_pair_7": {
+      "degrees": [
+        1,
+        0
+      ],
+      "strict_lower_bound": "42444",
+      "Bernstein_coefficient_count": 2
+    },
+    "Q_pair_8": {
+      "degrees": [
+        0,
+        0
+      ],
+      "strict_lower_bound": "729",
+      "Bernstein_coefficient_count": 1
+    },
+    "G_defect_0": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "52",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_defect_1": {
+      "degrees": [
+        1,
+        0
+      ],
+      "strict_lower_bound": "16",
+      "Bernstein_coefficient_count": 2
+    },
+    "G_defect_2": {
+      "degrees": [
+        0,
+        0
+      ],
+      "strict_lower_bound": "9",
+      "Bernstein_coefficient_count": 1
+    },
+    "G_pair_0": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "278388",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_margin_0": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "17268",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_pair_1": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "554439",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_margin_1": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "358599",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_pair_2": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "400962",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_margin_2": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "322626",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_pair_3": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "151266",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_margin_3": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "138210",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_pair_4": {
+      "degrees": [
+        2,
+        0
+      ],
+      "strict_lower_bound": "29730",
+      "Bernstein_coefficient_count": 3
+    },
+    "G_pair_5": {
+      "degrees": [
+        1,
+        0
+      ],
+      "strict_lower_bound": "2691",
+      "Bernstein_coefficient_count": 2
+    },
+    "G_pair_6": {
+      "degrees": [
+        0,
+        0
+      ],
+      "strict_lower_bound": "81",
+      "Bernstein_coefficient_count": 1
+    }
+  }
+}

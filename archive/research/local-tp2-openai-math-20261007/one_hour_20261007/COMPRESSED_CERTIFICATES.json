@@ -1,0 +1,34 @@
+[
+  {
+    "path": "hour_root/uniform_ray_closure_results.json.gz",
+    "unpacked_path": "hour_root/uniform_ray_closure_results.json",
+    "unpacked_size": 19303763,
+    "unpacked_sha256": "41764a744cce567bfac38da61bbeaa35ab459d347fbe5d3c9a3b22de50b7d8fb",
+    "compressed_size": 7412281,
+    "compressed_sha256": "88ca447cbfd376b5febfff2d28433ca22fdca5ea9484c592ef00f9b3f9749ecf"
+  },
+  {
+    "path": "hour_quantum/uniform_seed_strength_certificates.json.gz",
+    "unpacked_path": "hour_quantum/uniform_seed_strength_certificates.json",
+    "unpacked_size": 1272335,
+    "unpacked_sha256": "4338ff341702bbfba010a3b26b704934bd467c815b77e35b9d027ce12b678496",
+    "compressed_size": 537390,
+    "compressed_sha256": "c879383fa7a0a8949076c04ddc11634550667fcac3ecc9185f39aad14e74f136"
+  },
+  {
+    "path": "hour_quantum/uniform_ax_normalized_certificates.json.gz",
+    "unpacked_path": "hour_quantum/uniform_ax_normalized_certificates.json",
+    "unpacked_size": 2814781,
+    "unpacked_sha256": "4ed26ec3802d68462d662afabe1210d17f1e5031ac4521db892821b23fa39b92",
+    "compressed_size": 933024,
+    "compressed_sha256": "274a6a6a2fe5cad01d3814a64bcfabc2053a811880712a20cb13638d14285b50"
+  },
+  {
+    "path": "hour_transport/uniform_mixed_transport_results.json.gz",
+    "unpacked_path": "hour_transport/uniform_mixed_transport_results.json",
+    "unpacked_size": 12523976,
+    "unpacked_sha256": "7cdea674b8d5b94e9cc3adbb6d9c290ed81aa93d64c0c52160f10c7f2eff9729",
+    "compressed_size": 5697236,
+    "compressed_sha256": "94eebe61ac13afb4cbef79db0eb845294d80aa7f023aa4ab2dc9d99272413dca"
+  }
+]

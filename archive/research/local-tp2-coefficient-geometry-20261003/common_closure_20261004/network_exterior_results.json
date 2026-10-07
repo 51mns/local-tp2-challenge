@@ -1,0 +1,256 @@
+{
+  "root_rows": {
+    "G": [
+      9,
+      6,
+      2
+    ],
+    "s": [
+      2,
+      1
+    ],
+    "r": [
+      7,
+      5,
+      2
+    ],
+    "d": [
+      1
+    ],
+    "u": [
+      61,
+      49,
+      24,
+      6
+    ],
+    "v": [
+      70,
+      55,
+      26,
+      6
+    ]
+  },
+  "root_folded_defects": {
+    "s": [
+      2,
+      1
+    ],
+    "r": [
+      13,
+      7,
+      4
+    ],
+    "u": [
+      383,
+      655,
+      246,
+      36
+    ],
+    "v": [
+      670,
+      859,
+      310,
+      36
+    ]
+  },
+  "root_adjacent_minors": {
+    "s_lr_r": [
+      3,
+      2
+    ],
+    "v_lr_u": [
+      75,
+      46,
+      12
+    ]
+  },
+  "right_child": {
+    "actual_child": "R",
+    "N_halfrows": {
+      "a": [
+        7,
+        4,
+        2
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "c": [
+        2,
+        2
+      ],
+      "d": [
+        1
+      ]
+    },
+    "input_halfrows": {
+      "U": [
+        11,
+        8,
+        3
+      ],
+      "G": [
+        2,
+        1
+      ]
+    },
+    "output_halfrows": {
+      "s": [
+        56,
+        45,
+        22,
+        6
+      ],
+      "r": [
+        157,
+        131,
+        76,
+        28,
+        6
+      ]
+    },
+    "output_adjacent_minors": [
+      271,
+      538,
+      160,
+      36
+    ],
+    "central_category_sums": {
+      "UU": 180,
+      "GG": 2,
+      "UG": 89
+    },
+    "central_source_terms": [
+      {
+        "kind": "UU",
+        "i": 0,
+        "j": 0,
+        "coefficient": -6,
+        "weight": 121,
+        "contribution": -726
+      },
+      {
+        "kind": "UU",
+        "i": 0,
+        "j": 1,
+        "coefficient": 4,
+        "weight": 88,
+        "contribution": 352
+      },
+      {
+        "kind": "UU",
+        "i": 0,
+        "j": 2,
+        "coefficient": -14,
+        "weight": 33,
+        "contribution": -462
+      },
+      {
+        "kind": "UU",
+        "i": 1,
+        "j": 1,
+        "coefficient": 20,
+        "weight": 64,
+        "contribution": 1280
+      },
+      {
+        "kind": "UU",
+        "i": 1,
+        "j": 2,
+        "coefficient": -8,
+        "weight": 24,
+        "contribution": -192
+      },
+      {
+        "kind": "UU",
+        "i": 2,
+        "j": 2,
+        "coefficient": -8,
+        "weight": 9,
+        "contribution": -72
+      },
+      {
+        "kind": "GG",
+        "i": 0,
+        "j": 0,
+        "coefficient": 1,
+        "weight": 4,
+        "contribution": 4
+      },
+      {
+        "kind": "GG",
+        "i": 0,
+        "j": 1,
+        "coefficient": 0,
+        "weight": 2,
+        "contribution": 0
+      },
+      {
+        "kind": "GG",
+        "i": 1,
+        "j": 1,
+        "coefficient": -2,
+        "weight": 1,
+        "contribution": -2
+      },
+      {
+        "kind": "UG",
+        "i": 0,
+        "j": 0,
+        "coefficient": 4,
+        "weight": 22,
+        "contribution": 88
+      },
+      {
+        "kind": "UG",
+        "i": 0,
+        "j": 1,
+        "coefficient": -9,
+        "weight": 11,
+        "contribution": -99
+      },
+      {
+        "kind": "UG",
+        "i": 1,
+        "j": 0,
+        "coefficient": 11,
+        "weight": 16,
+        "contribution": 176
+      },
+      {
+        "kind": "UG",
+        "i": 1,
+        "j": 1,
+        "coefficient": -8,
+        "weight": 8,
+        "contribution": -64
+      },
+      {
+        "kind": "UG",
+        "i": 2,
+        "j": 0,
+        "coefficient": 2,
+        "weight": 6,
+        "contribution": 12
+      },
+      {
+        "kind": "UG",
+        "i": 2,
+        "j": 1,
+        "coefficient": -8,
+        "weight": 3,
+        "contribution": -24
+      }
+    ],
+    "tail_diagonal_obstruction": {
+      "i": 2,
+      "coefficient": -8,
+      "input_mass": 3,
+      "contribution": -72
+    },
+    "all_canonical_det_one_and_skew_verified": true
+  },
+  "scope": "exact actual-canonical obstruction; no all-tree Local TP2 claim",
+  "imports": "none; direct sparse Laurent arithmetic"
+}

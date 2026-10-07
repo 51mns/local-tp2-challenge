@@ -1,0 +1,640 @@
+{
+  "scope": "EXACT CONSTRUCTIVE WITNESSES; FULL CANONICAL BOTH CLOSURE OPEN",
+  "continuous_family_trace": {
+    "domain": "K>=2 and -2<=r<=2",
+    "endpoint_certificates": [
+      {
+        "r": -2,
+        "coefficients": [
+          {
+            "columns": [
+              0,
+              1
+            ],
+            "Kminus2_coefficients": [
+              5135,
+              6000,
+              4110,
+              1296,
+              144
+            ]
+          },
+          {
+            "columns": [
+              0,
+              2
+            ],
+            "Kminus2_coefficients": [
+              11050,
+              12972,
+              5688,
+              1080,
+              72
+            ]
+          },
+          {
+            "columns": [
+              0,
+              3
+            ],
+            "Kminus2_coefficients": [
+              10764,
+              12288,
+              5862,
+              1296,
+              108
+            ]
+          },
+          {
+            "columns": [
+              0,
+              4
+            ],
+            "Kminus2_coefficients": [
+              5772,
+              5820,
+              1944,
+              216
+            ]
+          },
+          {
+            "columns": [
+              0,
+              5
+            ],
+            "Kminus2_coefficients": [
+              1326,
+              720,
+              108
+            ]
+          },
+          {
+            "columns": [
+              1,
+              2
+            ],
+            "Kminus2_coefficients": [
+              6730,
+              7944,
+              2718,
+              288
+            ]
+          },
+          {
+            "columns": [
+              1,
+              3
+            ],
+            "Kminus2_coefficients": [
+              8028,
+              9180,
+              4116,
+              864,
+              72
+            ]
+          },
+          {
+            "columns": [
+              1,
+              4
+            ],
+            "Kminus2_coefficients": [
+              4614,
+              4632,
+              1440,
+              144
+            ]
+          },
+          {
+            "columns": [
+              1,
+              5
+            ],
+            "Kminus2_coefficients": [
+              1092,
+              576,
+              72
+            ]
+          },
+          {
+            "columns": [
+              2,
+              3
+            ],
+            "Kminus2_coefficients": [
+              3168,
+              3576,
+              1836,
+              432,
+              36
+            ]
+          },
+          {
+            "columns": [
+              2,
+              4
+            ],
+            "Kminus2_coefficients": [
+              2364,
+              2304,
+              720,
+              72
+            ]
+          },
+          {
+            "columns": [
+              2,
+              5
+            ],
+            "Kminus2_coefficients": [
+              612,
+              288,
+              36
+            ]
+          },
+          {
+            "columns": [
+              3,
+              4
+            ],
+            "Kminus2_coefficients": [
+              648,
+              576,
+              108
+            ]
+          },
+          {
+            "columns": [
+              3,
+              5
+            ],
+            "Kminus2_coefficients": [
+              216,
+              72
+            ]
+          },
+          {
+            "columns": [
+              4,
+              5
+            ],
+            "Kminus2_coefficients": [
+              36
+            ]
+          }
+        ]
+      },
+      {
+        "r": 2,
+        "coefficients": [
+          {
+            "columns": [
+              0,
+              1
+            ],
+            "Kminus2_coefficients": [
+              2975,
+              4848,
+              3942,
+              1296,
+              144
+            ]
+          },
+          {
+            "columns": [
+              0,
+              2
+            ],
+            "Kminus2_coefficients": [
+              10178,
+              12540,
+              5640,
+              1080,
+              72
+            ]
+          },
+          {
+            "columns": [
+              0,
+              3
+            ],
+            "Kminus2_coefficients": [
+              10332,
+              12096,
+              5838,
+              1296,
+              108
+            ]
+          },
+          {
+            "columns": [
+              0,
+              4
+            ],
+            "Kminus2_coefficients": [
+              5628,
+              5772,
+              1944,
+              216
+            ]
+          },
+          {
+            "columns": [
+              0,
+              5
+            ],
+            "Kminus2_coefficients": [
+              1302,
+              720,
+              108
+            ]
+          },
+          {
+            "columns": [
+              1,
+              2
+            ],
+            "Kminus2_coefficients": [
+              7138,
+              8136,
+              2742,
+              288
+            ]
+          },
+          {
+            "columns": [
+              1,
+              3
+            ],
+            "Kminus2_coefficients": [
+              8172,
+              9228,
+              4116,
+              864,
+              72
+            ]
+          },
+          {
+            "columns": [
+              1,
+              4
+            ],
+            "Kminus2_coefficients": [
+              4638,
+              4632,
+              1440,
+              144
+            ]
+          },
+          {
+            "columns": [
+              1,
+              5
+            ],
+            "Kminus2_coefficients": [
+              1092,
+              576,
+              72
+            ]
+          },
+          {
+            "columns": [
+              2,
+              3
+            ],
+            "Kminus2_coefficients": [
+              3168,
+              3576,
+              1836,
+              432,
+              36
+            ]
+          },
+          {
+            "columns": [
+              2,
+              4
+            ],
+            "Kminus2_coefficients": [
+              2364,
+              2304,
+              720,
+              72
+            ]
+          },
+          {
+            "columns": [
+              2,
+              5
+            ],
+            "Kminus2_coefficients": [
+              612,
+              288,
+              36
+            ]
+          },
+          {
+            "columns": [
+              3,
+              4
+            ],
+            "Kminus2_coefficients": [
+              648,
+              576,
+              108
+            ]
+          },
+          {
+            "columns": [
+              3,
+              5
+            ],
+            "Kminus2_coefficients": [
+              216,
+              72
+            ]
+          },
+          {
+            "columns": [
+              4,
+              5
+            ],
+            "Kminus2_coefficients": [
+              36
+            ]
+          }
+        ]
+      }
+    ],
+    "minimum_character_lower_bound": 36
+  },
+  "ordinary_positive_trace": {
+    "classification": "ORDINARY INTEGER-POSITIVE RELAXED TRACE/V; NO NORMALIZED FRICKE OR ORIGIN",
+    "v_mode_certificates": [
+      {
+        "mode": "raw",
+        "minimum_defect": 36,
+        "minimum_nonzero_character": 36
+      },
+      {
+        "mode": "y",
+        "minimum_defect": 36,
+        "minimum_nonzero_character": 36
+      }
+    ],
+    "witnesses": [
+      {
+        "K": 35,
+        "B": [
+          2450,
+          140,
+          2
+        ],
+        "f": [
+          7353,
+          15122,
+          8196,
+          432,
+          6
+        ],
+        "v": [
+          192,
+          480,
+          480,
+          240,
+          60,
+          6
+        ],
+        "f_row": [
+          23781,
+          16418,
+          8220,
+          432,
+          6
+        ],
+        "v_row": [
+          1512,
+          1260,
+          720,
+          270,
+          60,
+          6
+        ],
+        "child_row": [
+          56829,
+          45740,
+          28596,
+          11340,
+          4362,
+          1224,
+          216,
+          18
+        ],
+        "failed_index": 3,
+        "failed_defect": -1287036,
+        "relaxed_degree_pattern": {
+          "dX": 0,
+          "dY": 2,
+          "dC": 3,
+          "dT": 4,
+          "dv": 5
+        },
+        "relaxed_lc_pattern": {
+          "lcX": 1,
+          "lcY": 1,
+          "lcC": 2,
+          "lcT": 6,
+          "lcv": 6
+        },
+        "ordinary_ancestry_necessary_inequality": {
+          "B0": 2450,
+          "upper_bound_1plus3over2_B1minusB2": "208"
+        }
+      },
+      {
+        "K": 64,
+        "B": [
+          8192,
+          256,
+          2
+        ],
+        "f": [
+          24579,
+          49922,
+          26118,
+          780,
+          6
+        ],
+        "v": [
+          192,
+          480,
+          480,
+          240,
+          60,
+          6
+        ],
+        "f_row": [
+          76851,
+          52262,
+          26142,
+          780,
+          6
+        ],
+        "v_row": [
+          1512,
+          1260,
+          720,
+          270,
+          60,
+          6
+        ],
+        "child_row": [
+          109899,
+          81584,
+          46518,
+          11688,
+          4362,
+          1224,
+          216,
+          18
+        ],
+        "failed_index": 3,
+        "failed_defect": -71023104,
+        "relaxed_degree_pattern": {
+          "dX": 0,
+          "dY": 2,
+          "dC": 3,
+          "dT": 4,
+          "dv": 5
+        },
+        "relaxed_lc_pattern": {
+          "lcX": 1,
+          "lcY": 1,
+          "lcC": 2,
+          "lcT": 6,
+          "lcv": 6
+        },
+        "ordinary_ancestry_necessary_inequality": {
+          "B0": 8192,
+          "upper_bound_1plus3over2_B1minusB2": "382"
+        }
+      }
+    ],
+    "failed_defect_polynomial_in_K": [
+      24574464,
+      172080,
+      -26028
+    ],
+    "first_failing_integer_K_in_family_Kge2": 35
+  },
+  "canonical_monotonicity": {
+    "classification": "ACTUAL CANONICAL SSS SIGN-SHORTCUT FAILURE; NOT PACKET-CLOSURE FAILURE",
+    "path": "sss",
+    "a": [
+      0
+    ],
+    "e": [
+      33,
+      64,
+      40,
+      8
+    ],
+    "r": [
+      21,
+      50,
+      36,
+      8
+    ],
+    "T": [
+      267,
+      1262,
+      2460,
+      2508,
+      1404,
+      408,
+      48
+    ],
+    "c": [
+      232,
+      844,
+      1180,
+      792,
+      256,
+      32
+    ],
+    "B": [
+      9076,
+      59642,
+      173848,
+      293620,
+      315596,
+      223352,
+      103920,
+      30624,
+      5184,
+      384
+    ],
+    "L2": [
+      8977,
+      59450,
+      173728,
+      293596,
+      315596,
+      223352,
+      103920,
+      30624,
+      5184,
+      384
+    ],
+    "n_row": [
+      113,
+      88,
+      40,
+      8
+    ],
+    "L2_row": [
+      4691289,
+      4293982,
+      3285216,
+      2085716,
+      1084268,
+      451544,
+      145392,
+      34080,
+      5184,
+      384
+    ],
+    "raw_columns": [
+      3,
+      4
+    ],
+    "raw_character": [
+      6,
+      0
+    ],
+    "raw_mixed": -6386912,
+    "y_columns": [
+      4,
+      5
+    ],
+    "y_character": [
+      8,
+      0
+    ],
+    "y_mixed": -17705216,
+    "delta3_L2": 554312100448,
+    "delta3_n": 64,
+    "J_B_n_at_index3": -6386528
+  },
+  "weaker_index1": {
+    "classification": "WEAKER INDEX1 CRITERION FAILURE; LC/DEGREE CORRELATIONS NOT MET",
+    "A": 9450423029,
+    "v": "(x+2)^16",
+    "lc_f": 28351269087,
+    "lc_v": 1,
+    "J_beta_beta_v_index1": -558279000,
+    "base_defect": 5275972633116066754,
+    "linear_A_coefficient": -558278991,
+    "failed_index1": -37216985
+  }
+}

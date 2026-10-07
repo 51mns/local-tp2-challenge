@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-07T15:46:44.568224+00:00",
+  "scope": "Public entry pages and reference checker; not a re-review of historical proof packages or a rerun of the full historical search",
+  "python": "3.14.7",
+  "unit_tests": 7,
+  "direct_laurent_crosscheck_states": 63,
+  "publication_scan": {
+    "status": "NO_COUNTEREXAMPLE_IN_THIS_FINITE_SEARCH",
+    "exhaustive_depth": 6,
+    "states_checked": 127,
+    "supported_minors_checked": 4372,
+    "full_tree_status": "OPEN"
+  },
+  "entry_local_links_checked": 39,
+  "entry_broken_links": [],
+  "archive_files": 677,
+  "archive_hashes_match": true,
+  "sensitive_pattern_scan_files": 699,
+  "sensitive_pattern_findings": [],
+  "closure_manuscript_sha256": "035e3b69f2a6968eb2c478c6ac295b79459d1b7a94a0f0c1110f318e74c2f473",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_binomial_parity (test_check.ContractTests.test_binomial_parity) ... ok\ntest_direct_laurent_reconstruction (test_check.ContractTests.test_direct_laurent_reconstruction) ... ok\ntest_finite_count_and_terminal (test_check.ContractTests.test_finite_count_and_terminal) ... ok\ntest_first_children_and_orientation (test_check.ContractTests.test_first_children_and_orientation) ... ok\ntest_input_guards (test_check.ContractTests.test_input_guards) ... ok\ntest_negative_and_zero_controls (test_check.ContractTests.test_negative_and_zero_controls) ... ok\ntest_root (test_check.ContractTests.test_root) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.038s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "check.py",
+        "--depth",
+        "6"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"NO_COUNTEREXAMPLE_IN_THIS_FINITE_SEARCH\",\n  \"exhaustive_depth\": 6,\n  \"states_checked\": 127,\n  \"supported_minors_checked\": 4372,\n  \"full_tree_status\": \"OPEN\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "check.py",
+        "--word",
+        "LRL"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"word\": \"LRL\",\n  \"S\": [\n    287124,\n    2917774,\n    13818106,\n    40394668,\n    81373800,\n    119404900,\n    131510300,\n    110354508,\n    70839816,\n    34590192,\n    12636432,\n    3346416,\n    606816,\n    67392,\n    3456\n  ],\n  \"D\": [\n    4105804,\n    50857674,\n    297350286,\n    1089349442,\n    2799420590,\n    5352738082,\n    7882050090,\n    9125614692,\n    8406037200,\n    6192941664,\n    3647333040,\n    1706671296,\n    626427072,\n    176495904,\n    36847008,\n    5368896,\n    487296,\n    20736\n  ],\n  \"H_S\": [\n    11862099096,\n    11200611614,\n    9423624862,\n    7051490748,\n    4677615120,\n    2737477288,\n    1403827244,\n    624993228,\n    238511976,\n    76657344,\n    20232720,\n    4222512,\n    655200,\n    67392,\n    3456\n  ],\n  \"H_D\": [\n    2394135907300,\n    2282955498640,\n    1978760277884,\n    1557324402496,\n    1110892104554,\n    716352699454,\n    416086654266,\n    216663696900,\n    100522743984,\n    41225205792,\n    14790421392,\n    4578952608,\n    1200760704,\n    259849440,\n    44643744,\n    5721408,\n    487296,\n    20736\n  ],\n  \"minors\": [\n    264857907826965847240,\n    649609153965886557096,\n    722431165551665438320,\n    548881225428524326872,\n    309780312583749774928,\n    133392330086614185832,\n    44107059316551032952,\n    11149147774893665952,\n    2126898729051146496,\n    299696374819588608,\n    30191934198157056,\n    2070096733006848,\n    89331687724032,\n    2110591531008,\n    19773186048\n  ],\n  \"degree_S\": 14,\n  \"degree_D\": 17,\n  \"all_strict\": true,\n  \"failures\": [],\n  \"minimum_relative_margin\": {\n    \"index\": 0,\n    \"numerator\": 6621447695674146181,\n    \"denominator\": 677016108915644330736\n  }\n}\n",
+      "stderr": ""
+    }
+  ]
+}

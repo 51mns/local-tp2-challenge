@@ -1,0 +1,237 @@
+{
+  "status": "PASS; analytical all-m trace theorem, not all Local TP2",
+  "symbolic_identity_checks": {
+    "raw_subtraction": 5,
+    "smoothed_subtraction": 5,
+    "unshifted_trace_improvements": 10
+  },
+  "input_theorems": [
+    "mixed_kernel_sharp_strength.md",
+    "mixed_kernel_strong_cone.md",
+    "recovery_oneturn_closure.md section 1"
+  ],
+  "uniform_trace_strength": "18 (m=0); 18*4^m - 18*2^m - 11 (m>=1)",
+  "uniform_smoothed_trace_strength": "18 (m=0); 72 (m=1); 9*4^m - 21*2^m - 25 (m>=2)",
+  "shift_parameter_domain": "all real r in [-2,2]",
+  "small_m_certificates": [
+    {
+      "m": 0,
+      "smoothed": false,
+      "strength": 18,
+      "trace_x_coefficients": [
+        87,
+        308,
+        444,
+        324,
+        120,
+        18
+      ],
+      "half_rows_at_r_minus2_and_plus2": [
+        [
+          1697,
+          1460,
+          924,
+          414,
+          120,
+          18
+        ],
+        [
+          1693,
+          1460,
+          924,
+          414,
+          120,
+          18
+        ]
+      ],
+      "degree_two_bernstein_margins": [
+        [
+          154091,
+          145491,
+          136907
+        ],
+        [
+          287956,
+          289804,
+          291652
+        ],
+        [
+          172188,
+          172188,
+          172188
+        ],
+        [
+          46116,
+          46116,
+          46116
+        ],
+        [
+          4464,
+          4464,
+          4464
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "m": 0,
+      "smoothed": true,
+      "strength": 18,
+      "trace_x_coefficients": [
+        87,
+        308,
+        444,
+        324,
+        120,
+        18
+      ],
+      "half_rows_at_r_minus2_and_plus2": [
+        [
+          4617,
+          4081,
+          2798,
+          1458,
+          552,
+          138,
+          18
+        ],
+        [
+          4613,
+          4077,
+          2798,
+          1458,
+          552,
+          138,
+          18
+        ]
+      ],
+      "degree_two_bernstein_margins": [
+        [
+          842827,
+          851447,
+          860051
+        ],
+        [
+          1784031,
+          1770423,
+          1756831
+        ],
+        [
+          1247074,
+          1249990,
+          1252906
+        ],
+        [
+          451524,
+          451524,
+          451524
+        ],
+        [
+          84456,
+          84456,
+          84456
+        ],
+        [
+          6300,
+          6300,
+          6300
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "m": 1,
+      "smoothed": true,
+      "strength": 72,
+      "trace_x_coefficients": [
+        582,
+        2984,
+        6627,
+        8232,
+        6156,
+        2760,
+        684,
+        72
+      ],
+      "half_rows_at_r_minus2_and_plus2": [
+        [
+          180054,
+          163765,
+          122855,
+          75315,
+          37068,
+          14208,
+          4020,
+          756,
+          72
+        ],
+        [
+          180050,
+          163761,
+          122855,
+          75315,
+          37068,
+          14208,
+          4020,
+          756,
+          72
+        ]
+      ],
+      "degree_two_bernstein_margins": [
+        [
+          889062748,
+          889407086,
+          889751408
+        ],
+        [
+          1927259925,
+          1926700089,
+          1926140269
+        ],
+        [
+          1632184405,
+          1632335035,
+          1632485665
+        ],
+        [
+          808976301,
+          808976301,
+          808976301
+        ],
+        [
+          248438304,
+          248438304,
+          248438304
+        ],
+        [
+          46411776,
+          46411776,
+          46411776
+        ],
+        [
+          4847616,
+          4847616,
+          4847616
+        ],
+        [
+          222480,
+          222480,
+          222480
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ]
+}

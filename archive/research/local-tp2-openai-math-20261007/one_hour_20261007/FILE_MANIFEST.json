@@ -1,0 +1,280 @@
+{
+  "scope": "Fixed files for the exact proof/replay package, including the separately proved trace auxiliary result",
+  "files": [
+    {
+      "path": "COMPRESSED_CERTIFICATES.json",
+      "bytes": 1589,
+      "sha256": "9777f8763b5949f0de10c585e08b0b004bef4a34356833ca25bdacce4e4f3a11"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2281,
+      "sha256": "26640eaec24d0ab267dfd5d31f3740d224cad0ad26343120afebb5f6e4da8d66"
+    },
+    {
+      "path": "RESULT_JA.md",
+      "bytes": 12037,
+      "sha256": "8bccdb7de0544f35e01ba807380cea5398d095276352e6a91e61670692c560f8"
+    },
+    {
+      "path": "RUN_CONTEXT.json",
+      "bytes": 1544,
+      "sha256": "b44ae6306a83de293f95a97bf1a4554ef1f0dfd6ca1a7770c66bcf861c7f18b2"
+    },
+    {
+      "path": "hour_invariant/ALL_M_INITIAL_COMPARISONS.md",
+      "bytes": 9240,
+      "sha256": "cb1307ceb2d64bbd5936b9f9a436e1f07829cde00781bdec286a1b2f0f1a3a3c"
+    },
+    {
+      "path": "hour_invariant/AUDIT_ARBITRARY_K_TRACE.md",
+      "bytes": 8384,
+      "sha256": "3ef06b04eaf594fe91d68746021c4352bebc35ced4d3f0ded3f55209326b2c8b"
+    },
+    {
+      "path": "hour_invariant/AUDIT_UNIFORM_RAY.md",
+      "bytes": 10651,
+      "sha256": "150a6e32721592425990213baffe3d4fb1190c02e028ff1c8d4e52b5eda6b62e"
+    },
+    {
+      "path": "hour_invariant/FINITE_RAY_EXTENSION_CRITERION.md",
+      "bytes": 26811,
+      "sha256": "806487103b7c078d90f5a92a605254c953bf16f978dab230fa663ed946c0aae1"
+    },
+    {
+      "path": "hour_invariant/LRR_AUDIT.md",
+      "bytes": 9016,
+      "sha256": "4b9c976ee7401973a670234cad3aeb5eec00eb663df250f4ca092fcfb97a631c"
+    },
+    {
+      "path": "hour_invariant/NORMALIZED_SMOOTHING_AUDIT.md",
+      "bytes": 2828,
+      "sha256": "ae550475041ff421d8decd36fcd5b3d580120de0448c28a0cb4e73d2f68fae8b"
+    },
+    {
+      "path": "hour_invariant/THEOREM_R2_RAY.md",
+      "bytes": 16160,
+      "sha256": "790b9e0b41aac874312ae56aebfa513494c7675b65e14e865984dd7a7b50bf7c"
+    },
+    {
+      "path": "hour_invariant/UNIFORM_SEED_ALGEBRA_AUDIT.md",
+      "bytes": 3903,
+      "sha256": "9bc191253ed550917822e82d80f9679c8a642f8a3a18cfe6df6afae98b399cb5"
+    },
+    {
+      "path": "hour_invariant/arbitrary_k_trace_independent_audit.json",
+      "bytes": 38105,
+      "sha256": "4ac15191266039fa693b4a7be15bd58fd588ce084b54720be024b257d5573abe"
+    },
+    {
+      "path": "hour_invariant/audit_arbitrary_k_trace.py",
+      "bytes": 8917,
+      "sha256": "ccc70a06f08f52d1276528e9632fa9066d7ac12d6505f08aa9babcaf3101698c"
+    },
+    {
+      "path": "hour_invariant/audit_lrr_independent.py",
+      "bytes": 7397,
+      "sha256": "e8db2fe811fbc4785a739859900e52a0220444a920d2cfc8243369edbf0d620e"
+    },
+    {
+      "path": "hour_invariant/companion_seed_audit.json",
+      "bytes": 712,
+      "sha256": "c93a78982308e2dd8ecce2a4ce337e7939a3ebcf86bd9e60276eaf9924849d2f"
+    },
+    {
+      "path": "hour_invariant/lrr_independent_results.json",
+      "bytes": 39856,
+      "sha256": "4f07bcb0e66d165d1180f13deeba23f6bfc00578bb133c8d14a00c0ddad80466"
+    },
+    {
+      "path": "hour_invariant/r2_ray_certificates.json",
+      "bytes": 44401,
+      "sha256": "d9ac23cb75b4f4c9ff520be6a752183f20e09f907cb73297f388307527c5c56f"
+    },
+    {
+      "path": "hour_invariant/uniform_tail_scalar_audit.json",
+      "bytes": 2944,
+      "sha256": "f6004c6cbe36c8497517b42187c1d9979a00420acd24d837d76760a5246592e5"
+    },
+    {
+      "path": "hour_invariant/verify_r2_ray.py",
+      "bytes": 8482,
+      "sha256": "11be3b880aa6730bcaf018b294125c6924ffb17b72f004230c30ef25d7bbfda6"
+    },
+    {
+      "path": "hour_quantum/AUDIT_ALL_M_INITIAL_COMPARISONS.md",
+      "bytes": 3338,
+      "sha256": "024499edcbac5af2ada44f64968acc62169d48a795071a0bc2584dcbf5bfdb8f"
+    },
+    {
+      "path": "hour_quantum/AUDIT_ALL_M_TRANSPORT.md",
+      "bytes": 10673,
+      "sha256": "e785f46ef07f169bc5c63dc4578185f073961e4567582dc5fd07f1569ed7d8c5"
+    },
+    {
+      "path": "hour_quantum/AUDIT_FINITE_RAY_CRITERION.md",
+      "bytes": 4359,
+      "sha256": "fbdc643a287acd30abde655b5cb990fc44b8ac2350af19490f8297516e475582"
+    },
+    {
+      "path": "hour_quantum/AUDIT_R2_RAY.md",
+      "bytes": 7675,
+      "sha256": "c4c3f8a98459cf499fd55b16c47066f059e8e16f69991cd3800c72cc420bc3dc"
+    },
+    {
+      "path": "hour_quantum/AUDIT_UNIFORM_RAY_ASSEMBLY.md",
+      "bytes": 4471,
+      "sha256": "0dc8a8a0b3ed4b0116e80355563edcc449c0b154293a530fa974bf46f8163c8e"
+    },
+    {
+      "path": "hour_quantum/UNIFORM_SEED_STRENGTH.md",
+      "bytes": 11327,
+      "sha256": "366c6bfd49889efb4ff0ea0c1c94f1502f0c50d6802e6e7ab89760804b1e7ec8"
+    },
+    {
+      "path": "hour_quantum/audit_all_m_transport.py",
+      "bytes": 9193,
+      "sha256": "d8772491c1b964e07c1fb6b419cac2250c19da6eebd1ae607bf600fbaed999bd"
+    },
+    {
+      "path": "hour_quantum/audit_all_m_transport_results.json",
+      "bytes": 26340,
+      "sha256": "0489c102ca3a0d2389015fb77588912c7c88b234341f4403582889869cb17c11"
+    },
+    {
+      "path": "hour_quantum/audit_r2_ray.py",
+      "bytes": 7957,
+      "sha256": "0748ee1d77408ff368f01a8682c5c33b06480ec21f5cd66c1159287f39916fde"
+    },
+    {
+      "path": "hour_quantum/audit_r2_ray_results.json",
+      "bytes": 1007,
+      "sha256": "f175627f7b573459cc2e282f6a03110fb2f94ef740642561733d84f54da06dfc"
+    },
+    {
+      "path": "hour_quantum/audit_uniform_seed_finite.py",
+      "bytes": 5914,
+      "sha256": "b5e344e2bd6dfae7b03d034093e407c1c69e8eb525b9e6b474aa3d8dc3c4f568"
+    },
+    {
+      "path": "hour_quantum/audit_uniform_seed_finite_results.json",
+      "bytes": 32874,
+      "sha256": "1152dfca7f309772577f12601073a4e57a0d302f1cae064389cfeedbd7122e0d"
+    },
+    {
+      "path": "hour_quantum/lrrl_certificate.py",
+      "bytes": 12747,
+      "sha256": "8554fe9a7bcfec3a5675494442cc8fb372caeaf8eefe9fe40fa795372594c358"
+    },
+    {
+      "path": "hour_quantum/lrrl_certificates.json",
+      "bytes": 133219,
+      "sha256": "7490069713fab905ad1d116d1b6f60ff1d08875deb1dee8cd146c85e84c231d3"
+    },
+    {
+      "path": "hour_quantum/lrrl_theorem.md",
+      "bytes": 17786,
+      "sha256": "683d04376d4c5a649f1befb5ffa2ddc4c9cf5333761e04b4156d143ab95bacf4"
+    },
+    {
+      "path": "hour_quantum/uniform_ax_normalized.py",
+      "bytes": 4661,
+      "sha256": "0e84e2369527b5ef17625bb9e7fdc481bbf6a8b50c8417db496d82d4b1d30891"
+    },
+    {
+      "path": "hour_quantum/uniform_ax_normalized_certificates.json.gz",
+      "bytes": 933024,
+      "sha256": "274a6a6a2fe5cad01d3814a64bcfabc2053a811880712a20cb13638d14285b50"
+    },
+    {
+      "path": "hour_quantum/uniform_seed_strength.py",
+      "bytes": 5345,
+      "sha256": "f05d7f7e390fd5a5f6373375fc40917c4da5382c28cb52ae292444d43c85ef71"
+    },
+    {
+      "path": "hour_quantum/uniform_seed_strength_certificates.json.gz",
+      "bytes": 537390,
+      "sha256": "c879383fa7a0a8949076c04ddc11634550667fcac3ecc9185f39aad14e74f136"
+    },
+    {
+      "path": "hour_root/UNIFORM_RAY_CLOSURE.md",
+      "bytes": 17393,
+      "sha256": "76aa41d5a611d27c138867a7f268ce1c5de47796232db14516d7f910cc4edd52"
+    },
+    {
+      "path": "hour_root/uniform_ray_closure_results.json.gz",
+      "bytes": 7412281,
+      "sha256": "88ca447cbfd376b5febfff2d28433ca22fdca5ea9484c592ef00f9b3f9749ecf"
+    },
+    {
+      "path": "hour_root/verify_uniform_ray_closure.py",
+      "bytes": 7479,
+      "sha256": "eec29f36ce9be0c748fee223ac3239cb02cee33c4a2a7aca7fda9fb6f36b450d"
+    },
+    {
+      "path": "hour_transport/ARBITRARY_K_TRACE_EXPLORATORY.md",
+      "bytes": 13448,
+      "sha256": "004e4437f23149ce9013710189bc7f0de1c60098d8611991c6d8097c5c43394c"
+    },
+    {
+      "path": "hour_transport/UNIFORM_RAY_INDEPENDENT_AUDIT.md",
+      "bytes": 11924,
+      "sha256": "b583798548117fbaa1131833540a381960341330628cede0e9ae3ef93c121a58"
+    },
+    {
+      "path": "hour_transport/all_m_mixed_transport.md",
+      "bytes": 13664,
+      "sha256": "117363674ca2a6d01e8d0df7b52cc078688cd4543d780e19e4779d27d08bbc71"
+    },
+    {
+      "path": "hour_transport/all_m_trace_transport.md",
+      "bytes": 11225,
+      "sha256": "f376b2e0a64e063697d8ef141ef7defe5b73ed28c353f6761d307fc877fc3efb"
+    },
+    {
+      "path": "hour_transport/arbitrary_k_trace_exploratory_results.json",
+      "bytes": 44341,
+      "sha256": "44351b8af91507a252cf618441ddbff7c05de7f03fc27bead3fd91f29bce41a1"
+    },
+    {
+      "path": "hour_transport/audit_uniform_ray_closure.py",
+      "bytes": 8761,
+      "sha256": "a7a9734a381cf4eb46d1a8f8867dfc332e461f00ef00032fa4d4a0ff02eacff7"
+    },
+    {
+      "path": "hour_transport/explore_arbitrary_k_trace.py",
+      "bytes": 8438,
+      "sha256": "4c7a1e690fe25e0367f7e880e54a6a16d919ead9798f2b3dd44eec332bddb212"
+    },
+    {
+      "path": "hour_transport/trace_transport_results.json",
+      "bytes": 3934,
+      "sha256": "49fa2e3fcc6127aae01270b822f6cd3a8ed8d1a0976620e04a821f1a6c2a28eb"
+    },
+    {
+      "path": "hour_transport/uniform_mixed_transport_results.json.gz",
+      "bytes": 5697236,
+      "sha256": "94eebe61ac13afb4cbef79db0eb845294d80aa7f023aa4ab2dc9d99272413dca"
+    },
+    {
+      "path": "hour_transport/uniform_ray_closure_independent_audit.json",
+      "bytes": 170473,
+      "sha256": "e55ff0f182def409167e02bf4e3f100ac806c1a4e2d3d4a68235a3b258134d23"
+    },
+    {
+      "path": "hour_transport/verify_trace_transport.py",
+      "bytes": 8067,
+      "sha256": "441f7f62cdb7a40ce6a5fbad91f261006bf645748c21b75d3e16f3d6bc9bc264"
+    },
+    {
+      "path": "hour_transport/verify_uniform_mixed_transport.py",
+      "bytes": 9818,
+      "sha256": "cd1b8ff6d52f5eb9a2671d643cc53c8021ecd30d2fec902b73e1a112159b0888"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 5169,
+      "sha256": "aa09607ced32f5429c2d393b8ca9503f494a9caffa28acade246b9d2de2d390c"
+    }
+  ]
+}

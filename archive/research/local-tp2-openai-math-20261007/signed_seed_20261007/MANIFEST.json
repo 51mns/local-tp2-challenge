@@ -1,0 +1,20 @@
+{
+  "baseline": "3395b151e8882a0657c2a1ee417d56022acf4593",
+  "expected_results": {
+    "certificate_LRL_R.json": "e2b11a0a271a52dcc1b79079a7877f68bdb5b02e4062cbf8333cb86928f65e08",
+    "certificate_RLR_L.json": "4023c31deefccac496222c14c01af40cf420bd06295cbbc4db07bf2a5d349dca",
+    "independent_LRL_R.json": "dc6a5195a74a69ddf2c0ffbe82c33e2dbc06a8f507f9e66831e0c18f7fa0c97d",
+    "independent_RLR_L.json": "c1e9675ed3f3ce7d65590efc837983526705e0c21eda59f81be59e82db699e10"
+  },
+  "note": "The manifest is not included in its own hash list. Result files are regenerated, not proof oracles. Nonce timestamps live in reports, not certificate files.",
+  "sources": {
+    ".gitignore": "10053bb7dd2cc8c880edeb29c181f640d6951dda6ab90d0ab2bc631adfc301d7",
+    "README.md": "5c5b7d2f9728544898db5db1964fe05358e07fabcfe31b9268683436b09661eb",
+    "THEOREM.md": "2fe56fcadb15dc52010194caf1e4e25edf526e38ff0a8e86bb5620b94c1e0d6b",
+    "core.py": "b5bbfbe66b7143f8c28e6ba829f47cccc0da456f264a45ac9f1f42339fd48ea6",
+    "reproduce.py": "823c05140279fc502069c435590fa835ba8a4e065479190c745c4d80d7bfd0c8",
+    "signed_gate.py": "d627050d5246b9eb15d01827774b436d9e0e716a59a2f38549f55b17bf577d0a",
+    "test_contracts.py": "4dcf633b04a4a6cda9d14021fdf00996256c0657cc669f2f90bd47680a8c0d67",
+    "verify_direct.py": "bd470031e28e5eb9765c831d3b836779c10e2c23b22015ad6d9f1c3a8dba862d"
+  }
+}

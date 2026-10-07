@@ -1,0 +1,22 @@
+{
+  "status": "PASS FULL CONTINUOUS PAIRED W_01 WITNESS; NONCANONICAL",
+  "sqrt17_rational_bounds": [
+    "4",
+    "21/5"
+  ],
+  "B_interval": [
+    "strictly greater than 19",
+    "at most 5+5sqrt17, strictly less than 26"
+  ],
+  "y_central_defect_at_qminus4": [
+    "0",
+    "0"
+  ],
+  "y_central_defect_factorization": "d(10sqrt17-d), d=q+4 in [0,6]",
+  "uniform4_reference_upper": 16,
+  "independent_lower_bounds": {
+    "raw_central": 20000,
+    "y_selector_0_2": 375801,
+    "y_selector_1_2": 91611
+  }
+}

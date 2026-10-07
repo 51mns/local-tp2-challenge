@@ -1,0 +1,18 @@
+{
+  "scope": "Logical dependency and conclusion scope, not a second arithmetic reproduction",
+  "sha256": {
+    "fulltree_20261004/invariants_normalized_state.md": "3da9ee54933c410e69e82f0e4efd2a9c99de72d5425e9cc0de1e1f5610b08805",
+    "fulltree_20261004/network_quotient_constraints.md": "8dd0d1ec9a1601e1cf151db21f027f214afa646e8ccda5890f49fb875ed71d03",
+    "fulltree_20261004/quantitative_subtraction.md": "04bcbbbe072c91f289028734bb408d0c68276d3fadd7b3b80bfa3ec3a04ef9e5",
+    "fulltree_20261004/quantitative_shifted_trace.md": "d516de2b696e41d436a331f03da924997e5985f6e778765e111ac9d699fb426a",
+    "fulltree_20261004/bivariate_mixed_support.md": "0f5453f1c501e5f7d61ac49b91be3795f38436fe2658356e109457515061e83e",
+    "fulltree_20261004/audit_normalized_report.md": "c7aeb229b560661b68d3e0ad55b8d6050a0cb65f64916690a6b6a413b28364ca",
+    "fulltree_20261004/bivariate_audit_quantitative.md": "292041c2e5f8a9ca24d8234d95b9e43baf8050f7ca3e5808eaf6c318f317add5",
+    "resumed_extension_kernel_support.md": "1e0508143d1a9355470ab52abb78126a9bf74954787b300a4e9e46496f4f7bbb",
+    "resumed_extension_support_audit.md": "6ecc845f350fb6a9cca69e19730587118e4fd267f1411a9260088710860549a7",
+    "continuation_kernel/folded_kernel_theorem.md": "44be7a366673d9e39d2eaa531688a560ebdb65270116868997aff22154b63975",
+    "recovery_fulltree_bivariate_character.md": "08282809c6f8fe6bd2aa10bbaad3d2feeaf277f6bccfe1c1df84ba7fac88dc44",
+    "GENERAL_ONE_TURN_RESULT_JA.md": "c368d76fc0bb5df080f7ede50ca554a03ea0536d178113217219437eef930493",
+    "tp2_source.py": "73c5ea633a44d9640988003dc6f28b41fcc416b3334f47f1f16ce6402d36364b"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "status": "PASS",
+  "method": "fresh direct Laurent and rational Bernstein reconstruction",
+  "certificate_sha256": "c546e69d5be42ee983a109b806dccdfda5dac1a8b2ec0fbb558b34241af5afbe",
+  "centers_certificate_sha256": "1395dc5c9bcb8048e5b43fcf9d99b9a11eae6058201f28131246b1eeb8cbec52",
+  "verified_blocks": 17,
+  "verified_strength_arrays": 109,
+  "identically_zero_margins": [
+    [
+      "n_mod8_2",
+      4
+    ]
+  ],
+  "low_defect_identities_verified": true,
+  "initial_case_lower_bounds": {
+    "m0_one_fifth": [
+      "0",
+      "57/5",
+      "42/5"
+    ],
+    "m1_three": [
+      "2",
+      "514",
+      "168",
+      "18"
+    ]
+  },
+  "blocks": {
+    "scaled_quartic_one_strong": {
+      "strength": 1,
+      "lower_bounds": [
+        "19092",
+        "22448",
+        "16840",
+        "4384",
+        "240"
+      ],
+      "all_arrays_match": true
+    },
+    "n_mod8_0_pull_quartic": {
+      "strength": 4,
+      "lower_bounds": [
+        "517952",
+        "951280",
+        "769013",
+        "310392",
+        "70944",
+        "7296",
+        "192"
+      ],
+      "all_arrays_match": true
+    },
+    "n_mod8_1_pull_quartic": {
+      "strength": 4,
+      "lower_bounds": [
+        "16896516",
+        "36601512",
+        "29947837",
+        "14170212",
+        "3931456",
+        "617152",
+        "43584",
+        "896"
+      ],
+      "all_arrays_match": true
+    },
+    "n_mod8_2": {
+      "strength": 4,
+      "lower_bounds": [
+        "492",
+        "1060",
+        "609",
+        "92",
+        "0"
+      ],
+      "all_arrays_match": true
+    },
+    "n_mod8_3": {
+      "strength": 4,
+      "lower_bounds": [
+        "14304",
+        "31600",
+        "19904",
+        "6380",
+        "816",
+        "32"
+      ],
+      "all_arrays_match": true
+    },
+    "n_mod8_4": {
+      "strength": 4,
+      "lower_bounds": [
+        "524224",
+        "1071008",
+        "784128",
+        "304480",
+        "63424",
+        "6176",
+        "192"
+      ],
+      "all_arrays_match": true
+    },
+    "n_mod8_5": {
+      "strength": 4,
+      "lower_bounds": [
+        "20869440",
+        "44005008",
+        "35483776",
+        "16151520",
+        "4310560",
+        "637792",
+        "43584",
+        "896"
+      ],
+      "all_arrays_match": true
+    },
+    "n_mod8_6": {
+      "strength": 4,
+      "lower_bounds": [
+        "713730628",
+        "1549468996",
+        "1341581617",
+        "685576268",
+        "218781408",
+        "42622272",
+        "4694464",
+        "239872",
+        "3840"
+      ],
+      "all_arrays_match": true
+    },
+    "n_mod8_7": {
+      "strength": 4,
+      "lower_bounds": [
+        "20488",
+        "39756",
+        "26305",
+        "7896",
+        "1040",
+        "32"
+      ],
+      "all_arrays_match": true
+    },
+    "centers:n_mod8_0_pull_quartic": {
+      "strength": 3,
+      "lower_bounds": [
+        "58420",
+        "172926",
+        "105672",
+        "37512",
+        "5680",
+        "208"
+      ],
+      "all_arrays_match": true
+    },
+    "centers:n_mod8_1_pull_quartic": {
+      "strength": 3,
+      "lower_bounds": [
+        "2899408",
+        "5696920",
+        "4361910",
+        "1727064",
+        "377536",
+        "35280",
+        "928"
+      ],
+      "all_arrays_match": true
+    },
+    "centers:n_mod8_2": {
+      "strength": 3,
+      "lower_bounds": [
+        "36",
+        "210",
+        "60",
+        "4"
+      ],
+      "all_arrays_match": true
+    },
+    "centers:n_mod8_3": {
+      "strength": 3,
+      "lower_bounds": [
+        "3038",
+        "5140",
+        "2966",
+        "568",
+        "40"
+      ],
+      "all_arrays_match": true
+    },
+    "centers:n_mod8_4": {
+      "strength": 3,
+      "lower_bounds": [
+        "93424",
+        "178368",
+        "114056",
+        "34616",
+        "4680",
+        "208"
+      ],
+      "all_arrays_match": true
+    },
+    "centers:n_mod8_5": {
+      "strength": 3,
+      "lower_bounds": [
+        "3501688",
+        "7027648",
+        "5129016",
+        "1961820",
+        "395128",
+        "35280",
+        "928"
+      ],
+      "all_arrays_match": true
+    },
+    "centers:n_mod8_6": {
+      "strength": 3,
+      "lower_bounds": [
+        "114320374",
+        "239565988",
+        "190864316",
+        "85324380",
+        "22116144",
+        "3139792",
+        "199808",
+        "3904"
+      ],
+      "all_arrays_match": true
+    },
+    "centers:n_mod8_7": {
+      "strength": 3,
+      "lower_bounds": [
+        "3378",
+        "7170",
+        "3646",
+        "764",
+        "40"
+      ],
+      "all_arrays_match": true
+    }
+  }
+}

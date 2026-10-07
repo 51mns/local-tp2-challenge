@@ -1,0 +1,158 @@
+{
+  "status": "PASS exact two bounded bridge obstructions",
+  "relaxed_chain": {
+    "domain": "RELAXED source-chain algebra, not canonical P_0",
+    "h": [
+      5,
+      8,
+      3
+    ],
+    "Q": [
+      2,
+      1
+    ],
+    "D": [
+      16,
+      32,
+      24,
+      8,
+      1
+    ],
+    "B": [
+      10,
+      21,
+      14,
+      3
+    ],
+    "K": [
+      "80",
+      "28793/100",
+      "424",
+      "16407/50",
+      "141",
+      "3193/100",
+      "3",
+      "1/100"
+    ],
+    "Q_child": [
+      100,
+      330,
+      452,
+      334,
+      141,
+      32,
+      3
+    ],
+    "D_child": [
+      "160",
+      "57593/100",
+      "848",
+      "32807/50",
+      "282",
+      "6393/100",
+      "6",
+      "1/100"
+    ],
+    "parent_strict_adjacent": [
+      42,
+      28
+    ],
+    "B_U_adjacent": [
+      5476,
+      8702,
+      3733,
+      477
+    ],
+    "U_V_adjacent": [
+      5476,
+      8702,
+      3733,
+      477,
+      0,
+      0,
+      0
+    ],
+    "V_K_adjacent": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "3/100"
+    ],
+    "child_adjacent": [
+      "21904",
+      "34808",
+      "14932",
+      "1908",
+      "0",
+      "0",
+      "3/100"
+    ],
+    "trace_shift_defects": [
+      "c^2+25c+26",
+      "22-3c",
+      "9"
+    ],
+    "trace_shift_domain": [
+      -1,
+      3
+    ],
+    "central_flag": 2,
+    "zero_target_indices": [
+      4,
+      5
+    ],
+    "missing_canonical_premises": [
+      "Fricke",
+      "normalized ancestry",
+      "origin registers and paired MP_0",
+      "B=A_L G-E",
+      "K=M(G-hE)+3yG(S+D)"
+    ]
+  },
+  "canonical_low_block": {
+    "domain": "CANONICAL first SHORT parent",
+    "parent_a": [
+      0
+    ],
+    "parent_e": [
+      4,
+      2
+    ],
+    "parent_r": [
+      3,
+      2
+    ],
+    "Fricke_residual": [
+      0
+    ],
+    "inherited_full_packet_source": "../common_defect_20261004/ROOT_AUDIT.md Sections 1,5",
+    "central_selector_columns": [
+      0,
+      1
+    ],
+    "central_selector_characters": [
+      0,
+      0
+    ],
+    "complete_low_M_block": -1074148800,
+    "subtraction_block": -49976016,
+    "total_child_adjacent": [
+      97146493512,
+      213356236152,
+      189370022520,
+      101301304152,
+      34907468344,
+      7741737120,
+      1064011392,
+      83620224,
+      3210624,
+      41472
+    ],
+    "tested_obstruction": "separate nonnegativity of the complete coupled M block"
+  },
+  "arbitrary_LONG_Q_D": "OPEN",
+  "full_tree_Local_TP2": "OPEN"
+}

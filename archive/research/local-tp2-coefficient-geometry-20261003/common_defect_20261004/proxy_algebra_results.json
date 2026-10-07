@@ -1,0 +1,151 @@
+{
+  "status": "PASS exact universal identities and targeted finite source replays",
+  "formal_checks": {
+    "canonical_ring_variables": [
+      "x",
+      "a",
+      "e",
+      "r"
+    ],
+    "canonical_identity_residuals": 0,
+    "Fricke_used_for_identities": false,
+    "two_variable_lowerblock_ring": [
+      "A_i",
+      "A_j",
+      "G_i",
+      "G_j",
+      "R_i",
+      "R_j"
+    ],
+    "lowerblock_numerator_residual": 0
+  },
+  "targeted_sources": [
+    {
+      "state": "root",
+      "central_flag_delta_A": -7,
+      "parent_Q_D_adjacent": [
+        126,
+        228,
+        100,
+        24
+      ],
+      "lowerblock": {
+        "negative": [
+          {
+            "columns": [
+              0,
+              1
+            ],
+            "characters": [
+              0,
+              0
+            ],
+            "value": -6
+          }
+        ],
+        "min_nonzero": -6,
+        "nonzero_coefficients": 10,
+        "checked_selectors": 10
+      },
+      "D_advance": {
+        "negative": [],
+        "min_nonzero": 288,
+        "nonzero_coefficients": 21,
+        "checked_selectors": 21
+      },
+      "residual_pair": {
+        "negative": [],
+        "min_nonzero": 96,
+        "nonzero_coefficients": 18,
+        "checked_selectors": 21
+      },
+      "mixed_pair": {
+        "negative": [],
+        "min_nonzero": 192,
+        "nonzero_coefficients": 20,
+        "checked_selectors": 21
+      }
+    },
+    {
+      "state": "first_short",
+      "central_flag_delta_A": -7,
+      "parent_Q_D_adjacent": [
+        46392,
+        94800,
+        55576,
+        15616,
+        1632
+      ],
+      "lowerblock": {
+        "negative": [],
+        "min_nonzero": 128,
+        "nonzero_coefficients": 15,
+        "checked_selectors": 15
+      },
+      "D_advance": {
+        "negative": [],
+        "min_nonzero": 4608,
+        "nonzero_coefficients": 36,
+        "checked_selectors": 36
+      },
+      "residual_pair": {
+        "negative": [],
+        "min_nonzero": 768,
+        "nonzero_coefficients": 30,
+        "checked_selectors": 36
+      },
+      "mixed_pair": {
+        "negative": [],
+        "min_nonzero": 1536,
+        "nonzero_coefficients": 33,
+        "checked_selectors": 36
+      }
+    },
+    {
+      "state": "first_long",
+      "central_flag_delta_A": 2,
+      "parent_Q_D_adjacent": [
+        2641008,
+        5178232,
+        3622384,
+        1309276,
+        245604,
+        21528,
+        648
+      ],
+      "lowerblock": {
+        "negative": [],
+        "min_nonzero": 972,
+        "nonzero_coefficients": 35,
+        "checked_selectors": 36
+      },
+      "D_advance": {
+        "negative": [],
+        "min_nonzero": 34992,
+        "nonzero_coefficients": 65,
+        "checked_selectors": 66
+      },
+      "residual_pair": {
+        "negative": [],
+        "min_nonzero": 5832,
+        "nonzero_coefficients": 56,
+        "checked_selectors": 66
+      },
+      "mixed_pair": {
+        "negative": [],
+        "min_nonzero": 17496,
+        "nonzero_coefficients": 63,
+        "checked_selectors": 66
+      }
+    }
+  ],
+  "scope": {
+    "ordinary_SHORT_lowerblock": "PROVED conditional on weak trace/cone/LR premises plus proved retained central history flag",
+    "common_SHORT_parent_comparison": "PROVED strict",
+    "SHORT_from_D_advance": "PROVED conditional implication",
+    "D_advance_arbitrary_origin": "OPEN",
+    "LONG_residual": "OPEN",
+    "BOTH_Q_D": "OPEN",
+    "full_tree_Local_TP2": "OPEN"
+  }
+}

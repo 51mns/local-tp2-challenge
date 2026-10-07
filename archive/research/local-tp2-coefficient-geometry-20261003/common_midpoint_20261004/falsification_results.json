@@ -1,0 +1,372 @@
+{
+  "all_index_strength_certificates": 1584,
+  "arithmetic_import": "read-only common_transport_20261004/adversarial_probe.py",
+  "cases": 1584,
+  "first_failures": {},
+  "reference_auxiliary_cone_failures": 12,
+  "row01_minor_comparisons": 2173464,
+  "row01_pass_scope": "ALL-index character equivalence independently proof-audited PASS; strength theorem also certifies every case.",
+  "scope": "Frozen actual paths/12 exact midpoint parameter pairs; no parameter-continuum or all-tree implication",
+  "skipped_degree_cap": [
+    {
+      "path": "llllll",
+      "smoothed_midpoint_degree": 185
+    },
+    {
+      "path": "slslslsl",
+      "smoothed_midpoint_degree": 337
+    },
+    {
+      "path": "lslslsls",
+      "smoothed_midpoint_degree": 325
+    },
+    {
+      "path": "slslslslsl",
+      "smoothed_midpoint_degree": 815
+    },
+    {
+      "path": "lslslslsls",
+      "smoothed_midpoint_degree": 786
+    }
+  ],
+  "source_sha256": "bb9d4f343f16b5a7403c75f28b31f8c0ff46e07b941548521719b3290bc5d35e",
+  "states": [
+    "",
+    "s",
+    "l",
+    "ss",
+    "sl",
+    "ls",
+    "ll",
+    "sss",
+    "lss",
+    "lll",
+    "ssss",
+    "slsl",
+    "lsss",
+    "lsls",
+    "llll",
+    "sssss",
+    "lssss",
+    "lllll",
+    "ssssss",
+    "slslsl",
+    "lsssss",
+    "lslsls",
+    "sssssss",
+    "lssssss",
+    "ssssssss",
+    "lsssssss",
+    "sssssssss",
+    "lssssssss",
+    "ssssssssss",
+    "lsssssssss",
+    "sssssssssss",
+    "lssssssssss",
+    "ssssssssssss"
+  ],
+  "strength_only_failures": 0,
+  "parameter_pairs": [
+    [
+      {
+        "numerator": -2,
+        "denominator": 1
+      },
+      {
+        "numerator": -2,
+        "denominator": 1
+      }
+    ],
+    [
+      {
+        "numerator": -2,
+        "denominator": 1
+      },
+      {
+        "numerator": 2,
+        "denominator": 1
+      }
+    ],
+    [
+      {
+        "numerator": 2,
+        "denominator": 1
+      },
+      {
+        "numerator": 2,
+        "denominator": 1
+      }
+    ],
+    [
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      }
+    ],
+    [
+      {
+        "numerator": -1,
+        "denominator": 1
+      },
+      {
+        "numerator": 1,
+        "denominator": 1
+      }
+    ],
+    [
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 2,
+        "denominator": 1
+      }
+    ],
+    [
+      {
+        "numerator": -2,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      }
+    ],
+    [
+      {
+        "numerator": 1,
+        "denominator": 1
+      },
+      {
+        "numerator": 2,
+        "denominator": 1
+      }
+    ],
+    [
+      {
+        "numerator": -3,
+        "denominator": 2
+      },
+      {
+        "numerator": 3,
+        "denominator": 2
+      }
+    ],
+    [
+      {
+        "numerator": 3,
+        "denominator": 2
+      },
+      {
+        "numerator": 3,
+        "denominator": 2
+      }
+    ],
+    [
+      {
+        "numerator": 3,
+        "denominator": 2
+      },
+      {
+        "numerator": 2,
+        "denominator": 1
+      }
+    ],
+    [
+      {
+        "numerator": -1,
+        "denominator": 2
+      },
+      {
+        "numerator": 1,
+        "denominator": 2
+      }
+    ]
+  ],
+  "actual_states": 33,
+  "orientations": [
+    "forward (c_A,e)",
+    "reverse (e,c_A)"
+  ],
+  "modes": [
+    "raw",
+    "y-smoothed"
+  ],
+  "global_minima": {
+    "certificate_margin": {
+      "value": {
+        "numerator": 114013,
+        "denominator": 5
+      },
+      "case": {
+        "path": "",
+        "orientation": "reverse",
+        "r": {
+          "denominator": 1,
+          "numerator": 2
+        },
+        "s": {
+          "denominator": 1,
+          "numerator": 2
+        },
+        "smooth": false,
+        "degree_h": 6,
+        "degree_reference": 2
+      },
+      "certificate": {
+        "alpha": {
+          "denominator": 20,
+          "numerator": 12757
+        },
+        "lambda": {
+          "denominator": 1,
+          "numerator": 36
+        },
+        "margin": {
+          "denominator": 5,
+          "numerator": 114013
+        },
+        "pass": true,
+        "threshold_factor": {
+          "denominator": 1,
+          "numerator": 4
+        }
+      }
+    },
+    "certificate_ratio": {
+      "value": {
+        "numerator": 35161,
+        "denominator": 512
+      },
+      "case": {
+        "path": "",
+        "orientation": "reverse",
+        "r": {
+          "denominator": 1,
+          "numerator": 2
+        },
+        "s": {
+          "denominator": 1,
+          "numerator": 2
+        },
+        "smooth": true,
+        "degree_h": 7,
+        "degree_reference": 3
+      },
+      "certificate": {
+        "alpha": {
+          "denominator": 48,
+          "numerator": 35161
+        },
+        "lambda": {
+          "denominator": 1,
+          "numerator": 36
+        },
+        "margin": {
+          "denominator": 4,
+          "numerator": 103947
+        },
+        "pass": true,
+        "threshold_factor": {
+          "denominator": 1,
+          "numerator": 4
+        }
+      }
+    },
+    "uniform_row01_margin": {
+      "value": {
+        "numerator": 1296,
+        "denominator": 1
+      },
+      "case": {
+        "path": "",
+        "orientation": "reverse",
+        "r": {
+          "denominator": 1,
+          "numerator": -2
+        },
+        "s": {
+          "denominator": 1,
+          "numerator": -2
+        },
+        "smooth": false,
+        "degree_h": 6,
+        "degree_reference": 2
+      },
+      "certificate": {
+        "alpha": {
+          "denominator": 20,
+          "numerator": 13341
+        },
+        "lambda": {
+          "denominator": 1,
+          "numerator": 36
+        },
+        "margin": {
+          "denominator": 5,
+          "numerator": 119269
+        },
+        "pass": true,
+        "threshold_factor": {
+          "denominator": 1,
+          "numerator": 4
+        }
+      }
+    },
+    "sharp_row01_margin": {
+      "value": {
+        "numerator": 1296,
+        "denominator": 1
+      },
+      "case": {
+        "path": "",
+        "orientation": "reverse",
+        "r": {
+          "denominator": 1,
+          "numerator": -2
+        },
+        "s": {
+          "denominator": 1,
+          "numerator": -2
+        },
+        "smooth": false,
+        "degree_h": 6,
+        "degree_reference": 2
+      },
+      "certificate": {
+        "alpha": {
+          "denominator": 20,
+          "numerator": 13341
+        },
+        "lambda": {
+          "denominator": 1,
+          "numerator": 36
+        },
+        "margin": {
+          "denominator": 5,
+          "numerator": 119269
+        },
+        "pass": true,
+        "threshold_factor": {
+          "denominator": 1,
+          "numerator": 4
+        }
+      }
+    }
+  },
+  "reference_auxiliary_exception": "Exactly12 cases: forward root y-smoothed reference ye=y has delta0=-1; reference cone is NOT a packet premise.",
+  "generator_sha256": "899e27c7ab2dfea26e2041d2ed1ace04b0b9c3e074ce0e6b48c0f4bd6820d93d",
+  "all_index_status": "1584 fixed cases certified by exact all-minor strength theorem AND row01 character equivalence; no continuum or all-tree inference.",
+  "detailed_records": {
+    "file": "falsification_records.json.gz",
+    "cases": 1584,
+    "compressed_bytes": 74496,
+    "compressed_sha256": "03830e932cbcdcbe0cdff4e67c4cd6ef0f7e5999fe812b90996caa60a700748a",
+    "uncompressed_sha256": "ba854ff29fc8e01a8ab55f158887a52dbb2626999d325eb037e95f5cead1cfe3"
+  }
+}

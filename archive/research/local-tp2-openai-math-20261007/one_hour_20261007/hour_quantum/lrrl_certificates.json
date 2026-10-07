@@ -1,0 +1,5077 @@
+{
+  "statement": "Strict Local TP2 at every LR^2 L^ell, integer ell >= 0",
+  "scope": "Infinite ell is proved in lrrl_theorem.md; no finite scan extrapolation",
+  "data": {
+    "X": [
+      194,
+      801,
+      1408,
+      1336,
+      716,
+      204,
+      24
+    ],
+    "Y": [
+      5,
+      6,
+      2
+    ],
+    "C0": [
+      2897,
+      18192,
+      51384,
+      85478,
+      92090,
+      66484,
+      32088,
+      9960,
+      1800,
+      144
+    ],
+    "T": [
+      13,
+      26,
+      18,
+      4
+    ],
+    "A": [
+      2892,
+      15294,
+      36088,
+      49390,
+      42700,
+      23784,
+      8304,
+      1656,
+      144
+    ],
+    "B": [
+      8,
+      12,
+      4
+    ],
+    "t": [
+      582,
+      2984,
+      6627,
+      8232,
+      6156,
+      2760,
+      684,
+      72
+    ],
+    "Pi": [
+      388,
+      1796,
+      3617,
+      4080,
+      2768,
+      1124,
+      252,
+      24
+    ],
+    "f": [
+      580,
+      3564,
+      9611,
+      14859,
+      14388,
+      8916,
+      3444,
+      756,
+      72
+    ],
+    "g": [
+      1164,
+      7716,
+      22791,
+      39330,
+      43635,
+      32220,
+      15804,
+      4956,
+      900,
+      72
+    ],
+    "M0": [
+      16,
+      32,
+      24,
+      6
+    ],
+    "K": [
+      6208,
+      41152,
+      124656,
+      226456,
+      272432,
+      226182,
+      130912,
+      52032,
+      13560,
+      2088,
+      144
+    ]
+  },
+  "initial_F_ell_zero": [
+    1516896586008249848,
+    3637772476434172864,
+    3865223713434359480,
+    2737802856684421840,
+    1402435027518327696,
+    531761516948672248,
+    149435845829150472,
+    30744082672790976,
+    4516059600645120,
+    454305780698112,
+    29205199150848,
+    1056747451392,
+    15896632320
+  ],
+  "fixed_comparisons": {
+    "q0_q1": [
+      18023190108387544,
+      41603750552965724,
+      40878087900756340,
+      25617701789832108,
+      11027577115258852,
+      3296631749418488,
+      670900570870992,
+      88272031230432,
+      6734934421632,
+      224882348544,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "y_AplusB_q1": [
+      18025385112085224,
+      41607726941520636,
+      40880586306011404,
+      25618345342759924,
+      11027577115258852,
+      3296631749418488,
+      670900570870992,
+      88272031230432,
+      6734934421632,
+      224882348544,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Pi_E1": [
+      995133706,
+      2045812603,
+      1585266934,
+      684252792,
+      172535384,
+      24453120,
+      1721376,
+      43200,
+      0,
+      0
+    ],
+    "Pi_q1": [
+      623289369279340,
+      1372450104902582,
+      1222914818154132,
+      655252867470936,
+      223625750065272,
+      47546200964512,
+      5726869781568,
+      296072152128,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "f_g": [
+      902402904,
+      1937398461,
+      1641077505,
+      814361913,
+      251107200,
+      47434752,
+      5137056,
+      276912,
+      5184,
+      0
+    ]
+  },
+  "box_certificates": {
+    "A": {
+      "degree_x": 8,
+      "subtracted_strength": 0,
+      "ordinary_positive_support": [
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2892",
+          "power_coefficients": {
+            "0,0,0": "2892"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2892"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "15294",
+          "power_coefficients": {
+            "0,0,0": "15294"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "15294"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "36088",
+          "power_coefficients": {
+            "0,0,0": "36088"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "36088"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "49390",
+          "power_coefficients": {
+            "0,0,0": "49390"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "49390"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "42700",
+          "power_coefficients": {
+            "0,0,0": "42700"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "42700"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "23784",
+          "power_coefficients": {
+            "0,0,0": "23784"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "23784"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "8304",
+          "power_coefficients": {
+            "0,0,0": "8304"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "8304"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1656",
+          "power_coefficients": {
+            "0,0,0": "1656"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1656"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "144",
+          "power_coefficients": {
+            "0,0,0": "144"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "144"
+          }
+        }
+      ],
+      "defects_after_strength": [
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "7914226928",
+          "power_coefficients": {
+            "0,0,0": "7914226928"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "7914226928"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "16647217120",
+          "power_coefficients": {
+            "0,0,0": "16647217120"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "16647217120"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "13536306716",
+          "power_coefficients": {
+            "0,0,0": "13536306716"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "13536306716"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "6323311924",
+          "power_coefficients": {
+            "0,0,0": "6323311924"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "6323311924"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1800262960",
+          "power_coefficients": {
+            "0,0,0": "1800262960"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1800262960"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "307594560",
+          "power_coefficients": {
+            "0,0,0": "307594560"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "307594560"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "29452608",
+          "power_coefficients": {
+            "0,0,0": "29452608"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "29452608"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1359936",
+          "power_coefficients": {
+            "0,0,0": "1359936"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1359936"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "20736",
+          "power_coefficients": {
+            "0,0,0": "20736"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "20736"
+          }
+        }
+      ]
+    },
+    "B": {
+      "degree_x": 2,
+      "subtracted_strength": 0,
+      "ordinary_positive_support": [
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "8",
+          "power_coefficients": {
+            "0,0,0": "8"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "8"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "12",
+          "power_coefficients": {
+            "0,0,0": "12"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "12"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "4",
+          "power_coefficients": {
+            "0,0,0": "4"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "4"
+          }
+        }
+      ],
+      "defects_after_strength": [
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "32",
+          "power_coefficients": {
+            "0,0,0": "32"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "32"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "64",
+          "power_coefficients": {
+            "0,0,0": "64"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "64"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "16",
+          "power_coefficients": {
+            "0,0,0": "16"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "16"
+          }
+        }
+      ]
+    },
+    "yA": {
+      "degree_x": 9,
+      "subtracted_strength": 0,
+      "ordinary_positive_support": [
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2892",
+          "power_coefficients": {
+            "0,0,0": "2892"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2892"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "18186",
+          "power_coefficients": {
+            "0,0,0": "18186"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "18186"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "51382",
+          "power_coefficients": {
+            "0,0,0": "51382"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "51382"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "85478",
+          "power_coefficients": {
+            "0,0,0": "85478"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "85478"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "92090",
+          "power_coefficients": {
+            "0,0,0": "92090"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "92090"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "66484",
+          "power_coefficients": {
+            "0,0,0": "66484"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "66484"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "32088",
+          "power_coefficients": {
+            "0,0,0": "32088"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "32088"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "9960",
+          "power_coefficients": {
+            "0,0,0": "9960"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "9960"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1800",
+          "power_coefficients": {
+            "0,0,0": "1800"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1800"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "144",
+          "power_coefficients": {
+            "0,0,0": "144"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "144"
+          }
+        }
+      ],
+      "defects_after_strength": [
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "49623864776",
+          "power_coefficients": {
+            "0,0,0": "49623864776"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "49623864776"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "108695803916",
+          "power_coefficients": {
+            "0,0,0": "108695803916"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "108695803916"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "95985923428",
+          "power_coefficients": {
+            "0,0,0": "95985923428"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "95985923428"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "51007677628",
+          "power_coefficients": {
+            "0,0,0": "51007677628"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "51007677628"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "17452104812",
+          "power_coefficients": {
+            "0,0,0": "17452104812"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "17452104812"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3846578944",
+          "power_coefficients": {
+            "0,0,0": "3846578944"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3846578944"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "526651680",
+          "power_coefficients": {
+            "0,0,0": "526651680"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "526651680"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "41400000",
+          "power_coefficients": {
+            "0,0,0": "41400000"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "41400000"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1598400",
+          "power_coefficients": {
+            "0,0,0": "1598400"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1598400"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "20736",
+          "power_coefficients": {
+            "0,0,0": "20736"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "20736"
+          }
+        }
+      ]
+    },
+    "t_minus_r": {
+      "degree_x": 7,
+      "subtracted_strength": 0,
+      "ordinary_positive_support": [
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "580",
+          "power_coefficients": {
+            "0,0,0": "584",
+            "1,0,0": "-4"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "584",
+            "1,0,0": "580"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2984",
+          "power_coefficients": {
+            "0,0,0": "2984"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2984"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "6627",
+          "power_coefficients": {
+            "0,0,0": "6627"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "6627"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "8232",
+          "power_coefficients": {
+            "0,0,0": "8232"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "8232"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "6156",
+          "power_coefficients": {
+            "0,0,0": "6156"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "6156"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2760",
+          "power_coefficients": {
+            "0,0,0": "2760"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2760"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "684",
+          "power_coefficients": {
+            "0,0,0": "684"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "684"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "72",
+          "power_coefficients": {
+            "0,0,0": "72"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "72"
+          }
+        }
+      ],
+      "defects_after_strength": [
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "147506450",
+          "power_coefficients": {
+            "0,0,0": "148188110",
+            "1,0,0": "-681676",
+            "2,0,0": "16"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "148188110",
+            "1,0,0": "147847272",
+            "2,0,0": "147506450"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "302970085",
+          "power_coefficients": {
+            "0,0,0": "302970085",
+            "1,0,0": "166044"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "302970085",
+            "1,0,0": "303136129"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "233902845",
+          "power_coefficients": {
+            "0,0,0": "233902845"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "233902845"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "99997092",
+          "power_coefficients": {
+            "0,0,0": "99997092"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "99997092"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "24784128",
+          "power_coefficients": {
+            "0,0,0": "24784128"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "24784128"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3403008",
+          "power_coefficients": {
+            "0,0,0": "3403008"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3403008"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "227664",
+          "power_coefficients": {
+            "0,0,0": "227664"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "227664"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "5184",
+          "power_coefficients": {
+            "0,0,0": "5184"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "5184"
+          }
+        }
+      ]
+    },
+    "y_t_minus_r": {
+      "degree_x": 8,
+      "subtracted_strength": 0,
+      "ordinary_positive_support": [
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "580",
+          "power_coefficients": {
+            "0,0,0": "584",
+            "1,0,0": "-4"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "584",
+            "1,0,0": "580"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3564",
+          "power_coefficients": {
+            "0,0,0": "3568",
+            "1,0,0": "-4"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3568",
+            "1,0,0": "3564"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "9611",
+          "power_coefficients": {
+            "0,0,0": "9611"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "9611"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "14859",
+          "power_coefficients": {
+            "0,0,0": "14859"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "14859"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "14388",
+          "power_coefficients": {
+            "0,0,0": "14388"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "14388"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "8916",
+          "power_coefficients": {
+            "0,0,0": "8916"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "8916"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3444",
+          "power_coefficients": {
+            "0,0,0": "3444"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3444"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "756",
+          "power_coefficients": {
+            "0,0,0": "756"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "756"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "72",
+          "power_coefficients": {
+            "0,0,0": "72"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "72"
+          }
+        }
+      ],
+      "defects_after_strength": [
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "902026636",
+          "power_coefficients": {
+            "0,0,0": "902026636",
+            "1,0,0": "688388",
+            "2,0,0": "-16"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "902026636",
+            "1,0,0": "902370830",
+            "2,0,0": "902715008"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1937931061",
+          "power_coefficients": {
+            "0,0,0": "1939051005",
+            "1,0,0": "-1119960",
+            "2,0,0": "16"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1939051005",
+            "1,0,0": "1938491025",
+            "2,0,0": "1937931061"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1641029965",
+          "power_coefficients": {
+            "0,0,0": "1641029965",
+            "1,0,0": "301260"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1641029965",
+            "1,0,0": "1641331225"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "814398981",
+          "power_coefficients": {
+            "0,0,0": "814398981"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "814398981"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "251107200",
+          "power_coefficients": {
+            "0,0,0": "251107200"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "251107200"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "47434752",
+          "power_coefficients": {
+            "0,0,0": "47434752"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "47434752"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "5137056",
+          "power_coefficients": {
+            "0,0,0": "5137056"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "5137056"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "276912",
+          "power_coefficients": {
+            "0,0,0": "276912"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "276912"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "5184",
+          "power_coefficients": {
+            "0,0,0": "5184"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "5184"
+          }
+        }
+      ]
+    },
+    "L_r": {
+      "degree_x": 15,
+      "subtracted_strength": 0,
+      "ordinary_positive_support": [
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1677368",
+          "power_coefficients": {
+            "0,0,0": "1688936",
+            "1,0,0": "-11568"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1688936",
+            "1,0,0": "1677368"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "17500260",
+          "power_coefficients": {
+            "0,0,0": "17561436",
+            "1,0,0": "-61176"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "17561436",
+            "1,0,0": "17500260"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "85733624",
+          "power_coefficients": {
+            "0,0,0": "85877976",
+            "1,0,0": "-144352"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "85877976",
+            "1,0,0": "85733624"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "261493074",
+          "power_coefficients": {
+            "0,0,0": "261690634",
+            "1,0,0": "-197560"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "261690634",
+            "1,0,0": "261493074"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "555004296",
+          "power_coefficients": {
+            "0,0,0": "555175096",
+            "1,0,0": "-170800"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "555175096",
+            "1,0,0": "555004296"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "867727250",
+          "power_coefficients": {
+            "0,0,0": "867822386",
+            "1,0,0": "-95136"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "867822386",
+            "1,0,0": "867727250"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1031686452",
+          "power_coefficients": {
+            "0,0,0": "1031719668",
+            "1,0,0": "-33216"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1031719668",
+            "1,0,0": "1031686452"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "949179624",
+          "power_coefficients": {
+            "0,0,0": "949186248",
+            "1,0,0": "-6624"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "949186248",
+            "1,0,0": "949179624"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "680808480",
+          "power_coefficients": {
+            "0,0,0": "680809056",
+            "1,0,0": "-576"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "680809056",
+            "1,0,0": "680808480"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "380409936",
+          "power_coefficients": {
+            "0,0,0": "380409936"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "380409936"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "164112624",
+          "power_coefficients": {
+            "0,0,0": "164112624"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "164112624"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "53641440",
+          "power_coefficients": {
+            "0,0,0": "53641440"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "53641440"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "12849408",
+          "power_coefficients": {
+            "0,0,0": "12849408"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "12849408"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2128032",
+          "power_coefficients": {
+            "0,0,0": "2128032"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2128032"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "217728",
+          "power_coefficients": {
+            "0,0,0": "217728"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "217728"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "10368",
+          "power_coefficients": {
+            "0,0,0": "10368"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "10368"
+          }
+        }
+      ],
+      "defects_after_strength": [
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "160751480232760587928",
+          "power_coefficients": {
+            "0,0,0": "160762827949163184088",
+            "1,0,0": "-11347843030227008",
+            "2,0,0": "126627630848"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "160762827949163184088",
+            "1,0,0": "160757154027648070584",
+            "2,0,0": "160751480232760587928"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "393939640722115923692",
+          "power_coefficients": {
+            "0,0,0": "393964461744950340860",
+            "1,0,0": "-24821289189891088",
+            "2,0,0": "266355473920"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "393964461744950340860",
+            "1,0,0": "393952051100355395316",
+            "2,0,0": "393939640722115923692"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "437409407591425569160",
+          "power_coefficients": {
+            "0,0,0": "437431126067097669624",
+            "1,0,0": "-21718692253007920",
+            "2,0,0": "216580907456"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "437431126067097669624",
+            "1,0,0": "437420266720971165664",
+            "2,0,0": "437409407591425569160"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "331629413346456714456",
+          "power_coefficients": {
+            "0,0,0": "331640546790174552648",
+            "1,0,0": "-11133544890828976",
+            "2,0,0": "101172990784"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "331640546790174552648",
+            "1,0,0": "331634980017729138160",
+            "2,0,0": "331629413346456714456"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "186735700712564327124",
+          "power_coefficients": {
+            "0,0,0": "186739089039682408292",
+            "1,0,0": "-3388355922288528",
+            "2,0,0": "28804207360"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "186739089039682408292",
+            "1,0,0": "186737394861721264028",
+            "2,0,0": "186735700712564327124"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "80248966216779203524",
+          "power_coefficients": {
+            "0,0,0": "80249458488474313924",
+            "1,0,0": "-492276616623360",
+            "2,0,0": "4921512960"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "80249458488474313924",
+            "1,0,0": "80249212350166002244",
+            "2,0,0": "80248966216779203524"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "26510019183691058976",
+          "power_coefficients": {
+            "0,0,0": "26510019183691058976",
+            "1,0,0": "27334206438336",
+            "2,0,0": "471241728"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "26510019183691058976",
+            "1,0,0": "26510032850794278144",
+            "2,0,0": "26510046518368739040"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "6709189747805820864",
+          "power_coefficients": {
+            "0,0,0": "6709189747805820864",
+            "1,0,0": "23555075155200",
+            "2,0,0": "21758976"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "6709189747805820864",
+            "1,0,0": "6709201525343398464",
+            "2,0,0": "6709213302902735040"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1286336102713068672",
+          "power_coefficients": {
+            "0,0,0": "1286336102713068672",
+            "1,0,0": "3621216665088",
+            "2,0,0": "331776"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1286336102713068672",
+            "1,0,0": "1286337913321401216",
+            "2,0,0": "1286339723930065536"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "183337971744144384",
+          "power_coefficients": {
+            "0,0,0": "183337971744144384",
+            "1,0,0": "194756410368"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "183337971744144384",
+            "1,0,0": "183338166500554752"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "18884621958195456",
+          "power_coefficients": {
+            "0,0,0": "18884621958195456"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "18884621958195456"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1348994475307008",
+          "power_coefficients": {
+            "0,0,0": "1348994475307008"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1348994475307008"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "62828312546304",
+          "power_coefficients": {
+            "0,0,0": "62828312546304"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "62828312546304"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1729527469056",
+          "power_coefficients": {
+            "0,0,0": "1729527469056"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1729527469056"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "23622119424",
+          "power_coefficients": {
+            "0,0,0": "23622119424"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "23622119424"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "107495424",
+          "power_coefficients": {
+            "0,0,0": "107495424"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "107495424"
+          }
+        }
+      ]
+    },
+    "y_L_r": {
+      "degree_x": 16,
+      "subtracted_strength": 0,
+      "ordinary_positive_support": [
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1677368",
+          "power_coefficients": {
+            "0,0,0": "1688936",
+            "1,0,0": "-11568"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1688936",
+            "1,0,0": "1677368"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "19177628",
+          "power_coefficients": {
+            "0,0,0": "19250372",
+            "1,0,0": "-72744"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "19250372",
+            "1,0,0": "19177628"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "103233884",
+          "power_coefficients": {
+            "0,0,0": "103439412",
+            "1,0,0": "-205528"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "103439412",
+            "1,0,0": "103233884"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "347226698",
+          "power_coefficients": {
+            "0,0,0": "347568610",
+            "1,0,0": "-341912"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "347568610",
+            "1,0,0": "347226698"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "816497370",
+          "power_coefficients": {
+            "0,0,0": "816865730",
+            "1,0,0": "-368360"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "816865730",
+            "1,0,0": "816497370"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1422731546",
+          "power_coefficients": {
+            "0,0,0": "1422997482",
+            "1,0,0": "-265936"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1422997482",
+            "1,0,0": "1422731546"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1899413702",
+          "power_coefficients": {
+            "0,0,0": "1899542054",
+            "1,0,0": "-128352"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1899542054",
+            "1,0,0": "1899413702"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1980866076",
+          "power_coefficients": {
+            "0,0,0": "1980905916",
+            "1,0,0": "-39840"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1980905916",
+            "1,0,0": "1980866076"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1629988104",
+          "power_coefficients": {
+            "0,0,0": "1629995304",
+            "1,0,0": "-7200"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1629995304",
+            "1,0,0": "1629988104"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1061218416",
+          "power_coefficients": {
+            "0,0,0": "1061218992",
+            "1,0,0": "-576"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1061218992",
+            "1,0,0": "1061218416"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "544522560",
+          "power_coefficients": {
+            "0,0,0": "544522560"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "544522560"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "217754064",
+          "power_coefficients": {
+            "0,0,0": "217754064"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "217754064"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "66490848",
+          "power_coefficients": {
+            "0,0,0": "66490848"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "66490848"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "14977440",
+          "power_coefficients": {
+            "0,0,0": "14977440"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "14977440"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2345760",
+          "power_coefficients": {
+            "0,0,0": "2345760"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2345760"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "228096",
+          "power_coefficients": {
+            "0,0,0": "228096"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "228096"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "10368",
+          "power_coefficients": {
+            "0,0,0": "10368"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "10368"
+          }
+        }
+      ],
+      "defects_after_strength": [
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1179568664294156922784",
+          "power_coefficients": {
+            "0,0,0": "1179642827469322543840",
+            "1,0,0": "-74163969147457472",
+            "2,0,0": "793981836416"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1179642827469322543840",
+            "1,0,0": "1179605745484748815104",
+            "2,0,0": "1179568664294156922784"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2929000457865748057816",
+          "power_coefficients": {
+            "0,0,0": "2929168560356699120264",
+            "1,0,0": "-168104230083925104",
+            "2,0,0": "1739132862656"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2929168560356699120264",
+            "1,0,0": "2929084508241657157712",
+            "2,0,0": "2929000457865748057816"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3339899687549040405016",
+          "power_coefficients": {
+            "0,0,0": "3340058248200967228520",
+            "1,0,0": "-158562187701598352",
+            "2,0,0": "1535774774848"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3340058248200967228520",
+            "1,0,0": "3339978967107116429344",
+            "2,0,0": "3339899687549040405016"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2637073283863649309064",
+          "power_coefficients": {
+            "0,0,0": "2637165494737410986072",
+            "1,0,0": "-92211689884519056",
+            "2,0,0": "816122842048"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2637165494737410986072",
+            "1,0,0": "2637119388892468726544",
+            "2,0,0": "2637073283863649309064"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1569511642971102113828",
+          "power_coefficients": {
+            "0,0,0": "1569546300470141669828",
+            "1,0,0": "-34657778273232992",
+            "2,0,0": "279233676992"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1569546300470141669828",
+            "1,0,0": "1569528971581005053332",
+            "2,0,0": "1569511642971102113828"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "724502953643478639156",
+          "power_coefficients": {
+            "0,0,0": "724510837211901991492",
+            "1,0,0": "-7883629968615440",
+            "2,0,0": "61545263104"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "724510837211901991492",
+            "1,0,0": "724506895396917683772",
+            "2,0,0": "724502953643478639156"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "261728455372104328060",
+          "power_coefficients": {
+            "0,0,0": "261729191559436089148",
+            "1,0,0": "-736195758187968",
+            "2,0,0": "8426426880"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "261729191559436089148",
+            "1,0,0": "261728823461556995164",
+            "2,0,0": "261728455372104328060"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "73930312160303272416",
+          "power_coefficients": {
+            "0,0,0": "73930312160303272416",
+            "1,0,0": "118428182414784",
+            "2,0,0": "662400000"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "73930312160303272416",
+            "1,0,0": "73930371374394479808",
+            "2,0,0": "73930430589148087200"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "16204480425763713216",
+          "power_coefficients": {
+            "0,0,0": "16204480425763713216",
+            "1,0,0": "45644967671040",
+            "2,0,0": "25574400"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "16204480425763713216",
+            "1,0,0": "16204503248247548736",
+            "2,0,0": "16204526070756958656"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2718342972358163712",
+          "power_coefficients": {
+            "0,0,0": "2718342972358163712",
+            "1,0,0": "5545469343744",
+            "2,0,0": "331776"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2718342972358163712",
+            "1,0,0": "2718345745092835584",
+            "2,0,0": "2718348517827839232"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "341881331224829184",
+          "power_coefficients": {
+            "0,0,0": "341881331224829184",
+            "1,0,0": "251372657664"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "341881331224829184",
+            "1,0,0": "341881582597486848"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "31301175082270464",
+          "power_coefficients": {
+            "0,0,0": "31301175082270464"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "31301175082270464"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2000081693081088",
+          "power_coefficients": {
+            "0,0,0": "2000081693081088"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2000081693081088"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "83796495363072",
+          "power_coefficients": {
+            "0,0,0": "83796495363072"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "83796495363072"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2085677724672",
+          "power_coefficients": {
+            "0,0,0": "2085677724672"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2085677724672"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "25879523328",
+          "power_coefficients": {
+            "0,0,0": "25879523328"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "25879523328"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "107495424",
+          "power_coefficients": {
+            "0,0,0": "107495424"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "107495424"
+          }
+        }
+      ]
+    },
+    "midpoint": {
+      "degree_x": 22,
+      "subtracted_strength": 128,
+      "ordinary_positive_support": [
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            1
+          ],
+          "minimum_bernstein_coefficient": "972873440",
+          "power_coefficients": {
+            "0,0,0": "986338624",
+            "0,0,1": "-32",
+            "0,1,0": "-6755712",
+            "1,0,0": "-6755712",
+            "1,1,0": "46272"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "986338624",
+            "0,0,1": "986338592",
+            "0,1,0": "979582912",
+            "0,1,1": "979582880",
+            "1,0,0": "979582912",
+            "1,0,1": "979582880",
+            "1,1,0": "972873472",
+            "1,1,1": "972873440"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            1
+          ],
+          "minimum_bernstein_coefficient": "15155416912",
+          "power_coefficients": {
+            "0,0,0": "15295663648",
+            "0,0,1": "-48",
+            "0,1,0": "-70245696",
+            "1,0,0": "-70245696",
+            "1,1,0": "244704"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "15295663648",
+            "0,0,1": "15295663600",
+            "0,1,0": "15225417952",
+            "0,1,1": "15225417904",
+            "1,0,0": "15225417952",
+            "1,0,1": "15225417904",
+            "1,1,0": "15155416960",
+            "1,1,1": "15155416912"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            1
+          ],
+          "minimum_bernstein_coefficient": "113062195496",
+          "power_coefficients": {
+            "0,0,0": "113748641880",
+            "0,0,1": "-16",
+            "0,1,0": "-343511888",
+            "1,0,0": "-343511888",
+            "1,1,0": "577408"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "113748641880",
+            "0,0,1": "113748641864",
+            "0,1,0": "113405129992",
+            "0,1,1": "113405129976",
+            "1,0,0": "113405129992",
+            "1,0,1": "113405129976",
+            "1,1,0": "113062195512",
+            "1,1,1": "113062195496"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "537277433332",
+          "power_coefficients": {
+            "0,0,0": "539370168164",
+            "0,1,0": "-1046762536",
+            "1,0,0": "-1046762536",
+            "1,1,0": "790240"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "539370168164",
+            "0,1,0": "538323405628",
+            "1,0,0": "538323405628",
+            "1,1,0": "537277433332"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1824742568472",
+          "power_coefficients": {
+            "0,0,0": "1829183286040",
+            "0,1,0": "-2220700384",
+            "1,0,0": "-2220700384",
+            "1,1,0": "683200"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1829183286040",
+            "0,1,0": "1826962585656",
+            "1,0,0": "1826962585656",
+            "1,1,0": "1824742568472"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "4710449554670",
+          "power_coefficients": {
+            "0,0,0": "4717391753214",
+            "0,1,0": "-3471289544",
+            "1,0,0": "-3471289544",
+            "1,1,0": "380544"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "4717391753214",
+            "0,1,0": "4713920463670",
+            "1,0,0": "4713920463670",
+            "1,1,0": "4710449554670"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "9595524937576",
+          "power_coefficients": {
+            "0,0,0": "9603778562056",
+            "0,1,0": "-4126878672",
+            "1,0,0": "-4126878672",
+            "1,1,0": "132864"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "9603778562056",
+            "0,1,0": "9599651683384",
+            "1,0,0": "9599651683384",
+            "1,1,0": "9595524937576"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "15806767519230",
+          "power_coefficients": {
+            "0,0,0": "15814360982718",
+            "0,1,0": "-3796744992",
+            "1,0,0": "-3796744992",
+            "1,1,0": "26496"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "15814360982718",
+            "0,1,0": "15810564237726",
+            "1,0,0": "15810564237726",
+            "1,1,0": "15806767519230"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "21405566903772",
+          "power_coefficients": {
+            "0,0,0": "21411013373916",
+            "0,1,0": "-2723236224",
+            "1,0,0": "-2723236224",
+            "1,1,0": "2304"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "21411013373916",
+            "0,1,0": "21408290137692",
+            "1,0,0": "21408290137692",
+            "1,1,0": "21405566903772"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "24093801399816",
+          "power_coefficients": {
+            "0,0,0": "24096844679304",
+            "0,1,0": "-1521639744",
+            "1,0,0": "-1521639744"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "24096844679304",
+            "0,1,0": "24095323039560",
+            "1,0,0": "24095323039560",
+            "1,1,0": "24093801399816"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "22700132480976",
+          "power_coefficients": {
+            "0,0,0": "22701445381968",
+            "0,1,0": "-656450496",
+            "1,0,0": "-656450496"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "22701445381968",
+            "0,1,0": "22700788931472",
+            "1,0,0": "22700788931472",
+            "1,1,0": "22700132480976"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "17970306279624",
+          "power_coefficients": {
+            "0,0,0": "17970735411144",
+            "0,1,0": "-214565760",
+            "1,0,0": "-214565760"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "17970735411144",
+            "0,1,0": "17970520845384",
+            "1,0,0": "17970520845384",
+            "1,1,0": "17970306279624"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "11965570326288",
+          "power_coefficients": {
+            "0,0,0": "11965673121552",
+            "0,1,0": "-51397632",
+            "1,0,0": "-51397632"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "11965673121552",
+            "0,1,0": "11965621723920",
+            "1,0,0": "11965621723920",
+            "1,1,0": "11965570326288"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "6690389093856",
+          "power_coefficients": {
+            "0,0,0": "6690406118112",
+            "0,1,0": "-8512128",
+            "1,0,0": "-8512128"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "6690406118112",
+            "0,1,0": "6690397605984",
+            "1,0,0": "6690397605984",
+            "1,1,0": "6690389093856"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3127428360576",
+          "power_coefficients": {
+            "0,0,0": "3127430102400",
+            "0,1,0": "-870912",
+            "1,0,0": "-870912"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3127430102400",
+            "0,1,0": "3127429231488",
+            "1,0,0": "3127429231488",
+            "1,1,0": "3127428360576"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1212920662176",
+          "power_coefficients": {
+            "0,0,0": "1212920745120",
+            "0,1,0": "-41472",
+            "1,0,0": "-41472"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1212920745120",
+            "0,1,0": "1212920703648",
+            "1,0,0": "1212920703648",
+            "1,1,0": "1212920662176"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "385785661248",
+          "power_coefficients": {
+            "0,0,0": "385785661248"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "385785661248"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "98932430592",
+          "power_coefficients": {
+            "0,0,0": "98932430592"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "98932430592"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "19950230016",
+          "power_coefficients": {
+            "0,0,0": "19950230016"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "19950230016"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3045485952",
+          "power_coefficients": {
+            "0,0,0": "3045485952"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3045485952"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "330759936",
+          "power_coefficients": {
+            "0,0,0": "330759936"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "330759936"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "22768128",
+          "power_coefficients": {
+            "0,0,0": "22768128"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "22768128"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "746496",
+          "power_coefficients": {
+            "0,0,0": "746496"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "746496"
+          }
+        }
+      ],
+      "defects_after_strength": [
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            2
+          ],
+          "minimum_bernstein_coefficient": "6220316011057686857029808236984",
+          "power_coefficients": {
+            "0,0,0": "6220872383783979952753069710904",
+            "0,0,1": "-498262021907324672",
+            "0,0,2": "512",
+            "0,1,0": "-278197590519637834052209344",
+            "0,1,1": "6856836209664",
+            "0,2,0": "2572205240329774735232",
+            "1,0,0": "-278197590519637834052209344",
+            "1,0,1": "6856836209664",
+            "1,1,0": "17311197076544347634432",
+            "1,1,1": "-105915392",
+            "1,2,0": "-181565488377716736",
+            "2,0,0": "2572205240329774735232",
+            "2,1,0": "-181565488377716736",
+            "2,2,0": "2026042093568"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "6220872383783979952753069710904",
+            "0,0,1": "6220872383783730821742116048568",
+            "0,0,2": "6220872383783481690731162386744",
+            "0,1,0": "6220733284988720133836043606232",
+            "0,1,1": "6220733284988471004539298996312",
+            "0,1,2": "6220733284988221875242554386904",
+            "0,2,0": "6220594188765665555248792236792",
+            "0,2,1": "6220594188765416427666256679288",
+            "0,2,2": "6220594188765167300083721122296",
+            "1,0,0": "6220733284988720133836043606232",
+            "1,0,1": "6220733284988471004539298996312",
+            "1,0,2": "6220733284988221875242554386904",
+            "1,1,0": "6220594190521259584055104410168",
+            "1,1,1": "6220594190521010456472555613240",
+            "1,1,2": "6220594190520761328890006816824",
+            "1,2,0": "6220455098625913491859751090968",
+            "1,2,1": "6220455098625664365991398107032",
+            "1,2,2": "6220455098625415240123045123608",
+            "2,0,0": "6220594188765665555248792236792",
+            "2,0,1": "6220594188765416427666256679288",
+            "2,0,2": "6220594188765167300083721122296",
+            "2,1,0": "6220455098625913491859751090968",
+            "2,1,1": "6220455098625664365991398107032",
+            "2,1,2": "6220455098625415240123045123608",
+            "2,2,0": "6220316011058185105338149057208",
+            "2,2,1": "6220316011057935981183978646840",
+            "2,2,2": "6220316011057686857029808236984"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            2
+          ],
+          "minimum_bernstein_coefficient": "16192382890200995067900014691076",
+          "power_coefficients": {
+            "0,0,0": "16193773978295512503990836051076",
+            "0,0,1": "-988878924482372160",
+            "0,0,2": "1024",
+            "0,1,0": "-695569940602252648164264704",
+            "0,1,1": "13617077990912",
+            "0,2,0": "6303431374302127461824",
+            "1,0,0": "-695569940602252648164264704",
+            "1,0,1": "13617077990912",
+            "1,1,0": "39181607449283757559616",
+            "1,1,1": "-210007552",
+            "1,2,0": "-397140626828249856",
+            "2,0,0": "6303431374302127461824",
+            "2,1,0": "-397140626828249856",
+            "2,2,0": "4261687582720"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "16193773978295512503990836051076",
+            "0,0,1": "16193773978295018064528594864996",
+            "0,0,2": "16193773978294523625066353679940",
+            "0,1,0": "16193426193325211377666753918724",
+            "0,1,1": "16193426193324716941608782230372",
+            "0,1,2": "16193426193324222505550810543044",
+            "0,2,0": "16193078414658341625644799248196",
+            "0,2,1": "16193078414657847192991097057572",
+            "0,2,2": "16193078414657352760337394867972",
+            "1,0,0": "16193426193325211377666753918724",
+            "1,0,1": "16193426193324716941608782230372",
+            "1,0,2": "16193426193324222505550810543044",
+            "1,1,0": "16193078418150312113663611176276",
+            "1,1,1": "16193078418149817681009882734708",
+            "1,1,2": "16193078418149323248356154294164",
+            "1,2,0": "16192730649278645653649181770724",
+            "1,2,1": "16192730649278151224399696575940",
+            "1,2,2": "16192730649277656795150211382180",
+            "2,0,0": "16193078414658341625644799248196",
+            "2,0,1": "16193078414657847192991097057572",
+            "2,0,2": "16193078414657352760337394867972",
+            "2,1,0": "16192730649278645653649181770724",
+            "2,1,1": "16192730649278151224399696575940",
+            "2,1,2": "16192730649277656795150211382180",
+            "2,2,0": "16192382890201983919590551087940",
+            "2,2,1": "16192382890201489493745282888996",
+            "2,2,2": "16192382890200995067900014691076"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            2
+          ],
+          "minimum_bernstein_coefficient": "20308124191260466287399676794560",
+          "power_coefficients": {
+            "0,0,0": "20309731788391768202571063089472",
+            "0,0,1": "-72519052859061376",
+            "0,0,2": "256",
+            "0,1,0": "-803823996641173185304613792",
+            "0,1,1": "1520661238528",
+            "0,2,0": "6998898015552901475200",
+            "1,0,0": "-803823996641173185304613792",
+            "1,0,1": "1520661238528",
+            "1,1,0": "36864951910791715722048",
+            "1,1,1": "-42578432",
+            "1,2,0": "-347499076005548288",
+            "2,0,0": "6998898015552901475200",
+            "2,1,0": "-347499076005548288",
+            "2,2,0": "3465294519296"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "20309731788391768202571063089472",
+            "0,0,1": "20309731788391731943044633558784",
+            "0,0,2": "20309731788391695683518204028352",
+            "0,1,0": "20309329876393447615978410782576",
+            "0,1,1": "20309329876393411356832146561520",
+            "0,1,2": "20309329876393375097685882340720",
+            "0,2,0": "20308927971394025044938659950880",
+            "0,2,1": "20308927971393988786172561039456",
+            "0,2,2": "20308927971393952527406462128288",
+            "1,0,0": "20309329876393447615978410782576",
+            "1,0,1": "20309329876393411356832146561520",
+            "1,0,2": "20309329876393375097685882340720",
+            "1,1,0": "20308927973611365007083687406192",
+            "1,1,1": "20308927973611328748317583172464",
+            "1,1,2": "20308927973611292489551478938992",
+            "1,2,0": "20308526077828006664203862730864",
+            "1,2,1": "20308526077827970405817918484464",
+            "1,2,2": "20308526077827934147431974238320",
+            "2,0,0": "20308927971394025044938659950880",
+            "2,0,1": "20308927971393988786172561039456",
+            "2,0,2": "20308927971393952527406462128288",
+            "2,1,0": "20308526077828006664203862730864",
+            "2,1,1": "20308526077827970405817918484464",
+            "2,1,2": "20308526077827934147431974238320",
+            "2,2,0": "20308124191260538803411255957056",
+            "2,2,1": "20308124191260502545405466375680",
+            "2,2,2": "20308124191260466287399676794560"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            1
+          ],
+          "minimum_bernstein_coefficient": "18533094904720024168768029547840",
+          "power_coefficients": {
+            "0,0,0": "18534388467561533105704173002560",
+            "0,0,1": "309336988505898112",
+            "0,1,0": "-646797425242433926824328064",
+            "0,1,1": "-3347072637952",
+            "0,2,0": "5306248751989865480320",
+            "1,0,0": "-646797425242433926824328064",
+            "1,0,1": "-3347072637952",
+            "1,1,0": "21396834698755562352128",
+            "1,1,1": "24718336",
+            "1,2,0": "-178136718277981952",
+            "2,0,0": "5306248751989865480320",
+            "2,1,0": "-178136718277981952",
+            "2,2,0": "1618767852544"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "18534388467561533105704173002560",
+            "0,0,1": "18534388467561842442692678900672",
+            "0,1,0": "18534065068848911888740760838528",
+            "0,1,1": "18534065068849221224055730417664",
+            "0,2,0": "18533741675442539423767214154816",
+            "0,2,1": "18533741675442848757408647414976",
+            "1,0,0": "18534065068848911888740760838528",
+            "1,0,1": "18534065068849221224055730417664",
+            "1,1,0": "18533741675485499346466239262528",
+            "1,1,1": "18533741675485808680107678702272",
+            "1,2,0": "18533418287428246487822444175872",
+            "1,2,1": "18533418287428555819790353476224",
+            "2,0,0": "18533741675442539423767214154816",
+            "2,0,1": "18533741675442848757408647414976",
+            "2,1,0": "18533418287428246487822444175872",
+            "2,1,1": "18533418287428555819790353476224",
+            "2,2,0": "18533094904720024168768029547840",
+            "2,2,1": "18533094904720333499062414888384"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "13431589797795219621923756682688",
+          "power_coefficients": {
+            "0,0,0": "13432377411866735270633380396224",
+            "0,1,0": "-393814075351728803780499840",
+            "0,2,0": "2987825424634918532672",
+            "1,0,0": "-393814075351728803780499840",
+            "1,1,0": "8103645386556746135936",
+            "1,2,0": "-54213694756616448",
+            "2,0,0": "2987825424634918532672",
+            "2,1,0": "-54213694756616448",
+            "2,2,0": "460867317760"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "13432377411866735270633380396224",
+            "0,1,0": "13432180504829059406231490146304",
+            "0,2,0": "13431983600779208966464518429056",
+            "1,0,0": "13432180504829059406231490146304",
+            "1,1,0": "13431983599817294888468786430368",
+            "1,2,0": "13431786697793328688493622938880",
+            "2,0,0": "13431983600779208966464518429056",
+            "2,1,0": "13431786697793328688493622938880",
+            "2,2,0": "13431589797795219621923756682688"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "7982931821266032432820604859248",
+          "power_coefficients": {
+            "0,0,0": "7983304028539932237293145963472",
+            "0,1,0": "-186105907189162554579272368",
+            "0,2,0": "1283991335815589022784",
+            "1,0,0": "-186105907189162554579272368",
+            "1,1,0": "1972511601778427135104",
+            "1,2,0": "-7876425865973760",
+            "2,0,0": "1283991335815589022784",
+            "2,1,0": "-7876425865973760",
+            "2,2,0": "78744207360"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "7983304028539932237293145963472",
+            "0,1,0": "7983210975586337656015856327288",
+            "0,2,0": "7983117923916734410554155713888",
+            "1,0,0": "7983210975586337656015856327288",
+            "1,1,0": "7983117923125870975183173474880",
+            "1,2,0": "7983024871949391691953146658376",
+            "2,0,0": "7983117923916734410554155713888",
+            "2,1,0": "7983024871949391691953146658376",
+            "2,2,0": "7982931821266032432820604859248"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3945534777852706897931916522284",
+          "power_coefficients": {
+            "0,0,0": "3945671747979719242010658256460",
+            "0,1,0": "-68485641977299162863499152",
+            "0,2,0": "424160306939056943616",
+            "1,0,0": "-68485641977299162863499152",
+            "1,1,0": "308620765666725482496",
+            "1,2,0": "437347303013376",
+            "2,0,0": "424160306939056943616",
+            "2,1,0": "437347303013376",
+            "2,2,0": "7539867648"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3945671747979719242010658256460",
+            "0,1,0": "3945637505158730592429226506884",
+            "0,2,0": "3945603262761902249786851700924",
+            "1,0,0": "3945637505158730592429226506884",
+            "1,1,0": "3945603262414897134264476127932",
+            "1,2,0": "3945569020095224201712434199284",
+            "2,0,0": "3945603262761902249786851700924",
+            "2,1,0": "3945569020095224201712434199284",
+            "2,2,0": "3945534777852706897931916522284"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1631058782439825939342063143508",
+          "power_coefficients": {
+            "0,0,0": "1631097565792854894966022179540",
+            "0,1,0": "-19391808222947452975730496",
+            "0,2,0": "107347035964893133824",
+            "1,0,0": "-19391808222947452975730496",
+            "1,1,0": "48722113589453047296",
+            "1,2,0": "376881202483200",
+            "2,0,0": "107347035964893133824",
+            "2,1,0": "376881202483200",
+            "2,2,0": "348143616"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1631097565792854894966022179540",
+            "0,1,0": "1631087869888743421239534314292",
+            "0,2,0": "1631078174091978983477939582868",
+            "1,0,0": "1631087869888743421239534314292",
+            "1,1,0": "1631078173996812475910409710868",
+            "1,2,0": "1631068478212228754986779482868",
+            "2,0,0": "1631078174091978983477939582868",
+            "2,1,0": "1631068478212228754986779482868",
+            "2,2,0": "1631058782439825939342063143508"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "564663517797035184243868686672",
+          "power_coefficients": {
+            "0,0,0": "564671705257358734891264075344",
+            "0,1,0": "-4093758457574600563239552",
+            "0,2,0": "20581377643409098752",
+            "1,0,0": "-4093758457574600563239552",
+            "1,1,0": "15428727387974301696",
+            "1,2,0": "57939466641408",
+            "2,0,0": "20581377643409098752",
+            "2,1,0": "57939466641408",
+            "2,2,0": "5308416"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "564671705257358734891264075344",
+            "0,1,0": "564669658378129947590982455568",
+            "0,2,0": "564667611519482537934109934544",
+            "1,0,0": "564669658378129947590982455568",
+            "1,1,0": "564667611502758342137694411216",
+            "1,2,0": "564665564647968143297548786320",
+            "2,0,0": "564667611519482537934109934544",
+            "2,1,0": "564665564647968143297548786320",
+            "2,2,0": "564663517797035184243868686672"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "163407259112366715275986737984",
+          "power_coefficients": {
+            "0,0,0": "163408453895723877366679905600",
+            "0,1,0": "-597396700802235828731136",
+            "0,2,0": "2933407547906310144",
+            "1,0,0": "-597396700802235828731136",
+            "1,1,0": "4177621052946542592",
+            "1,2,0": "3116102565888",
+            "2,0,0": "2933407547906310144",
+            "2,1,0": "3116102565888"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "163408453895723877366679905600",
+            "0,1,0": "163408155197373476248765540032",
+            "0,2,0": "163407856501956482678757484608",
+            "1,0,0": "163408155197373476248765540032",
+            "1,1,0": "163407856500067480394087810112",
+            "1,2,0": "163407557805694893645367673280",
+            "2,0,0": "163407856501956482678757484608",
+            "2,1,0": "163407557805694893645367673280",
+            "2,2,0": "163407259112366715275986737984"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "39360015777960340960758756288",
+          "power_coefficients": {
+            "0,0,0": "39360108425620395237068419008",
+            "0,1,0": "-46324434335040817085952",
+            "0,2,0": "302153951331127296",
+            "1,0,0": "-46324434335040817085952",
+            "1,1,0": "604307902662254592",
+            "2,0,0": "302153951331127296"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "39360108425620395237068419008",
+            "0,1,0": "39360085263403227716659876032",
+            "0,2,0": "39360062101488214147582460352",
+            "1,0,0": "39360085263403227716659876032",
+            "1,1,0": "39360062101337137171916896704",
+            "1,2,0": "39360038939573200578505044672",
+            "2,0,0": "39360062101488214147582460352",
+            "2,1,0": "39360038939573200578505044672",
+            "2,2,0": "39360015777960340960758756288"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "7839611171689633516105174080",
+          "power_coefficients": {
+            "0,0,0": "7839611171689633516105174080",
+            "0,1,0": "2044154653096907741184",
+            "0,2,0": "21583911604912128",
+            "1,0,0": "2044154653096907741184",
+            "1,1,0": "43167823209824256",
+            "2,0,0": "21583911604912128"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "7839611171689633516105174080",
+            "0,1,0": "7839612193766960064559044672",
+            "0,2,0": "7839613215865870524617827392",
+            "1,0,0": "7839612193766960064559044672",
+            "1,1,0": "7839613215855078568815371328",
+            "1,2,0": "7839614237964780984676610112",
+            "2,0,0": "7839613215865870524617827392",
+            "2,1,0": "7839614237964780984676610112",
+            "2,2,0": "7839615260085275356340304960"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1279707234251121967465698048",
+          "power_coefficients": {
+            "0,0,0": "1279707234251121967465698048",
+            "0,1,0": "1089413800875736040448",
+            "0,2,0": "1005253000740864",
+            "1,0,0": "1089413800875736040448",
+            "1,1,0": "2010506001481728",
+            "2,0,0": "1005253000740864"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1279707234251121967465698048",
+            "0,1,0": "1279707778958022405333718272",
+            "0,2,0": "1279708323665928096202479360",
+            "1,0,0": "1279707778958022405333718272",
+            "1,1,0": "1279708323665425469702108928",
+            "1,2,0": "1279708868373833787071240448",
+            "2,0,0": "1279708323665928096202479360",
+            "2,1,0": "1279708868373833787071240448",
+            "2,2,0": "1279709413082744730940742400"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "169218369949351042512433152",
+          "power_coefficients": {
+            "0,0,0": "169218369949351042512433152",
+            "0,1,0": "146475040113649225728",
+            "0,2,0": "27672439504896",
+            "1,0,0": "146475040113649225728",
+            "1,1,0": "55344879009792",
+            "2,0,0": "27672439504896"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "169218369949351042512433152",
+            "0,1,0": "169218443186871099337046016",
+            "0,2,0": "169218516424418828601163776",
+            "1,0,0": "169218443186871099337046016",
+            "1,1,0": "169218516424404992381411328",
+            "1,2,0": "169218589661966557865281536",
+            "2,0,0": "169218516424418828601163776",
+            "2,1,0": "169218589661966557865281536",
+            "2,2,0": "169218662899541959568904192"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "17857007109802621262324736",
+          "power_coefficients": {
+            "0,0,0": "17857007109802621262324736",
+            "0,1,0": "10592346287860125696",
+            "0,2,0": "377953910784",
+            "1,0,0": "10592346287860125696",
+            "1,1,0": "755907821568",
+            "2,0,0": "377953910784"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "17857007109802621262324736",
+            "0,1,0": "17857012405975765192387584",
+            "0,2,0": "17857017702149287076361216",
+            "1,0,0": "17857012405975765192387584",
+            "1,1,0": "17857017702149098099405824",
+            "1,2,0": "17857022998322808960334848",
+            "2,0,0": "17857017702149287076361216",
+            "2,1,0": "17857022998322808960334848",
+            "2,2,0": "17857028294496708798219264"
+          }
+        },
+        {
+          "parameter_degrees": [
+            2,
+            2,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1475169534549438911640576",
+          "power_coefficients": {
+            "0,0,0": "1475169534549438911640576",
+            "0,1,0": "411954569929949184",
+            "0,2,0": "1719926784",
+            "1,0,0": "411954569929949184",
+            "1,1,0": "3439853568",
+            "2,0,0": "1719926784"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1475169534549438911640576",
+            "0,1,0": "1475169740526723876615168",
+            "0,2,0": "1475169946504010561516544",
+            "1,0,0": "1475169740526723876615168",
+            "1,1,0": "1475169946504009701553152",
+            "1,2,0": "1475170152481297246417920",
+            "2,0,0": "1475169946504010561516544",
+            "2,1,0": "1475170152481297246417920",
+            "2,2,0": "1475170358458585651246080"
+          }
+        },
+        {
+          "parameter_degrees": [
+            1,
+            1,
+            0
+          ],
+          "minimum_bernstein_coefficient": "93042874597876091043840",
+          "power_coefficients": {
+            "0,0,0": "93042874597876091043840",
+            "0,1,0": "6700961595064320",
+            "1,0,0": "6700961595064320"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "93042874597876091043840",
+            "0,1,0": "93042881298837686108160",
+            "1,0,0": "93042881298837686108160",
+            "1,1,0": "93042887999799281172480"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "4334036568379061059584",
+          "power_coefficients": {
+            "0,0,0": "4334036568379061059584"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "4334036568379061059584"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "142441881592005033984",
+          "power_coefficients": {
+            "0,0,0": "142441881592005033984"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "142441881592005033984"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3092634382207057920",
+          "power_coefficients": {
+            "0,0,0": "3092634382207057920"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3092634382207057920"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "40050513778212864",
+          "power_coefficients": {
+            "0,0,0": "40050513778212864"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "40050513778212864"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "258656874725376",
+          "power_coefficients": {
+            "0,0,0": "258656874725376"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "258656874725376"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "557160726528",
+          "power_coefficients": {
+            "0,0,0": "557160726528"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "557160726528"
+          }
+        }
+      ]
+    },
+    "q2": {
+      "degree_x": 23,
+      "subtracted_strength": 0,
+      "ordinary_positive_support": [
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "979591572",
+          "power_coefficients": {
+            "0,0,0": "979591572"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "979591572"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "16205055382",
+          "power_coefficients": {
+            "0,0,0": "16205055382"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "16205055382"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "128630702058",
+          "power_coefficients": {
+            "0,0,0": "128630702058"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "128630702058"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "651728792046",
+          "power_coefficients": {
+            "0,0,0": "651728792046"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "651728792046"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2365286267554",
+          "power_coefficients": {
+            "0,0,0": "2365286267554"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2365286267554"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "6540883248778",
+          "power_coefficients": {
+            "0,0,0": "6540883248778"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "6540883248778"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "14313572243318",
+          "power_coefficients": {
+            "0,0,0": "14313572243318"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "14313572243318"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "25410215950990",
+          "power_coefficients": {
+            "0,0,0": "25410215950990"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "25410215950990"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "37218854380818",
+          "power_coefficients": {
+            "0,0,0": "37218854380818"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "37218854380818"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "45503613177684",
+          "power_coefficients": {
+            "0,0,0": "45503613177684"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "45503613177684"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "46796111971032",
+          "power_coefficients": {
+            "0,0,0": "46796111971032"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "46796111971032"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "40671309776856",
+          "power_coefficients": {
+            "0,0,0": "40671309776856"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "40671309776856"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "29936142569304",
+          "power_coefficients": {
+            "0,0,0": "29936142569304"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "29936142569304"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "18656019329904",
+          "power_coefficients": {
+            "0,0,0": "18656019329904"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "18656019329904"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "9817826837472",
+          "power_coefficients": {
+            "0,0,0": "9817826837472"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "9817826837472"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "4340349935136",
+          "power_coefficients": {
+            "0,0,0": "4340349935136"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "4340349935136"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1598706364896",
+          "power_coefficients": {
+            "0,0,0": "1598706364896"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1598706364896"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "484718091840",
+          "power_coefficients": {
+            "0,0,0": "484718091840"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "484718091840"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "118882660608",
+          "power_coefficients": {
+            "0,0,0": "118882660608"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "118882660608"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "22995715968",
+          "power_coefficients": {
+            "0,0,0": "22995715968"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "22995715968"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3376245888",
+          "power_coefficients": {
+            "0,0,0": "3376245888"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3376245888"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "353528064",
+          "power_coefficients": {
+            "0,0,0": "353528064"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "353528064"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "23514624",
+          "power_coefficients": {
+            "0,0,0": "23514624"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "23514624"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "746496",
+          "power_coefficients": {
+            "0,0,0": "746496"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "746496"
+          }
+        }
+      ],
+      "defects_after_strength": [
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "48535187453442844399718061924120",
+          "power_coefficients": {
+            "0,0,0": "48535187453442844399718061924120"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "48535187453442844399718061924120"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "127172392318651488661581318853144",
+          "power_coefficients": {
+            "0,0,0": "127172392318651488661581318853144"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "127172392318651488661581318853144"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "161605619419172350329696441038960",
+          "power_coefficients": {
+            "0,0,0": "161605619419172350329696441038960"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "161605619419172350329696441038960"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "150440554175387050983371814835632",
+          "power_coefficients": {
+            "0,0,0": "150440554175387050983371814835632"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "150440554175387050983371814835632"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "111993248384619736549294795425136",
+          "power_coefficients": {
+            "0,0,0": "111993248384619736549294795425136"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "111993248384619736549294795425136"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "68868214854108236347531025932800",
+          "power_coefficients": {
+            "0,0,0": "68868214854108236347531025932800"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "68868214854108236347531025932800"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "35486866116471008086644822984916",
+          "power_coefficients": {
+            "0,0,0": "35486866116471008086644822984916"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "35486866116471008086644822984916"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "15419416450506550508329843994140",
+          "power_coefficients": {
+            "0,0,0": "15419416450506550508329843994140"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "15419416450506550508329843994140"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "5660215260364032847519104123084",
+          "power_coefficients": {
+            "0,0,0": "5660215260364032847519104123084"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "5660215260364032847519104123084"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "1753551924029135656162891802496",
+          "power_coefficients": {
+            "0,0,0": "1753551924029135656162891802496"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "1753551924029135656162891802496"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "456993673828527721436716669920",
+          "power_coefficients": {
+            "0,0,0": "456993673828527721436716669920"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "456993673828527721436716669920"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "99661368865198945977916259904",
+          "power_coefficients": {
+            "0,0,0": "99661368865198945977916259904"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "99661368865198945977916259904"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "18055846080708274683740749248",
+          "power_coefficients": {
+            "0,0,0": "18055846080708274683740749248"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "18055846080708274683740749248"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2691997908266586838537557504",
+          "power_coefficients": {
+            "0,0,0": "2691997908266586838537557504"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2691997908266586838537557504"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "326332026094324100378439168",
+          "power_coefficients": {
+            "0,0,0": "326332026094324100378439168"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "326332026094324100378439168"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "31675958282035483463328768",
+          "power_coefficients": {
+            "0,0,0": "31675958282035483463328768"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "31675958282035483463328768"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "2414410190801254935604224",
+          "power_coefficients": {
+            "0,0,0": "2414410190801254935604224"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "2414410190801254935604224"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "140908340474656891637760",
+          "power_coefficients": {
+            "0,0,0": "140908340474656891637760"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "140908340474656891637760"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "6089473067785496027136",
+          "power_coefficients": {
+            "0,0,0": "6089473067785496027136"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "6089473067785496027136"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "186137397727011274752",
+          "power_coefficients": {
+            "0,0,0": "186137397727011274752"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "186137397727011274752"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "3767451797680275456",
+          "power_coefficients": {
+            "0,0,0": "3767451797680275456"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "3767451797680275456"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "45584623876571136",
+          "power_coefficients": {
+            "0,0,0": "45584623876571136"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "45584623876571136"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "275656105525248",
+          "power_coefficients": {
+            "0,0,0": "275656105525248"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "275656105525248"
+          }
+        },
+        {
+          "parameter_degrees": [
+            0,
+            0,
+            0
+          ],
+          "minimum_bernstein_coefficient": "557256278016",
+          "power_coefficients": {
+            "0,0,0": "557256278016"
+          },
+          "bernstein_coefficients": {
+            "0,0,0": "557256278016"
+          }
+        }
+      ]
+    }
+  },
+  "midpoint_minus_B_ordinary_positive_support": [
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        1
+      ],
+      "minimum_bernstein_coefficient": "972873432",
+      "power_coefficients": {
+        "0,0,0": "986338616",
+        "0,0,1": "-32",
+        "0,1,0": "-6755712",
+        "1,0,0": "-6755712",
+        "1,1,0": "46272"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "986338616",
+        "0,0,1": "986338584",
+        "0,1,0": "979582904",
+        "0,1,1": "979582872",
+        "1,0,0": "979582904",
+        "1,0,1": "979582872",
+        "1,1,0": "972873464",
+        "1,1,1": "972873432"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        1
+      ],
+      "minimum_bernstein_coefficient": "15155416900",
+      "power_coefficients": {
+        "0,0,0": "15295663636",
+        "0,0,1": "-48",
+        "0,1,0": "-70245696",
+        "1,0,0": "-70245696",
+        "1,1,0": "244704"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "15295663636",
+        "0,0,1": "15295663588",
+        "0,1,0": "15225417940",
+        "0,1,1": "15225417892",
+        "1,0,0": "15225417940",
+        "1,0,1": "15225417892",
+        "1,1,0": "15155416948",
+        "1,1,1": "15155416900"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        1
+      ],
+      "minimum_bernstein_coefficient": "113062195492",
+      "power_coefficients": {
+        "0,0,0": "113748641876",
+        "0,0,1": "-16",
+        "0,1,0": "-343511888",
+        "1,0,0": "-343511888",
+        "1,1,0": "577408"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "113748641876",
+        "0,0,1": "113748641860",
+        "0,1,0": "113405129988",
+        "0,1,1": "113405129972",
+        "1,0,0": "113405129988",
+        "1,0,1": "113405129972",
+        "1,1,0": "113062195508",
+        "1,1,1": "113062195492"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "537277433332",
+      "power_coefficients": {
+        "0,0,0": "539370168164",
+        "0,1,0": "-1046762536",
+        "1,0,0": "-1046762536",
+        "1,1,0": "790240"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "539370168164",
+        "0,1,0": "538323405628",
+        "1,0,0": "538323405628",
+        "1,1,0": "537277433332"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "1824742568472",
+      "power_coefficients": {
+        "0,0,0": "1829183286040",
+        "0,1,0": "-2220700384",
+        "1,0,0": "-2220700384",
+        "1,1,0": "683200"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "1829183286040",
+        "0,1,0": "1826962585656",
+        "1,0,0": "1826962585656",
+        "1,1,0": "1824742568472"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "4710449554670",
+      "power_coefficients": {
+        "0,0,0": "4717391753214",
+        "0,1,0": "-3471289544",
+        "1,0,0": "-3471289544",
+        "1,1,0": "380544"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "4717391753214",
+        "0,1,0": "4713920463670",
+        "1,0,0": "4713920463670",
+        "1,1,0": "4710449554670"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "9595524937576",
+      "power_coefficients": {
+        "0,0,0": "9603778562056",
+        "0,1,0": "-4126878672",
+        "1,0,0": "-4126878672",
+        "1,1,0": "132864"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "9603778562056",
+        "0,1,0": "9599651683384",
+        "1,0,0": "9599651683384",
+        "1,1,0": "9595524937576"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "15806767519230",
+      "power_coefficients": {
+        "0,0,0": "15814360982718",
+        "0,1,0": "-3796744992",
+        "1,0,0": "-3796744992",
+        "1,1,0": "26496"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "15814360982718",
+        "0,1,0": "15810564237726",
+        "1,0,0": "15810564237726",
+        "1,1,0": "15806767519230"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "21405566903772",
+      "power_coefficients": {
+        "0,0,0": "21411013373916",
+        "0,1,0": "-2723236224",
+        "1,0,0": "-2723236224",
+        "1,1,0": "2304"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "21411013373916",
+        "0,1,0": "21408290137692",
+        "1,0,0": "21408290137692",
+        "1,1,0": "21405566903772"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "24093801399816",
+      "power_coefficients": {
+        "0,0,0": "24096844679304",
+        "0,1,0": "-1521639744",
+        "1,0,0": "-1521639744"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "24096844679304",
+        "0,1,0": "24095323039560",
+        "1,0,0": "24095323039560",
+        "1,1,0": "24093801399816"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "22700132480976",
+      "power_coefficients": {
+        "0,0,0": "22701445381968",
+        "0,1,0": "-656450496",
+        "1,0,0": "-656450496"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "22701445381968",
+        "0,1,0": "22700788931472",
+        "1,0,0": "22700788931472",
+        "1,1,0": "22700132480976"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "17970306279624",
+      "power_coefficients": {
+        "0,0,0": "17970735411144",
+        "0,1,0": "-214565760",
+        "1,0,0": "-214565760"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "17970735411144",
+        "0,1,0": "17970520845384",
+        "1,0,0": "17970520845384",
+        "1,1,0": "17970306279624"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "11965570326288",
+      "power_coefficients": {
+        "0,0,0": "11965673121552",
+        "0,1,0": "-51397632",
+        "1,0,0": "-51397632"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "11965673121552",
+        "0,1,0": "11965621723920",
+        "1,0,0": "11965621723920",
+        "1,1,0": "11965570326288"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "6690389093856",
+      "power_coefficients": {
+        "0,0,0": "6690406118112",
+        "0,1,0": "-8512128",
+        "1,0,0": "-8512128"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "6690406118112",
+        "0,1,0": "6690397605984",
+        "1,0,0": "6690397605984",
+        "1,1,0": "6690389093856"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "3127428360576",
+      "power_coefficients": {
+        "0,0,0": "3127430102400",
+        "0,1,0": "-870912",
+        "1,0,0": "-870912"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "3127430102400",
+        "0,1,0": "3127429231488",
+        "1,0,0": "3127429231488",
+        "1,1,0": "3127428360576"
+      }
+    },
+    {
+      "parameter_degrees": [
+        1,
+        1,
+        0
+      ],
+      "minimum_bernstein_coefficient": "1212920662176",
+      "power_coefficients": {
+        "0,0,0": "1212920745120",
+        "0,1,0": "-41472",
+        "1,0,0": "-41472"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "1212920745120",
+        "0,1,0": "1212920703648",
+        "1,0,0": "1212920703648",
+        "1,1,0": "1212920662176"
+      }
+    },
+    {
+      "parameter_degrees": [
+        0,
+        0,
+        0
+      ],
+      "minimum_bernstein_coefficient": "385785661248",
+      "power_coefficients": {
+        "0,0,0": "385785661248"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "385785661248"
+      }
+    },
+    {
+      "parameter_degrees": [
+        0,
+        0,
+        0
+      ],
+      "minimum_bernstein_coefficient": "98932430592",
+      "power_coefficients": {
+        "0,0,0": "98932430592"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "98932430592"
+      }
+    },
+    {
+      "parameter_degrees": [
+        0,
+        0,
+        0
+      ],
+      "minimum_bernstein_coefficient": "19950230016",
+      "power_coefficients": {
+        "0,0,0": "19950230016"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "19950230016"
+      }
+    },
+    {
+      "parameter_degrees": [
+        0,
+        0,
+        0
+      ],
+      "minimum_bernstein_coefficient": "3045485952",
+      "power_coefficients": {
+        "0,0,0": "3045485952"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "3045485952"
+      }
+    },
+    {
+      "parameter_degrees": [
+        0,
+        0,
+        0
+      ],
+      "minimum_bernstein_coefficient": "330759936",
+      "power_coefficients": {
+        "0,0,0": "330759936"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "330759936"
+      }
+    },
+    {
+      "parameter_degrees": [
+        0,
+        0,
+        0
+      ],
+      "minimum_bernstein_coefficient": "22768128",
+      "power_coefficients": {
+        "0,0,0": "22768128"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "22768128"
+      }
+    },
+    {
+      "parameter_degrees": [
+        0,
+        0,
+        0
+      ],
+      "minimum_bernstein_coefficient": "746496",
+      "power_coefficients": {
+        "0,0,0": "746496"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "746496"
+      }
+    }
+  ],
+  "mass_bounds": {
+    "A_at_2": 2797528,
+    "B_at_2": 48,
+    "t_at_2": 338722,
+    "template_mass_max": "947589874320",
+    "propagator_mass_max": "338724",
+    "gamma": "435",
+    "gamma_margin": {
+      "parameter_degrees": [
+        2,
+        0,
+        0
+      ],
+      "minimum_bernstein_coefficient": "163250",
+      "power_coefficients": {
+        "0,0,0": "843170",
+        "1,0,0": "-679936",
+        "2,0,0": "16"
+      },
+      "bernstein_coefficients": {
+        "0,0,0": "843170",
+        "1,0,0": "503202",
+        "2,0,0": "163250"
+      }
+    },
+    "f_at_2": 1016160,
+    "H_K": [
+      5493840,
+      5066548,
+      3967664,
+      2625430,
+      1454864,
+      665574,
+      245872,
+      70824,
+      15000,
+      2088,
+      144
+    ]
+  },
+  "proxy_certificates": [
+    {
+      "n": 0,
+      "input_index": 0,
+      "alpha": "169642463",
+      "fixed_minor": 902402904,
+      "strict_proxy_residual": "153074686012003752",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "1898357416263624",
+        "power_coefficients": {
+          "0,0,0": "11347755657933928",
+          "1,0,0": "-9449524869301152",
+          "2,0,0": "126627630848"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "11347755657933928",
+          "1,0,0": "6622993223283352",
+          "2,0,0": "1898357416263624"
+        }
+      }
+    },
+    {
+      "n": 1,
+      "input_index": 1,
+      "alpha": "2064106360",
+      "fixed_minor": 1937398461,
+      "strict_proxy_residual": "3998986188357480600",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "23098298343064636",
+        "power_coefficients": {
+          "0,0,0": "112436740228109852",
+          "1,0,0": "-89339607176028576",
+          "2,0,0": "1165290983360"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "112436740228109852",
+          "1,0,0": "67766936640095564",
+          "2,0,0": "23098298343064636"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "input_index": 2,
+      "alpha": "2831195954",
+      "fixed_minor": 1641077505,
+      "strict_proxy_residual": "4646203928793514290",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "31681749203969920",
+        "power_coefficients": {
+          "0,0,0": "116354534120042048",
+          "1,0,0": "-84673865251052224",
+          "2,0,0": "1080334980096"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "116354534120042048",
+          "1,0,0": "74017601494515936",
+          "2,0,0": "31681749203969920"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "input_index": 3,
+      "alpha": "2384116463",
+      "fixed_minor": 814361913,
+      "strict_proxy_residual": "1941528307909576119",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "26679440863537420",
+        "power_coefficients": {
+          "0,0,0": "87845475062391084",
+          "1,0,0": "-61166832736441632",
+          "2,0,0": "798537587968"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "87845475062391084",
+          "1,0,0": "57262058694170268",
+          "2,0,0": "26679440863537420"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "input_index": 4,
+      "alpha": "1904306391",
+      "fixed_minor": 251107200,
+      "strict_proxy_residual": "478182089036910720",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "21309978240262796",
+        "power_coefficients": {
+          "0,0,0": "76008304906440684",
+          "1,0,0": "-54699072791347808",
+          "2,0,0": "746125169920"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "76008304906440684",
+          "1,0,0": "48658768510766780",
+          "2,0,0": "21309978240262796"
+        }
+      }
+    },
+    {
+      "n": 5,
+      "input_index": 5,
+      "alpha": "1741592332",
+      "fixed_minor": 47434752,
+      "strict_proxy_residual": "82610647694169984",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "19488770244471516",
+        "power_coefficients": {
+          "0,0,0": "73262533347030876",
+          "1,0,0": "-53774508058615168",
+          "2,0,0": "744956055808"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "73262533347030876",
+          "1,0,0": "46375279317723292",
+          "2,0,0": "19488770244471516"
+        }
+      }
+    },
+    {
+      "n": 6,
+      "input_index": 6,
+      "alpha": "1716888939",
+      "fixed_minor": 5137056,
+      "strict_proxy_residual": "8819254934840544",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "19212940439156492",
+        "power_coefficients": {
+          "0,0,0": "72871632061147116",
+          "1,0,0": "-53659436578046432",
+          "2,0,0": "744956055808"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "72871632061147116",
+          "1,0,0": "46041913772123900",
+          "2,0,0": "19212940439156492"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "input_index": 7,
+      "alpha": "1715350492",
+      "fixed_minor": 276912,
+      "strict_proxy_residual": "474857198409024",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "19195869775300188",
+        "power_coefficients": {
+          "0,0,0": "72847861174648284",
+          "1,0,0": "-53652736355403904",
+          "2,0,0": "744956055808"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "72847861174648284",
+          "1,0,0": "46021492996946332",
+          "2,0,0": "19195869775300188"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "input_index": 8,
+      "alpha": "1715324201",
+      "fixed_minor": 5184,
+      "strict_proxy_residual": "8861755857984",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "19195358088635116",
+        "power_coefficients": {
+          "0,0,0": "72847239855276684",
+          "1,0,0": "-53652626722697376",
+          "2,0,0": "744956055808"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "72847239855276684",
+          "1,0,0": "46020926493927996",
+          "2,0,0": "19195358088635116"
+        }
+      }
+    },
+    {
+      "n": 9,
+      "input_index": 8,
+      "alpha": "1545681738",
+      "fixed_minor": 5184,
+      "strict_proxy_residual": "8008570645632",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "17297000672371492",
+        "power_coefficients": {
+          "0,0,0": "61499484197342756",
+          "1,0,0": "-44203101853396224",
+          "2,0,0": "618328424960"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "61499484197342756",
+          "1,0,0": "39397933270644644",
+          "2,0,0": "17297000672371492"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "input_index": 8,
+      "alpha": "1129953741",
+      "fixed_minor": 5184,
+      "strict_proxy_residual": "5857387539264",
+      "template_minor_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "12644664243819176",
+        "power_coefficients": {
+          "0,0,0": "36678167782338936",
+          "1,0,0": "-24033855511470800",
+          "2,0,0": "351972951040"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "36678167782338936",
+          "1,0,0": "24661240026603536",
+          "2,0,0": "12644664243819176"
+        }
+      }
+    }
+  ],
+  "multiplier_certificates": [
+    {
+      "n": 0,
+      "beta": "9257671245",
+      "negative_cross_coefficient": 200,
+      "strict_multiplier_residual": "9257670045",
+      "template_defect_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "103594521227220592",
+        "power_coefficients": {
+          "0,0,0": "502686655473530512",
+          "1,0,0": "-399097326091935648",
+          "2,0,0": "5191845625728"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "502686655473530512",
+          "1,0,0": "303137992427562688",
+          "2,0,0": "103594521227220592"
+        }
+      }
+    },
+    {
+      "n": 1,
+      "beta": "23253961033",
+      "negative_cross_coefficient": 136,
+      "strict_multiplier_residual": "23253960217",
+      "template_defect_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "260214472645817776",
+        "power_coefficients": {
+          "0,0,0": "1171206159781025040",
+          "1,0,0": "-911003421884787296",
+          "2,0,0": "11734749580032"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "1171206159781025040",
+          "1,0,0": "715704448838631392",
+          "2,0,0": "260214472645817776"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "beta": "27139331618",
+      "negative_cross_coefficient": 68,
+      "strict_multiplier_residual": "27139331210",
+      "template_defect_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "303692263618664864",
+        "power_coefficients": {
+          "0,0,0": "1170255136485650656",
+          "1,0,0": "-866573923133764928",
+          "2,0,0": "11050266779136"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "1170255136485650656",
+          "1,0,0": "736968174918768192",
+          "2,0,0": "303692263618664864"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "beta": "22199966965",
+      "negative_cross_coefficient": 24,
+      "strict_multiplier_residual": "22199966821",
+      "template_defect_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "248420537761610712",
+        "power_coefficients": {
+          "0,0,0": "747833687604143592",
+          "1,0,0": "-499419640911888912",
+          "2,0,0": "6491069356032"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "747833687604143592",
+          "1,0,0": "498123867148199136",
+          "2,0,0": "248420537761610712"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "beta": "13865402773",
+      "negative_cross_coefficient": 6,
+      "strict_multiplier_residual": "13865402737",
+      "template_defect_margin": {
+        "parameter_degrees": [
+          2,
+          0,
+          0
+        ],
+        "minimum_bernstein_coefficient": "155155812229738036",
+        "power_coefficients": {
+          "0,0,0": "325518359176318788",
+          "1,0,0": "-170365106040178960",
+          "2,0,0": "2559093598208"
+        },
+        "bernstein_coefficients": {
+          "0,0,0": "325518359176318788",
+          "1,0,0": "240335806156229308",
+          "2,0,0": "155155812229738036"
+        }
+      }
+    }
+  ],
+  "M0_defects": [
+    "632",
+    "688",
+    "240",
+    "36"
+  ],
+  "summary": {
+    "box_minima": {
+      "A": "20736",
+      "B": "16",
+      "yA": "20736",
+      "t_minus_r": "5184",
+      "y_t_minus_r": "5184",
+      "L_r": "107495424",
+      "y_L_r": "107495424",
+      "midpoint": "557160726528",
+      "q2": "557256278016"
+    },
+    "minimum_proxy_residual": "5857387539264",
+    "minimum_multiplier_residual": "9257670045",
+    "all_bernstein_conversions_independently_inverted": true
+  }
+}

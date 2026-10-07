@@ -1,0 +1,11 @@
+{
+  "scope": "Frozen finite abstract class dropping Fricke only; no claim about actual states",
+  "tested": 4185,
+  "accepted": 1049,
+  "first_closure_obstruction": null,
+  "rational_scope": {
+    "tested": 1944,
+    "accepted": 64,
+    "first_closure_obstruction": null
+  }
+}

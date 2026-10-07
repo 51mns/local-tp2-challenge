@@ -1,0 +1,311 @@
+{
+  "status": "NO_COUNTEREXAMPLE_FOUND",
+  "scope": "Bounded exact probes only; not a proof of general Local TP2.",
+  "original_crosscheck_nodes": 31,
+  "paths_tested": 47,
+  "minors_checked": 35315,
+  "negative": 0,
+  "zero": 0,
+  "normalization": "F_n / (H(D)_(n+1) H(S)_n)",
+  "minimum_normalized": {
+    "numerator": "2272478036121762701246705176350768048101151026645888782194033951901886162233385811953457430382831363960638902282245139276057801136431628678029977942847436938309107484901309692311442001525566100785948737368969608024637980302412306497364279027361046372064584911134846412521821959069785379381149087998078077027456688245818755573575911825953827154375208202501499047034656034053086159520982938068684987978466017802170619895296012224520765636655307830695843818833783207276893559512942640644075994978758754840449084896007083628037902510536090491545118801345063255555035783726530963364273680459080228182486988983836808856551759558392936562865281471693379787066573110964231112676605980047272743073398906253713492484797034652208159993560776590297177276049248954746890342126358083947185594929669121325066269683150896862604175513887105798591030460235879654040191651987446276532620595104768333053166715074849441491550156350825683990106064839980125484917220174687129448657331530727051871189545667436302015889715059794457330778049656915866115262622900501996050065875333912281692236058832046187099863751985755106386618591642502654201584563170677885",
+    "denominator": "480507552331724335484686785201092066269071241984307000106147711756289590730524293139111929911084333489688990006307661588156062114857912946266523464620615590104930051588356456521538283862554488045174394202767283659073630323719661231965617077937529606110815690553354120948768551728976476320477616470422462898938030052453621141619732524505628868296394134993069496205448635992580771364262195270155794851594444830531155170079281095462570917183731345334162978847158896546688346670692536683454895870604154371631533005008630056209049038269199048836520334314194834774027731441311887831084357144159270353860620287177497112193991078708168957959052958641425144502184195080881583827704805103768755502106975380307012714471512789175355796463119785982777347462555678047555378058168239662140486840494895718477665792131634418948207235089190691732439219059758625189781506510299583438718113790669306739348474976581189611333756186054987324434376330754469572771930920131741089004129682732319590150962005488120554302035258992713420388835740552560081049698066630472491135265273375228156908276269078652065317752839674782893682433227490549175968973637027327485122"
+  },
+  "witness": {
+    "path": "RLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLR",
+    "n": 0,
+    "degS": 728,
+    "degD": 731
+  },
+  "margin_sha256": "3780e0acc32b8cce49c55291dff20bb2619847aa4824e35a2b7a99e6306efc85",
+  "sources": {
+    "fulltree_20261004/falsification_probe.py": "44255fb6e7097da5aa5dcc5a4734eb854fe141e3ec8d7544d6079ac4b6014337",
+    "tp2_source.py": "73c5ea633a44d9640988003dc6f28b41fcc416b3334f47f1f16ce6402d36364b",
+    "fulltree_oneturn_finite.py": "1ce674ec36076d65856b13f600e96bbef5eba40af2627f8343c44d4bd42c8ddf"
+  },
+  "elapsed_seconds": 236.369,
+  "cases": [
+    {
+      "path": "LRLRLRLR",
+      "degS": 169,
+      "degD": 198,
+      "minimum_n": 0
+    },
+    {
+      "path": "RLRLRLRL",
+      "degS": 198,
+      "degD": 232,
+      "minimum_n": 0
+    },
+    {
+      "path": "LRLRLRLRLR",
+      "degS": 444,
+      "degD": 520,
+      "minimum_n": 0
+    },
+    {
+      "path": "RLRLRLRLRL",
+      "degS": 520,
+      "degD": 609,
+      "minimum_n": 0
+    },
+    {
+      "path": "LRLRLRLRLRLR",
+      "degS": 1164,
+      "degD": 1363,
+      "minimum_n": 0
+    },
+    {
+      "path": "RLRLRLRLRLRL",
+      "degS": 1363,
+      "degD": 1596,
+      "minimum_n": 0
+    },
+    {
+      "path": "LRLRLRLRLRLRLR",
+      "degS": 3049,
+      "degD": 3570,
+      "minimum_n": 0
+    },
+    {
+      "path": "RLRLRLRLRLRLRL",
+      "degS": 3570,
+      "degD": 4180,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLRRLLRR",
+      "degS": 96,
+      "degD": 127,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRLLRRLL",
+      "degS": 127,
+      "degD": 168,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLRRLLRRLLRR",
+      "degS": 564,
+      "degD": 745,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRLLRRLLRRLL",
+      "degS": 745,
+      "degD": 984,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLRRLLRRLLRRLLRR",
+      "degS": 3292,
+      "degD": 4347,
+      "minimum_n": 0
+    },
+    {
+      "path": "LRRRRRRRRRRRRL",
+      "degS": 113,
+      "degD": 116,
+      "minimum_n": 0
+    },
+    {
+      "path": "RLLLLLLLLLLLLR",
+      "degS": 116,
+      "degD": 119,
+      "minimum_n": 0
+    },
+    {
+      "path": "LRRRRRRRRRRRRRRRRRRRRRRRRRL",
+      "degS": 230,
+      "degD": 233,
+      "minimum_n": 0
+    },
+    {
+      "path": "RLLLLLLLLLLLLLLLLLLLLLLLLLR",
+      "degS": 233,
+      "degD": 236,
+      "minimum_n": 0
+    },
+    {
+      "path": "LRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRL",
+      "degS": 455,
+      "degD": 458,
+      "minimum_n": 0
+    },
+    {
+      "path": "RLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLR",
+      "degS": 458,
+      "degD": 461,
+      "minimum_n": 0
+    },
+    {
+      "path": "LRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRL",
+      "degS": 725,
+      "degD": 728,
+      "minimum_n": 0
+    },
+    {
+      "path": "RLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLR",
+      "degS": 728,
+      "degD": 731,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLRRRRRRRRRRLL",
+      "degS": 167,
+      "degD": 212,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRLLLLLLLLLLRR",
+      "degS": 212,
+      "degD": 269,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLRRRRRRRRRRRRRRRRRRRRLL",
+      "degS": 327,
+      "degD": 412,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRLLLLLLLLLLLLLLLLLLLLRR",
+      "degS": 412,
+      "degD": 519,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLRRRRRRRRLLL",
+      "degS": 209,
+      "degD": 296,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRLLLLLLLLRRR",
+      "degS": 296,
+      "degD": 419,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLLRRRRRRLLLL",
+      "degS": 227,
+      "degD": 344,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRRLLLLLLRRRR",
+      "degS": 344,
+      "degD": 521,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLLLLLLRRRLLLLLLLL",
+      "degS": 319,
+      "degD": 546,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRRRRRRLLLRRRRRRRR",
+      "degS": 546,
+      "degD": 934,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLLLLLLLLLLRRLLLLLLLLLLLL",
+      "degS": 419,
+      "degD": 752,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRRRRRRRRRRLLRRRRRRRRRRRR",
+      "degS": 752,
+      "degD": 1349,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLLLLLLLLLLLLLLLLLLRLLLLLLLLLLLLLLLLLLLL",
+      "degS": 527,
+      "degD": 986,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRRRRRRRRRRRRRRRRRRLRRRRRRRRRRRRRRRRRRRR",
+      "degS": 986,
+      "degD": 1844,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLRLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "degS": 1087,
+      "degD": 2076,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRLRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+      "degS": 2076,
+      "degD": 3964,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLRRRRRRLLLLLLLLLLLLLLLLLLLL",
+      "degS": 553,
+      "degD": 1032,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRLLLLLLRRRRRRRRRRRRRRRRRRRR",
+      "degS": 708,
+      "degD": 1321,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLLLLLLLLLLLLLLLLLLRRRRRRLL",
+      "degS": 553,
+      "degD": 708,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRRRRRRRRRRRRRRRRRRLLLLLLRR",
+      "degS": 1032,
+      "degD": 1321,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLLLLLRRRRRRRLLLLLLL",
+      "degS": 584,
+      "degD": 977,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRRRRRLLLLLLLRRRRRRR",
+      "degS": 977,
+      "degD": 1634,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLLLLLLLLRRRRRLLLLLLLLLL",
+      "degS": 743,
+      "degD": 1304,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRRRRRRRRLLLLLRRRRRRRRRR",
+      "degS": 1304,
+      "degD": 2288,
+      "minimum_n": 0
+    },
+    {
+      "path": "LLLLLRRRRRRRRRRRRLLLLL",
+      "degS": 601,
+      "degD": 948,
+      "minimum_n": 0
+    },
+    {
+      "path": "RRRRRLLLLLLLLLLLLRRRRR",
+      "degS": 948,
+      "degD": 1495,
+      "minimum_n": 0
+    }
+  ]
+}

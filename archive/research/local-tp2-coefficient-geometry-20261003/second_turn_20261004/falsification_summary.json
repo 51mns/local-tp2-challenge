@@ -1,0 +1,672 @@
+{
+  "status": "Bounded revised hypotheses PASS; discarded raw sufficient premise exactly FALSE",
+  "arithmetic": "Independent ordinary-polynomial recurrences, direct Laurent expansion, tensor Bernstein, Python int/Fraction only",
+  "canonical_candidate_identities": {
+    "scope": "all m and ell by algebra in falsification_report.md; bounded independent regression m0..8 ell0,1,2,3,5,8,13",
+    "orientation": "ell=0 checked separately; continuing short-child identification applies ell>=1"
+  },
+  "canonical_finite_scope": {
+    "m": [
+      0,
+      8
+    ],
+    "ell": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      13
+    ],
+    "states": 54,
+    "conditions": [
+      "Local TP2 strict",
+      "final proxy strict",
+      "short upper weak",
+      "proxy lower strict"
+    ]
+  },
+  "initial_LR_finite_scope": {
+    "m": [
+      0,
+      8
+    ],
+    "conditions": [
+      "q1 <=lr q2",
+      "beta <=lr q2",
+      "beta <=lr oldq1",
+      "(x+2)X <=lr oldq1",
+      "p_(m+2) <=lr oldq1",
+      "beta <=lr p_(m+2)"
+    ],
+    "all_pass": true
+  },
+  "continuum_parameter_box": "independent r,s,u in [-2,2] via exact Bernstein, not parameter grids",
+  "continuum_records": [
+    {
+      "m": 0,
+      "smooth": false,
+      "alpha": "61",
+      "degree_midpoint": 6,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "27",
+        "checked_defect_arrays": 4
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "135/4",
+        "checked_defect_arrays": 4
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "73296",
+        "checked_defect_arrays": 7
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "1296",
+        "checked_defect_arrays": 7
+      }
+    },
+    {
+      "m": 0,
+      "smooth": true,
+      "alpha": "61",
+      "degree_midpoint": 7,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "27",
+        "checked_defect_arrays": 5
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "135/4",
+        "checked_defect_arrays": 5
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "65232",
+        "checked_defect_arrays": 8
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "1296",
+        "checked_defect_arrays": 8
+      }
+    },
+    {
+      "m": 1,
+      "smooth": false,
+      "alpha": "373",
+      "degree_midpoint": 9,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "432",
+        "checked_defect_arrays": 6
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "540",
+        "checked_defect_arrays": 6
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "30677760",
+        "checked_defect_arrays": 10
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "82944",
+        "checked_defect_arrays": 10
+      }
+    },
+    {
+      "m": 1,
+      "smooth": true,
+      "alpha": "373",
+      "degree_midpoint": 10,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "432",
+        "checked_defect_arrays": 7
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "540",
+        "checked_defect_arrays": 7
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "30272256",
+        "checked_defect_arrays": 11
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "82944",
+        "checked_defect_arrays": 11
+      }
+    },
+    {
+      "m": 2,
+      "smooth": false,
+      "alpha": "2314",
+      "degree_midpoint": 12,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "6912",
+        "checked_defect_arrays": 8
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "8640",
+        "checked_defect_arrays": 8
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "12271288320",
+        "checked_defect_arrays": 13
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "5308416",
+        "checked_defect_arrays": 13
+      }
+    },
+    {
+      "m": 2,
+      "smooth": true,
+      "alpha": "2314",
+      "degree_midpoint": 13,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "6912",
+        "checked_defect_arrays": 9
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "8640",
+        "checked_defect_arrays": 9
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "12250791936",
+        "checked_defect_arrays": 14
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "5308416",
+        "checked_defect_arrays": 14
+      }
+    },
+    {
+      "m": 3,
+      "smooth": false,
+      "alpha": "14569",
+      "degree_midpoint": 15,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "110592",
+        "checked_defect_arrays": 10
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "138240",
+        "checked_defect_arrays": 10
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "4949043314688",
+        "checked_defect_arrays": 16
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "339738624",
+        "checked_defect_arrays": 16
+      }
+    },
+    {
+      "m": 3,
+      "smooth": true,
+      "alpha": "14569",
+      "degree_midpoint": 16,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "110592",
+        "checked_defect_arrays": 11
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "138240",
+        "checked_defect_arrays": 11
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "4947999326208",
+        "checked_defect_arrays": 17
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "339738624",
+        "checked_defect_arrays": 17
+      }
+    },
+    {
+      "m": 4,
+      "smooth": false,
+      "alpha": "92857",
+      "degree_midpoint": 18,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "1769472",
+        "checked_defect_arrays": 12
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "2211840",
+        "checked_defect_arrays": 12
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "2018984481128448",
+        "checked_defect_arrays": 19
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "21743271936",
+        "checked_defect_arrays": 19
+      }
+    },
+    {
+      "m": 4,
+      "smooth": true,
+      "alpha": "92857",
+      "degree_midpoint": 19,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "1769472",
+        "checked_defect_arrays": 13
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "2211840",
+        "checked_defect_arrays": 13
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "2018930859048960",
+        "checked_defect_arrays": 20
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "21743271936",
+        "checked_defect_arrays": 20
+      }
+    },
+    {
+      "m": 5,
+      "smooth": false,
+      "alpha": "597322",
+      "degree_midpoint": 21,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "28311552",
+        "checked_defect_arrays": 14
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "35389440",
+        "checked_defect_arrays": 14
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "831213467967946752",
+        "checked_defect_arrays": 22
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "1391569403904",
+        "checked_defect_arrays": 22
+      }
+    },
+    {
+      "m": 5,
+      "smooth": true,
+      "alpha": "597322",
+      "degree_midpoint": 22,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "28311552",
+        "checked_defect_arrays": 15
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "35389440",
+        "checked_defect_arrays": 15
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "831210694077579264",
+        "checked_defect_arrays": 23
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "1391569403904",
+        "checked_defect_arrays": 23
+      }
+    },
+    {
+      "m": 6,
+      "smooth": false,
+      "alpha": "3869989",
+      "degree_midpoint": 24,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "452984832",
+        "checked_defect_arrays": 16
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "566231040",
+        "checked_defect_arrays": 16
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "344662850628847927296",
+        "checked_defect_arrays": 25
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "89060441849856",
+        "checked_defect_arrays": 25
+      }
+    },
+    {
+      "m": 6,
+      "smooth": true,
+      "alpha": "3869989",
+      "degree_midpoint": 25,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "452984832",
+        "checked_defect_arrays": 17
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "566231040",
+        "checked_defect_arrays": 17
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "344662706293082947584",
+        "checked_defect_arrays": 26
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "89060441849856",
+        "checked_defect_arrays": 26
+      }
+    },
+    {
+      "m": 7,
+      "smooth": false,
+      "alpha": "25216717",
+      "degree_midpoint": 27,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "7247757312",
+        "checked_defect_arrays": 18
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "9059696640",
+        "checked_defect_arrays": 18
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "143731961191415836311552",
+        "checked_defect_arrays": 28
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "5699868278390784",
+        "checked_defect_arrays": 28
+      }
+    },
+    {
+      "m": 7,
+      "smooth": true,
+      "alpha": "25216717",
+      "degree_midpoint": 28,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "7247757312",
+        "checked_defect_arrays": 19
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "9059696640",
+        "checked_defect_arrays": 19
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "143731953644683703353344",
+        "checked_defect_arrays": 29
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "5699868278390784",
+        "checked_defect_arrays": 29
+      }
+    },
+    {
+      "m": 8,
+      "smooth": false,
+      "alpha": "165077578",
+      "degree_midpoint": 30,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "115964116992",
+        "checked_defect_arrays": 20
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "144955146240",
+        "checked_defect_arrays": 20
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "60218908605631796399308800",
+        "checked_defect_arrays": 31
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "364791569817010176",
+        "checked_defect_arrays": 31
+      }
+    },
+    {
+      "m": 8,
+      "smooth": true,
+      "alpha": "165077578",
+      "degree_midpoint": 31,
+      "single_candidate_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "115964116992",
+        "checked_defect_arrays": 21
+      },
+      "single_conservative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "144955146240",
+        "checked_defect_arrays": 21
+      },
+      "midpoint_scaled_relative_strength": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "60218908209443715000827904",
+        "checked_defect_arrays": 32
+      },
+      "midpoint_cone": {
+        "all_Bernstein_nonnegative": true,
+        "minimum": "364791569817010176",
+        "checked_defect_arrays": 32
+      }
+    }
+  ],
+  "decisive_discarded_premise": {
+    "condition": "delta_n(H) >=8H(d)_0 H(H)_n",
+    "smallest_inner_index": 0,
+    "first_failing_fourier_index": 5,
+    "parameters": "every r,s,u in [-2,2]",
+    "H_d_0": 20,
+    "lambda": 160,
+    "h5": 312,
+    "delta5": 47232,
+    "margin5": -2688,
+    "h6": 36,
+    "delta6": 1296,
+    "margin6": -4464,
+    "m0_indices0_through4": "positive Bernstein certified"
+  },
+  "unneeded_time_zero_negative_control": {
+    "m": 0,
+    "q0_row": [
+      1,
+      1
+    ],
+    "q1_row": [
+      211,
+      175,
+      98,
+      34,
+      6
+    ],
+    "minor0": -36,
+    "conclusion": "Do not start new time order at q0; required base q1<=q2 passes"
+  },
+  "relative_minor_representatives": [
+    {
+      "m": 0,
+      "smooth": false,
+      "degree_H": 6,
+      "degree_B": 2,
+      "representative_limit": 9,
+      "positive_baseline_minor_patterns": 1916,
+      "minimum_bernstein": "7907841",
+      "minimum_pattern": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "sha256_pattern_bounds": "9a9aef8d20ebe8d15dc9442ad5fb4bd7f5737e6e55cd9a5bb842739281526e95"
+    },
+    {
+      "m": 0,
+      "smooth": true,
+      "degree_H": 7,
+      "degree_B": 3,
+      "representative_limit": 11,
+      "positive_baseline_minor_patterns": 5339,
+      "minimum_bernstein": "29719264",
+      "minimum_pattern": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "sha256_pattern_bounds": "e50aa06c3fa1499683b452cf53acd32d80a8692c71b3a49e6d960559ab8f0dbd"
+    },
+    {
+      "m": 1,
+      "smooth": false,
+      "degree_H": 9,
+      "degree_B": 3,
+      "representative_limit": 13,
+      "positive_baseline_minor_patterns": 7593,
+      "minimum_bernstein": "260938202489",
+      "minimum_pattern": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "sha256_pattern_bounds": "790943aec43660f8bc0c0a1885d32224f6400a82789604786164435fe1083a77"
+    },
+    {
+      "m": 1,
+      "smooth": true,
+      "degree_H": 10,
+      "degree_B": 4,
+      "representative_limit": 15,
+      "positive_baseline_minor_patterns": 16185,
+      "minimum_bernstein": "820051767452",
+      "minimum_pattern": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "sha256_pattern_bounds": "f183c9b5c02c4afc4ed3a803a2e320e772e36b6a7344b01fd409e47841fe92e1"
+    }
+  ],
+  "small_proxy_independent_audit": {
+    "status": "PASS",
+    "scope": "m=0,1,2 full continuum margins and m0N2,3,4/m1N2,3 direct outer rows",
+    "complete_arrays_file": "falsification_proxy_audit_results.json"
+  },
+  "infinite_family_limits": "No finite-inner numerical pass is an infinite-m proof. Folded-cone closure, relative-minor corollary and Jacobi-residue compatibility remain mathematical dependencies.",
+  "final_artifacts_sha256": {
+    "falsification_targeted.py": "b25efc11fc0a1f68a74133f7445d464e31f7a4957c9ed54f8441c700e8589d0d",
+    "falsification_proxy_audit.py": "81a3b6332380301c21080aa2f67cff177d28b9e0988a791e4cc435dcdadbd1e2",
+    "falsification_proxy_audit_results.json": "db3f3a456bcf19b3348ac9202d3e6b566bd725e47b4cf40e1d8fc06dc91719df",
+    "falsification_report.md": "795c84ea4c253622ec4bbac49dcfbe11297b74195e582bf21cb7509086f34278",
+    "falsification_proxy_full_audit.py": "650780d07e8d966913c2ec68c4c67424ebfff9f84131ddb041111d1d169dd5a6",
+    "falsification_proxy_full_audit_results.json": "53fbaa5e970e10c1302953e513ad7c66630798b46b8d5cfee7746261cfede089"
+  },
+  "source_sha256": {
+    "verify.py": "01794ee3501f35542d21bf2913095b20d17697c6fd91e835a436af54efe11ddd",
+    "general_one_turn_reduction.md": "3ea511e5512c710520a4b55ae812490293c5098ac838454b67e4777c21141fa9",
+    "mixed_kernel_all_minor_strength.md": "425cbf297a56267db5aac71d40f2193ef18bc5020c04c23e6c39cea80b36224a",
+    "fulltree_oneturn_mass_proxy.md": "3b18ccc637aef2124001ea1393e72c4b0609bc5300dcbdde9e02a226dc80018d",
+    "general_one_turn_kernel_cert.py": "fab3f031caae2dfe12a18f484fad4448ea556a15e9099e5c894fbc84c270d3c7",
+    "second_turn_20261004/BRIEF.md": "7078bea0ccaed487d672a58f7a3529bbaad6c703cda570acb0a4551aedb05aed"
+  },
+  "intermediate_artifacts_retained_not_final": [
+    "falsification_canonical_results.json",
+    "falsification_continuum_results.json",
+    "falsification_fixed_proxy_results.json",
+    "falsification_results.json"
+  ],
+  "full_proxy_independent_audit": {
+    "status": "PASS",
+    "scope": "every inner index m=0..409, every supported fixed base-proxy minor and both entire-interval central-margin Bernstein arrays",
+    "fixed_base_minor_count": 85895,
+    "central_Bernstein_array_count": 820,
+    "central_Bernstein_coefficient_count": 2460,
+    "all_record_fields_match_author": true,
+    "base_minor_sha256": "5a7835357cbbee6e1bd739a89cf0e464e25e07f5fb5461c3444a38cf4a746895",
+    "foundation_crosscheck_degrees": [
+      0,
+      1,
+      2,
+      2,
+      0,
+      1,
+      2,
+      7,
+      20,
+      96,
+      200,
+      409,
+      411
+    ],
+    "independence": "Ordinary-polynomial route, packed homogeneous Horner Laurent transform, own generic Fraction Bernstein. No author-proxy code imports. Packing foundation disclosed from finite_audit_independent.py and independently validated here.",
+    "proof_limits": "Finite numerical hypotheses only; the analytic tail and folded-cone/Jacobi compatibility proof dependencies are separate.",
+    "elapsed_seconds": 42.844,
+    "source_script_sha256": "96edf4e4a055c8a88e4895e0810d718928816176a2ce9f8f08ad174bcad9a6fc",
+    "source_results_sha256": "b6724aeb776a7a45c9682eea505463b36801a1c3f4b1d4ffb9f8c935519c75bf",
+    "disclosed_packing_foundation_sha256": "c42ec27796f49b73ab0061db710597ed1348cc9d616df223c3c6bc594d515245",
+    "independent_primitives_sha256": "b25efc11fc0a1f68a74133f7445d464e31f7a4957c9ed54f8441c700e8589d0d",
+    "audit_script_sha256": "650780d07e8d966913c2ec68c4c67424ebfff9f84131ddb041111d1d169dd5a6"
+  }
+}

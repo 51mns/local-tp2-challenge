@@ -1,0 +1,75 @@
+{
+  "base_commit": "53a780fcc4847e18d8e509df83706c42519f34e6",
+  "certificate_entries_matched": 3146,
+  "comparisons": [
+    {
+      "all_array_sha256": "484a1c6d35f0f40b5f632675981fe419e234bc7eb9997a7a38eef5f24be4d513",
+      "c_multiplier": "657/32",
+      "c_proxy": "67497/32",
+      "channels": 4,
+      "coefficient_count": 716,
+      "direction": "R",
+      "failed_arrays": [],
+      "gamma": "2",
+      "multiplier_budget": "216",
+      "proxy_budget": "3840",
+      "qualitative_scope": "Signed ray criterion hypotheses; no arbitrary-turn closure assumed",
+      "status": "PASS",
+      "tail_starts": 2,
+      "word": ""
+    },
+    {
+      "all_array_sha256": "c22461d2c963ed90a3582c34a42333c33cd195f1d7f620947d11e66a72fc79b4",
+      "c_multiplier": "1078509499320574704/134474726441",
+      "c_proxy": "126905240098017960185102228628/134474726441",
+      "channels": 12,
+      "coefficient_count": 2430,
+      "direction": "R",
+      "failed_arrays": [],
+      "gamma": "2",
+      "multiplier_budget": "33912",
+      "proxy_budget": "36078614472960",
+      "qualitative_scope": "Signed ray criterion hypotheses; no arbitrary-turn closure assumed",
+      "status": "PASS",
+      "tail_starts": 1,
+      "word": "LRL"
+    }
+  ],
+  "completed_utc": "2026-10-07T12:21:37.262004+00:00",
+  "contract_tests": 7,
+  "exact_arithmetic": "integers and fractions.Fraction; no floating-point proof decisions",
+  "independence": "Same-model separate algorithms, not blind/external/formal verification",
+  "python": "3.13.5",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "author.py"
+      ],
+      "elapsed_seconds": 0.7024,
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "verifier.py"
+      ],
+      "elapsed_seconds": 0.731,
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "test_contracts",
+        "-v"
+      ],
+      "elapsed_seconds": 0.8257,
+      "exit_code": 0
+    }
+  ],
+  "scope": "General conditional transport lemmas; alternative certificates for already-covered rays; full-tree OPEN",
+  "source_hashes_unchanged": true,
+  "status": "PASS"
+}

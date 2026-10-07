@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN; no additional search",
+  "all_index_scope": "Fixed state and midpoint parameter cases only; no parameter continuum or all-tree closure",
+  "artifacts": [
+    {
+      "name": "falsification_extremal.md",
+      "bytes": 4343,
+      "sha256": "b5ee2be7d53e4800d3e02b2eae7898094d16a23071d26c1d87c30b8cdc8cf334"
+    },
+    {
+      "name": "falsification_frozen.md",
+      "bytes": 3599,
+      "sha256": "fe6e560927c1efe57f1c8d61c8d1aaca6bf3fe1f7a2c9b5fb3886a78ddb85107"
+    },
+    {
+      "name": "falsification_network_audit.md",
+      "bytes": 4071,
+      "sha256": "5705a0b6393931d09a43de7b9b0c32496aa5c67929ca883adee34d02446e2fc1"
+    },
+    {
+      "name": "falsification_probe.py",
+      "bytes": 8551,
+      "sha256": "899e27c7ab2dfea26e2041d2ed1ace04b0b9c3e074ce0e6b48c0f4bd6820d93d"
+    },
+    {
+      "name": "falsification_records.json.gz",
+      "bytes": 74496,
+      "sha256": "03830e932cbcdcbe0cdff4e67c4cd6ef0f7e5999fe812b90996caa60a700748a"
+    },
+    {
+      "name": "falsification_report.md",
+      "bytes": 4979,
+      "sha256": "57e680fd1189c80e1ce7171f9c1544c158d104ec605414eac80a9a14017cb063"
+    },
+    {
+      "name": "falsification_results.json",
+      "bytes": 7485,
+      "sha256": "c05157b3f49e67725ff08d09e25d9ea20d73e5eb492b4a4e0bdbe877c6573d55"
+    }
+  ],
+  "audited_external_artifacts": [
+    {
+      "name": "network_relative_character.md",
+      "sha256": "0ed6f97744bb78e810438285c6cd7e1520197940b6e5c57881c9692f29fa617d"
+    },
+    {
+      "name": "network_relative_character.py",
+      "sha256": "2ebde5fb0daa501c716072689b58509d769c4a6b4fe7f55d90aae331f236e72d"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "parent": "first SHORT child S, whose complete P0 is independently established in earlier base certificates",
+  "a": [
+    0
+  ],
+  "e": [
+    4,
+    2
+  ],
+  "r": [
+    3,
+    2
+  ],
+  "canonical_T": [
+    39,
+    116,
+    132,
+    66,
+    12
+  ],
+  "direct_scalar_child_C": [
+    194,
+    801,
+    1408,
+    1336,
+    716,
+    204,
+    24
+  ],
+  "direct_scalar_child_trace": [
+    582,
+    2984,
+    6627,
+    8232,
+    6156,
+    2760,
+    684,
+    72
+  ],
+  "fricke_residual": [
+    0
+  ],
+  "h": [
+    1
+  ],
+  "sources": {
+    "A": [
+      96,
+      384,
+      600,
+      456,
+      168,
+      24
+    ],
+    "B": [
+      480,
+      2592,
+      6024,
+      7776,
+      5988,
+      2736,
+      684,
+      72
+    ],
+    "R": [
+      8,
+      8,
+      3
+    ]
+  },
+  "source_rows": {
+    "A": [
+      2304,
+      1992,
+      1272,
+      576,
+      168,
+      24
+    ],
+    "B": [
+      62136,
+      55800,
+      40236,
+      22968,
+      10092,
+      3240,
+      684,
+      72
+    ],
+    "R": [
+      14,
+      8,
+      3
+    ]
+  },
+  "source_supported_defects": {
+    "A": [
+      302976,
+      566784,
+      352512,
+      103680,
+      13824,
+      576
+    ],
+    "B": [
+      133706592,
+      276214608,
+      215853984,
+      94035168,
+      23837472,
+      3360096,
+      229392,
+      5184
+    ],
+    "R": [
+      110,
+      13,
+      9
+    ]
+  },
+  "failed_bridge": "delta_j(T_LONG_child+2) >= delta_j(A)+delta_j(B)+delta_j(R)",
+  "index": 6,
+  "character": [
+    12,
+    0
+  ],
+  "mixed_selector": -1728,
+  "actual_defect": 227664,
+  "source_sum": 229392,
+  "scope": "This canonical witness refutes the proposed additive compensation bridge, not child trace positivity or MP0."
+}

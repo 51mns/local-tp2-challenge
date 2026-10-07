@@ -1,0 +1,237 @@
+{
+  "scope": "Exact reruns of stated algebraic lemmas and one known sufficient-bound obstruction. Not a proof of full-tree Local TP2.",
+  "base_commit": "bdc6f58529f39d809e5389456379b9492d4ba12b",
+  "python_version": "3.12.14",
+  "recorded_at_utc": "2026-10-03T15:32:28.775021+00:00",
+  "checks": [
+    {
+      "command": "python3 fulltree_20261004/invariants_normalized_verify.py",
+      "exit_code": 0,
+      "output": {
+        "scope": "symbolic identities over Z[x,a,e,r], not finite-state interpolation",
+        "checks": {
+          "fricke_residual": "PASS",
+          "short_gap": "PASS",
+          "long_difference": "PASS",
+          "short_next_g": "PASS",
+          "long_next_g": "PASS",
+          "short_preserves_fricke": "PASS",
+          "long_preserves_fricke": "PASS",
+          "short_remainder_bound": "PASS",
+          "long_remainder_bound": "PASS",
+          "growth_positive_decomposition": "PASS",
+          "growth_decomposition_coefficients": "NONNEGATIVE",
+          "cassini_residual": "PASS",
+          "square_dominance_residual": "PASS",
+          "root_g": "PASS",
+          "root_s": "PASS",
+          "root_d": "PASS"
+        },
+        "fricke_monomials": 29,
+        "all_pass": true
+      }
+    },
+    {
+      "command": "python3 fulltree_20261004/network_quotient_constraints.py",
+      "exit_code": 0,
+      "output": {
+        "status": "PASS",
+        "scope": "all-depth coefficient-order lemmas proved in manuscript; Local TP2 remains open",
+        "scalar_mutation_child_identities": "PASS",
+        "incoming_gap_separation_identity": "PASS",
+        "two_step_entry_obstruction_defects": [
+          -4,
+          -67
+        ],
+        "symbolic_barrier_indices_checked": 9,
+        "Fibonacci_constant_term_indices_checked": 20,
+        "canonical_implementation_nodes_checked": 31
+      }
+    },
+    {
+      "command": "python3 fulltree_20261004/audit_normalized_symbolic.py",
+      "exit_code": 0,
+      "output": {
+        "status": "PASS",
+        "scope": "All-symbol identities and induction certificates; not a proof of Local TP2.",
+        "independent_implementation": "Sparse multivariate polynomials over integers; no imported research modules.",
+        "checks": {
+          "t_normalization": "PASS",
+          "k_normalization": "PASS",
+          "actual_S_formula": "PASS",
+          "actual_D_formula": "PASS",
+          "short_r_identity": "PASS",
+          "long_r_identity": "PASS",
+          "k_increment": "PASS",
+          "Fricke_original_residual": "PASS",
+          "long_gap_bound_certificate": "PASS",
+          "long_gap_bound_certificate_nonnegative": "PASS",
+          "short_upper_r_transport": "PASS",
+          "long_upper_r_transport": "PASS",
+          "Fricke_remainder_form": "PASS",
+          "Fricke_short_invariance": "PASS",
+          "Fricke_long_invariance": "PASS",
+          "Fricke_root_vanishing": "PASS",
+          "square_dominance_off_surface": "PASS",
+          "Cassini_off_surface": "PASS",
+          "ray_h_positive_identity": "PASS",
+          "ancestral_endpoint_remainder": "PASS",
+          "barrier_QminusP_inductive_step": "PASS",
+          "barrier_quadratic_invariant_step": "PASS",
+          "barrier_short_transport_all_m": "PASS",
+          "barrier_long_transport_all_m": "PASS",
+          "barrier_quadratic_invariant_base": "PASS",
+          "barrier_positive_recurrence": "PASS",
+          "golden_lower_margin": "PASS",
+          "golden_upper_margin": "PASS",
+          "ray_r_update": "PASS",
+          "ray_h_update": "PASS",
+          "ray_two_step_entry_00": "PASS",
+          "ray_two_step_entry_01": "PASS",
+          "ray_two_step_entry_10": "PASS",
+          "ray_two_step_entry_11": "PASS",
+          "root_lower_right_Fourier_row": "PASS",
+          "root_lower_right_central_defect": "PASS",
+          "root_extreme_pair_Fourier_row": "PASS",
+          "root_extreme_pair_central_defect": "PASS"
+        },
+        "source_sha256": {
+          "audit_normalized_symbolic.py": "229f23bd93631dd7820dcb942f58860272630195ae6e7ae635374f3f8006f091",
+          "network_quotient_constraints.md": "8dd0d1ec9a1601e1cf151db21f027f214afa646e8ccda5890f49fb875ed71d03",
+          "network_quotient_constraints.py": "794d7f990e07fc2e66ebaf0dd5c7c175d14cc5f3c7da5102f3a85f54aa8557a3",
+          "invariants_normalized_state.md": "3da9ee54933c410e69e82f0e4efd2a9c99de72d5425e9cc0de1e1f5610b08805",
+          "invariants_normalized_verify.py": "619dad230f27f83b02efc733ac45e501f265aad1aa13b3f281564ce5a2e85efa"
+        }
+      }
+    },
+    {
+      "command": "python3 fulltree_20261004/bivariate_mixed_support.py",
+      "exit_code": 0,
+      "output": {
+        "status": "exact_internal_identity_checks_passed; no_fulltree_proof",
+        "monomial_pair_checks": 36,
+        "canonical_obstructions": [
+          {
+            "path": "root",
+            "pair": [
+              "C",
+              "D"
+            ],
+            "degrees": [
+              2,
+              4
+            ],
+            "character_index": [
+              6,
+              0
+            ],
+            "doubled_mixed_coefficient": -12,
+            "fricke_residual_zero": true,
+            "target_R_S_D_nonnegative_in_this_example": true
+          },
+          {
+            "path": "L",
+            "pair": [
+              "S",
+              "D"
+            ],
+            "degrees": [
+              4,
+              6
+            ],
+            "character_index": [
+              10,
+              0
+            ],
+            "doubled_mixed_coefficient": -192,
+            "fricke_residual_zero": true,
+            "target_R_S_D_nonnegative_in_this_example": true
+          }
+        ]
+      }
+    },
+    {
+      "command": "python3 fulltree_20261004/bivariate_audit_quantitative.py",
+      "exit_code": 0,
+      "output": {
+        "status": "PASS: stated universal conditional lemmas only",
+        "exact_polynomial_identities": 5,
+        "exact_boundary_examples": 15,
+        "degree_zero_exclusion_verified": true,
+        "canonical_all_depth_strength_proved": false
+      }
+    },
+    {
+      "command": "python3 fulltree_20261004/external_skein_bridge.py",
+      "exit_code": 0,
+      "output": {
+        "status": "PASS",
+        "claims": {
+          "universal_fricke_residual_identity": true,
+          "universal_affine_mutation_identity": true,
+          "four_peripheral_specialization": true,
+          "monodromy_trace_formula": true,
+          "signed_character_normalization": true
+        },
+        "bracelet_counterexample": {
+          "P": [
+            2,
+            4,
+            1
+          ],
+          "Q": [
+            2,
+            9,
+            6,
+            1
+          ],
+          "H_P": [
+            4,
+            4,
+            1
+          ],
+          "H_Q": [
+            14,
+            12,
+            6,
+            1
+          ],
+          "adjacent_minors": [
+            -8,
+            12,
+            1
+          ]
+        },
+        "cancellation_counterexample": {
+          "before_multiplication": [
+            -1,
+            1
+          ],
+          "after_multiplication_by_x_plus_one": [
+            4,
+            0,
+            1
+          ]
+        },
+        "scope": "Algebraic bridge and shortcut obstructions; no full-tree TP2 claim."
+      }
+    }
+  ],
+  "quantitative_obstruction_spotcheck": {
+    "command": "python3 fulltree_20261004/quantitative_subtraction.py --depth 0 --output /tmp/local_tp2_subtraction_spotcheck.json",
+    "exit_code": 0,
+    "raw_json_output": "{\n  \"status\": \"FINITE_DIAGNOSTIC_NOT_GLOBAL_PROOF\",\n  \"depth\": 0,\n  \"nonboundary_records\": 0,\n  \"all_nonboundary_bounds_nonnegative\": true,\n  \"all_actual_optimal_strength_checks_pass\": false,\n  \"failing_bound_paths\": [\n    \"\"\n  ],\n  \"canonical_obstruction_to_global_sufficient_bound\": {\n    \"path\": \"RRRRRRRRRRRRR\",\n    \"index\": 0,\n    \"lambda\": 0,\n    \"bound\": -13255405836475262089110874899224563418,\n    \"nonnegative_remainder\": 136369427728705566915805938015739962789,\n    \"actual_defect\": 123114021892230304826695063116515399371\n  }\n}\n"
+  },
+  "saved_finite_experiments": {
+    "rerun_during_final_check": false,
+    "reason": "Already executed during this research session; preserved original exact results and source hashes.",
+    "files": [
+      "falsification_results.json",
+      "invariants_probe_results.json",
+      "quantitative_subtraction_results.json"
+    ]
+  },
+  "audit_source_hashes_verified": true,
+  "all_algebra_reruns_passed": true,
+  "full_tree_local_TP2_proved": false
+}

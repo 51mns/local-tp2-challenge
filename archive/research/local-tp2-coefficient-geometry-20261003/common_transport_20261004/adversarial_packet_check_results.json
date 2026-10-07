@@ -1,0 +1,70 @@
+{
+  "status": "EXACT_SYMBOLIC_IDENTITIES_Z_x_a_e_r",
+  "identities": {
+    "short_T": {
+      "residual_terms": 0,
+      "lhs_terms": 49,
+      "rhs_terms": 49
+    },
+    "long_T": {
+      "residual_terms": 0,
+      "lhs_terms": 67,
+      "rhs_terms": 67
+    },
+    "short_ca": {
+      "residual_terms": 0,
+      "lhs_terms": 59,
+      "rhs_terms": 59
+    },
+    "long_ca": {
+      "residual_terms": 0,
+      "lhs_terms": 104,
+      "rhs_terms": 104
+    },
+    "short_retained_s": {
+      "residual_terms": 0,
+      "lhs_terms": 59,
+      "rhs_terms": 59
+    },
+    "long_retained_s": {
+      "residual_terms": 0,
+      "lhs_terms": 104,
+      "rhs_terms": 104
+    },
+    "short_new_previous": {
+      "residual_terms": 0,
+      "lhs_terms": 31,
+      "rhs_terms": 31
+    },
+    "long_new_previous": {
+      "residual_terms": 0,
+      "lhs_terms": 43,
+      "rhs_terms": 43
+    },
+    "short_new_current": {
+      "residual_terms": 0,
+      "lhs_terms": 153,
+      "rhs_terms": 153
+    },
+    "long_new_current": {
+      "residual_terms": 0,
+      "lhs_terms": 195,
+      "rhs_terms": 195
+    },
+    "pair_shear": {
+      "residual_terms": 0,
+      "lhs_terms": 43,
+      "rhs_terms": 43
+    },
+    "ancestry_division": {
+      "residual_terms": 0,
+      "lhs_terms": 89,
+      "rhs_terms": 89
+    }
+  },
+  "independent_u_obstruction": {
+    "central_defect": "-1939833799/11943936",
+    "actual_midpoint_central_defect": "6959573561/11943936",
+    "classification": "ABSTRACT, NOT CANONICAL OR FRICKE-COMPLETED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "base_commit": "53a780fcc4847e18d8e509df83706c42519f34e6",
+  "full_tree": "OPEN",
+  "primary_status": "PROOF_CANDIDATE",
+  "sha256": {
+    "README.md": "0d17adaf043da479dc5c6f0d0f7eba5ccce19e1a0c5adb5ae0fdf03051d4d850",
+    "THEOREM.md": "298d07cc4c9d54d52e5fed0b10bb4bcaec1c007769bc9fc9e661b46be9861e53",
+    "author.py": "dc5070e925d4fe8c1abd8792a64ad076f192f93f5dfc7090fd2e3b371131eac1",
+    "reproduce.py": "60f04323454efd985534bbd0a6ee4c6908026fc666ead3f83a1ce19012e7eadf",
+    "test_contracts.py": "4c86651a6984f1a5d34c4dbb53d36f36bfb52a0f54f9600bdc9d73d2ec749bba",
+    "verifier.py": "d5199a2ad545cbb51627e6118fb00e61de048102914188f55f9af75581dc899f"
+  }
+}

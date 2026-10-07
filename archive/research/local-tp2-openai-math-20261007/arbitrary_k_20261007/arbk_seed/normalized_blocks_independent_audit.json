@@ -1,0 +1,768 @@
+{
+  "status": "PASS",
+  "author_code_imported": false,
+  "method": "Original ordinary-x mutations; exact full tensor interpolation and inverse check",
+  "m0": {
+    "records": [
+      {
+        "pairs": 1,
+        "seed": false,
+        "smooth": false,
+        "single": false,
+        "tensor_coefficients": 45,
+        "ordered_margin_sha256": "86af01bd1ba6e349d097440df1f5124a119a7db028a8f00f0012199a5687f856",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 2,
+        "seed": false,
+        "smooth": false,
+        "single": false,
+        "tensor_coefficients": 729,
+        "ordered_margin_sha256": "59be2362182a49bf58ba42b60a7aa3d850baa89209bebb5a68605e4ed3da968e",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 3,
+        "seed": false,
+        "smooth": false,
+        "single": false,
+        "tensor_coefficients": 9477,
+        "ordered_margin_sha256": "746ad3484cd272d34612129cf14320b937c2effbb9635dff9d3eb5dd77ce40b5",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 4,
+        "seed": false,
+        "smooth": false,
+        "single": false,
+        "tensor_coefficients": 111537,
+        "ordered_margin_sha256": "3f6caf964d6a048d4c2a70829bae41f2f5907bcca451c38bf18c1baf2c5f05cb",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 0,
+        "seed": true,
+        "smooth": false,
+        "single": false,
+        "tensor_coefficients": 2,
+        "ordered_margin_sha256": "62d77d889701ee2d0edad0be92960ae489681844886ccf1c92370645f691106e",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 0,
+        "seed": true,
+        "smooth": true,
+        "single": false,
+        "tensor_coefficients": 3,
+        "ordered_margin_sha256": "0dbe1ffeba5e105ee9057d425ed080595a8e4d32cbfea0334d3a00c72301ec7a",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 0,
+        "seed": true,
+        "smooth": false,
+        "single": true,
+        "tensor_coefficients": 12,
+        "ordered_margin_sha256": "99337b01082afe16fe19b91502edf637dd21309a449aaca31a2bfd3230707b4b",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 0,
+        "seed": true,
+        "smooth": true,
+        "single": true,
+        "tensor_coefficients": 15,
+        "ordered_margin_sha256": "79194f4f427b6036a91f8c5535f1b19d6fd5611f1cd76e47fbabd7ee419949d7",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 1,
+        "seed": true,
+        "smooth": false,
+        "single": false,
+        "tensor_coefficients": 54,
+        "ordered_margin_sha256": "9d66dc88bf82e3ea200bb90df3d50f4a524edcc7ad69145e7a6d61c58607d0a6",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 1,
+        "seed": true,
+        "smooth": true,
+        "single": false,
+        "tensor_coefficients": 63,
+        "ordered_margin_sha256": "6229c556de42d428a98a9a2eb97f9c6be3231ee72da58747b4056dcf5e0c66fc",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 1,
+        "seed": true,
+        "smooth": false,
+        "single": true,
+        "tensor_coefficients": 216,
+        "ordered_margin_sha256": "8865eead29eaa517b73a9bfea9bb26559e8a17fe8c1de8bed72ab30d5c80f076",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 1,
+        "seed": true,
+        "smooth": true,
+        "single": true,
+        "tensor_coefficients": 243,
+        "ordered_margin_sha256": "2adc26b7a5af774724e81334401674562e5e0d2d91ed325117d7c94ef35cbd4a",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 2,
+        "seed": true,
+        "smooth": false,
+        "single": false,
+        "tensor_coefficients": 810,
+        "ordered_margin_sha256": "ea1ed1e065c83687055768cc1e1d0c59fcb8484182a672510e43b60810cafdc4",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 2,
+        "seed": true,
+        "smooth": true,
+        "single": false,
+        "tensor_coefficients": 891,
+        "ordered_margin_sha256": "db2234337f9a7774f3fa06720ed46ef679f1de7615cf50c03a4e93db4fbe3659",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 2,
+        "seed": true,
+        "smooth": false,
+        "single": true,
+        "tensor_coefficients": 2916,
+        "ordered_margin_sha256": "05fbad93f7f4915ed573e76593765a9b48b3053b786b6f4ec47cb4de7fe81b6e",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 2,
+        "seed": true,
+        "smooth": true,
+        "single": true,
+        "tensor_coefficients": 3159,
+        "ordered_margin_sha256": "ff6479e42e7be4b923d782461d22380693bbecb9f1101790f7c14aef42a5e9d9",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 3,
+        "seed": true,
+        "smooth": false,
+        "single": false,
+        "tensor_coefficients": 10206,
+        "ordered_margin_sha256": "bf274cd4402ad1a8d6fcc33b701e61258a679e7a53ee1dbef7ada07af13ace08",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 3,
+        "seed": true,
+        "smooth": true,
+        "single": false,
+        "tensor_coefficients": 10935,
+        "ordered_margin_sha256": "04fa3728a0ddffce8a2b0024e1e138cef53e0295636430827b5fed1712191288",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 3,
+        "seed": true,
+        "smooth": false,
+        "single": true,
+        "tensor_coefficients": 34992,
+        "ordered_margin_sha256": "89947d68ecbae4f06ea49c7dc87760aa87f75c898f1a4c99a7d7d03b045693c6",
+        "all_minima_and_digest_match": true
+      },
+      {
+        "pairs": 3,
+        "seed": true,
+        "smooth": true,
+        "single": true,
+        "tensor_coefficients": 37179,
+        "ordered_margin_sha256": "7bf25e0837501eb0a65b623812ac6820c48e226d70fd22ce2ea6edecdcdc0d0d",
+        "all_minima_and_digest_match": true
+      }
+    ],
+    "total_tensor_coefficients": 223484
+  },
+  "m1_to_4": {
+    "records": [
+      {
+        "m": 1,
+        "cases": [
+          {
+            "propagators": 8,
+            "distinguished": false,
+            "smooth": false,
+            "full_tensor_coefficients": 164025,
+            "histogram_coefficients": 1125,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 0,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 18,
+            "histogram_coefficients": 18,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 0,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 21,
+            "histogram_coefficients": 21,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 1,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 81,
+            "histogram_coefficients": 81,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 1,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 90,
+            "histogram_coefficients": 90,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 2,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 324,
+            "histogram_coefficients": 216,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 2,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 351,
+            "histogram_coefficients": 234,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 3,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 1215,
+            "histogram_coefficients": 450,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 3,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 1296,
+            "histogram_coefficients": 480,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 4,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 4374,
+            "histogram_coefficients": 810,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 4,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 4617,
+            "histogram_coefficients": 855,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 5,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 15309,
+            "histogram_coefficients": 1323,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 5,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 16038,
+            "histogram_coefficients": 1386,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 6,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 52488,
+            "histogram_coefficients": 2016,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 6,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 54675,
+            "histogram_coefficients": 2100,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 7,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 177147,
+            "histogram_coefficients": 2916,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 7,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 183708,
+            "histogram_coefficients": 3024,
+            "all_rational_coefficients_match": true
+          }
+        ],
+        "per_trace_rate": "1/4",
+        "residual_eta": "1/301"
+      },
+      {
+        "m": 2,
+        "cases": [
+          {
+            "propagators": 8,
+            "distinguished": false,
+            "smooth": false,
+            "full_tensor_coefficients": 216513,
+            "histogram_coefficients": 1485,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 0,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 24,
+            "histogram_coefficients": 24,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 0,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 27,
+            "histogram_coefficients": 27,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 1,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 108,
+            "histogram_coefficients": 108,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 1,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 117,
+            "histogram_coefficients": 117,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 2,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 432,
+            "histogram_coefficients": 288,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 2,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 459,
+            "histogram_coefficients": 306,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 3,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 1620,
+            "histogram_coefficients": 600,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 3,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 1701,
+            "histogram_coefficients": 630,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 4,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 5832,
+            "histogram_coefficients": 1080,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 4,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 6075,
+            "histogram_coefficients": 1125,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 5,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 20412,
+            "histogram_coefficients": 1764,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 5,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 21141,
+            "histogram_coefficients": 1827,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 6,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 69984,
+            "histogram_coefficients": 2688,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 6,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 72171,
+            "histogram_coefficients": 2772,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 7,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 236196,
+            "histogram_coefficients": 3888,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 7,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 242757,
+            "histogram_coefficients": 3996,
+            "all_rational_coefficients_match": true
+          }
+        ],
+        "per_trace_rate": "1/4",
+        "residual_eta": "1/513"
+      },
+      {
+        "m": 3,
+        "cases": [
+          {
+            "propagators": 8,
+            "distinguished": false,
+            "smooth": false,
+            "full_tensor_coefficients": 269001,
+            "histogram_coefficients": 1845,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 0,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 30,
+            "histogram_coefficients": 30,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 0,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 33,
+            "histogram_coefficients": 33,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 1,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 135,
+            "histogram_coefficients": 135,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 1,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 144,
+            "histogram_coefficients": 144,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 2,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 540,
+            "histogram_coefficients": 360,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 2,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 567,
+            "histogram_coefficients": 378,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 3,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 2025,
+            "histogram_coefficients": 750,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 3,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 2106,
+            "histogram_coefficients": 780,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 4,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 7290,
+            "histogram_coefficients": 1350,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 4,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 7533,
+            "histogram_coefficients": 1395,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 5,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 25515,
+            "histogram_coefficients": 2205,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 5,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 26244,
+            "histogram_coefficients": 2268,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 6,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 87480,
+            "histogram_coefficients": 3360,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 6,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 89667,
+            "histogram_coefficients": 3444,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 7,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 295245,
+            "histogram_coefficients": 4860,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 7,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 301806,
+            "histogram_coefficients": 4968,
+            "all_rational_coefficients_match": true
+          }
+        ],
+        "per_trace_rate": "1/4",
+        "residual_eta": "1/785"
+      },
+      {
+        "m": 4,
+        "cases": [
+          {
+            "propagators": 8,
+            "distinguished": false,
+            "smooth": false,
+            "full_tensor_coefficients": 321489,
+            "histogram_coefficients": 2205,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 0,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 36,
+            "histogram_coefficients": 36,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 0,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 39,
+            "histogram_coefficients": 39,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 1,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 162,
+            "histogram_coefficients": 162,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 1,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 171,
+            "histogram_coefficients": 171,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 2,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 648,
+            "histogram_coefficients": 432,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 2,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 675,
+            "histogram_coefficients": 450,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 3,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 2430,
+            "histogram_coefficients": 900,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 3,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 2511,
+            "histogram_coefficients": 930,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 4,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 8748,
+            "histogram_coefficients": 1620,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 4,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 8991,
+            "histogram_coefficients": 1665,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 5,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 30618,
+            "histogram_coefficients": 2646,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 5,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 31347,
+            "histogram_coefficients": 2709,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 6,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 104976,
+            "histogram_coefficients": 4032,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 6,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 107163,
+            "histogram_coefficients": 4116,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 7,
+            "distinguished": true,
+            "smooth": false,
+            "full_tensor_coefficients": 354294,
+            "histogram_coefficients": 5832,
+            "all_rational_coefficients_match": true
+          },
+          {
+            "propagators": 7,
+            "distinguished": true,
+            "smooth": true,
+            "full_tensor_coefficients": 360855,
+            "histogram_coefficients": 5940,
+            "all_rational_coefficients_match": true
+          }
+        ],
+        "per_trace_rate": "1/5",
+        "residual_eta": "1/1114"
+      }
+    ],
+    "total_full_tensor_coefficients": 4021860,
+    "total_histogram_coefficients": 102060
+  }
+}

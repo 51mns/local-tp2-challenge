@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "scope": "Finite continuum certificate only: integers m=1,...,390; full independent closed parameter cube [-2,2]^3; every supported Fourier index; plain and y-smoothed variants.",
+  "recovered_complete_runs": true,
+  "missing_ranges": [],
+  "sources": {
+    "fulltree_oneturn_finite.py": "1ce674ec36076d65856b13f600e96bbef5eba40af2627f8343c44d4bd42c8ddf",
+    "fulltree_oneturn_finite_independent.py": "f483b08f7923994450380c453de446c2ba1a35cd07fb7c45daa80431e96a3563",
+    "fulltree_oneturn_finite.md": "fbdc1b8dd1bacf3d841d37d9f2bec787336e82f4c4639698bd19819718d968f8",
+    "fulltree_oneturn_finite_audit.md": "f9719b548802d0b2b72c19431d9ab471fbdbb6a0fe38b71dba8175c0ae5c0ff9"
+  },
+  "variants": [
+    {
+      "smooth": false,
+      "scope": [
+        1,
+        390
+      ],
+      "cases": 390,
+      "fourier_indices": 231075,
+      "bernstein_margins": 6239025,
+      "negative": 0,
+      "zero": 0,
+      "global_minimum_scaled_coefficient": "156672",
+      "all_case_records_equal": true,
+      "all_per_case_margin_sha256_equal": true,
+      "ordered_case_digest_sha256": "13ebba96e72f62fc851058ac3b9c506c0471c451e5a4d36996ded0e1b87d6aeb",
+      "result_files": {
+        "fulltree_oneturn_finite_results.json": "63420b74afd6b44f28a5d7a16d26d40534a7880347a5e67dce15bf9ed64440b9",
+        "fulltree_oneturn_finite_independent_results.json": "8265a524d880ab7829183e94e1e19018878923e277a9e99fbfe7c161a8002a66"
+      },
+      "legacy_metadata_note": "Both plain files omit smooth=false; their formulas, degrees, and fresh endpoint replays establish the plain variant."
+    },
+    {
+      "smooth": true,
+      "scope": [
+        1,
+        390
+      ],
+      "cases": 390,
+      "fourier_indices": 231465,
+      "bernstein_margins": 6249555,
+      "negative": 0,
+      "zero": 0,
+      "global_minimum_scaled_coefficient": "156672",
+      "all_case_records_equal": true,
+      "all_per_case_margin_sha256_equal": true,
+      "ordered_case_digest_sha256": "faacc24df06446ccb051a9585d6289b74eba02c833abc855a76d89b5f39db22d",
+      "result_files": {
+        "fulltree_oneturn_finite_smooth_results.json": "b962a8c6236435afa082ac9ec78dd02ec639f2770254a6370f5142d4114aaa6b",
+        "fulltree_oneturn_finite_smooth_independent_results.json": "6a8a8748308e527f2d9939d03340aa6969cc15edbc25cbc21550549cba2abc4d"
+      },
+      "legacy_metadata_note": null
+    }
+  ],
+  "total_distinct_bernstein_margins": 12488580,
+  "fresh_endpoint_replay": {
+    "status": "PASS",
+    "elapsed_seconds": 12.578304008002306,
+    "cases": [
+      {
+        "m": 1,
+        "smooth": false,
+        "sha256": "022218dd15c88cd377e5f49b88657f950041eb59f5400d4fd09732d4b6dce2a3",
+        "matches_both_saved_files": true
+      },
+      {
+        "m": 390,
+        "smooth": false,
+        "sha256": "5df932ea7848e85651d7352f268379debb5295a6275f5f083c94c867c6da6d6a",
+        "matches_both_saved_files": true
+      },
+      {
+        "m": 1,
+        "smooth": true,
+        "sha256": "3d106397286858659b2239b00ac2b7461a59300a727c8bcdb67cc1fa71b67543",
+        "matches_both_saved_files": true
+      },
+      {
+        "m": 390,
+        "smooth": true,
+        "sha256": "6b7ad262eff0e167bac50f38e8cf77da1840e4444967b08badf37b98d32fe90f",
+        "matches_both_saved_files": true
+      }
+    ]
+  },
+  "mathematical_audit": {
+    "parameter_substitution": "r=-2+4u,s=-2+4v,c=-2+4w; u,v,w in [0,1] independently",
+    "degree_in_each_parameter_at_most": 2,
+    "bernstein_coefficients_per_fourier_index": 27,
+    "bernstein_scaling": 8,
+    "support_plain": "0 <= n <= 3m+5",
+    "support_smooth": "0 <= n <= 3m+6",
+    "smoothed_threshold": "8 H((1+x)B)[0]",
+    "coefficient_signs": "Strictly positive tensor Bernstein coefficients imply strict positivity of the margin on the complete closed cube; Bernstein basis nonnegative and sums to one.",
+    "integer_arithmetic": "Python arbitrary precision; carry-free packing bounds inspected in both distinct coefficient bases.",
+    "boundaries": "h[-1]=h[1], all beyond-degree h[n]=0; all support endpoints included.",
+    "limitations": [
+      "No conclusion about m>=391 is taken from these finite computations.",
+      "The analytic tail and the folded-kernel strength theorem require separate audits.",
+      "This does not itself prove all one-turn Local TP2 comparisons or full-tree Local TP2."
+    ]
+  }
+}

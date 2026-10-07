@@ -1,0 +1,29 @@
+{
+  "status": "PROVED_INTERNAL",
+  "campaign_start_utc": "2026-10-07T09:44:34Z",
+  "goal": "Extend the preceding Local TP2 proof from L^m R^2 L^ell to every L^m R^k L^ell, as requested by the user.",
+  "scope": "Every m,k,ell>=0; original supported minors including the terminal one. Arbitrary canonical words remain open.",
+  "repository": "51mns/AIMath",
+  "branch": "research/local-tp2-openai-math-20261007",
+  "owned_path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007",
+  "base_commit": "f1bf528c9064e11f79795a581b6a4bc15f0efbe1",
+  "base_tree": "0b11245bf3a9627d38359b62fc39148765b3f0fe",
+  "inherited_foundation_commit": "a36fbac460073bf757434f122e721dfa254e8e48",
+  "accepted_main_at_campaign_baseline": "c8e61e0e398f540bc8c5de79663398d689f37473",
+  "external_math_snapshot": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "rules": {
+    "AGENTS.md_git_blob": "9ee52dd537eba97ef930f7932c2a09e5be3964e0",
+    "docs/RESEARCH_STRATEGY.md_git_blob": "5d8b4189c4978833a85bf43521230278f8455d46"
+  },
+  "arithmetic": "Python integers and fractions.Fraction; exact Bernstein polynomial certificates; no floating-point proof claims",
+  "python": "3.12.14",
+  "python_implementation": "CPython",
+  "operating_system": "Linux",
+  "dependencies": "Python standard library only; theorem foundation sources pinned separately in DEPENDENCIES.md",
+  "audit_status": "Separate implementations and mathematical reviews in the same shared session; no author imports in the corresponding independent audits",
+  "external_replication": false,
+  "formal_proof_assistant_verification": false,
+  "canonical_main_promotion": false,
+  "publication_or_novelty_claim": false,
+  "python_version_requirement": "3.11 or newer"
+}

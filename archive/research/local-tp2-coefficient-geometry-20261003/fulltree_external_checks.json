@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "decorated_continuants_checked": 3,
+  "spectral_factor_PF3_counterexample": -8,
+  "positive_LC_autocorrelation_folded_minor": -71232,
+  "seed_letter_folded_minor": -4,
+  "multiaffine_diagonal_LC_defect": -1,
+  "decorated_connector_adjacent_minors": [
+    3,
+    -3
+  ],
+  "ferromagnetic_interaction_min_2minor": 12,
+  "ferromagnetic_extension_comparison_minor": -2,
+  "ferromagnetic_folded_minor": -63,
+  "Dodgson_identity_checks": 12
+}

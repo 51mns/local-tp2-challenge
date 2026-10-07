@@ -1,0 +1,114 @@
+{
+  "status": "PROVED_INTERNAL",
+  "scope": "Reversed coefficient folded blocks and all outer-index kernels; not standalone Local TP2 or arbitrary path theorem",
+  "inner_indices": "all m>=0",
+  "outer_indices": "all N>=1, with explicit m0 smooth N0 exception",
+  "parameter_scope": "entire independent cube [-2,2]^3; singles full interval [-2,2]",
+  "finite_bridge": {
+    "range": [
+      0,
+      409
+    ],
+    "records": 1640,
+    "strictly_positive_integer_bernstein_margins": 14766150
+  },
+  "analytic_tail": {
+    "starts_at": 410,
+    "proof": "kernels_theorem.md Sections3-4",
+    "gate_checker": "kernels_checks.py"
+  },
+  "changed_load_bearing_step": "d<=16*y^2*c replaces old unavailable A>=B; scaled all-minor criterion alpha*lambda>=8*reference_central, alpha=tau0-2, handles small m",
+  "source_dependencies": [
+    {
+      "path": "mixed_kernel_sharp_strength.md",
+      "sha256": "a2d2322dac20dacc33defe364a6e46bdd717aa8bed44519173940203859254d9",
+      "mutation": "read-only"
+    },
+    {
+      "path": "mixed_kernel_strong_cone.md",
+      "sha256": "714cffc688d4c10eb96dee48f6e20a9aef74277d8f49b5ffa67ac4caef9494e4",
+      "mutation": "read-only"
+    },
+    {
+      "path": "recovery_oneturn_closure.md",
+      "sha256": "f2abc526cfbefb0b21e033ef0e117af18ccefc3c417d7ba585a5c77d593da639",
+      "mutation": "read-only"
+    },
+    {
+      "path": "fulltree_oneturn_normalized_tail.md",
+      "sha256": "71a5e09dbabd1e0d882458617d4a26bd1c7849a269fd417b63677fb62b60f5b1",
+      "mutation": "read-only"
+    },
+    {
+      "path": "mixed_kernel_all_minor_strength.md",
+      "sha256": "425cbf297a56267db5aac71d40f2193ef18bc5020c04c23e6c39cea80b36224a",
+      "mutation": "read-only"
+    },
+    {
+      "path": "general_one_turn_kernel_theorem.md",
+      "sha256": "c800b025a81700de32944bc4eabe29bc39602edfc57cf3807ee865d2b7067955",
+      "mutation": "read-only"
+    },
+    {
+      "path": "mixed_ray_kernel_theorem.md",
+      "sha256": "beff73fb9174f3d0431618e34c03f3a9b3876892fad3deff9fd5a80ca60edfac",
+      "mutation": "read-only"
+    },
+    {
+      "path": "fulltree_oneturn_finite.py",
+      "sha256": "1ce674ec36076d65856b13f600e96bbef5eba40af2627f8343c44d4bd42c8ddf",
+      "mutation": "read-only"
+    }
+  ],
+  "authored_artifacts": [
+    {
+      "path": "kernels_theorem.md",
+      "sha256": "92bcecb6bc9bd03ec3f914af5787b4b2896631d1abf493b2ebcb5c0767b99d47"
+    },
+    {
+      "path": "kernels_certificate.py",
+      "sha256": "f9ef9f2b667c176b6a3ecdd602ae5ec530f0e8839ac3a6e6f3f87c9b9cfd1999"
+    },
+    {
+      "path": "kernels_certificate_results.json",
+      "sha256": "217229b56cd5f11029f3eebd8c2df6d2e0955a7e12689f172281fe68750e5725"
+    },
+    {
+      "path": "kernels_checks.py",
+      "sha256": "39267caad55caec5375702e4ea210de0daf2f0d2c91c032ea244ff606552d269"
+    },
+    {
+      "path": "kernels_checks_results.json",
+      "sha256": "8733dc27715f26ef22f8868859e51b2b6dff99425cfa6213041dbdada605724a"
+    }
+  ],
+  "shared_primary_arithmetic": {
+    "source": "../fulltree_oneturn_finite.py",
+    "imports": [
+      "at",
+      "add",
+      "times",
+      "prefixes"
+    ],
+    "independence_limitation": "Primary bridge does not independently audit imported polynomial recurrence/arithmetic. Separate ordinary-x audit reconstructs margins without these load-bearing imports."
+  },
+  "independent_audit": "See audit and independent-finite files in this directory; their recorded completed scope controls all independent-reproduction claims.",
+  "rejected_stronger_small_m_premise": {
+    "statement": "unscaled H is 8*d0-strong at every m",
+    "m": 0,
+    "H_terminal": 36,
+    "d0": 20,
+    "required_strength": 160,
+    "terminal_margin": -4464,
+    "scaled_alpha": 61,
+    "scaled_terminal_margin": 73296
+  },
+  "boundary_exception": {
+    "m": 0,
+    "N": 0,
+    "smooth_polynomial": "y",
+    "central_defect": -1,
+    "actual_additional_turn_index": "N=ell+1>=1"
+  },
+  "analytic_audit_status": "PASS: independent audit reviewed all-minor lemma, reversed correction, tail constants and propagation, smoothing, low N Jacobi cases, and prefix factorization; full independent finite replay is separately recorded."
+}

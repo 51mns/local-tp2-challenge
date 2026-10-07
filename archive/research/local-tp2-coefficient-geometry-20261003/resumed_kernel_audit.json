@@ -1,0 +1,15 @@
+{
+  "all_integer_rows_with_1_to_12_distinct_entries_length_1_to_6": 2509,
+  "criterion_accepted_rows": 99,
+  "all_ordered_2_by_2_minors_checked_on_accepted_rows": 36161,
+  "adjacent_formula_cases": {
+    "a>m": 37764,
+    "b=m": 5632,
+    "b>m": 85450,
+    "interior": 9922
+  },
+  "exact_convolution_matrix_entries_checked": 43200,
+  "random_accepted_factor_pairs": 300,
+  "status": "pass",
+  "qualification": "Finite checks support the independently audited general proof; no canonical infinite-family claim."
+}

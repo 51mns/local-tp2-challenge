@@ -1,0 +1,173 @@
+{
+  "scope": "Independent exact arithmetic; proposed hD<=Dprime only; finite passing examples do not prove closure",
+  "records": [
+    {
+      "path": "ROOT",
+      "parent_degree_Q": 3,
+      "child_degree_Q": 4,
+      "canonical_Fricke_residual": [
+        0
+      ],
+      "central_A": -7,
+      "D_advance": {
+        "selector_count": 21,
+        "minimum_nonzero": 288,
+        "first_negative": null
+      },
+      "actual_short_Q_D": {
+        "selector_count": 21,
+        "minimum_nonzero": 192,
+        "first_negative": null
+      },
+      "complete_parent_P0_certificate": true,
+      "P0_status": "ROOT/first-level inherited stronger certificates"
+    },
+    {
+      "path": "S",
+      "parent_degree_Q": 4,
+      "child_degree_Q": 5,
+      "canonical_Fricke_residual": [
+        0
+      ],
+      "central_A": -7,
+      "D_advance": {
+        "selector_count": 36,
+        "minimum_nonzero": 4608,
+        "first_negative": null
+      },
+      "actual_short_Q_D": {
+        "selector_count": 36,
+        "minimum_nonzero": 1536,
+        "first_negative": null
+      },
+      "complete_parent_P0_certificate": true,
+      "P0_status": "ROOT/first-level inherited stronger certificates"
+    },
+    {
+      "path": "L",
+      "parent_degree_Q": 6,
+      "child_degree_Q": 8,
+      "canonical_Fricke_residual": [
+        0
+      ],
+      "central_A": 2,
+      "D_advance": {
+        "selector_count": 66,
+        "minimum_nonzero": 34992,
+        "first_negative": null
+      },
+      "actual_short_Q_D": {
+        "selector_count": 66,
+        "minimum_nonzero": 17496,
+        "first_negative": null
+      },
+      "complete_parent_P0_certificate": true,
+      "P0_status": "ROOT/first-level inherited stronger certificates"
+    },
+    {
+      "path": "SS",
+      "parent_degree_Q": 5,
+      "child_degree_Q": 6,
+      "canonical_Fricke_residual": [
+        0
+      ],
+      "central_A": -7,
+      "D_advance": {
+        "selector_count": 55,
+        "minimum_nonzero": 73728,
+        "first_negative": null
+      },
+      "actual_short_Q_D": {
+        "selector_count": 55,
+        "minimum_nonzero": 12288,
+        "first_negative": null
+      },
+      "complete_parent_P0_certificate": false,
+      "P0_status": "not asserted; continuum packets not certified by this replay"
+    },
+    {
+      "path": "SL",
+      "parent_degree_Q": 9,
+      "child_degree_Q": 12,
+      "canonical_Fricke_residual": [
+        0
+      ],
+      "central_A": 185,
+      "D_advance": {
+        "selector_count": 136,
+        "minimum_nonzero": 17915904,
+        "first_negative": null
+      },
+      "actual_short_Q_D": {
+        "selector_count": 136,
+        "minimum_nonzero": 8957952,
+        "first_negative": null
+      },
+      "complete_parent_P0_certificate": false,
+      "P0_status": "not asserted; continuum packets not certified by this replay"
+    },
+    {
+      "path": "LS",
+      "parent_degree_Q": 8,
+      "child_degree_Q": 10,
+      "canonical_Fricke_residual": [
+        0
+      ],
+      "central_A": 2,
+      "D_advance": {
+        "selector_count": 120,
+        "minimum_nonzero": 2834352,
+        "first_negative": null
+      },
+      "actual_short_Q_D": {
+        "selector_count": 120,
+        "minimum_nonzero": 472392,
+        "first_negative": null
+      },
+      "complete_parent_P0_certificate": false,
+      "P0_status": "not asserted; continuum packets not certified by this replay"
+    },
+    {
+      "path": "LL",
+      "parent_degree_Q": 10,
+      "child_degree_Q": 13,
+      "canonical_Fricke_residual": [
+        0
+      ],
+      "central_A": 185,
+      "D_advance": {
+        "selector_count": 171,
+        "minimum_nonzero": 90699264,
+        "first_negative": null
+      },
+      "actual_short_Q_D": {
+        "selector_count": 171,
+        "minimum_nonzero": 30233088,
+        "first_negative": null
+      },
+      "complete_parent_P0_certificate": false,
+      "P0_status": "not asserted; continuum packets not certified by this replay"
+    },
+    {
+      "path": "SSS",
+      "parent_degree_Q": 6,
+      "child_degree_Q": 7,
+      "canonical_Fricke_residual": [
+        0
+      ],
+      "central_A": -7,
+      "D_advance": {
+        "selector_count": 78,
+        "minimum_nonzero": 1179648,
+        "first_negative": null
+      },
+      "actual_short_Q_D": {
+        "selector_count": 78,
+        "minimum_nonzero": 98304,
+        "first_negative": null
+      },
+      "complete_parent_P0_certificate": false,
+      "P0_status": "not asserted; continuum packets not certified by this replay"
+    }
+  ]
+}

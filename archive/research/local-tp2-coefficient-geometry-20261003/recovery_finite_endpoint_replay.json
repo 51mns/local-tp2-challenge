@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "elapsed_seconds": 12.578304008002306,
+  "cases": [
+    {
+      "m": 1,
+      "smooth": false,
+      "sha256": "022218dd15c88cd377e5f49b88657f950041eb59f5400d4fd09732d4b6dce2a3",
+      "matches_both_saved_files": true
+    },
+    {
+      "m": 390,
+      "smooth": false,
+      "sha256": "5df932ea7848e85651d7352f268379debb5295a6275f5f083c94c867c6da6d6a",
+      "matches_both_saved_files": true
+    },
+    {
+      "m": 1,
+      "smooth": true,
+      "sha256": "3d106397286858659b2239b00ac2b7461a59300a727c8bcdb67cc1fa71b67543",
+      "matches_both_saved_files": true
+    },
+    {
+      "m": 390,
+      "smooth": true,
+      "sha256": "6b7ad262eff0e167bac50f38e8cf77da1840e4444967b08badf37b98d32fe90f",
+      "matches_both_saved_files": true
+    }
+  ]
+}

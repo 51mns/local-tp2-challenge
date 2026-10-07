@@ -1,0 +1,2503 @@
+{
+  "status": "EXACT_FINITE_PARAMETER_CERTIFICATES_NOT_COMMON_CLOSURE",
+  "universal_corner_identity_formal_check": true,
+  "all_minor_implication": "conditional on independently audited network all-minor/character equivalence",
+  "canonical_states": [
+    {
+      "state": "root",
+      "a": [
+        0
+      ],
+      "e": [
+        1
+      ],
+      "r": [
+        1
+      ],
+      "g": [
+        3,
+        2
+      ],
+      "s": [
+        8,
+        12,
+        4
+      ],
+      "d": [
+        16,
+        32,
+        24,
+        6
+      ],
+      "C": [
+        5,
+        6,
+        2
+      ],
+      "T": [
+        15,
+        32,
+        24,
+        6
+      ],
+      "cA": [
+        12,
+        14,
+        4
+      ]
+    },
+    {
+      "state": "first-short",
+      "a": [
+        0
+      ],
+      "e": [
+        4,
+        2
+      ],
+      "r": [
+        3,
+        2
+      ],
+      "g": [
+        8,
+        12,
+        4
+      ],
+      "s": [
+        21,
+        50,
+        36,
+        8
+      ],
+      "d": [
+        160,
+        544,
+        760,
+        528,
+        180,
+        24
+      ],
+      "C": [
+        13,
+        26,
+        18,
+        4
+      ],
+      "T": [
+        39,
+        116,
+        132,
+        66,
+        12
+      ],
+      "cA": [
+        33,
+        64,
+        40,
+        8
+      ]
+    },
+    {
+      "state": "first-long",
+      "a": [
+        1
+      ],
+      "e": [
+        3,
+        2
+      ],
+      "r": [
+        4,
+        2
+      ],
+      "g": [
+        24,
+        44,
+        28,
+        6
+      ],
+      "s": [
+        140,
+        454,
+        592,
+        392,
+        132,
+        18
+      ],
+      "d": [
+        264,
+        1100,
+        1948,
+        1860,
+        1008,
+        294,
+        36
+      ],
+      "C": [
+        29,
+        74,
+        74,
+        34,
+        6
+      ],
+      "T": [
+        87,
+        308,
+        444,
+        324,
+        120,
+        18
+      ],
+      "cA": [
+        167,
+        500,
+        620,
+        398,
+        132,
+        18
+      ]
+    }
+  ],
+  "traces": [
+    {
+      "state": "root",
+      "trace": [
+        15,
+        32,
+        24,
+        6
+      ],
+      "certificate": {
+        "coefficients": 12,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "36",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            6,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 48,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "36",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              6
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 3
+      }
+    },
+    {
+      "state": "first-short",
+      "trace": [
+        39,
+        116,
+        132,
+        66,
+        12
+      ],
+      "certificate": {
+        "coefficients": 15,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "144",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            8,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 75,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "144",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              8
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 4
+      }
+    },
+    {
+      "state": "first-long",
+      "trace": [
+        87,
+        308,
+        444,
+        324,
+        120,
+        18
+      ],
+      "certificate": {
+        "coefficients": 18,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "324",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            10,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 108,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "324",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              10
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 5
+      }
+    }
+  ],
+  "records": [
+    {
+      "state": "root",
+      "orientation": "forward",
+      "smoothed": false,
+      "degree_H": 8,
+      "trace_T": [
+        15,
+        32,
+        24,
+        6
+      ],
+      "seed_b0": [
+        12,
+        14,
+        4
+      ],
+      "seed_b1": [
+        1
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 13,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 2,
+          "degree_b1": 0,
+          "degree_T": 3
+        },
+        "degree_L": 5,
+        "degree_H": 8,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          157,
+          566,
+          788,
+          536,
+          180,
+          24
+        ],
+        "corner_H22_ordinary_coefficients": [
+          2041,
+          12382,
+          32124,
+          46710,
+          41800,
+          23664,
+          8304,
+          1656,
+          144
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 729,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "20736",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            16
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 729,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "20736",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            16
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 81,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "20736",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            16,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 18,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "576",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            10,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 108,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "576",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              10
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 5
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 729,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "20736",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            16
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 28,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        12,
+        "-39744"
+      ]
+    },
+    {
+      "state": "root",
+      "orientation": "forward",
+      "smoothed": true,
+      "degree_H": 9,
+      "trace_T": [
+        15,
+        32,
+        24,
+        6
+      ],
+      "seed_b0": [
+        12,
+        14,
+        4
+      ],
+      "seed_b1": [
+        1
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 13,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 3,
+          "degree_b1": 1,
+          "degree_T": 3
+        },
+        "degree_L": 6,
+        "degree_H": 9,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          157,
+          723,
+          1354,
+          1324,
+          716,
+          204,
+          24
+        ],
+        "corner_H22_ordinary_coefficients": [
+          2041,
+          14423,
+          44506,
+          78834,
+          88510,
+          65464,
+          31968,
+          9960,
+          1800,
+          144
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 900,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "20736",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            18
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 900,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "20736",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            18
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 90,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "20736",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            18,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 21,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "576",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            12,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 147,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "576",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              12
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 6
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 900,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "20736",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            18
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 36,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        12,
+        "-27360"
+      ]
+    },
+    {
+      "state": "root",
+      "orientation": "reverse",
+      "smoothed": false,
+      "degree_H": 6,
+      "trace_T": [
+        15,
+        32,
+        24,
+        6
+      ],
+      "seed_b0": [
+        1
+      ],
+      "seed_b1": [
+        12,
+        14,
+        4
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 13,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 0,
+          "degree_b1": 2,
+          "degree_T": 3
+        },
+        "degree_L": 3,
+        "degree_H": 6,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          25,
+          46,
+          28,
+          6
+        ],
+        "corner_H22_ordinary_coefficients": [
+          325,
+          1398,
+          2436,
+          2228,
+          1140,
+          312,
+          36
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 441,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            12
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 441,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            12
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 63,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            12,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 12,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "36",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            6,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 48,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "36",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              6
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 3
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 441,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            12
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 26,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        8,
+        "-1872"
+      ]
+    },
+    {
+      "state": "root",
+      "orientation": "reverse",
+      "smoothed": true,
+      "degree_H": 7,
+      "trace_T": [
+        15,
+        32,
+        24,
+        6
+      ],
+      "seed_b0": [
+        1
+      ],
+      "seed_b1": [
+        12,
+        14,
+        4
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 13,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 1,
+          "degree_b1": 3,
+          "degree_T": 3
+        },
+        "degree_L": 4,
+        "degree_H": 7,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          25,
+          71,
+          74,
+          34,
+          6
+        ],
+        "corner_H22_ordinary_coefficients": [
+          325,
+          1723,
+          3834,
+          4664,
+          3368,
+          1452,
+          348,
+          36
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 576,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            14
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 576,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            14
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 72,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            14,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 15,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "36",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            8,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 75,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "36",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              8
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 4
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 576,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            14
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 34,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        10,
+        "-2088"
+      ]
+    },
+    {
+      "state": "first-short",
+      "orientation": "forward",
+      "smoothed": false,
+      "degree_H": 11,
+      "trace_T": [
+        39,
+        116,
+        132,
+        66,
+        12
+      ],
+      "seed_b0": [
+        33,
+        64,
+        40,
+        8
+      ],
+      "seed_b1": [
+        4,
+        2
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 37,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 3,
+          "degree_b1": 1,
+          "degree_T": 4
+        },
+        "degree_L": 7,
+        "degree_H": 11,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          1225,
+          6198,
+          13260,
+          15562,
+          10828,
+          4464,
+          1008,
+          96
+        ],
+        "corner_H22_ordinary_coefficients": [
+          45325,
+          371426,
+          1371288,
+          3012940,
+          4379916,
+          4424936,
+          3170628,
+          1611120,
+          568752,
+          132768,
+          18432,
+          1152
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 1296,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1327104",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            22
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 1296,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1327104",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            22
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 108,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1327104",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            22,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 24,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "9216",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            14,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 192,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "9216",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              14
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 7
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 1296,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1327104",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            22
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 54,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        14,
+        "-194211072"
+      ]
+    },
+    {
+      "state": "first-short",
+      "orientation": "forward",
+      "smoothed": true,
+      "degree_H": 12,
+      "trace_T": [
+        39,
+        116,
+        132,
+        66,
+        12
+      ],
+      "seed_b0": [
+        33,
+        64,
+        40,
+        8
+      ],
+      "seed_b1": [
+        4,
+        2
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 37,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 4,
+          "degree_b1": 2,
+          "degree_T": 4
+        },
+        "degree_L": 8,
+        "degree_H": 12,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          1225,
+          7423,
+          19458,
+          28822,
+          26390,
+          15292,
+          5472,
+          1104,
+          96
+        ],
+        "corner_H22_ordinary_coefficients": [
+          45325,
+          416751,
+          1742714,
+          4384228,
+          7392856,
+          8804852,
+          7595564,
+          4781748,
+          2179872,
+          701520,
+          151200,
+          19584,
+          1152
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 1521,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1327104",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            24
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 1521,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1327104",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            24
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 117,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1327104",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            24,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 27,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "9216",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            16,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 243,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "9216",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              16
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 8
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 1521,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1327104",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            24
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 68,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        16,
+        "-273026304"
+      ]
+    },
+    {
+      "state": "first-short",
+      "orientation": "reverse",
+      "smoothed": false,
+      "degree_H": 9,
+      "trace_T": [
+        39,
+        116,
+        132,
+        66,
+        12
+      ],
+      "seed_b0": [
+        4,
+        2
+      ],
+      "seed_b1": [
+        33,
+        64,
+        40,
+        8
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 37,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 1,
+          "degree_b1": 3,
+          "degree_T": 4
+        },
+        "degree_L": 5,
+        "degree_H": 9,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          181,
+          602,
+          800,
+          536,
+          180,
+          24
+        ],
+        "corner_H22_ordinary_coefficients": [
+          6697,
+          43270,
+          123324,
+          204042,
+          216340,
+          152544,
+          71520,
+          21480,
+          3744,
+          288
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 900,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "82944",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            18
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 900,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "82944",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            18
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 90,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "82944",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            18,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 18,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "576",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            10,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 108,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "576",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              10
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 5
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 900,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "82944",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            18
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 50,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        10,
+        "-2650176"
+      ]
+    },
+    {
+      "state": "first-short",
+      "orientation": "reverse",
+      "smoothed": true,
+      "degree_H": 10,
+      "trace_T": [
+        39,
+        116,
+        132,
+        66,
+        12
+      ],
+      "seed_b0": [
+        4,
+        2
+      ],
+      "seed_b1": [
+        33,
+        64,
+        40,
+        8
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 37,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 2,
+          "degree_b1": 4,
+          "degree_T": 4
+        },
+        "degree_L": 6,
+        "degree_H": 10,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          181,
+          783,
+          1402,
+          1336,
+          716,
+          204,
+          24
+        ],
+        "corner_H22_ordinary_coefficients": [
+          6697,
+          49967,
+          166594,
+          327366,
+          420382,
+          368884,
+          224064,
+          93000,
+          25224,
+          4032,
+          288
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 1089,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "82944",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            20
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 1089,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "82944",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            20
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 99,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "82944",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            20,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 21,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "576",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            12,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 147,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "576",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              12
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 6
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 1089,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "82944",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            20
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 54,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        12,
+        "-4637088"
+      ]
+    },
+    {
+      "state": "first-long",
+      "orientation": "forward",
+      "smoothed": false,
+      "degree_H": 15,
+      "trace_T": [
+        87,
+        308,
+        444,
+        324,
+        120,
+        18
+      ],
+      "seed_b0": [
+        167,
+        500,
+        620,
+        398,
+        132,
+        18
+      ],
+      "seed_b1": [
+        3,
+        2
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 85,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 5,
+          "degree_b1": 1,
+          "degree_T": 5
+        },
+        "degree_L": 10,
+        "degree_H": 15,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          14198,
+          93938,
+          280848,
+          500898,
+          591124,
+          482784,
+          276504,
+          109680,
+          28836,
+          4536,
+          324
+        ],
+        "corner_H22_ordinary_coefficients": [
+          1206830,
+          12357714,
+          59108896,
+          175386138,
+          361358308,
+          548024420,
+          632342964,
+          565529328,
+          395373336,
+          216126576,
+          91634724,
+          29595312,
+          7048080,
+          1168344,
+          120528,
+          5832
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 2304,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "34012224",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            30
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 2304,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "34012224",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            30
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 144,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "34012224",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            30,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 33,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "104976",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            20,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 363,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "104976",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              20
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 10
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 2304,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "34012224",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            30
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 114,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        18,
+        "-744393163536"
+      ]
+    },
+    {
+      "state": "first-long",
+      "orientation": "forward",
+      "smoothed": true,
+      "degree_H": 16,
+      "trace_T": [
+        87,
+        308,
+        444,
+        324,
+        120,
+        18
+      ],
+      "seed_b0": [
+        167,
+        500,
+        620,
+        398,
+        132,
+        18
+      ],
+      "seed_b1": [
+        3,
+        2
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 85,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 6,
+          "degree_b1": 2,
+          "degree_T": 5
+        },
+        "degree_L": 11,
+        "degree_H": 16,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          14198,
+          108136,
+          374786,
+          781746,
+          1092022,
+          1073908,
+          759288,
+          386184,
+          138516,
+          33372,
+          4860,
+          324
+        ],
+        "corner_H22_ordinary_coefficients": [
+          1206830,
+          13564544,
+          71466610,
+          234495034,
+          536744446,
+          909382728,
+          1180367384,
+          1197872292,
+          960902664,
+          611499912,
+          307761300,
+          121230036,
+          36643392,
+          8216424,
+          1288872,
+          126360,
+          5832
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 2601,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "34012224",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            32
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 2601,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "34012224",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            32
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 153,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "34012224",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            32,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 36,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "104976",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            22,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 432,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "104976",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              22
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 11
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 2601,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "34012224",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            32
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 114,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        20,
+        "-1219423140432"
+      ]
+    },
+    {
+      "state": "first-long",
+      "orientation": "reverse",
+      "smoothed": false,
+      "degree_H": 11,
+      "trace_T": [
+        87,
+        308,
+        444,
+        324,
+        120,
+        18
+      ],
+      "seed_b0": [
+        3,
+        2
+      ],
+      "seed_b1": [
+        167,
+        500,
+        620,
+        398,
+        132,
+        18
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 85,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 1,
+          "degree_b1": 5,
+          "degree_T": 5
+        },
+        "degree_L": 6,
+        "degree_H": 11,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          422,
+          1594,
+          2568,
+          2258,
+          1140,
+          312,
+          36
+        ],
+        "corner_H22_ordinary_coefficients": [
+          35870,
+          265466,
+          896600,
+          1827338,
+          2499652,
+          2411100,
+          1673760,
+          836160,
+          294516,
+          69624,
+          9936,
+          648
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 1296,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "419904",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            22
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 1296,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "419904",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            22
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 108,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "419904",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            22,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 21,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            12,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 147,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "1296",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              12
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 6
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 1296,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "419904",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            22
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 74,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        12,
+        "-117495936"
+      ]
+    },
+    {
+      "state": "first-long",
+      "orientation": "reverse",
+      "smoothed": true,
+      "degree_H": 12,
+      "trace_T": [
+        87,
+        308,
+        444,
+        324,
+        120,
+        18
+      ],
+      "seed_b0": [
+        3,
+        2
+      ],
+      "seed_b1": [
+        167,
+        500,
+        620,
+        398,
+        132,
+        18
+      ],
+      "support": {
+        "trace_T_minus_2_positive_dense": true,
+        "trace_T_minus_2_constant": 85,
+        "seeds_positive_dense": true,
+        "strict_seed_degree": {
+          "degree_b0": 2,
+          "degree_b1": 6,
+          "degree_T": 5
+        },
+        "degree_L": 7,
+        "degree_H": 12,
+        "corner_L2_positive_dense": true,
+        "corner_H22_positive_dense": true,
+        "corner_L2_ordinary_coefficients": [
+          422,
+          2016,
+          4162,
+          4826,
+          3398,
+          1452,
+          348,
+          36
+        ],
+        "corner_H22_ordinary_coefficients": [
+          35870,
+          301336,
+          1162066,
+          2723938,
+          4326990,
+          4910752,
+          4084860,
+          2509920,
+          1130676,
+          364140,
+          79560,
+          10584,
+          648
+        ],
+        "box_support_argument": "nonnegative alpha,beta expansion plus strictly positive dense corner"
+      },
+      "sharp_relative_all_characters": {
+        "coefficients": 1521,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "419904",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            24
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_all_characters": {
+        "coefficients": 1521,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "419904",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            24
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "H_defects": {
+        "coefficients": 117,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "419904",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            24,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "strict_all_supported_bernstein": true
+      },
+      "L_defects": {
+        "coefficients": 24,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "1296",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            14,
+            0
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0,
+        "all_character_bernstein": {
+          "coefficients": 192,
+          "negative_coefficients": 0,
+          "first_negative": null,
+          "minimum_nonzero": {
+            "value": "1296",
+            "parameter_bernstein_index": [
+              0,
+              0
+            ],
+            "character_index": [
+              0,
+              14
+            ]
+          },
+          "all_nonnegative": true,
+          "zeros": 0
+        },
+        "strict_all_supported_bernstein": true,
+        "degree": 7
+      },
+      "uniform4_relative_all_characters": {
+        "coefficients": 1521,
+        "negative_coefficients": 0,
+        "first_negative": null,
+        "minimum_nonzero": {
+          "value": "419904",
+          "parameter_bernstein_index": [
+            0,
+            0
+          ],
+          "character_index": [
+            0,
+            24
+          ]
+        },
+        "all_nonnegative": true,
+        "zeros": 0
+      },
+      "sharp_MP2_parameter_certificate_pass": true,
+      "uniform_MP2_parameter_certificate_pass": true,
+      "negative_power_coefficient_count": 78,
+      "first_negative_power_coefficient": [
+        1,
+        0,
+        0,
+        12,
+        "-84401712"
+      ]
+    }
+  ],
+  "imports": "standard Python only; no parent arithmetic",
+  "full_certificate": {
+    "file": "quantitative_midpoint_bernstein_full.json.gz",
+    "uncompressed_bytes": 4741996,
+    "gzip_bytes": 324151,
+    "uncompressed_sha256": "f327efbd821aba82504b2708ffd980e00d6b68877c672e5788e0192248096d14",
+    "gzip_sha256": "f15175c91b32e83cd306f6382a07efeab4bb3c457bf9c9c4893894a2edeb89cc",
+    "compression": "gzip.compress(full_json_utf8,mtime=0)"
+  }
+}

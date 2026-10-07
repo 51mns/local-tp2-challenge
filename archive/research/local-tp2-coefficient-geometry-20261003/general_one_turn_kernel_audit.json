@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "method": "independent direct Laurent coefficient ring; no producer imports",
+  "block_defect_polynomials_replayed": 64,
+  "block_Bernstein_coefficients_replayed": 204,
+  "positive_row_Bernstein_coefficients_checked": 108,
+  "relative_minor_patterns_reconstructed": 1543,
+  "relative_minor_Bernstein_coefficients_reconstructed": 41661,
+  "relative_minor_uniform_minimum": "327364154597925",
+  "minimum_pattern": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "completeness": "infinite-index reduction is proved in general_one_turn_kernel_audit.md"
+}

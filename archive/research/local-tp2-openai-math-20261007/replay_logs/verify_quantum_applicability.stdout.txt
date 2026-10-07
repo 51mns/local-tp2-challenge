@@ -1,0 +1,1 @@
+{'algebra_cases': 729, 'root_commutator_N3': [544, 896, 544], 'root_minor_12': 352, 'naive_lorentzian_hessian_det': 3584, 'status': 'PASS; no full-tree positivity claim'}

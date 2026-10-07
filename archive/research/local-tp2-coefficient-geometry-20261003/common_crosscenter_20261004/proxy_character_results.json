@@ -1,0 +1,452 @@
+{
+  "status": "exact identities and targeted finite checks PASS",
+  "scope": "Universal algebra checked; canonical states only identify seeds/obstacles, not arbitrary BOTH closure.",
+  "symbolic": {
+    "long_F_expansion": true,
+    "interior_Q_minus_V_expansion": true,
+    "robin_diagonal_kernel_checks": [
+      {
+        "N": 1,
+        "p_N": [
+          -1,
+          1
+        ],
+        "h_N": [
+          3
+        ],
+        "weighted_one_resolvent": true,
+        "weighted_two_resolvent": true
+      },
+      {
+        "N": 2,
+        "p_N": [
+          -1,
+          -1,
+          1
+        ],
+        "h_N": [
+          -4,
+          3
+        ],
+        "weighted_one_resolvent": true,
+        "weighted_two_resolvent": true
+      },
+      {
+        "N": 3,
+        "p_N": [
+          1,
+          -2,
+          -1,
+          1
+        ],
+        "h_N": [
+          -4,
+          -3,
+          3
+        ],
+        "weighted_one_resolvent": true,
+        "weighted_two_resolvent": true
+      },
+      {
+        "N": 4,
+        "p_N": [
+          1,
+          2,
+          -3,
+          -1,
+          1
+        ],
+        "h_N": [
+          4,
+          -7,
+          -3,
+          3
+        ],
+        "weighted_one_resolvent": true,
+        "weighted_two_resolvent": true
+      }
+    ]
+  },
+  "targeted_states": [
+    {
+      "state": "root",
+      "fricke": true,
+      "F_halfrow": [
+        -1
+      ],
+      "Q_minus_V_halfrow": [
+        -75,
+        -60,
+        -31,
+        -10,
+        -2
+      ],
+      "original_proxy": [
+        48,
+        176,
+        88,
+        24
+      ],
+      "weaker_Q_D_proxy": [
+        126,
+        228,
+        100,
+        24
+      ],
+      "B_source_char_nonnegative": true,
+      "B_source_boundary": [
+        33,
+        49,
+        28,
+        8
+      ],
+      "factored_source_A": [
+        1,
+        2
+      ],
+      "factored_source_B": [
+        1,
+        1,
+        1
+      ],
+      "factored_source_boundary": [
+        -5,
+        2
+      ]
+    },
+    {
+      "state": "short",
+      "fricke": true,
+      "F_halfrow": [
+        6,
+        5,
+        2
+      ],
+      "Q_minus_V_halfrow": [
+        -435,
+        -368,
+        -223,
+        -94,
+        -26,
+        -4
+      ],
+      "original_proxy": [
+        2004,
+        5772,
+        3448,
+        1008,
+        96
+      ],
+      "weaker_Q_D_proxy": [
+        46392,
+        94800,
+        55576,
+        15616,
+        1632
+      ],
+      "B_source_char_nonnegative": true,
+      "B_source_boundary": [
+        43971,
+        89625,
+        52796,
+        14896,
+        1568
+      ],
+      "factored_source_A": [
+        1,
+        2
+      ],
+      "factored_source_B": [
+        10,
+        25,
+        22,
+        6
+      ],
+      "factored_source_boundary": [
+        -65,
+        44
+      ]
+    },
+    {
+      "state": "long",
+      "fricke": true,
+      "F_halfrow": [
+        1,
+        1,
+        1
+      ],
+      "Q_minus_V_halfrow": [
+        2644,
+        2362,
+        1668,
+        904,
+        356,
+        92,
+        12
+      ],
+      "original_proxy": [
+        1221944,
+        2423832,
+        1730408,
+        638012,
+        121452,
+        10764,
+        324
+      ],
+      "weaker_Q_D_proxy": [
+        2641008,
+        5178232,
+        3622384,
+        1309276,
+        245604,
+        21528,
+        648
+      ],
+      "B_source_char_nonnegative": true,
+      "B_source_boundary": [
+        1244624,
+        2453624,
+        1729912,
+        631968,
+        119960,
+        10620,
+        324
+      ],
+      "factored_source_A": [
+        4,
+        8,
+        3
+      ],
+      "factored_source_B": [
+        1,
+        4,
+        7,
+        3
+      ],
+      "factored_source_boundary": [
+        10,
+        17,
+        9
+      ]
+    },
+    {
+      "state": "long,long",
+      "fricke": true,
+      "F_halfrow": [
+        174,
+        147,
+        86,
+        32,
+        6
+      ],
+      "Q_minus_V_halfrow": [
+        6168257,
+        5703210,
+        4500789,
+        3016394,
+        1701346,
+        796158,
+        302410,
+        90096,
+        19884,
+        2916,
+        216
+      ],
+      "original_proxy": [
+        874260743364,
+        1971549548040,
+        1847471526840,
+        1076515221076,
+        419358742064,
+        110249097384,
+        19173415104,
+        2106033984,
+        134409024,
+        4258656,
+        46656
+      ],
+      "weaker_Q_D_proxy": [
+        16075775232868,
+        36573463500684,
+        34903152893832,
+        20934789195128,
+        8501323018000,
+        2366326312080,
+        444443854464,
+        54141404544,
+        3979354176,
+        154014048,
+        2286144
+      ],
+      "B_source_char_nonnegative": true,
+      "B_source_boundary": [
+        15161741332715,
+        34516040821767,
+        32981997638286,
+        19820780775132,
+        8069868613860,
+        2253605259488,
+        424962566016,
+        52013841984,
+        3844226304,
+        149747616,
+        2239488
+      ],
+      "factored_source_A": [
+        13,
+        32,
+        24,
+        6
+      ],
+      "factored_source_B": [
+        46,
+        199,
+        340,
+        282,
+        114,
+        18
+      ],
+      "factored_source_boundary": [
+        4225,
+        10400,
+        4152,
+        684
+      ]
+    }
+  ],
+  "coarse_quantitative_gate_obstacle": {
+    "state": "first-long",
+    "origin_t": [
+      6,
+      8,
+      3
+    ],
+    "b0": [
+      4,
+      2
+    ],
+    "b1": [
+      0
+    ],
+    "N": 2,
+    "eta": [
+      {
+        "index": 0,
+        "a": "8",
+        "b": "-360",
+        "c": "3400",
+        "minimizer": "2",
+        "minimum": "2712"
+      },
+      {
+        "index": 1,
+        "a": "16",
+        "b": "-684",
+        "c": "5880",
+        "minimizer": "2",
+        "minimum": "4576"
+      },
+      {
+        "index": 2,
+        "a": "4",
+        "b": "-192",
+        "c": "2856",
+        "minimizer": "2",
+        "minimum": "2488"
+      },
+      {
+        "index": 3,
+        "a": "0",
+        "b": "12",
+        "c": "544",
+        "minimizer": "-2",
+        "minimum": "520"
+      },
+      {
+        "index": 4,
+        "a": "0",
+        "b": "0",
+        "c": "36",
+        "minimizer": "-2",
+        "minimum": "36"
+      }
+    ],
+    "mu": [
+      36,
+      22,
+      9
+    ],
+    "uniform_lower_bound": [
+      "134352/5",
+      "164208/5",
+      "268704/5",
+      "11232",
+      "3888/5",
+      "2376/5",
+      "972/5"
+    ],
+    "adverse_correction": [
+      174440,
+      300776,
+      162064,
+      39296,
+      4192,
+      144,
+      0
+    ],
+    "gate_surplus": [
+      "-737848/5",
+      "-1339672/5",
+      "-541616/5",
+      "-28064",
+      "-17072/5",
+      "1656/5",
+      "972/5"
+    ],
+    "actual_deltaQ": [
+      1396384,
+      2724608,
+      1892472,
+      677308,
+      125644,
+      10908,
+      324
+    ],
+    "actual_proxy": [
+      1221944,
+      2423832,
+      1730408,
+      638012,
+      121452,
+      10764,
+      324
+    ],
+    "exact_diagonal_bound": [
+      "4189152/5",
+      "8173824/5",
+      "5677416/5",
+      "2031924/5",
+      "376932/5",
+      "32724/5",
+      "972/5"
+    ],
+    "exact_diagonal_surplus": [
+      "3316952/5",
+      "6669944/5",
+      "4867096/5",
+      "1835444/5",
+      "355972/5",
+      "32004/5",
+      "972/5"
+    ],
+    "meaning": "Coarse CB lower bound is valid but insufficient. Full diagonal retention avoids this loss in this seed only."
+  },
+  "unresolved": [
+    "arbitrary canonical BOTH original strict proxy",
+    "arbitrary BOTH weaker Q<D gate",
+    "general R(Q,D-PQ)>=character0",
+    "quantitative retained mixed margin dominating W(Q,V)",
+    "new-center paired MP_sharp BOTH transport",
+    "full-tree strict Local TP2"
+  ]
+}

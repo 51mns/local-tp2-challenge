@@ -1,0 +1,22 @@
+{
+  "nodes": 127,
+  "max_depth": 6,
+  "max_G_degree": 54,
+  "identities_pass": true,
+  "naive_fourier_TP2_obstructions": {
+    "C12_to_C11": [
+      -6,
+      4
+    ],
+    "S22_to_S12": [
+      -2,
+      2
+    ],
+    "D22_to_D12": [
+      162,
+      -54,
+      36
+    ]
+  },
+  "full_Local_TP2_proved": false
+}

@@ -1,0 +1,309 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_OBSTRUCTION_AUDIT",
+  "f": [
+    24579,
+    49922,
+    26118,
+    780,
+    6
+  ],
+  "v": [
+    192,
+    480,
+    480,
+    240,
+    60,
+    6
+  ],
+  "normalized_B": [
+    8192,
+    256,
+    2
+  ],
+  "f_shift_defect_minima": [
+    {
+      "polynomial": [
+        "2452481755",
+        "-179844",
+        "1"
+      ],
+      "argmin": "2",
+      "minimum": "2452122071"
+    },
+    {
+      "polynomial": [
+        "79637998",
+        "26142",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "79585714"
+    },
+    {
+      "polynomial": [
+        "642188256",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "642188256"
+    },
+    {
+      "polynomial": [
+        "451512",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "451512"
+    },
+    {
+      "polynomial": [
+        "36",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "36"
+    }
+  ],
+  "f_shift_complete_character_minima": [
+    {
+      "columns": [
+        0,
+        1
+      ],
+      "polynomial": [
+        "2452481755",
+        "-179844",
+        "1"
+      ],
+      "argmin": "2",
+      "minimum": "2452122071"
+    },
+    {
+      "columns": [
+        0,
+        2
+      ],
+      "polynomial": [
+        "1343864334",
+        "-53042",
+        "0"
+      ],
+      "argmin": "2",
+      "minimum": "1343758250"
+    },
+    {
+      "columns": [
+        0,
+        3
+      ],
+      "polynomial": [
+        "1927971228",
+        "-26148",
+        "0"
+      ],
+      "argmin": "2",
+      "minimum": "1927918932"
+    },
+    {
+      "columns": [
+        0,
+        4
+      ],
+      "polynomial": [
+        "59316636",
+        "-780",
+        "0"
+      ],
+      "argmin": "2",
+      "minimum": "59315076"
+    },
+    {
+      "columns": [
+        0,
+        5
+      ],
+      "polynomial": [
+        "461106",
+        "-6",
+        "0"
+      ],
+      "argmin": "2",
+      "minimum": "461094"
+    },
+    {
+      "columns": [
+        1,
+        2
+      ],
+      "polynomial": [
+        "79637998",
+        "26142",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "79585714"
+    },
+    {
+      "columns": [
+        1,
+        3
+      ],
+      "polynomial": [
+        "1286212236",
+        "780",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "1286210676"
+    },
+    {
+      "columns": [
+        1,
+        4
+      ],
+      "polynomial": [
+        "40146402",
+        "6",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "40146390"
+    },
+    {
+      "columns": [
+        1,
+        5
+      ],
+      "polynomial": [
+        "313572",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "313572"
+    },
+    {
+      "columns": [
+        2,
+        3
+      ],
+      "polynomial": [
+        "642188256",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "642188256"
+    },
+    {
+      "columns": [
+        2,
+        4
+      ],
+      "polynomial": [
+        "20072508",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "20072508"
+    },
+    {
+      "columns": [
+        2,
+        5
+      ],
+      "polynomial": [
+        "156852",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "156852"
+    },
+    {
+      "columns": [
+        3,
+        4
+      ],
+      "polynomial": [
+        "451512",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "451512"
+    },
+    {
+      "columns": [
+        3,
+        5
+      ],
+      "polynomial": [
+        "4680",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "4680"
+    },
+    {
+      "columns": [
+        4,
+        5
+      ],
+      "polynomial": [
+        "36",
+        "0",
+        "0"
+      ],
+      "argmin": "-2",
+      "minimum": "36"
+    }
+  ],
+  "v_and_yv_rows": {
+    "v": [
+      1512,
+      1260,
+      720,
+      270,
+      60,
+      6
+    ],
+    "yv": [
+      4032,
+      3492,
+      2250,
+      1050,
+      336,
+      66,
+      6
+    ]
+  },
+  "v_and_yv_defects": {
+    "v": [
+      199584,
+      320760,
+      148500,
+      27720,
+      1944,
+      36
+    ],
+    "yv": [
+      940896,
+      1726164,
+      1049400,
+      302904,
+      41256,
+      2304,
+      36
+    ]
+  },
+  "child_failed_index": 3,
+  "child_failed_defect": -71023104,
+  "scope": "Ordinary positive integer inputs, full shifted trace cone and strict raw/y added block do not imply updated trace cone. No canonical ancestry, Fricke completion, origin packet, or target counterexample is asserted.",
+  "full_tree_Local_TP2": "OPEN"
+}

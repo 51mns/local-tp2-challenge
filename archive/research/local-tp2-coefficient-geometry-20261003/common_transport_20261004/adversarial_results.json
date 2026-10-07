@@ -1,0 +1,135 @@
+{
+  "status": "BOUNDED_EXACT_TARGETED_PROBE_NOT_CLOSURE_PROOF",
+  "tested": 6405,
+  "parent_passes": 1888,
+  "counts": {
+    "inherited": {
+      "tested": 105,
+      "parent_passes": 16,
+      "both_children_pass": 16
+    },
+    "perturbed": {
+      "tested": 6300,
+      "parent_passes": 1872,
+      "both_children_pass": 1872
+    }
+  },
+  "strong_parent_counts": {
+    "strict_endpoint_degrees": 1888,
+    "golden_rational_sufficient": 1638,
+    "dense_character_XYCEGR": 1756,
+    "character_strip": 1712,
+    "character_additive_separation": 1888,
+    "endpoint_character_inequalities": 1616,
+    "inverse_degree_pattern": 58,
+    "ancestor_PQ": 12
+  },
+  "first_failure": null,
+  "accepted_examples": [
+    {
+      "parameters": {
+        "family": "perturbed",
+        "m": 0,
+        "L": 1,
+        "h": 0,
+        "N": 2,
+        "B": 4,
+        "rho_num": 1,
+        "rho_den": 4
+      },
+      "extras": {
+        "strict_endpoint_degrees": true,
+        "golden_rational_sufficient": true,
+        "dense_character_XYCEGR": true,
+        "character_strip": true,
+        "character_additive_separation": true,
+        "endpoint_character_inequalities": true,
+        "inverse_endpoint": [
+          4,
+          3
+        ],
+        "inverse_degree_pattern": false,
+        "fricke_zero": false
+      },
+      "parent_minima": {
+        "E_G": 0,
+        "R_G": 0,
+        "XP_E": 0,
+        "YP_G": 0,
+        "proxy": 331776,
+        "G": 2304,
+        "M": 20736
+      }
+    },
+    {
+      "parameters": {
+        "family": "perturbed",
+        "m": 0,
+        "L": 1,
+        "h": 0,
+        "N": 2,
+        "B": 4,
+        "rho_num": 2,
+        "rho_den": 4
+      },
+      "extras": {
+        "strict_endpoint_degrees": true,
+        "golden_rational_sufficient": true,
+        "dense_character_XYCEGR": true,
+        "character_strip": true,
+        "character_additive_separation": true,
+        "endpoint_character_inequalities": true,
+        "inverse_endpoint": [
+          3,
+          2
+        ],
+        "inverse_degree_pattern": false,
+        "fricke_zero": false
+      },
+      "parent_minima": {
+        "E_G": 0,
+        "R_G": 0,
+        "XP_E": 0,
+        "YP_G": 0,
+        "proxy": 331776,
+        "G": 2304,
+        "M": 20736
+      }
+    },
+    {
+      "parameters": {
+        "family": "perturbed",
+        "m": 0,
+        "L": 1,
+        "h": 0,
+        "N": 2,
+        "B": 4,
+        "rho_num": 3,
+        "rho_den": 4
+      },
+      "extras": {
+        "strict_endpoint_degrees": true,
+        "golden_rational_sufficient": true,
+        "dense_character_XYCEGR": true,
+        "character_strip": true,
+        "character_additive_separation": true,
+        "endpoint_character_inequalities": true,
+        "inverse_endpoint": [
+          2,
+          1
+        ],
+        "inverse_degree_pattern": false,
+        "fricke_zero": false
+      },
+      "parent_minima": {
+        "E_G": 0,
+        "R_G": 0,
+        "XP_E": 0,
+        "YP_G": 0,
+        "proxy": 331776,
+        "G": 2304,
+        "M": 20736
+      }
+    }
+  ]
+}

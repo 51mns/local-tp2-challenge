@@ -1,0 +1,189 @@
+{
+  "status": "PASS exact identities and targeted support/source checks",
+  "formal_anchor_cancellation": {
+    "variables": [
+      "x",
+      "a",
+      "e",
+      "r"
+    ],
+    "residual_terms": 0,
+    "Fricke_used": false
+  },
+  "prefix_identity_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "prefix_factorizations_h": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "BOTH_origin_seed_checks": [
+    {
+      "state": "root",
+      "origins": [
+        {
+          "index": 2,
+          "endpoint_degree": 0,
+          "anchor": [
+            0
+          ],
+          "center_degree": 1
+        },
+        {
+          "index": 1,
+          "endpoint_degree": 1,
+          "anchor": [
+            0
+          ],
+          "center_degree": 1
+        }
+      ]
+    },
+    {
+      "state": "short",
+      "origins": [
+        {
+          "index": 3,
+          "endpoint_degree": 0,
+          "anchor": [
+            0
+          ],
+          "center_degree": 2
+        },
+        {
+          "index": 1,
+          "endpoint_degree": 2,
+          "anchor": [
+            0
+          ],
+          "center_degree": 2
+        }
+      ]
+    },
+    {
+      "state": "long",
+      "origins": [
+        {
+          "index": 2,
+          "endpoint_degree": 1,
+          "anchor": [
+            0
+          ],
+          "center_degree": 3
+        },
+        {
+          "index": 2,
+          "endpoint_degree": 2,
+          "anchor": [
+            0
+          ],
+          "center_degree": 3
+        }
+      ]
+    }
+  ],
+  "fixed_band_checks": [
+    {
+      "N": 2,
+      "fixed_proxy_band": 7,
+      "Q_degree": 16,
+      "raw_anchor_defect_band": 1,
+      "y_anchor_defect_band": 2,
+      "raw_shifted_trace_strict_from": 4,
+      "y_shifted_trace_strict_from": 5
+    },
+    {
+      "N": 3,
+      "fixed_proxy_band": 7,
+      "Q_degree": 21,
+      "raw_anchor_defect_band": 1,
+      "y_anchor_defect_band": 2,
+      "raw_shifted_trace_strict_from": 4,
+      "y_shifted_trace_strict_from": 5
+    }
+  ],
+  "source_examples": [
+    {
+      "endpoint": [
+        1
+      ],
+      "J_halfrow": [
+        5,
+        3,
+        2
+      ],
+      "L_halfrow": [
+        30,
+        24,
+        12,
+        3
+      ],
+      "source_adjacent": [
+        30,
+        -12,
+        6
+      ]
+    },
+    {
+      "endpoint": [
+        2,
+        1
+      ],
+      "J_halfrow": [
+        26,
+        21,
+        11,
+        3
+      ],
+      "L_halfrow": [
+        108,
+        90,
+        51,
+        18,
+        3
+      ],
+      "source_adjacent": [
+        72,
+        81,
+        45,
+        9
+      ]
+    }
+  ],
+  "endpoint1_raw_degree1_base": {
+    "halfrow": [
+      60,
+      48,
+      24,
+      6
+    ],
+    "defects": [
+      432,
+      576,
+      252,
+      36
+    ]
+  },
+  "scope": {
+    "anchor_identity_BOTH": "PROVED",
+    "ordinary_prefix_N_ge_2": "PROVED conditional on existing MP_sharp certificates",
+    "fixed_proxy_band": "PROVED conditional on frozen source LR and strict prefix",
+    "raw_shifted_center_trace_tail_BOTH": "PROVED conditional on certified ordinary prefixes and existing pure-boundary prefix theorem, uniformly in r,N",
+    "ordinary_smoothed_shifted_center_trace_tail": "PROVED conditional on certified ordinary prefix, uniformly in r,N",
+    "frozen_source_all_new_origins": "OPEN",
+    "anchor_low_band": "OPEN",
+    "strict_proxy_BOTH": "OPEN",
+    "Local_TP2_full_tree": "OPEN"
+  }
+}

@@ -1,0 +1,663 @@
+{
+  "status": "exact coupled-prefix and initialized residual checks PASS",
+  "arithmetic": "Python integers only; no external dependency",
+  "scope": "Finite identities validate formulas. All-N algebra is proved in proxy_character.md; no source or proxy closure inferred from samples.",
+  "first_use_switch_cases": [
+    {
+      "name": "root-Y first retained",
+      "N": 2,
+      "normalized_Fricke": true,
+      "Hanchor": [
+        -1
+      ],
+      "Z_N": [
+        28,
+        46,
+        28,
+        6
+      ],
+      "Z_previous": [
+        4,
+        2
+      ],
+      "actual_e": [
+        3,
+        2
+      ],
+      "exact_Q_E_D_match": true,
+      "source_character_nonnegative": true,
+      "source_boundary": [
+        129,
+        195,
+        90,
+        18
+      ],
+      "lead_boundary": [
+        2629320,
+        5153820,
+        3617580,
+        1311780,
+        245604,
+        21528,
+        648
+      ],
+      "residual_boundary": [
+        11688,
+        24412,
+        4804,
+        -2504,
+        0,
+        0,
+        0
+      ],
+      "actual_Q_D_boundary": [
+        2641008,
+        5178232,
+        3622384,
+        1309276,
+        245604,
+        21528,
+        648
+      ],
+      "unanchored_residual_central": -52128,
+      "residual_negative_characters": [
+        [
+          [
+            0,
+            6
+          ],
+          -2504
+        ],
+        [
+          [
+            1,
+            5
+          ],
+          -1572
+        ],
+        [
+          [
+            1,
+            7
+          ],
+          -600
+        ],
+        [
+          [
+            2,
+            8
+          ],
+          -72
+        ],
+        [
+          [
+            5,
+            1
+          ],
+          -1572
+        ],
+        [
+          [
+            6,
+            0
+          ],
+          -2504
+        ],
+        [
+          [
+            7,
+            1
+          ],
+          -600
+        ],
+        [
+          [
+            8,
+            2
+          ],
+          -72
+        ]
+      ]
+    },
+    {
+      "name": "forward C-origin first retained",
+      "N": 2,
+      "normalized_Fricke": true,
+      "Hanchor": [
+        -4,
+        -2
+      ],
+      "Z_N": [
+        193,
+        608,
+        800,
+        536,
+        180,
+        24
+      ],
+      "Z_previous": [
+        12,
+        14,
+        4
+      ],
+      "actual_e": [
+        8,
+        12,
+        4
+      ],
+      "exact_Q_E_D_match": true,
+      "source_character_nonnegative": true,
+      "source_boundary": [
+        4452,
+        6240,
+        3840,
+        792,
+        72
+      ],
+      "lead_boundary": [
+        97130848932,
+        213326063136,
+        189362426208,
+        101303527464,
+        34908596184,
+        7741737120,
+        1064011392,
+        83620224,
+        3210624,
+        41472
+      ],
+      "residual_boundary": [
+        15644580,
+        30173016,
+        7596312,
+        -2223312,
+        -1127840,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_Q_D_boundary": [
+        97146493512,
+        213356236152,
+        189370022520,
+        101301304152,
+        34907468344,
+        7741737120,
+        1064011392,
+        83620224,
+        3210624,
+        41472
+      ],
+      "unanchored_residual_central": -770703492,
+      "residual_negative_characters": [
+        [
+          [
+            0,
+            6
+          ],
+          -2223312
+        ],
+        [
+          [
+            0,
+            8
+          ],
+          -1127840
+        ],
+        [
+          [
+            1,
+            7
+          ],
+          -2668368
+        ],
+        [
+          [
+            1,
+            9
+          ],
+          -371520
+        ],
+        [
+          [
+            2,
+            6
+          ],
+          -729256
+        ],
+        [
+          [
+            2,
+            8
+          ],
+          -659328
+        ],
+        [
+          [
+            2,
+            10
+          ],
+          -90048
+        ],
+        [
+          [
+            3,
+            9
+          ],
+          -68160
+        ],
+        [
+          [
+            3,
+            11
+          ],
+          -14400
+        ],
+        [
+          [
+            4,
+            12
+          ],
+          -1152
+        ],
+        [
+          [
+            6,
+            0
+          ],
+          -2223312
+        ],
+        [
+          [
+            6,
+            2
+          ],
+          -729256
+        ],
+        [
+          [
+            7,
+            1
+          ],
+          -2668368
+        ],
+        [
+          [
+            8,
+            0
+          ],
+          -1127840
+        ],
+        [
+          [
+            8,
+            2
+          ],
+          -659328
+        ],
+        [
+          [
+            9,
+            1
+          ],
+          -371520
+        ],
+        [
+          [
+            9,
+            3
+          ],
+          -68160
+        ],
+        [
+          [
+            10,
+            2
+          ],
+          -90048
+        ],
+        [
+          [
+            11,
+            3
+          ],
+          -14400
+        ],
+        [
+          [
+            12,
+            4
+          ],
+          -1152
+        ]
+      ]
+    },
+    {
+      "name": "reverse C-origin first retained",
+      "N": 3,
+      "normalized_Fricke": true,
+      "Hanchor": [
+        -4,
+        -2
+      ],
+      "Z_N": [
+        432,
+        1600,
+        2568,
+        2258,
+        1140,
+        312,
+        36
+      ],
+      "Z_previous": [
+        28,
+        46,
+        28,
+        6
+      ],
+      "actual_e": [
+        24,
+        44,
+        28,
+        6
+      ],
+      "exact_Q_E_D_match": true,
+      "source_character_nonnegative": true,
+      "source_boundary": [
+        33642,
+        51570,
+        32700,
+        7812,
+        828
+      ],
+      "lead_boundary": [
+        16075066381728,
+        36572150082984,
+        34902693783000,
+        20934834108696,
+        8501378747544,
+        2366330115408,
+        444443854464,
+        54141404544,
+        3979354176,
+        154014048,
+        2286144
+      ],
+      "residual_boundary": [
+        708851140,
+        1313417700,
+        459110832,
+        -44913568,
+        -55729544,
+        -3803328,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_Q_D_boundary": [
+        16075775232868,
+        36573463500684,
+        34903152893832,
+        20934789195128,
+        8501323018000,
+        2366326312080,
+        444443854464,
+        54141404544,
+        3979354176,
+        154014048,
+        2286144
+      ],
+      "unanchored_residual_central": -13834108124,
+      "residual_negative_characters": [
+        [
+          [
+            0,
+            6
+          ],
+          -44913568
+        ],
+        [
+          [
+            0,
+            8
+          ],
+          -55729544
+        ],
+        [
+          [
+            0,
+            10
+          ],
+          -3803328
+        ],
+        [
+          [
+            1,
+            7
+          ],
+          -101595784
+        ],
+        [
+          [
+            1,
+            9
+          ],
+          -29158848
+        ],
+        [
+          [
+            1,
+            11
+          ],
+          -1120896
+        ],
+        [
+          [
+            2,
+            8
+          ],
+          -41612592
+        ],
+        [
+          [
+            2,
+            10
+          ],
+          -8593536
+        ],
+        [
+          [
+            2,
+            12
+          ],
+          -244512
+        ],
+        [
+          [
+            3,
+            9
+          ],
+          -6654720
+        ],
+        [
+          [
+            3,
+            11
+          ],
+          -1874592
+        ],
+        [
+          [
+            3,
+            13
+          ],
+          -35424
+        ],
+        [
+          [
+            4,
+            12
+          ],
+          -271584
+        ],
+        [
+          [
+            4,
+            14
+          ],
+          -2592
+        ],
+        [
+          [
+            5,
+            13
+          ],
+          -19872
+        ],
+        [
+          [
+            6,
+            0
+          ],
+          -44913568
+        ],
+        [
+          [
+            7,
+            1
+          ],
+          -101595784
+        ],
+        [
+          [
+            8,
+            0
+          ],
+          -55729544
+        ],
+        [
+          [
+            8,
+            2
+          ],
+          -41612592
+        ],
+        [
+          [
+            9,
+            1
+          ],
+          -29158848
+        ],
+        [
+          [
+            9,
+            3
+          ],
+          -6654720
+        ],
+        [
+          [
+            10,
+            0
+          ],
+          -3803328
+        ],
+        [
+          [
+            10,
+            2
+          ],
+          -8593536
+        ],
+        [
+          [
+            11,
+            1
+          ],
+          -1120896
+        ],
+        [
+          [
+            11,
+            3
+          ],
+          -1874592
+        ],
+        [
+          [
+            12,
+            2
+          ],
+          -244512
+        ],
+        [
+          [
+            12,
+            4
+          ],
+          -271584
+        ],
+        [
+          [
+            13,
+            3
+          ],
+          -35424
+        ],
+        [
+          [
+            13,
+            5
+          ],
+          -19872
+        ],
+        [
+          [
+            14,
+            4
+          ],
+          -2592
+        ]
+      ]
+    }
+  ],
+  "formal_trace_identity_replays": [
+    {
+      "N": 2,
+      "exact_prefix_difference": true,
+      "exact_full_tensor_split": true
+    },
+    {
+      "N": 3,
+      "exact_prefix_difference": true,
+      "exact_full_tensor_split": true
+    },
+    {
+      "N": 4,
+      "exact_prefix_difference": true,
+      "exact_full_tensor_split": true
+    },
+    {
+      "N": 5,
+      "exact_prefix_difference": true,
+      "exact_full_tensor_split": true
+    },
+    {
+      "N": 6,
+      "exact_prefix_difference": true,
+      "exact_full_tensor_split": true
+    }
+  ],
+  "obstruction": "Nonnegative full source plus strict prefix kernel does not permit separately nonnegative residual; actual first-long residual n=3 is -2504.",
+  "unresolved": [
+    "quantitative domination of signed prefix residual for arbitrary origin and BOTH switch rules",
+    "initialized arbitrary BOTH source preservation",
+    "arbitrary BOTH strict Q<D",
+    "full-tree strict Local TP2"
+  ]
+}

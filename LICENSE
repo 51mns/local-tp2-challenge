@@ -1,0 +1,20 @@
+Local TP2 Challenge — licence index
+
+This is a path-based licence index, not a single repository-wide licence.
+The project follows the established AIMath public licensing policy.
+
+- Software and tests (*.py, executable tooling): Apache-2.0.
+- Original mathematical exposition, research notes and documentation (*.md): CC-BY-4.0.
+- Scientific data, certificates and manifests (*.json, *.json.gz, checksum files): CC0-1.0.
+- Third-party material retains its original terms and any more specific notice.
+
+Exact texts are provided in LICENSES/. These grants apply only to rights
+actually held by the contributors. No ownership claim is made over mathematical
+facts, ideas, or purely machine-generated material that is not copyrightable.
+No patent or trademark waiver is implied by the CC0 data classification.
+
+Attribution for original exposition: AIMath contributors / 51mns, with AI
+assistance described in provenance. This project is not affiliated with OpenAI.
+
+Upstream policy reference:
+https://github.com/51mns/AIMath-public/blob/main/LICENSING.md

@@ -1,0 +1,42 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_FULL_CUBE_RECONSTRUCTION",
+  "defects_verified": 22,
+  "Bernstein_coefficients_verified": 1813,
+  "exact_minima": {
+    "y_two_general_pairs": [
+      "57055/256",
+      "112605/256",
+      "18945/64",
+      "1605/16",
+      "57/4",
+      "1"
+    ],
+    "y_middle_times_pair": [
+      "7395/256",
+      "17327/256",
+      "651/16",
+      "135/16",
+      "1"
+    ],
+    "y_middle_times_two_pairs": [
+      "6533675/4096",
+      "13227625/4096",
+      "2496225/1024",
+      "253049/256",
+      "14149/64",
+      "357/16",
+      "1"
+    ],
+    "y_isolated_inner_pair": [
+      "17/18",
+      "97/9",
+      "103/36",
+      "1"
+    ]
+  },
+  "N1_strict_exception_verified": true,
+  "source_results_sha256": "2095826236daab598d0060a854a7075687cf1a083cc0beebad3e109e350947bb",
+  "imports": "Python standard library only; no producer arithmetic",
+  "all_N_scope": "Analytic four-congruence root partition plus these exact continuum block certificates.",
+  "full_tree_Local_TP2": "OPEN"
+}

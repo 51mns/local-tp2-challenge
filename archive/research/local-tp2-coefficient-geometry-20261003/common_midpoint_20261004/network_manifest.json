@@ -1,0 +1,17 @@
+{
+  "scope": "Universal finite character equivalence and sharp midpoint certificate; independent PASS for Robin/window, BOTH reverse single block at -1, and retained-origin strict K_Q. Changed-center paired packet and strict proxy overlap remain open.",
+  "files_sha256": {
+    "network_relative_character.md": "0ed6f97744bb78e810438285c6cd7e1520197940b6e5c57881c9692f29fa617d",
+    "network_relative_character.py": "2ebde5fb0daa501c716072689b58509d769c4a6b4fe7f55d90aae331f236e72d",
+    "network_relative_character_results.json": "e752d81349be0d26df48cc5a80ae99db28c686ea57c8eecc0292eef8691875e8",
+    "network_transport_audit.md": "8d14d4fdde77413b552ce107e7ccb861242d3b965d49805f86cbd8296f71e2ad"
+  },
+  "audits": "Independent common_gate_audit and common_falsification proof audits PASS; no scans used for theorem",
+  "state": "frozen",
+  "transport_audit_inputs_sha256": {
+    "packet_transport_subgate.md": "1a20e673d2941e67da3310c321e19e4ae22f73aa18fe481410b9e7a790e3f9fb",
+    "proxy_robin.md": "933501e6dad682c7276b9a91892fa5fecf4c9d56759d4353a118301f39ca05b2",
+    "root_boundary_q.md": "c34c71c4c7a7f36a54ffb8e9d1eaf6190c82628e5f5fdc0197273d9e6acf9a8a"
+  },
+  "transport_audit_method": "Independent algebraic and analytic proof review, including support boundaries and exact degree gates; no added scan and no finite replay used as an infinite proof."
+}

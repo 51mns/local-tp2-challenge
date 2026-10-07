@@ -1,0 +1,72 @@
+{
+  "status": "PASS_EXACT_DETERMINISTIC_REPLAY",
+  "replays": [
+    {
+      "script": "root_central_trace_verify.py",
+      "exit_code": 0,
+      "output": "root_central_trace_results.json",
+      "sha256": "bd23c995528309fa7bcd88a869811a6e6cc4b1cfa137a98bcd4b49ff1f1ec189",
+      "identical_output_bytes": true
+    },
+    {
+      "script": "packet_algebra_verify.py",
+      "exit_code": 0,
+      "output": "packet_algebra_results.json",
+      "sha256": "9f90744deb68a90b42a55c685d21b98ec87a1947920a8869667913add4c44652",
+      "identical_output_bytes": true
+    },
+    {
+      "script": "packet_spectral_verify.py",
+      "exit_code": 0,
+      "output": "packet_spectral_results.json",
+      "sha256": "f1bde6c1d75c0362205b308200c098299c4caf91b4f0c89243a4c6dbb556f51c",
+      "identical_output_bytes": true
+    },
+    {
+      "script": "proxy_algebra_verify.py",
+      "exit_code": 0,
+      "output": "proxy_algebra_results.json",
+      "sha256": "3ba4490f87b8b307c26382b4223ad99cc6f5eb719105762be61e47820a7c4fa5",
+      "identical_output_bytes": true
+    },
+    {
+      "script": "proxy_character_verify.py",
+      "exit_code": 0,
+      "output": "proxy_character_results.json",
+      "sha256": "b7316763838482c5185df096ac481045388bb9dbe61772884b117b9cc00c7b4c",
+      "identical_output_bytes": true
+    },
+    {
+      "script": "falsification_crosscenter.py",
+      "exit_code": 0,
+      "output": "falsification_crosscenter_results.json",
+      "sha256": "604fc14a86d46b8fedec9e0fb9a9a5a90952d230fd363e76d16036ce4b38de16",
+      "identical_output_bytes": true
+    },
+    {
+      "script": "audit_dependency_verify.py",
+      "exit_code": 0,
+      "output": "audit_dependency_results.json",
+      "sha256": "aa9e1b97e8c361537588d23108f1933c2688bce5f685ea76cf13dce0a42ee8b7",
+      "identical_output_bytes": true
+    },
+    {
+      "script": "falsification_spectral_audit.py",
+      "exit_code": 0,
+      "output": "falsification_spectral_audit_results.json",
+      "sha256": "2371256c446cb10d0bab1cebfb32ecf18a1e29dd9006bc94a6eb710201192026",
+      "identical_output_bytes": true
+    }
+  ],
+  "frozen_manifests_verified": [
+    "falsification_manifest.json",
+    "audit_manifest.json"
+  ],
+  "arithmetic": "Python exact integers/Fractions and sparse formal polynomial identities",
+  "full_tree_Local_TP2": "OPEN",
+  "remaining_P_D_closure_types": [
+    "BOTH changed-center paired MP_sharp",
+    "BOTH strict Q<D"
+  ],
+  "scope": "Finite replay verifies saved algebra/certificates; arbitrary-parent conclusions require the independently audited analytic arguments. Counterexamples retain their stated relaxed domains."
+}

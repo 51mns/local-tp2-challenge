@@ -1,0 +1,63 @@
+{
+  "status": "FROZEN EXACT CONSTRUCTIVE WITNESSES AND INDEPENDENT WITNESS AUDIT",
+  "owned_files": [
+    {
+      "file": "falsification_defect.md",
+      "bytes": 7285,
+      "sha256": "dc6307c399228e0328a4055d8dff2aa7d0aaeaab56384eb449c9c79bf7e8b42c"
+    },
+    {
+      "file": "falsification_defect.py",
+      "bytes": 6818,
+      "sha256": "a99abdfedee8691901271483e8a5594f23dea29f07e720bff0618b2fe35a4991"
+    },
+    {
+      "file": "falsification_defect_results.json",
+      "bytes": 11596,
+      "sha256": "1b3c4e9951d70e8aa995768918f64efeeae0063dfb726f4a5da30f121424a465"
+    },
+    {
+      "file": "falsification_weakening_audit.md",
+      "bytes": 1979,
+      "sha256": "4e34aca393f32a61755f8aa8faf53b7c5aec4576621bf07665595006824903a1"
+    },
+    {
+      "file": "falsification_weakening_audit.py",
+      "bytes": 1644,
+      "sha256": "bc8190b6bfbd33c6f3013f3c7a3b26f97fb5bb934dffad3e08a74b2f4ff6a1aa"
+    },
+    {
+      "file": "falsification_weakening_audit_results.json",
+      "bytes": 511,
+      "sha256": "1e22cd603a81f3d5323b05f5a6044f592fbc4a05601baef5627c18a0f35c76c3"
+    }
+  ],
+  "readonly_sources": [
+    {
+      "file": "common_defect_20261004/root_obstruction_audit.py",
+      "sha256": "3498cf1b3bfd8405a8411c864bc19d16de34791f3f25892bc089a47306f6191f"
+    },
+    {
+      "file": "common_defect_20261004/root_obstruction_audit_results.json",
+      "sha256": "5f4bfc0cdbad84bc46403f51110178b08f2119bb31975603492c47266a6ef49c"
+    },
+    {
+      "file": "common_crosscenter_20261004/falsification_crosscenter.py",
+      "sha256": "1fe5bf1774c2789a6abd6cf3222ad53fa1262a3bc464c2599eb0a5ff25400b2c"
+    },
+    {
+      "file": "common_transport_20261004/adversarial_probe.py",
+      "sha256": "bb9d4f343f16b5a7403c75f28b31f8c0ff46e07b941548521719b3290bc5d35e"
+    }
+  ],
+  "verification": [
+    "python falsification_defect.py: PASS",
+    "python falsification_weakening_audit.py: PASS"
+  ],
+  "scope": "Ordinary trace witness relaxed; SSS fails sign shortcut only; W01 weakness witness abstract. Full canonical BOTH closure remains open. No GitHub writes.",
+  "section_only_review": {
+    "source": "audit_packet_weakening.md",
+    "reviewed_section": "Section 6 strictness witness only",
+    "full_file_hash": "Intentionally omitted because unrelated central/consumer ledger edits may still occur; no unchanged full-file freeze claimed."
+  }
+}

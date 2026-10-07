@@ -1,0 +1,429 @@
+{
+  "status": "PASS",
+  "scope": "Finite exact certificates, separate reconstructions, and file integrity for the all-L^m-R^2-L^ell proof package; analytic theorem requires the written proof.",
+  "started_utc": "2026-10-07T08:17:56.899570+00:00",
+  "finished_utc": "2026-10-07T08:19:42.152661+00:00",
+  "python": "3.12.14",
+  "arithmetic": "Python int and fractions.Fraction",
+  "stored_file_checks": [
+    {
+      "path": "COMPRESSED_CERTIFICATES.json",
+      "matches": true
+    },
+    {
+      "path": "README.md",
+      "matches": true
+    },
+    {
+      "path": "RESULT_JA.md",
+      "matches": true
+    },
+    {
+      "path": "RUN_CONTEXT.json",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/ALL_M_INITIAL_COMPARISONS.md",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/AUDIT_ARBITRARY_K_TRACE.md",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/AUDIT_UNIFORM_RAY.md",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/FINITE_RAY_EXTENSION_CRITERION.md",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/LRR_AUDIT.md",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/NORMALIZED_SMOOTHING_AUDIT.md",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/THEOREM_R2_RAY.md",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/UNIFORM_SEED_ALGEBRA_AUDIT.md",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/arbitrary_k_trace_independent_audit.json",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/audit_arbitrary_k_trace.py",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/audit_lrr_independent.py",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/companion_seed_audit.json",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/lrr_independent_results.json",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/r2_ray_certificates.json",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/uniform_tail_scalar_audit.json",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/verify_r2_ray.py",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/AUDIT_ALL_M_INITIAL_COMPARISONS.md",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/AUDIT_ALL_M_TRANSPORT.md",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/AUDIT_FINITE_RAY_CRITERION.md",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/AUDIT_R2_RAY.md",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/AUDIT_UNIFORM_RAY_ASSEMBLY.md",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/UNIFORM_SEED_STRENGTH.md",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/audit_all_m_transport.py",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/audit_all_m_transport_results.json",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/audit_r2_ray.py",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/audit_r2_ray_results.json",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/audit_uniform_seed_finite.py",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/audit_uniform_seed_finite_results.json",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/lrrl_certificate.py",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/lrrl_certificates.json",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/lrrl_theorem.md",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/uniform_ax_normalized.py",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/uniform_ax_normalized_certificates.json.gz",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/uniform_seed_strength.py",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/uniform_seed_strength_certificates.json.gz",
+      "matches": true
+    },
+    {
+      "path": "hour_root/UNIFORM_RAY_CLOSURE.md",
+      "matches": true
+    },
+    {
+      "path": "hour_root/uniform_ray_closure_results.json.gz",
+      "matches": true
+    },
+    {
+      "path": "hour_root/verify_uniform_ray_closure.py",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/ARBITRARY_K_TRACE_EXPLORATORY.md",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/UNIFORM_RAY_INDEPENDENT_AUDIT.md",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/all_m_mixed_transport.md",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/all_m_trace_transport.md",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/arbitrary_k_trace_exploratory_results.json",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/audit_uniform_ray_closure.py",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/explore_arbitrary_k_trace.py",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/trace_transport_results.json",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/uniform_mixed_transport_results.json.gz",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/uniform_ray_closure_independent_audit.json",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/verify_trace_transport.py",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/verify_uniform_mixed_transport.py",
+      "matches": true
+    },
+    {
+      "path": "reproduce.py",
+      "matches": true
+    }
+  ],
+  "runs": [
+    {
+      "script": "hour_invariant/verify_r2_ray.py",
+      "exit_code": 0,
+      "seconds": 0.06,
+      "stdout": "{\n  \"status\": \"PASS all exact certificate gates\",\n  \"output\": \"/tmp/local_tp2_replay_vx1ygy9j/hour_invariant/r2_ray_certificates.json\",\n  \"parameter_bernstein_coefficients\": 993,\n  \"kernel_margin_minima\": {\n    \"trace\": \"306\",\n    \"L\": \"104652\",\n    \"L_y\": \"104652\",\n    \"H\": \"33872256\",\n    \"H_y\": \"33685632\"\n  },\n  \"mass_margins\": {\n    \"trace_delta0_minus_22_mass\": [\n      \"951\",\n      \"9527\",\n      \"18119\"\n    ],\n    \"single_delta_j_minus_40000_mass\": [\n      {\n        \"index\": 0,\n        \"bernstein\": [\n          \"78391898628\",\n          \"82834341084\",\n          \"87282164356\"\n        ]\n      },\n      {\n        \"index\": 1,\n        \"bernstein\": [\n          \"3724877934480\",\n          \"3733712708456\",\n          \"3742556826944\"\n        ]\n      },\n      {\n        \"index\": 2,\n        \"bernstein\": [\n          \"3187127279500\",\n          \"3192143699108\",\n          \"3197165187260\"\n        ]\n      },\n      {\n        \"index\": 3,\n        \"bernstein\": [\n          \"553415845908\",\n          \"554183352380\",\n          \"554952106340\"\n        ]\n      }\n    ],\n    \"summand_mass_gate\": {\n      \"B_mass\": 7,\n      \"A_mass_times_tau_mass_minus_2\": 72011235,\n      \"strictly_less\": true\n    },\n    \"uniform_prefix_bound\": \"delta_j(Z_N)>20000 Z_N(2), j=0,1,2,3 and every N>=1\",\n    \"all_N_scalar_reason\": \"22^(N-1)/N>=1 for N>=1; ratio 22N/(N+1)>=11>1\"\n  },\n  \"proxy\": {\n    \"J_mass\": 22695,\n    \"K_halfrow\": [\n      23158,\n      20596,\n      14430,\n      7859,\n      3240,\n      962,\n      186,\n      18\n    ],\n    \"fixed_J_V_minors\": [\n      936750,\n      1819824,\n      1298778,\n      477216,\n      94392,\n      8784,\n      324\n    ],\n    \"beta0\": \"234515/18\",\n    \"beta1\": \"7565/6\",\n    \"prefix_mass_bound\": 20000\n  },\n  \"ell_zero_F\": [\n    131712050280,\n    286440837228,\n    249104117028,\n    129005162476,\n    42395098972,\n    8788090128,\n    1093639536,\n    73111896,\n    1994544\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_quantum/lrrl_certificate.py",
+      "exit_code": 0,
+      "seconds": 0.087,
+      "stdout": "{\n  \"box_minima\": {\n    \"A\": \"20736\",\n    \"B\": \"16\",\n    \"yA\": \"20736\",\n    \"t_minus_r\": \"5184\",\n    \"y_t_minus_r\": \"5184\",\n    \"L_r\": \"107495424\",\n    \"y_L_r\": \"107495424\",\n    \"midpoint\": \"557160726528\",\n    \"q2\": \"557256278016\"\n  },\n  \"minimum_proxy_residual\": \"5857387539264\",\n  \"minimum_multiplier_residual\": \"9257670045\",\n  \"all_bernstein_conversions_independently_inverted\": true\n}\nPASS: all exact coefficient certificates; wrote lrrl_certificates.json\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_quantum/uniform_ax_normalized.py",
+      "exit_code": 0,
+      "seconds": 40.496,
+      "stdout": "m = 0 exact supported margins checked = 9\nm = 50 exact supported margins checked = 5559\nm = 100 exact supported margins checked = 21109\nm = 150 exact supported margins checked = 46659\nm = 200 exact supported margins checked = 82209\nm = 250 exact supported margins checked = 127759\nm = 300 exact supported margins checked = 183309\nm = 350 exact supported margins checked = 248859\n{\n  \"status\": \"PASS\",\n  \"finite_range\": [\n    0,\n    390\n  ],\n  \"supported_margin_count\": 308499,\n  \"output\": \"uniform_ax_normalized_certificates.json\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_quantum/uniform_seed_strength.py",
+      "exit_code": 0,
+      "seconds": 0.085,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"finite_range\": [\n    0,\n    28\n  ],\n  \"scaled_margin_count\": 2813,\n  \"smallest_scaled_margin\": 10206,\n  \"tail_start\": 29,\n  \"tail_gate_strict\": true,\n  \"m0_A\": [\n    167,\n    500,\n    620,\n    398,\n    132,\n    18\n  ],\n  \"m1_A\": [\n    2892,\n    15294,\n    36088,\n    49390,\n    42700,\n    23784,\n    8304,\n    1656,\n    144\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_transport/verify_trace_transport.py",
+      "exit_code": 0,
+      "seconds": 0.028,
+      "stdout": "{\n  \"status\": \"PASS; analytical all-m trace theorem, not all Local TP2\",\n  \"symbolic_identity_checks\": {\n    \"raw_subtraction\": 5,\n    \"smoothed_subtraction\": 5,\n    \"unshifted_trace_improvements\": 10\n  },\n  \"small_m_certificates\": 3,\n  \"output\": \"/tmp/local_tp2_replay_vx1ygy9j/hour_transport/trace_transport_results.json\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_transport/verify_uniform_mixed_transport.py",
+      "exit_code": 0,
+      "seconds": 12.898,
+      "stdout": "{\"finite_m_complete\": 0}\n{\"finite_m_complete\": 10}\n{\"finite_m_complete\": 20}\n{\"finite_m_complete\": 30}\n{\"finite_m_complete\": 40}\n{\"finite_m_complete\": 50}\n{\"finite_m_complete\": 53}\n{\n  \"status\": \"PASS\",\n  \"statement\": \"Uniform single/midpoint folded kernels at all L^m R^2 seeds; all real r,s,c in [-2,2]\",\n  \"finite_range\": [\n    0,\n    53\n  ],\n  \"finite_cases\": 216,\n  \"total_positive_tensor_bernstein_coefficients\": 635688,\n  \"total_normalized_finite_certificates\": 37368,\n  \"trace_normalized_finite_scalar_certificates\": [\n    {\n      \"m\": 0,\n      \"strict_ratio_floor\": 27324208133616642\n    },\n    {\n      \"m\": 1,\n      \"strict_ratio_floor\": 2966563996542361\n    },\n    {\n      \"m\": 2,\n      \"strict_ratio_floor\": 1782696795112781\n    },\n    {\n      \"m\": 3,\n      \"strict_ratio_floor\": 609957988726951\n    },\n    {\n      \"m\": 4,\n      \"strict_ratio_floor\": 180313376445147\n    },\n    {\n      \"m\": 5,\n      \"strict_ratio_floor\": 50033380585203\n    },\n    {\n      \"m\": 6,\n      \"strict_ratio_floor\": 13419085317609\n    },\n    {\n      \"m\": 7,\n      \"strict_ratio_floor\": 3524706591998\n    },\n    {\n      \"m\": 8,\n      \"strict_ratio_floor\": 912839172992\n    },\n    {\n      \"m\": 9,\n      \"strict_ratio_floor\": 233989566587\n    },\n    {\n      \"m\": 10,\n      \"strict_ratio_floor\": 59503702027\n    },\n    {\n      \"m\": 11,\n      \"strict_ratio_floor\": 15034914439\n    },\n    {\n      \"m\": 12,\n      \"strict_ratio_floor\": 3778593625\n    },\n    {\n      \"m\": 13,\n      \"strict_ratio_floor\": 945304739\n    },\n    {\n      \"m\": 14,\n      \"strict_ratio_floor\": 235552205\n    },\n    {\n      \"m\": 15,\n      \"strict_ratio_floor\": 58490307\n    },\n    {\n      \"m\": 16,\n      \"strict_ratio_floor\": 14478764\n    },\n    {\n      \"m\": 17,\n      \"strict_ratio_floor\": 3574136\n    },\n    {\n      \"m\": 18,\n      \"strict_ratio_floor\": 880079\n    },\n    {\n      \"m\": 19,\n      \"strict_ratio_floor\": 216215\n    },\n    {\n      \"m\": 20,\n      \"strict_ratio_floor\": 53009\n    }\n  ],\n  \"tail_start\": 54,\n  \"tail_gate_EH_over_12epsilon\": \"4126054721003680052933586034095532832389812791643059104139092762631777041869350268676378930322477045283353081200040687495613001411895350347402614136181901304479749459211590111688247691164624156250806094622365627792888698055882850942009103202993352242783850440940826076852861824196273940089028709501637865317156892941870678831866448533848296999619637544521522113338999253249838455668997792744079827257313187138175517105693700108735629293357607339047847357734854288041959831665052077646296139162342883207987013015268684200415565768744261048432683232395845033492801930997988429286044136504735956144534951978577687811163293540298191228105345052875578864162449108440160039247801099206633122470897145459762128146898449074744154971992254932806231326977351577079773966065646855507590210131/2546980156194696501557981600015726283357413833538221552144470505781011636521000542394774951483183941022131469011924309597816318273544311523437500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\n  \"tail_gate_consecutive_ratio_at_start\": \"1108386060840960314104842309963/40905999785170000000000000000\",\n  \"tail_ratio_lower_bound\": 27,\n  \"tail_ratio_monotonicity\": \"Every rational factor (m+a)/(m+a+1) increases; see proof note.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_root/verify_uniform_ray_closure.py",
+      "exit_code": 0,
+      "seconds": 7.752,
+      "stdout": "{\"finite_m_complete\": 0}\n{\"finite_m_complete\": 10}\n{\"finite_m_complete\": 20}\n{\"finite_m_complete\": 30}\n{\"finite_m_complete\": 40}\n{\"finite_m_complete\": 50}\n{\"finite_m_complete\": 60}\n{\"finite_m_complete\": 70}\n{\"finite_m_complete\": 76}\n{\"status\": \"PASS\", \"finite_range\": [0, 76], \"total_bernstein_coefficients\": 38115, \"tail_start\": 77, \"output\": \"/tmp/local_tp2_replay_vx1ygy9j/hour_root/uniform_ray_closure_results.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_quantum/audit_r2_ray.py",
+      "exit_code": 0,
+      "seconds": 0.114,
+      "stdout": "{\n  \"verdict\": \"PASS: all independent finite certificates and symbolic scalar gates\",\n  \"author_code_imported\": false,\n  \"reconstructed_from_original_mutation\": true,\n  \"coefficient_method\": \"ordinary x polynomials -> binomial Fourier transform -> degree-two tensor Bernstein\",\n  \"compared_bernstein_coefficients\": 993,\n  \"each_basis_change_inverted\": true,\n  \"kernel_margin_minima\": {\n    \"trace\": \"306\",\n    \"L\": \"104652\",\n    \"L_y\": \"104652\",\n    \"H\": \"33872256\",\n    \"H_y\": \"33685632\"\n  },\n  \"proxy_thresholds\": [\n    \"234515/18\",\n    \"7565/6\"\n  ],\n  \"multiplier_polarization\": [\n    {\n      \"0\": 29,\n      \"1\": -32,\n      \"2\": 13\n    },\n    {\n      \"1\": 16,\n      \"0\": -3,\n      \"2\": -19,\n      \"3\": 8\n    },\n    {\n      \"2\": 6,\n      \"3\": -8,\n      \"4\": 3\n    },\n    {\n      \"4\": -3\n    }\n  ],\n  \"multiplier_negative_weights\": [\n    32,\n    22,\n    8,\n    3\n  ],\n  \"minimum_ell_zero_F\": 1994544,\n  \"mathematical_assembly_review\": \"See AUDIT_R2_RAY.md; no unproved universal preservation gate used.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_invariant/audit_lrr_independent.py",
+      "exit_code": 0,
+      "seconds": 0.069,
+      "stdout": "{\n  \"verdict\": \"PASS finite continuum certificates; analytical assembly reviewed separately in LRR_AUDIT.md\",\n  \"kernel_minima\": {\n    \"A\": 20736,\n    \"B\": 16,\n    \"yA\": 20736,\n    \"q2\": 557256278016,\n    \"t\": \"5184\",\n    \"t_y\": \"5184\",\n    \"L\": \"107495424\",\n    \"L_y\": \"107495424\",\n    \"H\": \"557160726528\"\n  },\n  \"trace_mass_bernstein\": [\n    \"163250\",\n    \"503202\",\n    \"843170\"\n  ],\n  \"smoothed_surpluses\": [\n    9257670045,\n    23253960217,\n    27139331210,\n    22199966821,\n    13865402737\n  ],\n  \"proxy_surpluses\": [\n    153074686012003752,\n    3998986188357480600,\n    4646203928793514290,\n    1941528307909576119,\n    478182089036910720,\n    82610647694169984,\n    8819254934840544,\n    474857198409024,\n    8861755857984,\n    8008570645632,\n    5857387539264\n  ],\n  \"ell_zero_min\": 15896632320,\n  \"output\": \"/tmp/local_tp2_replay_vx1ygy9j/hour_invariant/lrr_independent_results.json\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_quantum/audit_uniform_seed_finite.py",
+      "exit_code": 0,
+      "seconds": 33.409,
+      "stdout": "Independent ordinary/Horner replay m = 0\nIndependent ordinary/Horner replay m = 50\nIndependent ordinary/Horner replay m = 100\nIndependent ordinary/Horner replay m = 150\nIndependent ordinary/Horner replay m = 200\nIndependent ordinary/Horner replay m = 250\nIndependent ordinary/Horner replay m = 300\nIndependent ordinary/Horner replay m = 350\n{\n  \"verdict\": \"PASS: separate exact finite reconstruction matches every saved coefficient/margin digest\",\n  \"author_code_imported\": false,\n  \"construction\": \"Original canonical mutations in ordinary x, polynomial Karatsuba, Fourier Horner rule\",\n  \"normalized_aX_range\": [\n    0,\n    390\n  ],\n  \"normalized_aX_margin_count\": 308499,\n  \"seed_strength_and_normalized_range\": [\n    0,\n    28\n  ],\n  \"seed_strength_margin_count\": 2813,\n  \"seed_normalized_margin_count\": 2813,\n  \"tail_scalar_gate_checked\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_quantum/audit_all_m_transport.py",
+      "exit_code": 0,
+      "seconds": 7.714,
+      "stdout": "Independent parameter reconstruction m = 0\nIndependent parameter reconstruction m = 10\nIndependent parameter reconstruction m = 20\nIndependent parameter reconstruction m = 30\nIndependent parameter reconstruction m = 40\nIndependent parameter reconstruction m = 50\nIndependent parameter reconstruction m = 53\n{\n  \"verdict\": \"PASS: separate exact full coefficient reconstruction and scalar tail gates\",\n  \"author_code_imported\": false,\n  \"method\": \"Original mutations / ordinary x Karatsuba / Fourier Horner / generic parameter ring / exact degree-two interpolation to Bernstein\",\n  \"raw_smoothed_trace_bernstein_coefficients\": 66,\n  \"all_m_mixed_finite_range\": [\n    0,\n    53\n  ],\n  \"all_m_mixed_bernstein_coefficients\": 635688,\n  \"normalized_finite_comparisons\": 37368,\n  \"normalized_trace_scalar_comparisons\": 21,\n  \"tail_start\": 54,\n  \"tail_and_reference_strength_gates_match\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_transport/audit_uniform_ray_closure.py",
+      "exit_code": 0,
+      "seconds": 2.234,
+      "stdout": "{\"independently_matched_m\": 0}\n{\"independently_matched_m\": 10}\n{\"independently_matched_m\": 20}\n{\"independently_matched_m\": 30}\n{\"independently_matched_m\": 40}\n{\"independently_matched_m\": 50}\n{\"independently_matched_m\": 60}\n{\"independently_matched_m\": 70}\n{\"independently_matched_m\": 76}\n{\n  \"status\": \"PASS\",\n  \"independent_method\": \"Direct symmetric-Laurent Chebyshev recurrence; exact three-value Bernstein reconstruction\",\n  \"finite_range\": [\n    0,\n    76\n  ],\n  \"matched_every_primary_record_exactly\": true,\n  \"matched_bernstein_coefficients\": 38115,\n  \"matched_initial_order_minors\": 34265,\n  \"matched_initial_order_digests\": 308,\n  \"tail_scalar_gates_independently_matched\": true,\n  \"tail_mathematical_argument\": \"PASS in separate UNIFORM_RAY_INDEPENDENT_AUDIT.md; this script checks scalar arithmetic only.\",\n  \"primary_result_path\": \"../hour_root/uniform_ray_closure_results.json\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_transport/explore_arbitrary_k_trace.py",
+      "exit_code": 0,
+      "seconds": 0.032,
+      "stdout": "{\n  \"status\": \"PASS_EXPLORATORY_AUXILIARY_LEMMA\",\n  \"independent_audit\": \"PASS in ../hour_invariant/audit_arbitrary_k_trace.py and its result JSON\",\n  \"scope\": \"Shifted and smoothed center trace after L^m R^k, all m>=0,k>=1; k=0 is an inherited pure-left trace theorem; not a Local TP2 extension theorem\",\n  \"exceptional_pairs\": [\n    [\n      0,\n      1\n    ],\n    [\n      0,\n      2\n    ],\n    [\n      0,\n      3\n    ],\n    [\n      1,\n      1\n    ],\n    [\n      1,\n      2\n    ],\n    [\n      1,\n      3\n    ],\n    [\n      1,\n      4\n    ],\n    [\n      1,\n      5\n    ],\n    [\n      2,\n      1\n    ],\n    [\n      2,\n      2\n    ],\n    [\n      3,\n      1\n    ]\n  ],\n  \"positive_bernstein_coefficient_count\": 813,\n  \"total_bernstein_coefficient_count\": 867,\n  \"zero_bernstein_coefficient_count\": 9,\n  \"m0_primitive_pair_box\": {\n    \"strength\": 9,\n    \"parameter_box\": [\n      [\n        0,\n        4\n      ],\n      [\n        -4,\n        4\n      ]\n    ],\n    \"scaled_tensor_denominator\": 4,\n    \"nonnegative_bernstein_count\": 45,\n    \"four_times_tensor_bernstein\": [\n      [\n        [\n          11672,\n          22856,\n          34296\n        ],\n        [\n          24200,\n          36248,\n          48552\n        ],\n        [\n          40056,\n          52968,\n          66136\n        ]\n      ],\n      [\n        [\n          38272,\n          36096,\n          33920\n        ],\n        [\n          45040,\n          42768,\n          40496\n        ],\n        [\n          53024,\n          50656,\n          48288\n        ]\n      ],\n      [\n        [\n          18688,\n          18688,\n          18688\n        ],\n        [\n          22144,\n          22144,\n          22144\n        ],\n        [\n          26176,\n          26176,\n          26176\n        ]\n      ],\n      [\n        [\n          2268,\n          2268,\n          2268\n        ],\n        [\n          2052,\n          2052,\n          2052\n        ],\n        [\n          1836,\n          1836,\n          1836\n        ]\n      ],\n      [\n        [\n          0,\n          0,\n          0\n        ],\n        [\n          0,\n          0,\n          0\n        ],\n        [\n          0,\n          0,\n          0\n        ]\n      ]\n    ]\n  },\n  \"m0_primitive_nonpositive_root\": {\n    \"strength\": 1,\n    \"root_interval\": [\n      -2,\n      0\n    ],\n    \"positive_bernstein_count\": 9,\n    \"twice_bernstein\": [\n      [\n        192,\n        132,\n        80\n      ],\n      [\n        10,\n        16,\n        22\n      ],\n      [\n        12,\n        12,\n        12\n      ]\n    ]\n  },\n  \"symbolic_identity_count\": 10,\n  \"tail_corner_strengths\": {\n    \"1,6\": \"17/8\",\n    \"2,3\": \"4\",\n    \"3,2\": \"16\",\n    \"4,1\": \"8\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "hour_invariant/audit_arbitrary_k_trace.py",
+      "exit_code": 0,
+      "seconds": 0.03,
+      "stdout": "{\n  \"verdict\": \"PASS: all 813 exception coefficients and all 54 primitive coefficients independently generated and matched\",\n  \"scope\": \"Auxiliary trace theorem on centers L^m R^k with m>=0,k>=1; no larger Local TP2 assertion\",\n  \"method\": \"Original full-Laurent mutation and symbolic-r defect arithmetic\",\n  \"author_implementation_imported\": false,\n  \"positive_bernstein_coefficient_count\": 813,\n  \"m0_pair_box_bernstein_count\": 45,\n  \"m0_pair_box_four_times_bernstein\": [\n    [\n      [\n        11672,\n        22856,\n        34296\n      ],\n      [\n        24200,\n        36248,\n        48552\n      ],\n      [\n        40056,\n        52968,\n        66136\n      ]\n    ],\n    [\n      [\n        38272,\n        36096,\n        33920\n      ],\n      [\n        45040,\n        42768,\n        40496\n      ],\n      [\n        53024,\n        50656,\n        48288\n      ]\n    ],\n    [\n      [\n        18688,\n        18688,\n        18688\n      ],\n      [\n        22144,\n        22144,\n        22144\n      ],\n      [\n        26176,\n        26176,\n        26176\n      ]\n    ],\n    [\n      [\n        2268,\n        2268,\n        2268\n      ],\n      [\n        2052,\n        2052,\n        2052\n      ],\n      [\n        1836,\n        1836,\n        1836\n      ]\n    ],\n    [\n      [\n        0,\n        0,\n        0\n      ],\n      [\n        0,\n        0,\n        0\n      ],\n      [\n        0,\n        0,\n        0\n      ]\n    ]\n  ],\n  \"m0_nonpositive_root_bernstein_count\": 9,\n  \"m0_nonpositive_root_twice_bernstein\": [\n    [\n      192,\n      132,\n      80\n    ],\n    [\n      10,\n      16,\n      22\n    ],\n    [\n      12,\n      12,\n      12\n    ]\n  ],\n  \"tail_corner_strengths\": {\n    \"1,6\": \"17/8\",\n    \"2,3\": \"4\",\n    \"3,2\": \"16\",\n    \"4,1\": \"8\"\n  }\n}\n",
+      "stderr": ""
+    }
+  ],
+  "regenerated_json_checks": [
+    {
+      "path": "hour_invariant/arbitrary_k_trace_independent_audit.json",
+      "expected_sha256": "4ac15191266039fa693b4a7be15bd58fd588ce084b54720be024b257d5573abe",
+      "regenerated_sha256": "4ac15191266039fa693b4a7be15bd58fd588ce084b54720be024b257d5573abe",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/companion_seed_audit.json",
+      "expected_sha256": "c93a78982308e2dd8ecce2a4ce337e7939a3ebcf86bd9e60276eaf9924849d2f",
+      "regenerated_sha256": "c93a78982308e2dd8ecce2a4ce337e7939a3ebcf86bd9e60276eaf9924849d2f",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/lrr_independent_results.json",
+      "expected_sha256": "4f07bcb0e66d165d1180f13deeba23f6bfc00578bb133c8d14a00c0ddad80466",
+      "regenerated_sha256": "4f07bcb0e66d165d1180f13deeba23f6bfc00578bb133c8d14a00c0ddad80466",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/r2_ray_certificates.json",
+      "expected_sha256": "d9ac23cb75b4f4c9ff520be6a752183f20e09f907cb73297f388307527c5c56f",
+      "regenerated_sha256": "d9ac23cb75b4f4c9ff520be6a752183f20e09f907cb73297f388307527c5c56f",
+      "matches": true
+    },
+    {
+      "path": "hour_invariant/uniform_tail_scalar_audit.json",
+      "expected_sha256": "f6004c6cbe36c8497517b42187c1d9979a00420acd24d837d76760a5246592e5",
+      "regenerated_sha256": "f6004c6cbe36c8497517b42187c1d9979a00420acd24d837d76760a5246592e5",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/audit_all_m_transport_results.json",
+      "expected_sha256": "0489c102ca3a0d2389015fb77588912c7c88b234341f4403582889869cb17c11",
+      "regenerated_sha256": "0489c102ca3a0d2389015fb77588912c7c88b234341f4403582889869cb17c11",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/audit_r2_ray_results.json",
+      "expected_sha256": "f175627f7b573459cc2e282f6a03110fb2f94ef740642561733d84f54da06dfc",
+      "regenerated_sha256": "f175627f7b573459cc2e282f6a03110fb2f94ef740642561733d84f54da06dfc",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/audit_uniform_seed_finite_results.json",
+      "expected_sha256": "1152dfca7f309772577f12601073a4e57a0d302f1cae064389cfeedbd7122e0d",
+      "regenerated_sha256": "1152dfca7f309772577f12601073a4e57a0d302f1cae064389cfeedbd7122e0d",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/lrrl_certificates.json",
+      "expected_sha256": "7490069713fab905ad1d116d1b6f60ff1d08875deb1dee8cd146c85e84c231d3",
+      "regenerated_sha256": "7490069713fab905ad1d116d1b6f60ff1d08875deb1dee8cd146c85e84c231d3",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/uniform_ax_normalized_certificates.json",
+      "expected_sha256": "4ed26ec3802d68462d662afabe1210d17f1e5031ac4521db892821b23fa39b92",
+      "regenerated_sha256": "4ed26ec3802d68462d662afabe1210d17f1e5031ac4521db892821b23fa39b92",
+      "matches": true
+    },
+    {
+      "path": "hour_quantum/uniform_seed_strength_certificates.json",
+      "expected_sha256": "4338ff341702bbfba010a3b26b704934bd467c815b77e35b9d027ce12b678496",
+      "regenerated_sha256": "4338ff341702bbfba010a3b26b704934bd467c815b77e35b9d027ce12b678496",
+      "matches": true
+    },
+    {
+      "path": "hour_root/uniform_ray_closure_results.json",
+      "expected_sha256": "41764a744cce567bfac38da61bbeaa35ab459d347fbe5d3c9a3b22de50b7d8fb",
+      "regenerated_sha256": "41764a744cce567bfac38da61bbeaa35ab459d347fbe5d3c9a3b22de50b7d8fb",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/arbitrary_k_trace_exploratory_results.json",
+      "expected_sha256": "44351b8af91507a252cf618441ddbff7c05de7f03fc27bead3fd91f29bce41a1",
+      "regenerated_sha256": "44351b8af91507a252cf618441ddbff7c05de7f03fc27bead3fd91f29bce41a1",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/trace_transport_results.json",
+      "expected_sha256": "49fa2e3fcc6127aae01270b822f6cd3a8ed8d1a0976620e04a821f1a6c2a28eb",
+      "regenerated_sha256": "49fa2e3fcc6127aae01270b822f6cd3a8ed8d1a0976620e04a821f1a6c2a28eb",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/uniform_mixed_transport_results.json",
+      "expected_sha256": "7cdea674b8d5b94e9cc3adbb6d9c290ed81aa93d64c0c52160f10c7f2eff9729",
+      "regenerated_sha256": "7cdea674b8d5b94e9cc3adbb6d9c290ed81aa93d64c0c52160f10c7f2eff9729",
+      "matches": true
+    },
+    {
+      "path": "hour_transport/uniform_ray_closure_independent_audit.json",
+      "expected_sha256": "e55ff0f182def409167e02bf4e3f100ac806c1a4e2d3d4a68235a3b258134d23",
+      "regenerated_sha256": "e55ff0f182def409167e02bf4e3f100ac806c1a4e2d3d4a68235a3b258134d23",
+      "matches": true
+    }
+  ],
+  "independence": "Shared-session separate implementations and mathematical reviews; not blind, external, or formal verification."
+}

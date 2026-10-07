@@ -1,0 +1,1221 @@
+{
+  "scope": "ls^j, 0<=j<=80, fixed-X=P1, endpoint parameters(2,2,-2), folded defects only; no relative-minor or continuum conclusion",
+  "records": [
+    {
+      "path": "l",
+      "j": 0,
+      "degree_H": 7,
+      "minimum_defects": {
+        "H": {
+          "index": 7,
+          "value": 2916
+        },
+        "yH": {
+          "index": 8,
+          "value": 2916
+        }
+      }
+    },
+    {
+      "path": "ls",
+      "j": 1,
+      "degree_H": 9,
+      "minimum_defects": {
+        "H": {
+          "index": 9,
+          "value": 26244
+        },
+        "yH": {
+          "index": 10,
+          "value": 26244
+        }
+      }
+    },
+    {
+      "path": "lss",
+      "j": 2,
+      "degree_H": 11,
+      "minimum_defects": {
+        "H": {
+          "index": 11,
+          "value": 236196
+        },
+        "yH": {
+          "index": 12,
+          "value": 236196
+        }
+      }
+    },
+    {
+      "path": "lsss",
+      "j": 3,
+      "degree_H": 13,
+      "minimum_defects": {
+        "H": {
+          "index": 13,
+          "value": 2125764
+        },
+        "yH": {
+          "index": 14,
+          "value": 2125764
+        }
+      }
+    },
+    {
+      "path": "lssss",
+      "j": 4,
+      "degree_H": 15,
+      "minimum_defects": {
+        "H": {
+          "index": 15,
+          "value": 19131876
+        },
+        "yH": {
+          "index": 16,
+          "value": 19131876
+        }
+      }
+    },
+    {
+      "path": "lsssss",
+      "j": 5,
+      "degree_H": 17,
+      "minimum_defects": {
+        "H": {
+          "index": 17,
+          "value": 172186884
+        },
+        "yH": {
+          "index": 18,
+          "value": 172186884
+        }
+      }
+    },
+    {
+      "path": "lssssss",
+      "j": 6,
+      "degree_H": 19,
+      "minimum_defects": {
+        "H": {
+          "index": 19,
+          "value": 1549681956
+        },
+        "yH": {
+          "index": 20,
+          "value": 1549681956
+        }
+      }
+    },
+    {
+      "path": "lsssssss",
+      "j": 7,
+      "degree_H": 21,
+      "minimum_defects": {
+        "H": {
+          "index": 21,
+          "value": 13947137604
+        },
+        "yH": {
+          "index": 22,
+          "value": 13947137604
+        }
+      }
+    },
+    {
+      "path": "lssssssss",
+      "j": 8,
+      "degree_H": 23,
+      "minimum_defects": {
+        "H": {
+          "index": 23,
+          "value": 125524238436
+        },
+        "yH": {
+          "index": 24,
+          "value": 125524238436
+        }
+      }
+    },
+    {
+      "path": "lsssssssss",
+      "j": 9,
+      "degree_H": 25,
+      "minimum_defects": {
+        "H": {
+          "index": 25,
+          "value": 1129718145924
+        },
+        "yH": {
+          "index": 26,
+          "value": 1129718145924
+        }
+      }
+    },
+    {
+      "path": "lssssssssss",
+      "j": 10,
+      "degree_H": 27,
+      "minimum_defects": {
+        "H": {
+          "index": 27,
+          "value": 10167463313316
+        },
+        "yH": {
+          "index": 28,
+          "value": 10167463313316
+        }
+      }
+    },
+    {
+      "path": "lsssssssssss",
+      "j": 11,
+      "degree_H": 29,
+      "minimum_defects": {
+        "H": {
+          "index": 29,
+          "value": 91507169819844
+        },
+        "yH": {
+          "index": 30,
+          "value": 91507169819844
+        }
+      }
+    },
+    {
+      "path": "lssssssssssss",
+      "j": 12,
+      "degree_H": 31,
+      "minimum_defects": {
+        "H": {
+          "index": 31,
+          "value": 823564528378596
+        },
+        "yH": {
+          "index": 32,
+          "value": 823564528378596
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssss",
+      "j": 13,
+      "degree_H": 33,
+      "minimum_defects": {
+        "H": {
+          "index": 33,
+          "value": 7412080755407364
+        },
+        "yH": {
+          "index": 34,
+          "value": 7412080755407364
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssss",
+      "j": 14,
+      "degree_H": 35,
+      "minimum_defects": {
+        "H": {
+          "index": 35,
+          "value": 66708726798666276
+        },
+        "yH": {
+          "index": 36,
+          "value": 66708726798666276
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssss",
+      "j": 15,
+      "degree_H": 37,
+      "minimum_defects": {
+        "H": {
+          "index": 37,
+          "value": 600378541187996484
+        },
+        "yH": {
+          "index": 38,
+          "value": 600378541187996484
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssss",
+      "j": 16,
+      "degree_H": 39,
+      "minimum_defects": {
+        "H": {
+          "index": 39,
+          "value": 5403406870691968356
+        },
+        "yH": {
+          "index": 40,
+          "value": 5403406870691968356
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssss",
+      "j": 17,
+      "degree_H": 41,
+      "minimum_defects": {
+        "H": {
+          "index": 41,
+          "value": 48630661836227715204
+        },
+        "yH": {
+          "index": 42,
+          "value": 48630661836227715204
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssss",
+      "j": 18,
+      "degree_H": 43,
+      "minimum_defects": {
+        "H": {
+          "index": 43,
+          "value": 437675956526049436836
+        },
+        "yH": {
+          "index": 44,
+          "value": 437675956526049436836
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssss",
+      "j": 19,
+      "degree_H": 45,
+      "minimum_defects": {
+        "H": {
+          "index": 45,
+          "value": 3939083608734444931524
+        },
+        "yH": {
+          "index": 46,
+          "value": 3939083608734444931524
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssss",
+      "j": 20,
+      "degree_H": 47,
+      "minimum_defects": {
+        "H": {
+          "index": 47,
+          "value": 35451752478610004383716
+        },
+        "yH": {
+          "index": 48,
+          "value": 35451752478610004383716
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssss",
+      "j": 21,
+      "degree_H": 49,
+      "minimum_defects": {
+        "H": {
+          "index": 49,
+          "value": 319065772307490039453444
+        },
+        "yH": {
+          "index": 50,
+          "value": 319065772307490039453444
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssss",
+      "j": 22,
+      "degree_H": 51,
+      "minimum_defects": {
+        "H": {
+          "index": 51,
+          "value": 2871591950767410355080996
+        },
+        "yH": {
+          "index": 52,
+          "value": 2871591950767410355080996
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssss",
+      "j": 23,
+      "degree_H": 53,
+      "minimum_defects": {
+        "H": {
+          "index": 53,
+          "value": 25844327556906693195728964
+        },
+        "yH": {
+          "index": 54,
+          "value": 25844327556906693195728964
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssss",
+      "j": 24,
+      "degree_H": 55,
+      "minimum_defects": {
+        "H": {
+          "index": 55,
+          "value": 232598948012160238761560676
+        },
+        "yH": {
+          "index": 56,
+          "value": 232598948012160238761560676
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssss",
+      "j": 25,
+      "degree_H": 57,
+      "minimum_defects": {
+        "H": {
+          "index": 57,
+          "value": 2093390532109442148854046084
+        },
+        "yH": {
+          "index": 58,
+          "value": 2093390532109442148854046084
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssss",
+      "j": 26,
+      "degree_H": 59,
+      "minimum_defects": {
+        "H": {
+          "index": 59,
+          "value": 18840514788984979339686414756
+        },
+        "yH": {
+          "index": 60,
+          "value": 18840514788984979339686414756
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssss",
+      "j": 27,
+      "degree_H": 61,
+      "minimum_defects": {
+        "H": {
+          "index": 61,
+          "value": 169564633100864814057177732804
+        },
+        "yH": {
+          "index": 62,
+          "value": 169564633100864814057177732804
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssss",
+      "j": 28,
+      "degree_H": 63,
+      "minimum_defects": {
+        "H": {
+          "index": 63,
+          "value": 1526081697907783326514599595236
+        },
+        "yH": {
+          "index": 64,
+          "value": 1526081697907783326514599595236
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssss",
+      "j": 29,
+      "degree_H": 65,
+      "minimum_defects": {
+        "H": {
+          "index": 65,
+          "value": 13734735281170049938631396357124
+        },
+        "yH": {
+          "index": 66,
+          "value": 13734735281170049938631396357124
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssss",
+      "j": 30,
+      "degree_H": 67,
+      "minimum_defects": {
+        "H": {
+          "index": 67,
+          "value": 123612617530530449447682567214116
+        },
+        "yH": {
+          "index": 68,
+          "value": 123612617530530449447682567214116
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssss",
+      "j": 31,
+      "degree_H": 69,
+      "minimum_defects": {
+        "H": {
+          "index": 69,
+          "value": 1112513557774774045029143104927044
+        },
+        "yH": {
+          "index": 70,
+          "value": 1112513557774774045029143104927044
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssss",
+      "j": 32,
+      "degree_H": 71,
+      "minimum_defects": {
+        "H": {
+          "index": 71,
+          "value": 10012622019972966405262287944343396
+        },
+        "yH": {
+          "index": 72,
+          "value": 10012622019972966405262287944343396
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssss",
+      "j": 33,
+      "degree_H": 73,
+      "minimum_defects": {
+        "H": {
+          "index": 73,
+          "value": 90113598179756697647360591499090564
+        },
+        "yH": {
+          "index": 74,
+          "value": 90113598179756697647360591499090564
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssss",
+      "j": 34,
+      "degree_H": 75,
+      "minimum_defects": {
+        "H": {
+          "index": 75,
+          "value": 811022383617810278826245323491815076
+        },
+        "yH": {
+          "index": 76,
+          "value": 811022383617810278826245323491815076
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssss",
+      "j": 35,
+      "degree_H": 77,
+      "minimum_defects": {
+        "H": {
+          "index": 77,
+          "value": 7299201452560292509436207911426335684
+        },
+        "yH": {
+          "index": 78,
+          "value": 7299201452560292509436207911426335684
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssss",
+      "j": 36,
+      "degree_H": 79,
+      "minimum_defects": {
+        "H": {
+          "index": 79,
+          "value": 65692813073042632584925871202837021156
+        },
+        "yH": {
+          "index": 80,
+          "value": 65692813073042632584925871202837021156
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssss",
+      "j": 37,
+      "degree_H": 81,
+      "minimum_defects": {
+        "H": {
+          "index": 81,
+          "value": 591235317657383693264332840825533190404
+        },
+        "yH": {
+          "index": 82,
+          "value": 591235317657383693264332840825533190404
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssss",
+      "j": 38,
+      "degree_H": 83,
+      "minimum_defects": {
+        "H": {
+          "index": 83,
+          "value": 5321117858916453239378995567429798713636
+        },
+        "yH": {
+          "index": 84,
+          "value": 5321117858916453239378995567429798713636
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssss",
+      "j": 39,
+      "degree_H": 85,
+      "minimum_defects": {
+        "H": {
+          "index": 85,
+          "value": 47890060730248079154410960106868188422724
+        },
+        "yH": {
+          "index": 86,
+          "value": 47890060730248079154410960106868188422724
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssss",
+      "j": 40,
+      "degree_H": 87,
+      "minimum_defects": {
+        "H": {
+          "index": 87,
+          "value": 431010546572232712389698640961813695804516
+        },
+        "yH": {
+          "index": 88,
+          "value": 431010546572232712389698640961813695804516
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssss",
+      "j": 41,
+      "degree_H": 89,
+      "minimum_defects": {
+        "H": {
+          "index": 89,
+          "value": 3879094919150094411507287768656323262240644
+        },
+        "yH": {
+          "index": 90,
+          "value": 3879094919150094411507287768656323262240644
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssss",
+      "j": 42,
+      "degree_H": 91,
+      "minimum_defects": {
+        "H": {
+          "index": 91,
+          "value": 34911854272350849703565589917906909360165796
+        },
+        "yH": {
+          "index": 92,
+          "value": 34911854272350849703565589917906909360165796
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssss",
+      "j": 43,
+      "degree_H": 93,
+      "minimum_defects": {
+        "H": {
+          "index": 93,
+          "value": 314206688451157647332090309261162184241492164
+        },
+        "yH": {
+          "index": 94,
+          "value": 314206688451157647332090309261162184241492164
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 44,
+      "degree_H": 95,
+      "minimum_defects": {
+        "H": {
+          "index": 95,
+          "value": 2827860196060418825988812783350459658173429476
+        },
+        "yH": {
+          "index": 96,
+          "value": 2827860196060418825988812783350459658173429476
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 45,
+      "degree_H": 97,
+      "minimum_defects": {
+        "H": {
+          "index": 97,
+          "value": 25450741764543769433899315050154136923560865284
+        },
+        "yH": {
+          "index": 98,
+          "value": 25450741764543769433899315050154136923560865284
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 46,
+      "degree_H": 99,
+      "minimum_defects": {
+        "H": {
+          "index": 99,
+          "value": 229056675880893924905093835451387232312047787556
+        },
+        "yH": {
+          "index": 100,
+          "value": 229056675880893924905093835451387232312047787556
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 47,
+      "degree_H": 101,
+      "minimum_defects": {
+        "H": {
+          "index": 101,
+          "value": 2061510082928045324145844519062485090808430088004
+        },
+        "yH": {
+          "index": 102,
+          "value": 2061510082928045324145844519062485090808430088004
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 48,
+      "degree_H": 103,
+      "minimum_defects": {
+        "H": {
+          "index": 103,
+          "value": 18553590746352407917312600671562365817275870792036
+        },
+        "yH": {
+          "index": 104,
+          "value": 18553590746352407917312600671562365817275870792036
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 49,
+      "degree_H": 105,
+      "minimum_defects": {
+        "H": {
+          "index": 105,
+          "value": 166982316717171671255813406044061292355482837128324
+        },
+        "yH": {
+          "index": 106,
+          "value": 166982316717171671255813406044061292355482837128324
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 50,
+      "degree_H": 107,
+      "minimum_defects": {
+        "H": {
+          "index": 107,
+          "value": 1502840850454545041302320654396551631199345534154916
+        },
+        "yH": {
+          "index": 108,
+          "value": 1502840850454545041302320654396551631199345534154916
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 51,
+      "degree_H": 109,
+      "minimum_defects": {
+        "H": {
+          "index": 109,
+          "value": 13525567654090905371720885889568964680794109807394244
+        },
+        "yH": {
+          "index": 110,
+          "value": 13525567654090905371720885889568964680794109807394244
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 52,
+      "degree_H": 111,
+      "minimum_defects": {
+        "H": {
+          "index": 111,
+          "value": 121730108886818148345487973006120682127146988266548196
+        },
+        "yH": {
+          "index": 112,
+          "value": 121730108886818148345487973006120682127146988266548196
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 53,
+      "degree_H": 113,
+      "minimum_defects": {
+        "H": {
+          "index": 113,
+          "value": 1095570979981363335109391757055086139144322894398933764
+        },
+        "yH": {
+          "index": 114,
+          "value": 1095570979981363335109391757055086139144322894398933764
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 54,
+      "degree_H": 115,
+      "minimum_defects": {
+        "H": {
+          "index": 115,
+          "value": 9860138819832270015984525813495775252298906049590403876
+        },
+        "yH": {
+          "index": 116,
+          "value": 9860138819832270015984525813495775252298906049590403876
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 55,
+      "degree_H": 117,
+      "minimum_defects": {
+        "H": {
+          "index": 117,
+          "value": 88741249378490430143860732321461977270690154446313634884
+        },
+        "yH": {
+          "index": 118,
+          "value": 88741249378490430143860732321461977270690154446313634884
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 56,
+      "degree_H": 119,
+      "minimum_defects": {
+        "H": {
+          "index": 119,
+          "value": 798671244406413871294746590893157795436211390016822713956
+        },
+        "yH": {
+          "index": 120,
+          "value": 798671244406413871294746590893157795436211390016822713956
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 57,
+      "degree_H": 121,
+      "minimum_defects": {
+        "H": {
+          "index": 121,
+          "value": 7188041199657724841652719318038420158925902510151404425604
+        },
+        "yH": {
+          "index": 122,
+          "value": 7188041199657724841652719318038420158925902510151404425604
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 58,
+      "degree_H": 123,
+      "minimum_defects": {
+        "H": {
+          "index": 123,
+          "value": 64692370796919523574874473862345781430333122591362639830436
+        },
+        "yH": {
+          "index": 124,
+          "value": 64692370796919523574874473862345781430333122591362639830436
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 59,
+      "degree_H": 125,
+      "minimum_defects": {
+        "H": {
+          "index": 125,
+          "value": 582231337172275712173870264761112032872998103322263758473924
+        },
+        "yH": {
+          "index": 126,
+          "value": 582231337172275712173870264761112032872998103322263758473924
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 60,
+      "degree_H": 127,
+      "minimum_defects": {
+        "H": {
+          "index": 127,
+          "value": 5240082034550481409564832382850008295856982929900373826265316
+        },
+        "yH": {
+          "index": 128,
+          "value": 5240082034550481409564832382850008295856982929900373826265316
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 61,
+      "degree_H": 129,
+      "minimum_defects": {
+        "H": {
+          "index": 129,
+          "value": 47160738310954332686083491445650074662712846369103364436387844
+        },
+        "yH": {
+          "index": 130,
+          "value": 47160738310954332686083491445650074662712846369103364436387844
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 62,
+      "degree_H": 131,
+      "minimum_defects": {
+        "H": {
+          "index": 131,
+          "value": 424446644798588994174751423010850671964415617321930279927490596
+        },
+        "yH": {
+          "index": 132,
+          "value": 424446644798588994174751423010850671964415617321930279927490596
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 63,
+      "degree_H": 133,
+      "minimum_defects": {
+        "H": {
+          "index": 133,
+          "value": 3820019803187300947572762807097656047679740555897372519347415364
+        },
+        "yH": {
+          "index": 134,
+          "value": 3820019803187300947572762807097656047679740555897372519347415364
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 64,
+      "degree_H": 135,
+      "minimum_defects": {
+        "H": {
+          "index": 135,
+          "value": 34380178228685708528154865263878904429117665003076352674126738276
+        },
+        "yH": {
+          "index": 136,
+          "value": 34380178228685708528154865263878904429117665003076352674126738276
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 65,
+      "degree_H": 137,
+      "minimum_defects": {
+        "H": {
+          "index": 137,
+          "value": 309421604058171376753393787374910139862058985027687174067140644484
+        },
+        "yH": {
+          "index": 138,
+          "value": 309421604058171376753393787374910139862058985027687174067140644484
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 66,
+      "degree_H": 139,
+      "minimum_defects": {
+        "H": {
+          "index": 139,
+          "value": 2784794436523542390780544086374191258758530865249184566604265800356
+        },
+        "yH": {
+          "index": 140,
+          "value": 2784794436523542390780544086374191258758530865249184566604265800356
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 67,
+      "degree_H": 141,
+      "minimum_defects": {
+        "H": {
+          "index": 141,
+          "value": 25063149928711881517024896777367721328826777787242661099438392203204
+        },
+        "yH": {
+          "index": 142,
+          "value": 25063149928711881517024896777367721328826777787242661099438392203204
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 68,
+      "degree_H": 143,
+      "minimum_defects": {
+        "H": {
+          "index": 143,
+          "value": 225568349358406933653224070996309491959441000085183949894945529828836
+        },
+        "yH": {
+          "index": 144,
+          "value": 225568349358406933653224070996309491959441000085183949894945529828836
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 69,
+      "degree_H": 145,
+      "minimum_defects": {
+        "H": {
+          "index": 145,
+          "value": 2030115144225662402879016638966785427634969000766655549054509768459524
+        },
+        "yH": {
+          "index": 146,
+          "value": 2030115144225662402879016638966785427634969000766655549054509768459524
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 70,
+      "degree_H": 147,
+      "minimum_defects": {
+        "H": {
+          "index": 147,
+          "value": 18271036298030961625911149750701068848714721006899899941490587916135716
+        },
+        "yH": {
+          "index": 148,
+          "value": 18271036298030961625911149750701068848714721006899899941490587916135716
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 71,
+      "degree_H": 149,
+      "minimum_defects": {
+        "H": {
+          "index": 149,
+          "value": 164439326682278654633200347756309619638432489062099099473415291245221444
+        },
+        "yH": {
+          "index": 150,
+          "value": 164439326682278654633200347756309619638432489062099099473415291245221444
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 72,
+      "degree_H": 151,
+      "minimum_defects": {
+        "H": {
+          "index": 151,
+          "value": 1479953940140507891698803129806786576745892401558891895260737621206992996
+        },
+        "yH": {
+          "index": 152,
+          "value": 1479953940140507891698803129806786576745892401558891895260737621206992996
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 73,
+      "degree_H": 153,
+      "minimum_defects": {
+        "H": {
+          "index": 153,
+          "value": 13319585461264571025289228168261079190713031614030027057346638590862936964
+        },
+        "yH": {
+          "index": 154,
+          "value": 13319585461264571025289228168261079190713031614030027057346638590862936964
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 74,
+      "degree_H": 155,
+      "minimum_defects": {
+        "H": {
+          "index": 155,
+          "value": 119876269151381139227603053514349712716417284526270243516119747317766432676
+        },
+        "yH": {
+          "index": 156,
+          "value": 119876269151381139227603053514349712716417284526270243516119747317766432676
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 75,
+      "degree_H": 157,
+      "minimum_defects": {
+        "H": {
+          "index": 157,
+          "value": 1078886422362430253048427481629147414447755560736432191645077725859897894084
+        },
+        "yH": {
+          "index": 158,
+          "value": 1078886422362430253048427481629147414447755560736432191645077725859897894084
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 76,
+      "degree_H": 159,
+      "minimum_defects": {
+        "H": {
+          "index": 159,
+          "value": 9709977801261872277435847334662326730029800046627889724805699532739081046756
+        },
+        "yH": {
+          "index": 160,
+          "value": 9709977801261872277435847334662326730029800046627889724805699532739081046756
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 77,
+      "degree_H": 161,
+      "minimum_defects": {
+        "H": {
+          "index": 161,
+          "value": 87389800211356850496922626011960940570268200419651007523251295794651729420804
+        },
+        "yH": {
+          "index": 162,
+          "value": 87389800211356850496922626011960940570268200419651007523251295794651729420804
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 78,
+      "degree_H": 163,
+      "minimum_defects": {
+        "H": {
+          "index": 163,
+          "value": 786508201902211654472303634107648465132413803776859067709261662151865564787236
+        },
+        "yH": {
+          "index": 164,
+          "value": 786508201902211654472303634107648465132413803776859067709261662151865564787236
+        }
+      }
+    },
+    {
+      "path": "lsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 79,
+      "degree_H": 165,
+      "minimum_defects": {
+        "H": {
+          "index": 165,
+          "value": 7078573817119904890250732706968836186191724233991731609383354959366790083085124
+        },
+        "yH": {
+          "index": 166,
+          "value": 7078573817119904890250732706968836186191724233991731609383354959366790083085124
+        }
+      }
+    },
+    {
+      "path": "lssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "j": 80,
+      "degree_H": 167,
+      "minimum_defects": {
+        "H": {
+          "index": 167,
+          "value": 63707164354079144012256594362719525675725518105925584484450194634301110747766116
+        },
+        "yH": {
+          "index": 168,
+          "value": 63707164354079144012256594362719525675725518105925584484450194634301110747766116
+        }
+      }
+    }
+  ],
+  "first_failure": null
+}

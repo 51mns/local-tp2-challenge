@@ -1,0 +1,48 @@
+{
+  "verdict": "PASS: all independent finite certificates and symbolic scalar gates",
+  "author_code_imported": false,
+  "reconstructed_from_original_mutation": true,
+  "coefficient_method": "ordinary x polynomials -> binomial Fourier transform -> degree-two tensor Bernstein",
+  "compared_bernstein_coefficients": 993,
+  "each_basis_change_inverted": true,
+  "kernel_margin_minima": {
+    "trace": "306",
+    "L": "104652",
+    "L_y": "104652",
+    "H": "33872256",
+    "H_y": "33685632"
+  },
+  "proxy_thresholds": [
+    "234515/18",
+    "7565/6"
+  ],
+  "multiplier_polarization": [
+    {
+      "0": 29,
+      "1": -32,
+      "2": 13
+    },
+    {
+      "1": 16,
+      "0": -3,
+      "2": -19,
+      "3": 8
+    },
+    {
+      "2": 6,
+      "3": -8,
+      "4": 3
+    },
+    {
+      "4": -3
+    }
+  ],
+  "multiplier_negative_weights": [
+    32,
+    22,
+    8,
+    3
+  ],
+  "minimum_ell_zero_F": 1994544,
+  "mathematical_assembly_review": "See AUDIT_R2_RAY.md; no unproved universal preservation gate used."
+}

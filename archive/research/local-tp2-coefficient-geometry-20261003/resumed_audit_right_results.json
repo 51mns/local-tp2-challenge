@@ -1,0 +1,22 @@
+{
+  "parameter_margin_polynomials_verified": 9,
+  "Bernstein_coefficients_verified": 57,
+  "fixed_pair_and_first_sandwich_arrays": "verified",
+  "multiplier_polynomial_identities": "verified independently",
+  "original_right_states_reconstructed": 5,
+  "exact_minima": {
+    "quartic_growth": "884",
+    "quadratic_in_t": [
+      "151266414",
+      "338478852",
+      "290971872",
+      "145555380"
+    ],
+    "linear_in_t": [
+      "17268",
+      "358599",
+      "322626",
+      "138210"
+    ]
+  }
+}

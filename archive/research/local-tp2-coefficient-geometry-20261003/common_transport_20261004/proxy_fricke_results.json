@@ -1,0 +1,78 @@
+{
+  "status": "universal exchange identities and exact obstacles checked",
+  "symbolic_checks": [
+    "short_proxy_positive_exchange",
+    "long_proxy_positive_exchange"
+  ],
+  "canonical_curvature_forcing_obstacle": {
+    "path": "first-short",
+    "curvature_char_nonnegative": true,
+    "kappa_boundary0": [
+      45,
+      36,
+      16
+    ],
+    "kappa_boundary2": [
+      36,
+      56,
+      0
+    ],
+    "minus_L_kappa_boundary": [
+      -245,
+      43,
+      -44,
+      48
+    ],
+    "actual_G_defects": [
+      192,
+      256,
+      112,
+      16
+    ],
+    "scope": "refutes nonnegative signed-Cassini-forcing inference, not G cone or proxy"
+  },
+  "root_centerbase": {
+    "central_coefficient": 444,
+    "M_defects": [
+      632,
+      688,
+      240,
+      36
+    ],
+    "boundary": [
+      444,
+      688,
+      240,
+      36
+    ]
+  },
+  "convolution_reflection_obstacle": {
+    "actual_canonical_multiplier_C": [
+      5,
+      6,
+      2
+    ],
+    "input_pair": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "input_central_minor": -1,
+    "multiplied_defects": [
+      31,
+      91,
+      26,
+      4
+    ],
+    "multiplied_character_nonnegative": true,
+    "scope": "noncanonical test pair; no proxy-child counterexample"
+  },
+  "strict_proxy_BOTH_preservation": "OPEN",
+  "full_tree_Local_TP2": "OPEN"
+}

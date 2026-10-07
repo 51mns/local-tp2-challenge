@@ -1,0 +1,82 @@
+{
+  "arithmetic": "Python integers and fractions.Fraction",
+  "certificate_entries_matched": 3387,
+  "completed_utc": "2026-10-07T11:31:48.319612+00:00",
+  "independence": "Same model, separate implementations; not a fresh independent mathematical reviewer or external replication",
+  "python": "3.13.5",
+  "results": [
+    {
+      "file": "certificate_LRL_R.json",
+      "matches": true,
+      "sha256": "e2b11a0a271a52dcc1b79079a7877f68bdb5b02e4062cbf8333cb86928f65e08"
+    },
+    {
+      "file": "certificate_RLR_L.json",
+      "matches": true,
+      "sha256": "4023c31deefccac496222c14c01af40cf420bd06295cbbc4db07bf2a5d349dca"
+    },
+    {
+      "file": "independent_LRL_R.json",
+      "matches": true,
+      "sha256": "dc6a5195a74a69ddf2c0ffbe82c33e2dbc06a8f507f9e66831e0c18f7fa0c97d"
+    },
+    {
+      "file": "independent_RLR_L.json",
+      "matches": true,
+      "sha256": "c1e9675ed3f3ce7d65590efc837983526705e0c21eda59f81be59e82db699e10"
+    }
+  ],
+  "runs": [
+    {
+      "command": [
+        "signed_gate.py",
+        "LRL",
+        "R"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "LRL R PASS []\n"
+    },
+    {
+      "command": [
+        "signed_gate.py",
+        "RLR",
+        "L"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "RLR L PASS []\n"
+    },
+    {
+      "command": [
+        "verify_direct.py",
+        "LRL",
+        "R"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "LRL R PASS coefficients 1566\n"
+    },
+    {
+      "command": [
+        "verify_direct.py",
+        "RLR",
+        "L"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "RLR L PASS coefficients 1821\n"
+    },
+    {
+      "command": [
+        "test_contracts.py"
+      ],
+      "exit_code": 0,
+      "stderr": "test_positive_samples_do_not_certify (__main__.Contracts.test_positive_samples_do_not_certify) ... ok\ntest_ray_recurrence_and_degree (__main__.Contracts.test_ray_recurrence_and_degree) ... ok\ntest_seed_identity_and_bounds (__main__.Contracts.test_seed_identity_and_bounds) ... ok\ntest_two_arithmetics_and_quotients (__main__.Contracts.test_two_arithmetics_and_quotients) ... ok\ntest_wrong_commutation_or_sign_rejected (__main__.Contracts.test_wrong_commutation_or_sign_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.117s\n\nOK\n",
+      "stdout": ""
+    }
+  ],
+  "scope": "Signed-seed sufficient theorem and two infinite-ray applications; full tree OPEN; mathematical claim remains PROOF_CANDIDATE",
+  "source_hashes_match": true,
+  "status": "PASS"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "FROZEN_CONDITIONAL_GENERAL_THEOREM_NOT_COMMON_CLOSURE",
+  "sha256": {
+    "multiplier_local_gate.md": "cca4390068f8b2f7344559b980964eb468a8e541214f3711e63524f28bb96072",
+    "multiplier_exact.py": "7c777d003b2f560f34f0ab9216e65bd2ebf5c7c211445a50882e457bd1138e69",
+    "multiplier_exact_results.json": "9707b5d28f8b94498d1436212aa57c775d6130cc1e33550f2248c807cf965220"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "status": "PASS_EXACT_DETERMINISTIC_REPLAY",
+  "replays": [
+    {
+      "script": "root_obstruction_audit.py",
+      "output": "root_obstruction_audit_results.json",
+      "sha256": "5f4bfc0cdbad84bc46403f51110178b08f2119bb31975603492c47266a6ef49c",
+      "exit_code": 0,
+      "identical_output_bytes": true
+    },
+    {
+      "script": "packet_algebra_verify.py",
+      "output": "packet_algebra_results.json",
+      "sha256": "15a505dea30ea539dffc8d3e9cf2719f2bf215a03c0eb03f752cd953ada5880b",
+      "exit_code": 0,
+      "identical_output_bytes": true
+    },
+    {
+      "script": "packet_spectral_sparse_verify.py",
+      "output": "packet_spectral_sparse_results.json",
+      "sha256": "4498938f10c6c44553d1e3fdb923a614afb065b3c5d4d17b8d5b898e37fb259e",
+      "exit_code": 0,
+      "identical_output_bytes": true
+    },
+    {
+      "script": "proxy_algebra_verify.py",
+      "output": "proxy_algebra_results.json",
+      "sha256": "f3e081aa27df615b3f0ff0c73c8fc2bceefdc7cc44010a0e95b0be156516c2f8",
+      "exit_code": 0,
+      "identical_output_bytes": true
+    },
+    {
+      "script": "proxy_character_verify.py",
+      "output": "proxy_character_results.json",
+      "sha256": "149e99954b18039cacba44e22e5d70fafadc8f8725c09de369ec2107ae10a676",
+      "exit_code": 0,
+      "identical_output_bytes": true
+    },
+    {
+      "script": "falsification_defect.py",
+      "output": "falsification_defect_results.json",
+      "sha256": "1b3c4e9951d70e8aa995768918f64efeeae0063dfb726f4a5da30f121424a465",
+      "exit_code": 0,
+      "identical_output_bytes": true
+    },
+    {
+      "script": "falsification_weakening_audit.py",
+      "output": "falsification_weakening_audit_results.json",
+      "sha256": "1e22cd603a81f3d5323b05f5a6044f592fbc4a05601baef5627c18a0f35c76c3",
+      "exit_code": 0,
+      "identical_output_bytes": true
+    },
+    {
+      "script": "audit_packet_weakening_verify.py",
+      "output": "audit_packet_weakening_results.json",
+      "sha256": "87e195809c7f51f8eb8d30c0b38346b1ee4682ba334572b116ee0ae7db1bed76",
+      "exit_code": 0,
+      "identical_output_bytes": true
+    }
+  ],
+  "manifests": [
+    {
+      "manifest": "falsification_manifest.json",
+      "verified_entries": 10
+    },
+    {
+      "manifest": "audit_manifest.json",
+      "verified_entries": 27
+    }
+  ],
+  "frozen_input_files_unchanged": 32,
+  "arithmetic": "Exact Python integer, rational and formal polynomial arithmetic",
+  "full_tree_Local_TP2": "OPEN",
+  "remaining_closure_types": [
+    "BOTH paired MP_0",
+    "BOTH strict Q<D"
+  ],
+  "scope": "Finite replay checks identities and witness certificates. Universal conclusions require the independently audited analytic arguments; each obstruction retains its explicitly stated domain."
+}

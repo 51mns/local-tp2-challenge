@@ -1,0 +1,31 @@
+{
+  "status": "FROZEN_INDEPENDENT_AUDITS_PASS_GENERAL_CLOSURE_OPEN",
+  "sources_sha256": {
+    "root_boundary_q.md": "c34c71c4c7a7f36a54ffb8e9d1eaf6190c82628e5f5fdc0197273d9e6acf9a8a",
+    "root_boundary_q_verify.py": "7dde796f5cd9794206d55706da2acdf8e5e32ae405d38d8abf88c7e6fd457549",
+    "root_boundary_q_results.json": "2095826236daab598d0060a854a7075687cf1a083cc0beebad3e109e350947bb",
+    "quantitative_midpoint_bernstein.md": "3ffdba42b10b12b9fb99cb1709acf74e7772055f9884dfdf84b9225a24054e0f",
+    "quantitative_midpoint_bernstein.py": "f5493c952da7444eed5d42972ab09c277a07a94d3847971d2d4de3f944d8628c",
+    "quantitative_midpoint_bernstein_results.json": "955f7a226aad769794bc7d73b97172400db75635a640462d742ea9f8ab003c7b",
+    "quantitative_midpoint_bernstein_full.json.gz": "f15175c91b32e83cd306f6382a07efeab4bb3c457bf9c9c4893894a2edeb89cc",
+    "network_relative_character.md": "0ed6f97744bb78e810438285c6cd7e1520197940b6e5c57881c9692f29fa617d"
+  },
+  "audit_sha256": {
+    "audit_minimal_packet.md": "16b8af8b60b6f06331a0ef27d5c5f65c8c81edb7613541d0efb53772ac8ce805",
+    "audit_boundary_q.md": "c834175a01f434ffdd28953311850389314b2ed369716fac87457a1df029ad09",
+    "audit_boundary_q_verify.py": "6b8787c84978520b5b8f559142c8ee22482387a7d640d8e20e6c4dbea4526f34",
+    "audit_boundary_q_results.json": "a61736ec2b80846e68f5fdc53aac124a44c67a528a47800488c82482ea236484",
+    "audit_midpoint_base.md": "94042f6b50ec72d177b877f523923679e1f9531fd921f94bdbaaaaff64fbf566",
+    "audit_midpoint_base_verify.py": "608380da3d3639c8290dde52c1966854722c29d7370e551080968606e58ca17b",
+    "audit_midpoint_base_results.json": "b935650cd896091f5a6131395c7a182888073df8706a66bef36fd12433550873"
+  },
+  "commands": [
+    "python audit_boundary_q_verify.py",
+    "python audit_midpoint_base_verify.py"
+  ],
+  "remaining_regular_gates": [
+    "BOTH changed-center paired MP_sharp",
+    "BOTH strict proxy"
+  ],
+  "full_tree_Local_TP2": "OPEN"
+}

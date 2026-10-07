@@ -1,0 +1,46 @@
+{
+  "propagator": {
+    "mass_factor": 4,
+    "certificate": {
+      "degrees": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "strict_lower_bound": "3009",
+      "power_coefficients": {
+        "0,0,0,0": "3009",
+        "1,0,0,0": "3688",
+        "2,0,0,0": "16"
+      },
+      "bernstein_coefficients": {
+        "0,0,0,0": "3009",
+        "1,0,0,0": "4853",
+        "2,0,0,0": "6713"
+      }
+    }
+  },
+  "resolvent_template": {
+    "mass_factor": 800,
+    "certificate": {
+      "degrees": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "strict_lower_bound": "9999933",
+      "power_coefficients": {
+        "0,0,0,0": "9999933",
+        "1,0,0,0": "9224984",
+        "2,0,0,0": "28816"
+      },
+      "bernstein_coefficients": {
+        "0,0,0,0": "9999933",
+        "1,0,0,0": "14612425",
+        "2,0,0,0": "19253733"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "primary_status": "PROVED_INTERNAL",
+  "theorem_scope": "Strict original Local TP2 for all L^m R^2 L^ell, m,ell>=0",
+  "full_tree_status": "OPEN",
+  "repository": "51mns/AIMath",
+  "branch": "research/local-tp2-openai-math-20261007",
+  "parent_commit": "31e6e1a53a949c70184d3cb791410ff6e19d21f3",
+  "prior_research_commit": "a36fbac460073bf757434f122e721dfa254e8e48",
+  "accepted_main_commit": "c8e61e0e398f540bc8c5de79663398d689f37473",
+  "external_repository": "openai/math",
+  "external_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "continuation_started_utc": "2026-10-07T07:26:44Z",
+  "user_instruction": "1時間くらい試行錯誤して続けて",
+  "complete_core_replay_finished_utc": "2026-10-07T08:10:42.930456+00:00",
+  "core_verifier_and_audit_processes": 12,
+  "regenerated_json_hashes_matched": 15,
+  "replayed_file_hashes_still_match_after_document_additions": true,
+  "post_replay_additions": [
+    "hour_quantum/AUDIT_ALL_M_INITIAL_COMPARISONS.md",
+    "hour_quantum/AUDIT_UNIFORM_RAY_ASSEMBLY.md"
+  ],
+  "review_scope": "Shared-session separate implementations and mathematical audits; no external, blind, formal, or canonical reproduction promotion.",
+  "core_proof_commit": "906559645910d6aa3c94a020c0c086c5bb60dc27",
+  "auxiliary_trace_result": {
+    "status": "PROVED_INTERNAL",
+    "scope": "All one-turn centers C_(L^mR^k), m,k>=0: shifted and y-smoothed trace kernels are 1-strong for every r in [-2,2]",
+    "finite_bernstein_coefficients": 867,
+    "separate_dependency_from_main_theorem": true
+  }
+}

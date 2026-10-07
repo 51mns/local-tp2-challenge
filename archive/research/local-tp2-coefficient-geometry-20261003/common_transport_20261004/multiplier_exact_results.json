@@ -1,0 +1,397 @@
+{
+  "status": "EXACT_GENERAL_IDENTITIES_AND_ABSTRACT_OBSTRUCTIONS_NOT_ALL_TREE_PROOF",
+  "imports": "Python standard library only; no parent arithmetic",
+  "symbolic": {
+    "degree_boundaries": [
+      {
+        "degree": 2,
+        "multiplier_defects": "PASS",
+        "tail_CB": "PASS",
+        "three_Pluckers": "PASS",
+        "centerbase": "PASS"
+      },
+      {
+        "degree": 3,
+        "multiplier_defects": "PASS",
+        "tail_CB": "PASS",
+        "three_Pluckers": "PASS",
+        "centerbase": "PASS"
+      },
+      {
+        "degree": 4,
+        "multiplier_defects": "PASS",
+        "tail_CB": "PASS",
+        "three_Pluckers": "PASS",
+        "centerbase": "PASS"
+      },
+      {
+        "degree": 5,
+        "multiplier_defects": "PASS",
+        "tail_CB": "PASS",
+        "three_Pluckers": "PASS",
+        "centerbase": "PASS"
+      }
+    ],
+    "half_local_strength_surplus_SOS": "PASS",
+    "central_polarization_identity": "PASS"
+  },
+  "examples": [
+    {
+      "label": "canonical_root",
+      "H_C": [
+        9,
+        6,
+        2
+      ],
+      "delta_C": [
+        27,
+        14,
+        4
+      ],
+      "H_yC": [
+        21,
+        17,
+        8,
+        2
+      ],
+      "delta_yC": [
+        31,
+        91,
+        26,
+        4
+      ],
+      "H_M": [
+        64,
+        50,
+        24,
+        6
+      ],
+      "delta_M": [
+        632,
+        688,
+        240,
+        36
+      ],
+      "centerbase_0": 444,
+      "C_cone": true,
+      "yC_cone": true,
+      "M_cone": true,
+      "local_half_margins": [
+        "45/2",
+        "11",
+        "3"
+      ],
+      "C_ordinary": [
+        5,
+        6,
+        2
+      ],
+      "root_endpoint_Fricke_residual": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "ordinary_positive_weaker_central_gate",
+      "H_C": [
+        11,
+        6,
+        2
+      ],
+      "delta_C": [
+        71,
+        10,
+        4
+      ],
+      "H_yC": [
+        23,
+        19,
+        8,
+        2
+      ],
+      "delta_yC": [
+        -9,
+        151,
+        22,
+        4
+      ],
+      "H_M": [
+        70,
+        56,
+        24,
+        6
+      ],
+      "delta_M": [
+        308,
+        1216,
+        204,
+        36
+      ],
+      "centerbase_0": 102,
+      "C_cone": true,
+      "yC_cone": false,
+      "M_cone": true,
+      "local_half_margins": [
+        "131/2",
+        "7",
+        "3"
+      ],
+      "C_ordinary": [
+        7,
+        6,
+        2
+      ],
+      "root_endpoint_Fricke_residual": [
+        12,
+        12,
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "M_cone_does_not_imply_centerbase",
+      "H_C": [
+        12,
+        6,
+        2
+      ],
+      "delta_C": [
+        96,
+        8,
+        4
+      ],
+      "H_yC": [
+        24,
+        20,
+        8,
+        2
+      ],
+      "delta_yC": [
+        -32,
+        184,
+        20,
+        4
+      ],
+      "H_M": [
+        73,
+        59,
+        24,
+        6
+      ],
+      "delta_M": [
+        119,
+        1507,
+        186,
+        36
+      ],
+      "centerbase_0": -96,
+      "C_cone": true,
+      "yC_cone": false,
+      "M_cone": true,
+      "local_half_margins": [
+        "90",
+        "5",
+        "3"
+      ],
+      "C_ordinary": [
+        8,
+        6,
+        2
+      ],
+      "root_endpoint_Fricke_residual": [
+        21,
+        18,
+        6,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "C_one_strong_does_not_remove_central_gate",
+      "H_C": [
+        13,
+        6,
+        2
+      ],
+      "delta_C": [
+        123,
+        6,
+        4
+      ],
+      "H_yC": [
+        25,
+        21,
+        8,
+        2
+      ],
+      "delta_yC": [
+        -57,
+        219,
+        18,
+        4
+      ],
+      "H_M": [
+        76,
+        62,
+        24,
+        6
+      ],
+      "delta_M": [
+        -88,
+        1816,
+        168,
+        36
+      ],
+      "centerbase_0": -312,
+      "C_cone": true,
+      "yC_cone": false,
+      "M_cone": false,
+      "local_half_margins": [
+        "233/2",
+        "3",
+        "3"
+      ],
+      "C_ordinary": [
+        9,
+        6,
+        2
+      ],
+      "root_endpoint_Fricke_residual": [
+        32,
+        24,
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "weak_paired_character_positive_row_does_not_imply_M",
+      "H_C": [
+        22,
+        20,
+        15,
+        8
+      ],
+      "delta_C": [
+        14,
+        5,
+        1,
+        64
+      ],
+      "H_yC": [
+        62,
+        57,
+        43,
+        23,
+        8
+      ],
+      "delta_yC": [
+        12,
+        45,
+        353,
+        121,
+        64
+      ],
+      "H_M": [
+        187,
+        170,
+        129,
+        69,
+        24
+      ],
+      "delta_M": [
+        1292,
+        -134,
+        3246,
+        1089,
+        576
+      ],
+      "centerbase_0": 636,
+      "C_cone": true,
+      "yC_cone": true,
+      "M_cone": false,
+      "local_half_margins": [
+        "3",
+        "-5",
+        "-13/2"
+      ],
+      "C_ordinary": [
+        -8,
+        -4,
+        15,
+        8
+      ],
+      "root_endpoint_Fricke_residual": [
+        117,
+        142,
+        -272,
+        -378,
+        83,
+        224,
+        64
+      ]
+    },
+    {
+      "label": "relaxed_B0_not_closed_under_identical_positive_sums",
+      "H_C": [
+        33,
+        18,
+        6
+      ],
+      "delta_C": [
+        639,
+        90,
+        36
+      ],
+      "H_yC": [
+        69,
+        57,
+        24,
+        6
+      ],
+      "delta_yC": [
+        -81,
+        1359,
+        198,
+        36
+      ],
+      "H_M": [
+        208,
+        170,
+        72,
+        18
+      ],
+      "delta_M": [
+        440,
+        11800,
+        1800,
+        324
+      ],
+      "centerbase_0": -180,
+      "C_cone": true,
+      "yC_cone": false,
+      "M_cone": true,
+      "local_half_margins": [
+        "1245/2",
+        "81",
+        "33"
+      ],
+      "C_ordinary": [
+        21,
+        18,
+        6
+      ],
+      "root_endpoint_Fricke_residual": [
+        320,
+        528,
+        392,
+        144,
+        24
+      ]
+    }
+  ]
+}

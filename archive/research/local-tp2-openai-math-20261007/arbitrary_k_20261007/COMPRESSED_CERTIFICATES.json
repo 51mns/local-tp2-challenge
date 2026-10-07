@@ -1,0 +1,29 @@
+{
+  "compression": "gzip, mtime=0; standard-library only",
+  "records": [
+    {
+      "json_path": "arbk_mixed/finite_m_normalized_blocks_results.json",
+      "gzip_path": "arbk_mixed/finite_m_normalized_blocks_results.json.gz",
+      "uncompressed_bytes": 35304440,
+      "compressed_bytes": 3249718,
+      "uncompressed_sha256": "2747e272ced6e43c92b81bc69015b7e0aba0efaf898bbc32f31702418219c37c",
+      "compressed_sha256": "0699cfc583b476b62b0522ea5eb83398a1da520bcbc89432c2122d55b9fe27c8"
+    },
+    {
+      "json_path": "arbk_mixed/finite_mixed_kernels_results.json",
+      "gzip_path": "arbk_mixed/finite_mixed_kernels_results.json.gz",
+      "uncompressed_bytes": 22813031,
+      "compressed_bytes": 4865107,
+      "uncompressed_sha256": "761a406039a910a240940f1225aee265f2fa3400212cc951686cbe7b6fb31c7f",
+      "compressed_sha256": "0b1e2afab541248ce90c6d6714a22ebafccadb990e4538a578f4103fa608b2d0"
+    },
+    {
+      "json_path": "arbk_seed/seed_subtraction_certificates.json",
+      "gzip_path": "arbk_seed/seed_subtraction_certificates.json.gz",
+      "uncompressed_bytes": 4595806,
+      "compressed_bytes": 1575467,
+      "uncompressed_sha256": "41e8368f179a0fea097af2c044420d188274232f3b4f584c24cd07ddea03dea8",
+      "compressed_sha256": "f53d2a52a7d83a6db7a9311d56aa2963868f01283b2d177ca75a5ded8d200546"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "arithmetic": "Exact integers/Fractions; no external imports or numerical proofs.",
+  "scope": "Analytic common trace subgates plus an exact relaxed obstruction; no full packet or target closure.",
+  "beta_tensor": [
+    {
+      "character": [
+        0,
+        0
+      ],
+      "coefficient": 36
+    },
+    {
+      "character": [
+        0,
+        4
+      ],
+      "coefficient": 9
+    },
+    {
+      "character": [
+        1,
+        1
+      ],
+      "coefficient": 18
+    },
+    {
+      "character": [
+        1,
+        3
+      ],
+      "coefficient": 18
+    },
+    {
+      "character": [
+        2,
+        2
+      ],
+      "coefficient": 27
+    },
+    {
+      "character": [
+        3,
+        1
+      ],
+      "coefficient": 18
+    },
+    {
+      "character": [
+        4,
+        0
+      ],
+      "coefficient": 9
+    }
+  ],
+  "canonical_witnesses": [
+    {
+      "child": "long",
+      "degree_T": 3,
+      "degree_v": 3,
+      "degree_beta_v": 5,
+      "rows": [
+        0,
+        1
+      ],
+      "columns": [
+        4,
+        5
+      ],
+      "character": [
+        8,
+        0
+      ],
+      "lc_T": 6,
+      "lc_v": 6,
+      "mixed_negative": -108,
+      "beta_v_coefficient": 6732,
+      "proved_lower_bound": 324,
+      "actual_child_coefficient": 6624
+    },
+    {
+      "child": "short",
+      "degree_T": 5,
+      "degree_v": 5,
+      "degree_beta_v": 7,
+      "rows": [
+        0,
+        1
+      ],
+      "columns": [
+        6,
+        7
+      ],
+      "character": [
+        12,
+        0
+      ],
+      "lc_T": 18,
+      "lc_v": 18,
+      "mixed_negative": -972,
+      "beta_v_coefficient": 121500,
+      "proved_lower_bound": 2916,
+      "actual_child_coefficient": 120528
+    }
+  ],
+  "strict_relaxed_border_obstruction": {
+    "f_power": [
+      16,
+      8,
+      1
+    ],
+    "v_halfrow": [
+      "4659/1000",
+      "4537/1000",
+      "4181/1000",
+      "361/100",
+      "2859/1000",
+      "1971/1000",
+      "1"
+    ],
+    "v_power": [
+      "3/200",
+      "1781/500",
+      "349/200",
+      "-1249/200",
+      "-3141/1000",
+      "1971/1000",
+      "1"
+    ],
+    "v_raw": {
+      "degree": 6,
+      "character_terms": 49,
+      "min_character": "2899/1000000",
+      "defects": [
+        "8411/500000",
+        "2899/1000000",
+        "2357/100000",
+        "401/20000",
+        "3273/100000",
+        "25841/1000000",
+        "1"
+      ]
+    },
+    "v_y": {
+      "degree": 7,
+      "character_terms": 64,
+      "min_character": "1491/200000",
+      "defects": [
+        "1491/200000",
+        "129171/1000000",
+        "70177/500000",
+        "719/3125",
+        "5761/25000",
+        "5916819/1000000",
+        "1996841/1000000",
+        "1"
+      ]
+    },
+    "beta_v_raw": {
+      "degree": 8,
+      "character_terms": 81,
+      "min_character": "1756647/500000",
+      "defects": [
+        "1756647/500000",
+        "3726081/500000",
+        "13489353/1000000",
+        "8079579/500000",
+        "236857509/1000000",
+        "228740139/1000000",
+        "194649741/1000000",
+        "44710569/1000000",
+        "9"
+      ]
+    },
+    "parent_trace_all_r_character_lower_bounds": [
+      144,
+      112,
+      16,
+      43,
+      8,
+      1
+    ],
+    "leading_coefficients": {
+      "f": 1,
+      "v": 1
+    },
+    "failed_rows": [
+      0,
+      1
+    ],
+    "failed_columns": [
+      3,
+      4
+    ],
+    "failed_defect": "-29300421/500000",
+    "qualification": "v is not claimed to have an MP_sharp origin, canonical ancestry, ordinary-positive power coefficients, or Fricke completion."
+  },
+  "analytic_remaining_gate": "For d=deg T, delta_(d+1)(beta v)>lc(T)*(beta v)_(d+2), plus lower overlap indices and full child packet tensors."
+}

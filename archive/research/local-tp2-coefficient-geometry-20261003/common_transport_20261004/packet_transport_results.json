@@ -1,0 +1,156 @@
+{
+  "formal_ancestry_check": true,
+  "mutation_checks": [
+    {
+      "sigma": 0,
+      "formal_checks": 5
+    },
+    {
+      "sigma": 1,
+      "formal_checks": 5
+    }
+  ],
+  "jacobi_characteristic_replay": [
+    {
+      "type": "Robin",
+      "vertices": 1
+    },
+    {
+      "type": "Robin",
+      "vertices": 2
+    },
+    {
+      "type": "Robin",
+      "vertices": 3
+    },
+    {
+      "type": "Robin",
+      "vertices": 4
+    },
+    {
+      "type": "forked path",
+      "stem_vertices": 1
+    },
+    {
+      "type": "forked path",
+      "stem_vertices": 2
+    },
+    {
+      "type": "forked path",
+      "stem_vertices": 3
+    },
+    {
+      "type": "forked path",
+      "stem_vertices": 4
+    }
+  ],
+  "counterexample": [
+    {
+      "r": 2,
+      "s": 2,
+      "u": -2,
+      "raw_defects": [
+        [
+          -1939833799,
+          11943936
+        ],
+        [
+          1885237171,
+          2985984
+        ],
+        [
+          1370365,
+          3456
+        ],
+        [
+          181,
+          4
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "smooth_defects": [
+        [
+          24565348141,
+          11943936
+        ],
+        [
+          406382431,
+          147456
+        ],
+        [
+          6438388975,
+          2985984
+        ],
+        [
+          735731,
+          1152
+        ],
+        [
+          54,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "r": 2,
+      "s": 2,
+      "u": 2,
+      "raw_defects": [
+        [
+          6959573561,
+          11943936
+        ],
+        [
+          2432114611,
+          2985984
+        ],
+        [
+          1249405,
+          3456
+        ],
+        [
+          181,
+          4
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "smooth_defects": [
+        [
+          28138893613,
+          11943936
+        ],
+        [
+          652481887,
+          147456
+        ],
+        [
+          7160692975,
+          2985984
+        ],
+        [
+          690803,
+          1152
+        ],
+        [
+          54,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  ],
+  "scope": "Both-child identities are formal; all-N conclusions use analytic recurrences and exact Schur-pivot induction. Matrix sizes above only validate implementation."
+}

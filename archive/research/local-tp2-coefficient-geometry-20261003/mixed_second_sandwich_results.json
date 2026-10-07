@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "identity examples and exact obstruction only",
+  "identity_examples": [
+    {
+      "degree_C": 2,
+      "degree_Y": 1,
+      "old_cutoff": 4,
+      "new_cutoff": 2
+    },
+    {
+      "degree_C": 3,
+      "degree_Y": 2,
+      "old_cutoff": 5,
+      "new_cutoff": 3
+    },
+    {
+      "degree_C": 6,
+      "degree_Y": 3,
+      "old_cutoff": 8,
+      "new_cutoff": 4
+    }
+  ],
+  "path_LR_false_U_to_XM_minor": -197848930,
+  "path_LR_false_PU_to_PXM_minor": -2520809814
+}

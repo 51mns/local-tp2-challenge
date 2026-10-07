@@ -1,0 +1,283 @@
+{
+  "schema": 1,
+  "scope": "All fixed files for the three-run theorem package",
+  "excluded_outputs": [
+    "FILE_MANIFEST.json",
+    "REMOTE_VERIFICATION.json",
+    "REPLAY_RESULT.json"
+  ],
+  "files": [
+    {
+      "path": "COMPRESSED_CERTIFICATES.json",
+      "bytes": 1332,
+      "sha256": "1bea4c89f999e3b3861255fb4ad3fb9954fb0647b80b252c2e0603f59bb4507f",
+      "git_blob_sha1": "7cbcbefd9b3ea2f15938dcb72e798be85724e947"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 4292,
+      "sha256": "7b4e58ebf295afed44f20bd95f501a516cac2bd4711b3c25de2bf4f2d684cba0",
+      "git_blob_sha1": "8817fae93680ce5979d99bcc73c408aa4cbebbb3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4213,
+      "sha256": "1b7c02feb3d9c46f09ca9a0a074adbb18792d023ce7d569a1ff2720f61df34c5",
+      "git_blob_sha1": "d7ae8a0635e376fc3501736a34f1a05938f045ae"
+    },
+    {
+      "path": "RESULT_JA.md",
+      "bytes": 9234,
+      "sha256": "10a9567432e6efa83a382f34f1a60912e6b67d7cbad9598121bd15e2885a8369",
+      "git_blob_sha1": "4549e298241e199315c169f5804fd7c95c608891"
+    },
+    {
+      "path": "RUN_CONTEXT.json",
+      "bytes": 1722,
+      "sha256": "ea6be82ac41908c0fcd35bddcbee3f0b67ff5a9e2ab704497f2b368160b6ef6e",
+      "git_blob_sha1": "6863d7a1812d42c7fe48a9966e96bb8e5c2372e8"
+    },
+    {
+      "path": "arbk_audit/ARBITRARY_K_POSITIVE_SEEDS_AND_MASS.md",
+      "bytes": 5372,
+      "sha256": "f4173b5388c389b040c89ed517529663824e1684ef6d304e6f959c069e7d3c5a",
+      "git_blob_sha1": "42fa4ca12cc81c33956d9831bdab57bedd627fba"
+    },
+    {
+      "path": "arbk_audit/GENERIC_CLOSURE_AND_SCALAR_AUDIT.md",
+      "bytes": 9490,
+      "sha256": "86b74b0c1365ad2b1b5bc1fd352a019ad6aadf84f8dc0a8406e19403e04c2a56",
+      "git_blob_sha1": "f24660abae6c5036a11e3d02f9852cac7bda4a96"
+    },
+    {
+      "path": "arbk_audit/MIDPOINT_SUBTRACTION_AUDIT.md",
+      "bytes": 3129,
+      "sha256": "19c51fe46d3a0051c225b0ef2fcddce8cd844dce55d687fec1f12bef703c6b2f",
+      "git_blob_sha1": "15e39e98444a1ad614b04b0e69a027665b70b9d9"
+    },
+    {
+      "path": "arbk_audit/NORMALIZED_ALL_MINOR_AUDIT.md",
+      "bytes": 4866,
+      "sha256": "1af4425e7b9f5e8a89a08fc0ec48f4c36c791fee507aff8295775841be7717ca",
+      "git_blob_sha1": "a2c6bda416125d730adc88e711968e0ace6e3f83"
+    },
+    {
+      "path": "arbk_audit/audit_finite_ray_bridge.py",
+      "bytes": 6613,
+      "sha256": "1a9f4032bfce96a43dcfecc6d5fbb402aa863136ff0dcfd34da60103f07e7067",
+      "git_blob_sha1": "9f1c3c2186a5e17ebabc9f4ef77b98622c7a2e43"
+    },
+    {
+      "path": "arbk_audit/audit_scalar_closure.py",
+      "bytes": 6237,
+      "sha256": "13ffc813c7fe788a6ed9235a739304844fcecc3ae18effb2300666b096367801",
+      "git_blob_sha1": "ff9bd664b0babaa1a568677626c5c8beee9e6e0d"
+    },
+    {
+      "path": "arbk_audit/finite_ray_bridge_independent_results.json",
+      "bytes": 462521,
+      "sha256": "ecc32ed64d60aa9302269c2154eec36f28925fa9ec4b877342d61bacb6a850d8",
+      "git_blob_sha1": "b02fdaeca72733a50c136ce02666f5545b74232b"
+    },
+    {
+      "path": "arbk_audit/scalar_closure_independent_results.json",
+      "bytes": 565153,
+      "sha256": "ac76def22f07434b08d18ecdd1205f1499ea07a3dc844e0075913d69eda5c93d",
+      "git_blob_sha1": "7c5386f631c5f690b5768ec15bf58c9cc5d1f981"
+    },
+    {
+      "path": "arbk_mixed/FINITE_MIXED_KERNELS.md",
+      "bytes": 3480,
+      "sha256": "b78e145e3f39c110486915931cd72997cfd89b4d9312ed51bd827ed602df72cd",
+      "git_blob_sha1": "f0a079929e7e15436c2ae160166b38b1de8f5888"
+    },
+    {
+      "path": "arbk_mixed/NORMALIZED_BLOCKS.md",
+      "bytes": 6561,
+      "sha256": "4414f6acd45e44b5d7bd8df66687c75ee5d60fbfc8f0f616870455a46ee606a1",
+      "git_blob_sha1": "7a03e0d3fe8b8434e1200fe0d050cc51c8ebf818"
+    },
+    {
+      "path": "arbk_mixed/SEED_BOUNDS_INDEPENDENT_AUDIT.md",
+      "bytes": 3137,
+      "sha256": "0006e17c5e2aa628427cd4ca691737f13541816e76ee7d3b073b16bf2b1b91ef",
+      "git_blob_sha1": "c0585a4fbea552ab475e75711867179e370a06cb"
+    },
+    {
+      "path": "arbk_mixed/audit_seed_bounds.py",
+      "bytes": 5272,
+      "sha256": "2f1337b6d699c34e630a88cd5f8d9cd417624da8630251183ce850ea8188f055",
+      "git_blob_sha1": "09a6bc05492089a7e55cb6c4790c91c065e4f8db"
+    },
+    {
+      "path": "arbk_mixed/finite_m_normalized_blocks.py",
+      "bytes": 6304,
+      "sha256": "d38059e65c540588dbcaa38d77c0de7067abdddd2ba3e2853457cd95273c4ace",
+      "git_blob_sha1": "5d3f729aa316cadf56d91bae2c084af90ccc9327"
+    },
+    {
+      "path": "arbk_mixed/finite_m_normalized_blocks_results.json.gz",
+      "bytes": 3249718,
+      "sha256": "0699cfc583b476b62b0522ea5eb83398a1da520bcbc89432c2122d55b9fe27c8",
+      "git_blob_sha1": "306e50ac5cd27a9dcf41b434e9f0c789fc5f03b5"
+    },
+    {
+      "path": "arbk_mixed/finite_mixed_kernels.py",
+      "bytes": 6345,
+      "sha256": "07b85ed3b8d79d92d29f82549831e677c5c9b4b8589c745378668762088b8bb3",
+      "git_blob_sha1": "ec066ea96fd2e92cedeb9f669a6a73524e34d9f8"
+    },
+    {
+      "path": "arbk_mixed/finite_mixed_kernels_results.json.gz",
+      "bytes": 4865107,
+      "sha256": "0b1e2afab541248ce90c6d6714a22ebafccadb990e4538a578f4103fa608b2d0",
+      "git_blob_sha1": "df07fb70379c514df77b83b3c95f5eb9fc63db61"
+    },
+    {
+      "path": "arbk_mixed/m0_normalized_blocks.py",
+      "bytes": 6047,
+      "sha256": "b85549a0ca71d84c2da5b1f329329064aca0edf5f5e55535028bb3dd36f235d7",
+      "git_blob_sha1": "83747e185fcd0cc2c740f6d952d2ade367847f74"
+    },
+    {
+      "path": "arbk_mixed/m0_normalized_blocks_results.json",
+      "bytes": 29648,
+      "sha256": "30f32b24fb9ba35afad70f2ea11507ace6da3983af66f92aba045e5c7474aa83",
+      "git_blob_sha1": "487afdc7a5e82dcdf6a52be26f96f365a01503ae"
+    },
+    {
+      "path": "arbk_mixed/seed_bounds_independent_audit.json",
+      "bytes": 582,
+      "sha256": "5890456d85086ec848d2196d5e032a4ca0765906f52e332dfe3f28731c4b7fb2",
+      "git_blob_sha1": "926e8224b383ddc62473181d45eddbf3d5757d63"
+    },
+    {
+      "path": "arbk_root/FINITE_MIXED_INDEPENDENT_AUDIT.md",
+      "bytes": 2215,
+      "sha256": "b5d1591ccba4aa1c71f75a89bfde055a123e724c80d3054d7470cadf349201db",
+      "git_blob_sha1": "c65f091168b3f9ad1d4bf51b88bf71ea9443f9b8"
+    },
+    {
+      "path": "arbk_root/GENERIC_ARBITRARY_K_CLOSURE.md",
+      "bytes": 17910,
+      "sha256": "eaf454422144f014db19487e5a4c9bc6f9103dacce767a8c6ea2346fe8e31b98",
+      "git_blob_sha1": "40791070dd6d7542d6af1421ddf0875552f04328"
+    },
+    {
+      "path": "arbk_root/SCALAR_COVERAGE.md",
+      "bytes": 5941,
+      "sha256": "23bed7b073d90e0942085dae8ff187b9f240fe95a4c597121c83b28f8e53acbd",
+      "git_blob_sha1": "abf02671d783e2cce5220d41c531020f3c9a17b2"
+    },
+    {
+      "path": "arbk_root/audit_finite_mixed.py",
+      "bytes": 6322,
+      "sha256": "84a9e043c5e025910c45e33ebd1da95fddc6b726573348a1313ca2efba19524d",
+      "git_blob_sha1": "5a82f1ea67e17450b441dfec084d604f3f02440b"
+    },
+    {
+      "path": "arbk_root/finite_mixed_independent_results.json",
+      "bytes": 10235,
+      "sha256": "3eb13e702382e194ad58f525edbba93ad509fc1b4a9f4626940250de04c090c5",
+      "git_blob_sha1": "65950dad6b6d94f6f4d638b5d7b972c967472b2b"
+    },
+    {
+      "path": "arbk_root/finite_ray_bridge_results.json",
+      "bytes": 443804,
+      "sha256": "7d0bac517e65de0cac0befac3ed56973b03c9c0ffbfe7e035c74159ccd6b700d",
+      "git_blob_sha1": "656be007992ff974c3c778da6eb1be70583d1cc9"
+    },
+    {
+      "path": "arbk_root/scalar_closure_results.json",
+      "bytes": 615543,
+      "sha256": "9f5faa139284d70022dcd2fcb9418362309a1e3fbc2c98794ceee6367695ec42",
+      "git_blob_sha1": "b7df4b48bb23baded86d9dedefcc9cae8d4549f9"
+    },
+    {
+      "path": "arbk_root/verify_finite_ray_bridge.py",
+      "bytes": 6377,
+      "sha256": "02149cc3b03c607507e6796a07093c7f50df564019d0fcf8c83be32b65614b0d",
+      "git_blob_sha1": "561ccb97dbfc9a9df6bb8e35996bd4492740854e"
+    },
+    {
+      "path": "arbk_root/verify_scalar_closure.py",
+      "bytes": 7026,
+      "sha256": "efb0f9065b094208bfbafd3ef2de1f9e5da1b19bcc167ed71d6c0621521fd671",
+      "git_blob_sha1": "4066a634374a5e70bfa79a1563265c6706f4803f"
+    },
+    {
+      "path": "arbk_seed/ALL_K_SEED_THEOREM.md",
+      "bytes": 8434,
+      "sha256": "b0c40ec6b4baf599cc63a1768b90749ecd26e9e08c6a9fafc4fc7f2c18ee4b3c",
+      "git_blob_sha1": "fa3d9b156674eb484fc3f107105f2c74846d4f39"
+    },
+    {
+      "path": "arbk_seed/AUDIT_NORMALIZED_BLOCKS.md",
+      "bytes": 4746,
+      "sha256": "240e2e42787a07b588e9a2408accc6c766ca70f76a1ce5d019a9dbc7842ef6d1",
+      "git_blob_sha1": "26c59a78c7875b8beab4eebcb80fc738033a85e0"
+    },
+    {
+      "path": "arbk_seed/OLD_SINGLE_NORMALIZED_BOUND.md",
+      "bytes": 4719,
+      "sha256": "4ab3b9435b8b0af565a71fbe78cbefdbe5337b7972000e48527d2ca246c718aa",
+      "git_blob_sha1": "15d7223d9c4893c05722eaffbfc0114510c78f1a"
+    },
+    {
+      "path": "arbk_seed/audit_normalized_blocks.py",
+      "bytes": 8441,
+      "sha256": "a35912367affd56ba70ef8b540e2ca3c8380865a80468c2b32272e72ab2df078",
+      "git_blob_sha1": "41d19bf987b233443f9daf2b7fdb7ce6ac6914d5"
+    },
+    {
+      "path": "arbk_seed/laurent_arithmetic.py",
+      "bytes": 1487,
+      "sha256": "d31322eff4449dd9a5076c685f608e6389c038e4e7fa041966ab56ccf088fe1d",
+      "git_blob_sha1": "d35b04d06e18b17583a9f4b9b98acb6417bac250"
+    },
+    {
+      "path": "arbk_seed/normalized_blocks_independent_audit.json",
+      "bytes": 24349,
+      "sha256": "d8c3c7cc5818fc0983ce87df8bc7e642694b2b47cfa69f5c4ddbc010749cfa87",
+      "git_blob_sha1": "d1a436bdaa37f3d8de4bafb6b5e4002347c85e01"
+    },
+    {
+      "path": "arbk_seed/old_normalized_constants.json",
+      "bytes": 286464,
+      "sha256": "42db87a511ea22b2b9ac188b388eb3e6f14523276bcd04d0f3b79d5fdf3dbfa7",
+      "git_blob_sha1": "9133f314b213244159e91d0efc52f2dfd97e56e7"
+    },
+    {
+      "path": "arbk_seed/ordinary_arithmetic.py",
+      "bytes": 1764,
+      "sha256": "a7e2a5c553e8bcdd6820b3c13dbc426570b280c12d3c08848e3f82dd88acdef0",
+      "git_blob_sha1": "5a483375ff95c30b30cb0edbb9d223de263ad374"
+    },
+    {
+      "path": "arbk_seed/seed_subtraction_certificates.json.gz",
+      "bytes": 1575467,
+      "sha256": "f53d2a52a7d83a6db7a9311d56aa2963868f01283b2d177ca75a5ded8d200546",
+      "git_blob_sha1": "52c99146d09623407644ecbbfcec7263ba7f7081"
+    },
+    {
+      "path": "arbk_seed/verify_old_normalized_constants.py",
+      "bytes": 4805,
+      "sha256": "3c468cbf7e5af148b4eee69481b2fce8d93e699941d5975004d8ae8f7f91d1e5",
+      "git_blob_sha1": "1706c5d0c38e743d4b671c43720fccbfc4527b89"
+    },
+    {
+      "path": "arbk_seed/verify_seed_subtraction.py",
+      "bytes": 3920,
+      "sha256": "ce051931b6666ab3784f0778578fedb6c19710755c10b9f98e7370c4a8c2d277",
+      "git_blob_sha1": "17fc703fa8c9a6e3e7ac0393382fda1f1cbbd803"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 6215,
+      "sha256": "26eae8a8cfad169a67ddf6b8a5827200b8cc92a0c820a6bdb9c21b81d9a8ac35",
+      "git_blob_sha1": "4d99e7e8cd23c499ce49ddf6ee425d58247ced6a"
+    }
+  ],
+  "file_count": 45,
+  "total_fixed_bytes": 12312559
+}

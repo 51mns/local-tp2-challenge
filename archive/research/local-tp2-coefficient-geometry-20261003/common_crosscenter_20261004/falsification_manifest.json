@@ -1,0 +1,58 @@
+{
+  "status": "FROZEN EXACT TARGETED RESULTS; NO FULL CLOSURE CLAIM",
+  "owned_files": [
+    {
+      "file": "falsification_crosscenter.md",
+      "bytes": 10167,
+      "sha256": "e71bd71fb822e8e3c96d007eedb7a9e42f4e5c01eef9300ee22f0694bf0ae91d"
+    },
+    {
+      "file": "falsification_crosscenter.py",
+      "bytes": 8924,
+      "sha256": "1fe5bf1774c2789a6abd6cf3222ad53fa1262a3bc464c2599eb0a5ff25400b2c"
+    },
+    {
+      "file": "falsification_crosscenter_results.json",
+      "bytes": 5093,
+      "sha256": "604fc14a86d46b8fedec9e0fb9a9a5a90952d230fd363e76d16036ce4b38de16"
+    },
+    {
+      "file": "falsification_spectral_audit.md",
+      "bytes": 2079,
+      "sha256": "921b3ab71757344ed1d3db9cdb92f4f5e4da01e71bbc6b9003034cccb460bffc"
+    },
+    {
+      "file": "falsification_spectral_audit.py",
+      "bytes": 1881,
+      "sha256": "1653ae926b5daddad273b43f642fb354f6a8d91a2bab7913486dac984b179538"
+    },
+    {
+      "file": "falsification_spectral_audit_results.json",
+      "bytes": 696,
+      "sha256": "2371256c446cb10d0bab1cebfb32ecf18a1e29dd9006bc94a6eb710201192026"
+    }
+  ],
+  "readonly_sources": [
+    {
+      "file": "common_crosscenter_20261004/packet_spectral.md",
+      "sha256": "b56254f419556bd88435bca6def12079d345aba226203ade91e7e8faae1adb8e"
+    },
+    {
+      "file": "common_crosscenter_20261004/packet_spectral_verify.py",
+      "sha256": "996d5a78eab2657bb3d82b87a269b0e8d3d2adb79eddc71ab9f0515bcb9ae7f5"
+    },
+    {
+      "file": "common_crosscenter_20261004/packet_spectral_results.json",
+      "sha256": "f1bde6c1d75c0362205b308200c098299c4caf91b4f0c89243a4c6dbb556f51c"
+    },
+    {
+      "file": "common_transport_20261004/adversarial_probe.py",
+      "sha256": "bb9d4f343f16b5a7403c75f28b31f8c0ff46e07b941548521719b3290bc5d35e"
+    }
+  ],
+  "verification": [
+    "python falsification_crosscenter.py: PASS",
+    "python falsification_spectral_audit.py: PASS"
+  ],
+  "scope_qualification": "Relaxed packet witnesses are not canonical. Canonical source failures refute sourcewise positivity, not actual child packet. No GitHub writes."
+}

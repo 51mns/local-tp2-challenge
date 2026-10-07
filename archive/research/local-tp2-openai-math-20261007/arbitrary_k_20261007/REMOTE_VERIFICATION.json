@@ -1,0 +1,418 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-07 10:23:13 UTC",
+  "repository": "51mns/AIMath",
+  "branch": "research/local-tp2-openai-math-20261007",
+  "reviewed_writer_commit": "5295d7123b9e53e7759c027226386a718bc240ee",
+  "reviewed_writer_tree": "90e3973e5f9d7174d7b137b1236694add83f6066",
+  "parent_commit": "f1bf528c9064e11f79795a581b6a4bc15f0efbe1",
+  "verification": "Every saved proof-package file and the three updated parent index/replay files was read back from the private GitHub commit. All Git blob SHAs and byte sizes agree with the locally audited and reproduced artifacts.",
+  "file_count": 50,
+  "total_verified_bytes": 12364047,
+  "all_matches": true,
+  "replay": "The included REPLAY_RESULT.json records a clean temporary-directory replay: 12 programs passed; all 12 regenerated exact result JSON byte hashes match.",
+  "status_scope": "PROVED_INTERNAL on every L^m R^k L^ell, m,k,ell>=0. Full canonical-tree Local TP2 remains open. Shared-session independent implementations and mathematical audits; no external replication, formal verification, novelty claim, or canonical promotion.",
+  "exclusion": "This supplemental remote-verification record is added after the reviewed writer snapshot and is not itself in the preceding snapshot's file list or fixed mathematical-input manifest.",
+  "files": [
+    {
+      "path": "research/local-tp2-openai-math-20261007/README.md",
+      "expected_git_blob_sha1": "5bfbe4e958a87ea9512e591b4aa2c1a54ad4e35e",
+      "remote_git_blob_sha1": "5bfbe4e958a87ea9512e591b4aa2c1a54ad4e35e",
+      "expected_bytes": 5464,
+      "remote_bytes": 5464,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/SHA256SUMS.txt",
+      "expected_git_blob_sha1": "9ecea21715d7e9587d2b21f7a62251cc629a5892",
+      "remote_git_blob_sha1": "9ecea21715d7e9587d2b21f7a62251cc629a5892",
+      "expected_bytes": 1108,
+      "remote_bytes": 1108,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/COMPRESSED_CERTIFICATES.json",
+      "expected_git_blob_sha1": "7cbcbefd9b3ea2f15938dcb72e798be85724e947",
+      "remote_git_blob_sha1": "7cbcbefd9b3ea2f15938dcb72e798be85724e947",
+      "expected_bytes": 1332,
+      "remote_bytes": 1332,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/DEPENDENCIES.md",
+      "expected_git_blob_sha1": "8817fae93680ce5979d99bcc73c408aa4cbebbb3",
+      "remote_git_blob_sha1": "8817fae93680ce5979d99bcc73c408aa4cbebbb3",
+      "expected_bytes": 4292,
+      "remote_bytes": 4292,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/README.md",
+      "expected_git_blob_sha1": "d7ae8a0635e376fc3501736a34f1a05938f045ae",
+      "remote_git_blob_sha1": "d7ae8a0635e376fc3501736a34f1a05938f045ae",
+      "expected_bytes": 4213,
+      "remote_bytes": 4213,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/RESULT_JA.md",
+      "expected_git_blob_sha1": "4549e298241e199315c169f5804fd7c95c608891",
+      "remote_git_blob_sha1": "4549e298241e199315c169f5804fd7c95c608891",
+      "expected_bytes": 9234,
+      "remote_bytes": 9234,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/RUN_CONTEXT.json",
+      "expected_git_blob_sha1": "6863d7a1812d42c7fe48a9966e96bb8e5c2372e8",
+      "remote_git_blob_sha1": "6863d7a1812d42c7fe48a9966e96bb8e5c2372e8",
+      "expected_bytes": 1722,
+      "remote_bytes": 1722,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_audit/ARBITRARY_K_POSITIVE_SEEDS_AND_MASS.md",
+      "expected_git_blob_sha1": "42fa4ca12cc81c33956d9831bdab57bedd627fba",
+      "remote_git_blob_sha1": "42fa4ca12cc81c33956d9831bdab57bedd627fba",
+      "expected_bytes": 5372,
+      "remote_bytes": 5372,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_audit/GENERIC_CLOSURE_AND_SCALAR_AUDIT.md",
+      "expected_git_blob_sha1": "f24660abae6c5036a11e3d02f9852cac7bda4a96",
+      "remote_git_blob_sha1": "f24660abae6c5036a11e3d02f9852cac7bda4a96",
+      "expected_bytes": 9490,
+      "remote_bytes": 9490,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_audit/MIDPOINT_SUBTRACTION_AUDIT.md",
+      "expected_git_blob_sha1": "15e39e98444a1ad614b04b0e69a027665b70b9d9",
+      "remote_git_blob_sha1": "15e39e98444a1ad614b04b0e69a027665b70b9d9",
+      "expected_bytes": 3129,
+      "remote_bytes": 3129,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_audit/NORMALIZED_ALL_MINOR_AUDIT.md",
+      "expected_git_blob_sha1": "a2c6bda416125d730adc88e711968e0ace6e3f83",
+      "remote_git_blob_sha1": "a2c6bda416125d730adc88e711968e0ace6e3f83",
+      "expected_bytes": 4866,
+      "remote_bytes": 4866,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_audit/audit_scalar_closure.py",
+      "expected_git_blob_sha1": "ff9bd664b0babaa1a568677626c5c8beee9e6e0d",
+      "remote_git_blob_sha1": "ff9bd664b0babaa1a568677626c5c8beee9e6e0d",
+      "expected_bytes": 6237,
+      "remote_bytes": 6237,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_audit/finite_ray_bridge_independent_results.json",
+      "expected_git_blob_sha1": "b02fdaeca72733a50c136ce02666f5545b74232b",
+      "remote_git_blob_sha1": "b02fdaeca72733a50c136ce02666f5545b74232b",
+      "expected_bytes": 462521,
+      "remote_bytes": 462521,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_audit/scalar_closure_independent_results.json",
+      "expected_git_blob_sha1": "7c5386f631c5f690b5768ec15bf58c9cc5d1f981",
+      "remote_git_blob_sha1": "7c5386f631c5f690b5768ec15bf58c9cc5d1f981",
+      "expected_bytes": 565153,
+      "remote_bytes": 565153,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/FINITE_MIXED_KERNELS.md",
+      "expected_git_blob_sha1": "f0a079929e7e15436c2ae160166b38b1de8f5888",
+      "remote_git_blob_sha1": "f0a079929e7e15436c2ae160166b38b1de8f5888",
+      "expected_bytes": 3480,
+      "remote_bytes": 3480,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/NORMALIZED_BLOCKS.md",
+      "expected_git_blob_sha1": "7a03e0d3fe8b8434e1200fe0d050cc51c8ebf818",
+      "remote_git_blob_sha1": "7a03e0d3fe8b8434e1200fe0d050cc51c8ebf818",
+      "expected_bytes": 6561,
+      "remote_bytes": 6561,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/SEED_BOUNDS_INDEPENDENT_AUDIT.md",
+      "expected_git_blob_sha1": "c0585a4fbea552ab475e75711867179e370a06cb",
+      "remote_git_blob_sha1": "c0585a4fbea552ab475e75711867179e370a06cb",
+      "expected_bytes": 3137,
+      "remote_bytes": 3137,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/audit_seed_bounds.py",
+      "expected_git_blob_sha1": "09a6bc05492089a7e55cb6c4790c91c065e4f8db",
+      "remote_git_blob_sha1": "09a6bc05492089a7e55cb6c4790c91c065e4f8db",
+      "expected_bytes": 5272,
+      "remote_bytes": 5272,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/finite_m_normalized_blocks.py",
+      "expected_git_blob_sha1": "5d3f729aa316cadf56d91bae2c084af90ccc9327",
+      "remote_git_blob_sha1": "5d3f729aa316cadf56d91bae2c084af90ccc9327",
+      "expected_bytes": 6304,
+      "remote_bytes": 6304,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/finite_m_normalized_blocks_results.json.gz",
+      "expected_git_blob_sha1": "306e50ac5cd27a9dcf41b434e9f0c789fc5f03b5",
+      "remote_git_blob_sha1": "306e50ac5cd27a9dcf41b434e9f0c789fc5f03b5",
+      "expected_bytes": 3249718,
+      "remote_bytes": 3249718,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/finite_mixed_kernels.py",
+      "expected_git_blob_sha1": "ec066ea96fd2e92cedeb9f669a6a73524e34d9f8",
+      "remote_git_blob_sha1": "ec066ea96fd2e92cedeb9f669a6a73524e34d9f8",
+      "expected_bytes": 6345,
+      "remote_bytes": 6345,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/finite_mixed_kernels_results.json.gz",
+      "expected_git_blob_sha1": "df07fb70379c514df77b83b3c95f5eb9fc63db61",
+      "remote_git_blob_sha1": "df07fb70379c514df77b83b3c95f5eb9fc63db61",
+      "expected_bytes": 4865107,
+      "remote_bytes": 4865107,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/m0_normalized_blocks.py",
+      "expected_git_blob_sha1": "83747e185fcd0cc2c740f6d952d2ade367847f74",
+      "remote_git_blob_sha1": "83747e185fcd0cc2c740f6d952d2ade367847f74",
+      "expected_bytes": 6047,
+      "remote_bytes": 6047,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/m0_normalized_blocks_results.json",
+      "expected_git_blob_sha1": "487afdc7a5e82dcdf6a52be26f96f365a01503ae",
+      "remote_git_blob_sha1": "487afdc7a5e82dcdf6a52be26f96f365a01503ae",
+      "expected_bytes": 29648,
+      "remote_bytes": 29648,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_mixed/seed_bounds_independent_audit.json",
+      "expected_git_blob_sha1": "926e8224b383ddc62473181d45eddbf3d5757d63",
+      "remote_git_blob_sha1": "926e8224b383ddc62473181d45eddbf3d5757d63",
+      "expected_bytes": 582,
+      "remote_bytes": 582,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_root/FINITE_MIXED_INDEPENDENT_AUDIT.md",
+      "expected_git_blob_sha1": "c65f091168b3f9ad1d4bf51b88bf71ea9443f9b8",
+      "remote_git_blob_sha1": "c65f091168b3f9ad1d4bf51b88bf71ea9443f9b8",
+      "expected_bytes": 2215,
+      "remote_bytes": 2215,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_root/GENERIC_ARBITRARY_K_CLOSURE.md",
+      "expected_git_blob_sha1": "40791070dd6d7542d6af1421ddf0875552f04328",
+      "remote_git_blob_sha1": "40791070dd6d7542d6af1421ddf0875552f04328",
+      "expected_bytes": 17910,
+      "remote_bytes": 17910,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_root/SCALAR_COVERAGE.md",
+      "expected_git_blob_sha1": "abf02671d783e2cce5220d41c531020f3c9a17b2",
+      "remote_git_blob_sha1": "abf02671d783e2cce5220d41c531020f3c9a17b2",
+      "expected_bytes": 5941,
+      "remote_bytes": 5941,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_root/audit_finite_mixed.py",
+      "expected_git_blob_sha1": "5a82f1ea67e17450b441dfec084d604f3f02440b",
+      "remote_git_blob_sha1": "5a82f1ea67e17450b441dfec084d604f3f02440b",
+      "expected_bytes": 6322,
+      "remote_bytes": 6322,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_root/finite_mixed_independent_results.json",
+      "expected_git_blob_sha1": "65950dad6b6d94f6f4d638b5d7b972c967472b2b",
+      "remote_git_blob_sha1": "65950dad6b6d94f6f4d638b5d7b972c967472b2b",
+      "expected_bytes": 10235,
+      "remote_bytes": 10235,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_root/finite_ray_bridge_results.json",
+      "expected_git_blob_sha1": "656be007992ff974c3c778da6eb1be70583d1cc9",
+      "remote_git_blob_sha1": "656be007992ff974c3c778da6eb1be70583d1cc9",
+      "expected_bytes": 443804,
+      "remote_bytes": 443804,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_root/scalar_closure_results.json",
+      "expected_git_blob_sha1": "b7df4b48bb23baded86d9dedefcc9cae8d4549f9",
+      "remote_git_blob_sha1": "b7df4b48bb23baded86d9dedefcc9cae8d4549f9",
+      "expected_bytes": 615543,
+      "remote_bytes": 615543,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_root/verify_finite_ray_bridge.py",
+      "expected_git_blob_sha1": "561ccb97dbfc9a9df6bb8e35996bd4492740854e",
+      "remote_git_blob_sha1": "561ccb97dbfc9a9df6bb8e35996bd4492740854e",
+      "expected_bytes": 6377,
+      "remote_bytes": 6377,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_root/verify_scalar_closure.py",
+      "expected_git_blob_sha1": "4066a634374a5e70bfa79a1563265c6706f4803f",
+      "remote_git_blob_sha1": "4066a634374a5e70bfa79a1563265c6706f4803f",
+      "expected_bytes": 7026,
+      "remote_bytes": 7026,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/ALL_K_SEED_THEOREM.md",
+      "expected_git_blob_sha1": "fa3d9b156674eb484fc3f107105f2c74846d4f39",
+      "remote_git_blob_sha1": "fa3d9b156674eb484fc3f107105f2c74846d4f39",
+      "expected_bytes": 8434,
+      "remote_bytes": 8434,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/AUDIT_NORMALIZED_BLOCKS.md",
+      "expected_git_blob_sha1": "26c59a78c7875b8beab4eebcb80fc738033a85e0",
+      "remote_git_blob_sha1": "26c59a78c7875b8beab4eebcb80fc738033a85e0",
+      "expected_bytes": 4746,
+      "remote_bytes": 4746,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/OLD_SINGLE_NORMALIZED_BOUND.md",
+      "expected_git_blob_sha1": "15d7223d9c4893c05722eaffbfc0114510c78f1a",
+      "remote_git_blob_sha1": "15d7223d9c4893c05722eaffbfc0114510c78f1a",
+      "expected_bytes": 4719,
+      "remote_bytes": 4719,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/audit_normalized_blocks.py",
+      "expected_git_blob_sha1": "41d19bf987b233443f9daf2b7fdb7ce6ac6914d5",
+      "remote_git_blob_sha1": "41d19bf987b233443f9daf2b7fdb7ce6ac6914d5",
+      "expected_bytes": 8441,
+      "remote_bytes": 8441,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/laurent_arithmetic.py",
+      "expected_git_blob_sha1": "d35b04d06e18b17583a9f4b9b98acb6417bac250",
+      "remote_git_blob_sha1": "d35b04d06e18b17583a9f4b9b98acb6417bac250",
+      "expected_bytes": 1487,
+      "remote_bytes": 1487,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/normalized_blocks_independent_audit.json",
+      "expected_git_blob_sha1": "d1a436bdaa37f3d8de4bafb6b5e4002347c85e01",
+      "remote_git_blob_sha1": "d1a436bdaa37f3d8de4bafb6b5e4002347c85e01",
+      "expected_bytes": 24349,
+      "remote_bytes": 24349,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/old_normalized_constants.json",
+      "expected_git_blob_sha1": "9133f314b213244159e91d0efc52f2dfd97e56e7",
+      "remote_git_blob_sha1": "9133f314b213244159e91d0efc52f2dfd97e56e7",
+      "expected_bytes": 286464,
+      "remote_bytes": 286464,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/ordinary_arithmetic.py",
+      "expected_git_blob_sha1": "5a483375ff95c30b30cb0edbb9d223de263ad374",
+      "remote_git_blob_sha1": "5a483375ff95c30b30cb0edbb9d223de263ad374",
+      "expected_bytes": 1764,
+      "remote_bytes": 1764,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/seed_subtraction_certificates.json.gz",
+      "expected_git_blob_sha1": "52c99146d09623407644ecbbfcec7263ba7f7081",
+      "remote_git_blob_sha1": "52c99146d09623407644ecbbfcec7263ba7f7081",
+      "expected_bytes": 1575467,
+      "remote_bytes": 1575467,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/verify_old_normalized_constants.py",
+      "expected_git_blob_sha1": "1706c5d0c38e743d4b671c43720fccbfc4527b89",
+      "remote_git_blob_sha1": "1706c5d0c38e743d4b671c43720fccbfc4527b89",
+      "expected_bytes": 4805,
+      "remote_bytes": 4805,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_seed/verify_seed_subtraction.py",
+      "expected_git_blob_sha1": "17fc703fa8c9a6e3e7ac0393382fda1f1cbbd803",
+      "remote_git_blob_sha1": "17fc703fa8c9a6e3e7ac0393382fda1f1cbbd803",
+      "expected_bytes": 3920,
+      "remote_bytes": 3920,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/reproduce.py",
+      "expected_git_blob_sha1": "4d99e7e8cd23c499ce49ddf6ee425d58247ced6a",
+      "remote_git_blob_sha1": "4d99e7e8cd23c499ce49ddf6ee425d58247ced6a",
+      "expected_bytes": 6215,
+      "remote_bytes": 6215,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/replay_results.json",
+      "expected_git_blob_sha1": "3c826c809849320882ef877de0f23f0ef57af7c4",
+      "remote_git_blob_sha1": "3c826c809849320882ef877de0f23f0ef57af7c4",
+      "expected_bytes": 4406,
+      "remote_bytes": 4406,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/arbk_audit/audit_finite_ray_bridge.py",
+      "expected_git_blob_sha1": "9f1c3c2186a5e17ebabc9f4ef77b98622c7a2e43",
+      "remote_git_blob_sha1": "9f1c3c2186a5e17ebabc9f4ef77b98622c7a2e43",
+      "expected_bytes": 6613,
+      "remote_bytes": 6613,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/FILE_MANIFEST.json",
+      "expected_git_blob_sha1": "ecc6a63fcbcb73489c5bde8a7c2afff73f654f31",
+      "remote_git_blob_sha1": "ecc6a63fcbcb73489c5bde8a7c2afff73f654f31",
+      "expected_bytes": 11012,
+      "remote_bytes": 11012,
+      "matches": true
+    },
+    {
+      "path": "research/local-tp2-openai-math-20261007/arbitrary_k_20261007/REPLAY_RESULT.json",
+      "expected_git_blob_sha1": "ff718d10666b6972baae0c6c0a4ffc74231ef5d2",
+      "remote_git_blob_sha1": "ff718d10666b6972baae0c6c0a4ffc74231ef5d2",
+      "expected_bytes": 29498,
+      "remote_bytes": 29498,
+      "matches": true
+    }
+  ]
+}

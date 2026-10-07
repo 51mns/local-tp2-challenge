@@ -1,0 +1,190 @@
+{
+  "status": "PASS targeted exact replay; analytical scope PARTIAL",
+  "state_checks": [
+    {
+      "sigma": 0,
+      "actual_mutation_tuple": true
+    },
+    {
+      "sigma": 1,
+      "actual_mutation_tuple": true
+    }
+  ],
+  "root_yC_halfrow": [
+    21,
+    17,
+    8,
+    2
+  ],
+  "root_trace_minus_2_halfrow": [
+    61,
+    50,
+    24,
+    6
+  ],
+  "root_trace_central_defect": 185,
+  "y_squared_halfrow": [
+    3,
+    2,
+    1
+  ],
+  "y_squared_defects": [
+    4,
+    0,
+    1
+  ],
+  "central_polarization_identity": true,
+  "trace_square_central_identity": true,
+  "trace_line_central_identity": true,
+  "trace_delta1_shift_identity": true,
+  "root_central_strength_SOS_identity": true,
+  "root_weaker_comparison_Q_D": [
+    126,
+    228,
+    100,
+    24
+  ],
+  "optional_anchored_margin": "555/61",
+  "packet_algebra_factor_formal_identity": true,
+  "packet_algebra_copositivity_Bernstein_identity": true,
+  "spectral_beta_tensor_exact": true,
+  "packet_algebra_flux_fixed_normalizations": [
+    {
+      "sigma": 0,
+      "orientation": "reverse",
+      "mode": "raw",
+      "character": [
+        9,
+        9
+      ],
+      "coefficient": "-1152"
+    },
+    {
+      "sigma": 0,
+      "orientation": "reverse",
+      "mode": "y",
+      "character": [
+        10,
+        10
+      ],
+      "coefficient": "-2304"
+    },
+    {
+      "sigma": 0,
+      "orientation": "forward",
+      "mode": "raw",
+      "character": [
+        11,
+        11
+      ],
+      "coefficient": "-130176"
+    },
+    {
+      "sigma": 0,
+      "orientation": "forward",
+      "mode": "y",
+      "character": [
+        12,
+        12
+      ],
+      "coefficient": "-332928"
+    },
+    {
+      "sigma": 1,
+      "orientation": "reverse",
+      "mode": "raw",
+      "character": [
+        11,
+        11
+      ],
+      "coefficient": "-1944"
+    },
+    {
+      "sigma": 1,
+      "orientation": "reverse",
+      "mode": "y",
+      "character": [
+        12,
+        12
+      ],
+      "coefficient": "-4536"
+    },
+    {
+      "sigma": 1,
+      "orientation": "forward",
+      "mode": "raw",
+      "character": [
+        15,
+        15
+      ],
+      "coefficient": "-12824568"
+    },
+    {
+      "sigma": 1,
+      "orientation": "forward",
+      "mode": "y",
+      "character": [
+        16,
+        16
+      ],
+      "coefficient": "-34682904"
+    }
+  ],
+  "canonical_anchor_off_Fricke_identity": true,
+  "canonical_Fourier_surplus_identity": true,
+  "spectral_relaxed_complete_certificates": [
+    {
+      "mode": "raw",
+      "degree": 6,
+      "character_terms": 49,
+      "minimum_defect": "2899/1000000"
+    },
+    {
+      "mode": "y",
+      "degree": 7,
+      "character_terms": 64,
+      "minimum_defect": "1491/200000"
+    },
+    {
+      "mode": "beta",
+      "degree": 8,
+      "character_terms": 81,
+      "minimum_defect": "1756647/500000"
+    }
+  ],
+  "spectral_relaxed_border_failure": "-29300421/500000",
+  "proxy_frozen_source_normalizations": [
+    {
+      "endpoint": "one",
+      "adjacent_minors": [
+        30,
+        -12,
+        6
+      ]
+    },
+    {
+      "endpoint": "P",
+      "adjacent_minors": [
+        72,
+        81,
+        45,
+        9
+      ]
+    }
+  ],
+  "continuum_and_all_index_proofs": "analytical note, not finite checks",
+  "remaining": [
+    "child Tprime+2 trace defects inside the fixed origin anchor band",
+    "reverse raw/y low-prefix copositivity and forward all-r strict singles",
+    "sharp mixed interior character layers raw/y both orientations over full square",
+    "regular-child Qprime<Dprime, or original proxy as optional stronger route"
+  ],
+  "remaining_closure_types": 2,
+  "ROOT": "PASS inherited continuous full packet and stronger proxy bases",
+  "BOTH": "PARTIAL; algebra/LR/origins and audited subgates PASS, two closure types OPEN",
+  "TARGET": "PASS conditional on complete P_D, proved directly; full-tree closure OPEN",
+  "note_sha256": "fec81b57a48937e1b2911fb3e160be86fdcf816654b161a6a6b90025388d56ba",
+  "gate_reduction_note_sha256": "03f23e67cd178761286e095d4f991a106c0169bfcaf4c88143696fc9232ddcd2",
+  "review_note_sha256": "2ced71aa2bb8a2b707222ddb6adbfab4cbf8e384dcc4d6b1a24af61c6f176981",
+  "frozen_primary_source_files_verified": 18
+}

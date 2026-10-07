@@ -1,0 +1,26 @@
+{
+  "source_campaign_date": "2026-10-07",
+  "status": "NO_COUNTEREXAMPLE_IN_STATED_FINITE_SEARCH",
+  "primary_level": "COMPUTATIONAL_EVIDENCE",
+  "full_tree_status": "OPEN; neither proved nor refuted",
+  "unique_states": 16677,
+  "unique_supported_minors": 10176120,
+  "exhaustive_max_depth": 13,
+  "max_selected_depth": 1024,
+  "max_degree_D": 8202,
+  "max_direction_changes": 13,
+  "all_observed_minima_are_central": true,
+  "ordinary_reference_complete_states": 518,
+  "ordinary_reference_complete_minors": 51126,
+  "ordinary_reference_additional_central_minors": 1,
+  "independence": "Different algorithms by the same model; no external or blind review",
+  "minimum_relative_margin": {
+    "word_run_notation": "RL^5R^160L",
+    "index": 0,
+    "degree_S": 8185,
+    "degree_D": 8202,
+    "decimal_display": "2.12051422974031149229465e-7"
+  },
+  "combined_state_fingerprint": "e3369667ed6286262beea8660c5613c4505c43667f1451ceba41399abfba327b",
+  "scope_warning": "Historical supplied report; not rerun in full in this public packaging. Only depth 13 was exhaustive. Neither central minimality nor a limit sign is proved."
+}

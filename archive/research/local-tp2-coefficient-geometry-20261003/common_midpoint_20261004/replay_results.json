@@ -1,0 +1,81 @@
+{
+  "status": "PASS_EXACT_REPLAY_AND_FROZEN_HASHES",
+  "replays": [
+    {
+      "script": "network_relative_character.py",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs_sha256": {
+        "network_relative_character_results.json": "e752d81349be0d26df48cc5a80ae99db28c686ea57c8eecc0292eef8691875e8"
+      }
+    },
+    {
+      "script": "packet_transport_subgate_verify.py",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs_sha256": {
+        "packet_transport_subgate_results.json": "c39b38a0a17f29cbe43ab5dcfd132f31509556606e542f3a2344bcaf9d5f9a60"
+      }
+    },
+    {
+      "script": "proxy_robin_verify.py",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs_sha256": {
+        "proxy_robin_results.json": "5de60191fbfe244f6d627f9dd6e0aa020e1b26e83a72dbba6ece5ad11159fee6"
+      }
+    },
+    {
+      "script": "root_boundary_q_verify.py",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs_sha256": {
+        "root_boundary_q_results.json": "2095826236daab598d0060a854a7075687cf1a083cc0beebad3e109e350947bb"
+      }
+    },
+    {
+      "script": "quantitative_midpoint_bernstein.py",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs_sha256": {
+        "quantitative_midpoint_bernstein_results.json": "955f7a226aad769794bc7d73b97172400db75635a640462d742ea9f8ab003c7b",
+        "quantitative_midpoint_bernstein_full.json.gz": "f15175c91b32e83cd306f6382a07efeab4bb3c457bf9c9c4893894a2edeb89cc"
+      }
+    },
+    {
+      "script": "audit_boundary_q_verify.py",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs_sha256": {
+        "audit_boundary_q_results.json": "a61736ec2b80846e68f5fdc53aac124a44c67a528a47800488c82482ea236484"
+      }
+    },
+    {
+      "script": "audit_midpoint_base_verify.py",
+      "exit_code": 0,
+      "outputs_identical": true,
+      "outputs_sha256": {
+        "audit_midpoint_base_results.json": "b935650cd896091f5a6131395c7a182888073df8706a66bef36fd12433550873"
+      }
+    }
+  ],
+  "lane_manifests_verified": 4,
+  "archive_payloads_verified": 2,
+  "falsification_scan": "Frozen 1584 cases integrity checked; no new search or replay.",
+  "independent_base_counts": {
+    "relative_Bernstein": 30348,
+    "pure_character": 17607,
+    "strict_L_H": 1512,
+    "strict_trace": 45
+  },
+  "independent_boundary_counts": {
+    "defects": 22,
+    "Bernstein": 1813
+  },
+  "scope": "Reproducibility of finite exact certificates and formal identities; universal conclusions additionally require the audited analytic proofs.",
+  "remaining_regular_gates": [
+    "BOTH changed-center paired MP_sharp",
+    "BOTH strict proxy overlap"
+  ],
+  "full_tree_Local_TP2": "OPEN"
+}

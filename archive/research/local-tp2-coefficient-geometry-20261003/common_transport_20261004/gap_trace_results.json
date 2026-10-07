@@ -1,0 +1,19 @@
+{
+  "scope": "Formal algebra validation only; all inequalities and Robin bounds are analytic.",
+  "formal_checks": {
+    "central_5over2_coefficients": true,
+    "cubic_folded_relation": true,
+    "degree1_central_formula": true,
+    "low_degree_minima": true,
+    "seed_advance_identity": true
+  },
+  "exact_square_gaps": {
+    "central": 5029,
+    "positive_coefficient_numerator": 981
+  },
+  "excluded_constant_a1_central": "-37/4",
+  "constant_a2_central": "245/4",
+  "linear_A4_B2_central": "449/4",
+  "shared_arithmetic": "/workspace/scratch/bcb55137482a/AIMath-resume/AIMath-research/research/local-tp2-coefficient-geometry-20261003/common_closure_20261004/network_trace_audit.py",
+  "no_scans": true
+}

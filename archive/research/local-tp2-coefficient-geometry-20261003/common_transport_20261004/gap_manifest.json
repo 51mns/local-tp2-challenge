@@ -1,0 +1,12 @@
+{
+  "scope": "trace theorem/pure propagators plus actual curvature-boundary obstruction; no all-tree closure",
+  "files_sha256": {
+    "gap_shifted_trace.md": "dc8530d2f4ae7dcb2e9c08503794fdba08eacb166f72f2381b000d3b6d8260f9",
+    "gap_trace_reproducer.py": "1e6a69fd78b6ea9c2ad56fb1c54097a66a91b1b486bacad178fc10245211a896",
+    "gap_trace_results.json": "5ea0f756894b03cb885bb3f81cb51d9027ab4c5021b67b4254d29278576115ae",
+    "gap_curvature_boundary.md": "9aef8118dbd03a5992093dfe4bf7ddc2ebb0015260dd79677ef9dc6ea7c1b59c",
+    "gap_curvature_reproducer.py": "5c235376a0c1ef0815d5cc75eda4a03cecd183f8c404202302a5d3b038497eeb",
+    "gap_curvature_results.json": "784c9dca87b868cca288c69b2556550e498e4e8c1b30928684b371dce65b4c4f"
+  },
+  "frozen_after_independent_audit": true
+}

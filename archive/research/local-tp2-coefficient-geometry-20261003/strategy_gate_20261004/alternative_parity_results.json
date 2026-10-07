@@ -1,0 +1,214 @@
+{
+  "domain": {
+    "root": "canonical ROOT with original scalar mutation",
+    "relaxed": "not canonical; shape counterexample only"
+  },
+  "root": {
+    "f": [
+      8,
+      12,
+      4
+    ],
+    "g": [
+      24,
+      44,
+      28,
+      6
+    ],
+    "H_short": [
+      40,
+      32,
+      16,
+      4
+    ],
+    "H_long": [
+      204,
+      170,
+      96,
+      34,
+      6
+    ],
+    "central_target": 272,
+    "central_parts": {
+      "even_even": 128,
+      "odd_odd": 0,
+      "mixed": 144
+    },
+    "central_terms": [
+      {
+        "a": 0,
+        "b": 1,
+        "source_minor": 64,
+        "kernel_minor": -1,
+        "product": -64,
+        "sector": "mixed"
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "source_minor": 128,
+        "kernel_minor": 1,
+        "product": 128,
+        "sector": "even_even"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "source_minor": 48,
+        "kernel_minor": -3,
+        "product": -144,
+        "sector": "mixed"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "source_minor": 160,
+        "kernel_minor": 4,
+        "product": 640,
+        "sector": "mixed"
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "source_minor": 72,
+        "kernel_minor": 0,
+        "product": 0,
+        "sector": "odd_odd"
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "source_minor": 24,
+        "kernel_minor": -12,
+        "product": -288,
+        "sector": "mixed"
+      }
+    ],
+    "parity_source_minors": {
+      "0": [
+        {
+          "a": 0,
+          "b": 2,
+          "minor": 128
+        }
+      ],
+      "1": [
+        {
+          "a": 1,
+          "b": 3,
+          "minor": 72
+        }
+      ]
+    }
+  },
+  "relaxed_within_parity_counterexample": {
+    "f": [
+      5,
+      9,
+      4
+    ],
+    "g": [
+      27,
+      57,
+      38,
+      8
+    ],
+    "H_short": [
+      31,
+      26,
+      13,
+      4
+    ],
+    "H_long": [
+      265,
+      222,
+      127,
+      46,
+      8
+    ],
+    "central_target": -8,
+    "central_parts": {
+      "even_even": 82,
+      "odd_odd": 0,
+      "mixed": -90
+    },
+    "central_terms": [
+      {
+        "a": 0,
+        "b": 1,
+        "source_minor": 42,
+        "kernel_minor": -1,
+        "product": -42,
+        "sector": "mixed"
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "source_minor": 82,
+        "kernel_minor": 1,
+        "product": 82,
+        "sector": "even_even"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "source_minor": 40,
+        "kernel_minor": -3,
+        "product": -120,
+        "sector": "mixed"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "source_minor": 114,
+        "kernel_minor": 4,
+        "product": 456,
+        "sector": "mixed"
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "source_minor": 72,
+        "kernel_minor": 0,
+        "product": 0,
+        "sector": "odd_odd"
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "source_minor": 32,
+        "kernel_minor": -12,
+        "product": -384,
+        "sector": "mixed"
+      }
+    ],
+    "parity_source_minors": {
+      "0": [
+        {
+          "a": 0,
+          "b": 2,
+          "minor": 82
+        }
+      ],
+      "1": [
+        {
+          "a": 1,
+          "b": 3,
+          "minor": 72
+        }
+      ]
+    }
+  },
+  "mixed_kernel_witness": {
+    "degrees": [
+      0,
+      1
+    ],
+    "columns": [
+      0,
+      1
+    ],
+    "minor": -1
+  },
+  "universal_proof": "See alternative_parity_audit.md; not inferred from enumeration."
+}

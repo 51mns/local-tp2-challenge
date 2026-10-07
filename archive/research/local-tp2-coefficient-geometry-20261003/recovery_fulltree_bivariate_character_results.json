@@ -1,0 +1,55 @@
+{
+  "normalization_checks": 64,
+  "canonical_normalization_examples": [
+    {
+      "path": "",
+      "adjacent_minors": [
+        272,
+        352,
+        160,
+        24
+      ],
+      "character_terms": 16,
+      "negative_character_terms": 0,
+      "ordinary_bezoutian_negative_terms": 0
+    },
+    {
+      "path": "L",
+      "adjacent_minors": [
+        70840,
+        132944,
+        74520,
+        19024,
+        1632
+      ],
+      "character_terms": 34,
+      "negative_character_terms": 0,
+      "ordinary_bezoutian_negative_terms": 0
+    },
+    {
+      "path": "R",
+      "adjacent_minors": [
+        3034320,
+        5889604,
+        4023508,
+        1407664,
+        254928,
+        21528,
+        648
+      ],
+      "character_terms": 49,
+      "negative_character_terms": 0,
+      "ordinary_bezoutian_negative_terms": 0
+    }
+  ],
+  "positive_tensor_obstruction": {
+    "0,0": -1,
+    "0,2": 1,
+    "1,1": 1,
+    "2,0": 1
+  },
+  "divided_difference_diagonal_check": true,
+  "Catalan_projection_check": true,
+  "folded_cone_tensor_examples": 6,
+  "product_tensor_check": true
+}

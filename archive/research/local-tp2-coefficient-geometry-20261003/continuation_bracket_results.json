@@ -1,0 +1,21 @@
+{
+  "margin_polynomials_verified": 9,
+  "Bernstein_coefficients_verified": 609,
+  "n1_bracket_defects": [
+    "632",
+    "688",
+    "240",
+    "36"
+  ],
+  "exact_minima": {
+    "scaled_quartic_delta0_minus_mass": "4357/4",
+    "n_mod8_0_pull_quartic": "765891/16",
+    "n_mod8_1_pull_quartic": "29925279/32",
+    "n_mod8_2": "527/4",
+    "n_mod8_3": "4861/2",
+    "n_mod8_4": "48812",
+    "n_mod8_5": "2216235/2",
+    "n_mod8_6": "1341410683/64",
+    "n_mod8_7": "25791/8"
+  }
+}

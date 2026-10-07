@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "exact_engine": "independent sparse Fraction polynomial arithmetic",
+  "universal_checks": {
+    "quadratic_defect_pencil_identity": true,
+    "parameter_degree_at_most_two": true,
+    "constant_coefficient_is_strict_anchor_defect": true,
+    "delta_equals_consecutive_Delta_difference": true
+  },
+  "root_central_flags": {
+    "root_current_T_minus_2": {
+      "row": [
+        61,
+        50,
+        24,
+        6
+      ],
+      "delta0": 185
+    },
+    "root_ordinary_P_t_minus_2": {
+      "row": [
+        10,
+        8,
+        3
+      ],
+      "delta0": 2
+    }
+  },
+  "scope": "symbolic identities and ROOT flags; arbitrary-degree spectral/CB and continuum proof are analytic in audit_packet_weakening.md",
+  "remaining": [
+    "BOTH new paired W_0 packets",
+    "BOTH strict Q_child<D_child"
+  ],
+  "full_tree_strict_local_tp2": "OPEN"
+}

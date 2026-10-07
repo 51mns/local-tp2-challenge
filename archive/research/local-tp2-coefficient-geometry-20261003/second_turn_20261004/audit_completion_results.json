@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scope": "Analytic proof assembly, explicit inherited foundations, exact finite certificate coverage, and separately identified independent replays.",
+  "kernel_inner_interval": [
+    0,
+    409
+  ],
+  "kernel_records": 1640,
+  "kernel_margins_independently_matched": 14766150,
+  "proxy_inner_interval": [
+    0,
+    409
+  ],
+  "proxy_fixed_base_minors": 85895,
+  "proxy_central_interval_arrays": 820,
+  "proxy_small_outer_records_independently_matched": 5,
+  "proxy_independent_central_replay_scope": [
+    0,
+    409
+  ],
+  "proxy_central_coefficients_independently_matched": 2460,
+  "actual_identity_cases": 91,
+  "tail_start": 410,
+  "exact_scalar_gates": {
+    "kernel_epsilonH_below_one": true,
+    "kernel_EH_ge_12epsilonH": true,
+    "kernel_EL_ge_12epsilonL": true,
+    "kernel_double_ratio_increasing_from_start": true,
+    "kernel_single_ratio_increasing_from_start": true,
+    "kernel_strength_ge_8_smoothed_reference_mass": true,
+    "proxy_trace_mass_ge_4": true,
+    "proxy_gamma_above_12": true,
+    "proxy_scalar_at_start": true,
+    "proxy_scalar_propagates": true,
+    "proxy_smoothed_J_strength_ge_28": true,
+    "m0_outer_parity_N5": true,
+    "m0_outer_parity_N6": true,
+    "m1_outer_start_N4": true,
+    "m2_outer_start_N2": true
+  },
+  "fingerprints": {
+    "reduction_additional_turn.md": "f76c5aaa908b162ced9e30702e2b84dbf9e8375c443b140fce9a90e85bb8bacf",
+    "kernels_theorem.md": "92bcecb6bc9bd03ec3f914af5787b4b2896631d1abf493b2ebcb5c0767b99d47",
+    "proxy_mass_compare.md": "c4cb8c6f122204ebb1d593d44ce4985de35e5dc5ea34444e0d324c25c5e06d45",
+    "THEOREM.md": "d54447f359bdaea59e0177ea816a5761274d13527aff2de71831f6fddf16e4db",
+    "RESULT_JA.md": "ff1d86e316d71737df372464602c3adfad42b084002f3fedaa1f70b6495a4616",
+    "audit_final_report.md": "2a757d4351e93b41bc84b9e79261c6fb8e4f54b7340dd0078e1dab4be2d813b3",
+    "audit_frozen_algebra.md": "700964c48cae6bad31228e29440f4aa3d97dacd7b63e465dd6e58a53c2313330",
+    "audit_scaled_relative_minors.md": "4186c6f9b65b36e329c9fd54a27bfbed3e6eb97d5176880e3ef52b8148e72227",
+    "audit_identity_check.py": "39ac5f78f47b63be616070d0727166e5754e1873cb15a20dc425ac86fd8b48cd",
+    "audit_identity_results.json": "6f25e00077f19b26c1c34a1afc78950b73d412504066c4086908f78b34193a68",
+    "audit_completion_checks.py": "06a379d03cf579768e10eb5203b345869a5451eee1dc5d4feb6845c3d6287f9a",
+    "kernels_certificate_results.json": "217229b56cd5f11029f3eebd8c2df6d2e0955a7e12689f172281fe68750e5725",
+    "finite_audit_independent_results.json": "88bfa8cf48a918e1812e46d78852061ecf16a4205c3d04ca5d8ddac679fadd44",
+    "proxy_mass_results.json": "b6724aeb776a7a45c9682eea505463b36801a1c3f4b1d4ffb9f8c935519c75bf",
+    "falsification_proxy_audit_results.json": "db3f3a456bcf19b3348ac9202d3e6b566bd725e47b4cf40e1d8fc06dc91719df",
+    "falsification_proxy_full_audit_results.json": "53fbaa5e970e10c1302953e513ad7c66630798b46b8d5cfee7746261cfede089",
+    "falsification_proxy_full_audit.py": "650780d07e8d966913c2ec68c4c67424ebfff9f84131ddb041111d1d169dd5a6"
+  }
+}

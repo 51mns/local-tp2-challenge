@@ -1,0 +1,47 @@
+{
+  "status": "PASS_INDEPENDENT_FINITE_WITNESS_RECONSTRUCTION",
+  "short": {
+    "domain": "actual first-long parent",
+    "factor_central": -387,
+    "source_central": -2218228656,
+    "coupled_central": 343610114760,
+    "bridge_refuted": false
+  },
+  "parity": {
+    "domain": "actual root",
+    "source01": 64,
+    "kernel01": -1,
+    "contribution": -64,
+    "whole_target_central": 272,
+    "target_refuted": false
+  },
+  "packet": {
+    "domain": "actual first-short parent and its LONG child",
+    "actual_defect6": 227664,
+    "proposed_additive_budget": 229392,
+    "loss": -1728,
+    "individually_strict_sources": true,
+    "shift_independence": "delta_6 uses only rows 5 through 8",
+    "additive_budget_refuted": true,
+    "child_trace_refuted": false
+  },
+  "long": {
+    "domain": "relaxed noncanonical weak-chain lemma",
+    "all_stated_chain_and_cone_premises": true,
+    "child_adjacent_minors": [
+      "21904",
+      "34808",
+      "14932",
+      "1908",
+      "0",
+      "0",
+      "3/100"
+    ],
+    "canonical_low_M_central": -1074148800,
+    "canonical_subtraction_central": -49976016,
+    "strict_weak_chain_implication_refuted": true,
+    "canonical_P0_implication_refuted": false
+  },
+  "full_tree_Local_TP2": "OPEN",
+  "scope": "Finite exact witnesses only; no arbitrary-parent closure or novelty assertion."
+}

@@ -1,0 +1,4530 @@
+{
+  "scope": "Only frozen bounded scopes; no continuous-parameter or infinite-path inference",
+  "first_failures": {
+    "D_short_R32": {
+      "path": "ssssssssssssssssssssssssssss",
+      "index": 0,
+      "margin": {
+        "numerator": -22679955985200024987820827788504892142457773823,
+        "denominator": 16
+      },
+      "p": [
+        4052739537881,
+        111560745754781,
+        1470245577572784,
+        12355284021920556,
+        74396610099765632,
+        341969541998271488,
+        1248286854665171328,
+        3716686451438128320,
+        9200377873244378880,
+        19203762371094562560,
+        34159581545241518080,
+        52202998598191068160,
+        68960557063309090816,
+        79107568060740050944,
+        79062881393530994688,
+        68991946382849753088,
+        52623686454380986368,
+        35089710663178518528,
+        20437362046221156352,
+        10377643612467625984,
+        4580270918042910720,
+        1749548307861995520,
+        574974695456112640,
+        161308527044853760,
+        38233415425720320,
+        7550679895769088,
+        1219246726053888,
+        156759125655552,
+        15429133139968,
+        1091458564096,
+        49392123904,
+        1073741824
+      ],
+      "F": [
+        4644026267760,
+        126779513346360,
+        1657215934122768,
+        13815368010397992,
+        82539379713874384,
+        376513165658782768,
+        1364225960662855808,
+        4032822854372728640,
+        9914012002182620160,
+        20555896139524254720,
+        36332107264809635840,
+        55185920747571660800,
+        72480261333767852032,
+        82691013385282859008,
+        82219045833345171456,
+        71400013397923479552,
+        54215506271270141952,
+        36000424723082182656,
+        20887277072667377664,
+        10568860457921937408,
+        4649811992789385216,
+        1771030129526439936,
+        580555274222305280,
+        162511339724472320,
+        38444554088611840,
+        7580082252021760,
+        1222370509455360,
+        156996892360704,
+        15440675864576,
+        1091726999552,
+        49392123904,
+        1073741824
+      ],
+      "R_poly": [
+        591286729879,
+        15218767591579,
+        186970356549984,
+        1460083988477436,
+        8142769614108752,
+        34543623660511280,
+        115939105997684480,
+        316136402934600320,
+        713634128938241280,
+        1352133768429692160,
+        2172525719568117760,
+        2982922149380592640,
+        3519704270458761216,
+        3583445324542808064,
+        3156164439814176768,
+        2408067015073726464,
+        1591819816889155584,
+        910714059903664128,
+        449915026446221312,
+        191216845454311424,
+        69541074746474496,
+        21481821664444416,
+        5580578766192640,
+        1202812679618560,
+        211138662891520,
+        29402356252672,
+        3123783401472,
+        237766705152,
+        11542724608,
+        268435456
+      ],
+      "strength": {
+        "numerator": 536870912,
+        "denominator": 1
+      },
+      "surplus": {
+        "numerator": 29530660774922255294987025476866872188861418463,
+        "denominator": 1
+      },
+      "R": 990341056767912219415226470836749694328480938462
+    },
+    "band_lambda_local": {
+      "path": "sssss",
+      "index": 0,
+      "margin": {
+        "numerator": -7471,
+        "denominator": 189
+      },
+      "h": [
+        987,
+        5878,
+        14292,
+        18440,
+        13680,
+        5856,
+        1344,
+        128
+      ],
+      "b": [
+        144,
+        600,
+        936,
+        688,
+        240,
+        32
+      ],
+      "rows": [
+        [
+          138531,
+          124238,
+          89172,
+          50408,
+          21744,
+          6752,
+          1344,
+          128
+        ],
+        [
+          3456,
+          2984,
+          1896,
+          848,
+          240,
+          32
+        ]
+      ],
+      "strength": {
+        "numerator": 14464,
+        "denominator": 21
+      },
+      "alpha": {
+        "numerator": 46177,
+        "denominator": 1152
+      }
+    },
+    "yband_lambda_local": {
+      "path": "sssss",
+      "index": 0,
+      "margin": {
+        "numerator": -606463920,
+        "denominator": 13547
+      },
+      "h": [
+        987,
+        6865,
+        20170,
+        32732,
+        32120,
+        19536,
+        7200,
+        1472,
+        128
+      ],
+      "b": [
+        144,
+        744,
+        1536,
+        1624,
+        928,
+        272,
+        32
+      ],
+      "rows": [
+        [
+          387007,
+          351941,
+          263818,
+          161324,
+          78904,
+          29840,
+          8224,
+          1472,
+          128
+        ],
+        [
+          9424,
+          8336,
+          5728,
+          2984,
+          1120,
+          272,
+          32
+        ]
+      ],
+      "strength": {
+        "numerator": 17152,
+        "denominator": 23
+      },
+      "alpha": {
+        "numerator": 387007,
+        "denominator": 9424
+      }
+    },
+    "yband_L_d": {
+      "path": "ssssss",
+      "index": 0,
+      "margin": {
+        "numerator": -3662046568392,
+        "denominator": 19779809
+      },
+      "h": [
+        2584,
+        20284,
+        68528,
+        130892,
+        155904,
+        120192,
+        60032,
+        18752,
+        3328,
+        256
+      ],
+      "b": [
+        377,
+        2285,
+        5712,
+        7644,
+        5920,
+        2656,
+        640,
+        64
+      ],
+      "rows": [
+        [
+          2508664,
+          2303456,
+          1778992,
+          1147148,
+          609280,
+          260672,
+          86656,
+          21056,
+          3328,
+          256
+        ],
+        [
+          60121,
+          54017,
+          38992,
+          22268,
+          9760,
+          3104,
+          640,
+          64
+        ]
+      ],
+      "strength": {
+        "numerator": 2332480,
+        "denominator": 329
+      },
+      "alpha": {
+        "numerator": 2508664,
+        "denominator": 60121
+      }
+    },
+    "band_L_d": {
+      "path": "sssssss",
+      "index": 0,
+      "margin": {
+        "numerator": -237002865928,
+        "denominator": 507947
+      },
+      "h": [
+        6765,
+        52390,
+        173592,
+        323408,
+        373968,
+        278880,
+        134400,
+        40448,
+        6912,
+        512
+      ],
+      "b": [
+        987,
+        5878,
+        14292,
+        18440,
+        13680,
+        5856,
+        1344,
+        128
+      ],
+      "rows": [
+        [
+          5769597,
+          5291606,
+          4072536,
+          2610224,
+          1373904,
+          580448,
+          189696,
+          45056,
+          6912,
+          512
+        ],
+        [
+          138531,
+          124238,
+          89172,
+          50408,
+          21744,
+          6752,
+          1344,
+          128
+        ]
+      ],
+      "strength": {
+        "numerator": 169472,
+        "denominator": 11
+      },
+      "alpha": {
+        "numerator": 1923199,
+        "denominator": 46177
+      }
+    }
+  },
+  "counts": {
+    "D_G_half": 4440,
+    "D_short_R32": 5592,
+    "D_long_half": 7728,
+    "D_outgoing_half": 7728,
+    "D_G_full_nonroot": 4437,
+    "band_lambda_local": 61,
+    "band_L_d": 61,
+    "yband_lambda_local": 61,
+    "yband_L_d": 61,
+    "packet_Y_trace": 862,
+    "packet_Y_L": 1770,
+    "packet_Y_yL": 1850,
+    "packet_Y_H": 10208,
+    "packet_Y_yH": 10528,
+    "packet_X_trace": 346,
+    "packet_X_L": 1224,
+    "packet_X_yL": 1294,
+    "packet_X_H": 6000,
+    "packet_X_yH": 6280
+  },
+  "relative_band": [
+    {
+      "path": "",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "alpha": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "margin": {
+        "numerator": 24,
+        "denominator": 1
+      }
+    },
+    {
+      "path": "",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "alpha": {
+        "numerator": 16,
+        "denominator": 1
+      },
+      "margin": {
+        "numerator": 24,
+        "denominator": 1
+      }
+    },
+    {
+      "path": "",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 24,
+        "denominator": 5
+      },
+      "alpha": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "margin": {
+        "numerator": 728,
+        "denominator": 5
+      }
+    },
+    {
+      "path": "",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 24,
+        "denominator": 5
+      },
+      "alpha": {
+        "numerator": 32,
+        "denominator": 1
+      },
+      "margin": {
+        "numerator": 728,
+        "denominator": 5
+      }
+    },
+    {
+      "path": "s",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1045,
+        "denominator": 93
+      },
+      "alpha": {
+        "numerator": 31,
+        "denominator": 1
+      },
+      "margin": {
+        "numerator": 973,
+        "denominator": 3
+      }
+    },
+    {
+      "path": "s",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1045,
+        "denominator": 93
+      },
+      "alpha": {
+        "numerator": 31,
+        "denominator": 1
+      },
+      "margin": {
+        "numerator": 973,
+        "denominator": 3
+      }
+    },
+    {
+      "path": "s",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 4101,
+        "denominator": 241
+      },
+      "alpha": {
+        "numerator": 241,
+        "denominator": 7
+      },
+      "margin": {
+        "numerator": 3709,
+        "denominator": 7
+      }
+    },
+    {
+      "path": "s",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 4101,
+        "denominator": 241
+      },
+      "alpha": {
+        "numerator": 241,
+        "denominator": 7
+      },
+      "margin": {
+        "numerator": 3709,
+        "denominator": 7
+      }
+    },
+    {
+      "path": "ss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1865,
+        "denominator": 43
+      },
+      "alpha": {
+        "numerator": 559,
+        "denominator": 16
+      },
+      "margin": {
+        "numerator": 22197,
+        "denominator": 16
+      }
+    },
+    {
+      "path": "ss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1865,
+        "denominator": 43
+      },
+      "alpha": {
+        "numerator": 559,
+        "denominator": 16
+      },
+      "margin": {
+        "numerator": 22197,
+        "denominator": 16
+      }
+    },
+    {
+      "path": "ss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 388,
+        "denominator": 7
+      },
+      "alpha": {
+        "numerator": 299,
+        "denominator": 8
+      },
+      "margin": {
+        "numerator": 24523,
+        "denominator": 14
+      }
+    },
+    {
+      "path": "ss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 24963,
+        "denominator": 299
+      },
+      "alpha": {
+        "numerator": 299,
+        "denominator": 8
+      },
+      "margin": {
+        "numerator": 22403,
+        "denominator": 8
+      }
+    },
+    {
+      "path": "sss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 368,
+        "denominator": 3
+      },
+      "alpha": {
+        "numerator": 1152,
+        "denominator": 31
+      },
+      "margin": {
+        "numerator": 118248,
+        "denominator": 31
+      }
+    },
+    {
+      "path": "sss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 5375,
+        "denominator": 27
+      },
+      "alpha": {
+        "numerator": 1152,
+        "denominator": 31
+      },
+      "margin": {
+        "numerator": 618808,
+        "denominator": 93
+      }
+    },
+    {
+      "path": "sss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2320,
+        "denominator": 17
+      },
+      "alpha": {
+        "numerator": 9424,
+        "denominator": 241
+      },
+      "margin": {
+        "numerator": 13964664,
+        "denominator": 4097
+      }
+    },
+    {
+      "path": "sss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 12644,
+        "denominator": 35
+      },
+      "alpha": {
+        "numerator": 9424,
+        "denominator": 241
+      },
+      "margin": {
+        "numerator": 102894376,
+        "denominator": 8435
+      }
+    },
+    {
+      "path": "ssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2656,
+        "denominator": 9
+      },
+      "alpha": {
+        "numerator": 21745,
+        "denominator": 559
+      },
+      "margin": {
+        "numerator": 35256088,
+        "denominator": 5031
+      }
+    },
+    {
+      "path": "ssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 63328,
+        "denominator": 77
+      },
+      "alpha": {
+        "numerator": 21745,
+        "denominator": 559
+      },
+      "margin": {
+        "numerator": 1184579064,
+        "denominator": 43043
+      }
+    },
+    {
+      "path": "ssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1616,
+        "denominator": 5
+      },
+      "alpha": {
+        "numerator": 60121,
+        "denominator": 1495
+      },
+      "margin": {
+        "numerator": 7754536,
+        "denominator": 7475
+      }
+    },
+    {
+      "path": "ssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 99296,
+        "denominator": 97
+      },
+      "alpha": {
+        "numerator": 60121,
+        "denominator": 1495
+      },
+      "margin": {
+        "numerator": 4235395416,
+        "denominator": 145015
+      }
+    },
+    {
+      "path": "sssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 14464,
+        "denominator": 21
+      },
+      "alpha": {
+        "numerator": 46177,
+        "denominator": 1152
+      },
+      "margin": {
+        "numerator": -7471,
+        "denominator": 189
+      }
+    },
+    {
+      "path": "sssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 481984,
+        "denominator": 211
+      },
+      "alpha": {
+        "numerator": 46177,
+        "denominator": 1152
+      },
+      "margin": {
+        "numerator": 242751883,
+        "denominator": 3798
+      }
+    },
+    {
+      "path": "sssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 17152,
+        "denominator": 23
+      },
+      "alpha": {
+        "numerator": 387007,
+        "denominator": 9424
+      },
+      "margin": {
+        "numerator": -606463920,
+        "denominator": 13547
+      }
+    },
+    {
+      "path": "sssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 706112,
+        "denominator": 257
+      },
+      "alpha": {
+        "numerator": 387007,
+        "denominator": 9424
+      },
+      "margin": {
+        "numerator": 5667079708,
+        "denominator": 151373
+      }
+    },
+    {
+      "path": "ssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 4720,
+        "denominator": 3
+      },
+      "alpha": {
+        "numerator": 178160,
+        "denominator": 4349
+      },
+      "margin": {
+        "numerator": -1428740920,
+        "denominator": 13047
+      }
+    },
+    {
+      "path": "ssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1673024,
+        "denominator": 277
+      },
+      "alpha": {
+        "numerator": 178160,
+        "denominator": 4349
+      },
+      "margin": {
+        "numerator": 88501040760,
+        "denominator": 1204673
+      }
+    },
+    {
+      "path": "ssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 21952,
+        "denominator": 13
+      },
+      "alpha": {
+        "numerator": 2508664,
+        "denominator": 60121
+      },
+      "margin": {
+        "numerator": -320841410536,
+        "denominator": 781573
+      }
+    },
+    {
+      "path": "ssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2332480,
+        "denominator": 329
+      },
+      "alpha": {
+        "numerator": 2508664,
+        "denominator": 60121
+      },
+      "margin": {
+        "numerator": -3662046568392,
+        "denominator": 19779809
+      }
+    },
+    {
+      "path": "sssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 95488,
+        "denominator": 27
+      },
+      "alpha": {
+        "numerator": 1923199,
+        "denominator": 46177
+      },
+      "margin": {
+        "numerator": -1198097907080,
+        "denominator": 1246779
+      }
+    },
+    {
+      "path": "sssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 169472,
+        "denominator": 11
+      },
+      "alpha": {
+        "numerator": 1923199,
+        "denominator": 46177
+      },
+      "margin": {
+        "numerator": -237002865928,
+        "denominator": 507947
+      }
+    },
+    {
+      "path": "sssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 109312,
+        "denominator": 29
+      },
+      "alpha": {
+        "numerator": 16352809,
+        "denominator": 387007
+      },
+      "margin": {
+        "numerator": -32960106729960,
+        "denominator": 11223203
+      }
+    },
+    {
+      "path": "sssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 3639808,
+        "denominator": 205
+      },
+      "alpha": {
+        "numerator": 16352809,
+        "denominator": 387007
+      },
+      "margin": {
+        "numerator": -4539242940968,
+        "denominator": 1935035
+      }
+    },
+    {
+      "path": "ssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 23552,
+        "denominator": 3
+      },
+      "alpha": {
+        "numerator": 7516883,
+        "denominator": 178160
+      },
+      "margin": {
+        "numerator": -226992540224,
+        "denominator": 33405
+      }
+    },
+    {
+      "path": "ssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 4167680,
+        "denominator": 109
+      },
+      "alpha": {
+        "numerator": 7516883,
+        "denominator": 178160
+      },
+      "margin": {
+        "numerator": -1338284178432,
+        "denominator": 242743
+      }
+    },
+    {
+      "path": "ssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 8320,
+        "denominator": 1
+      },
+      "alpha": {
+        "numerator": 107084719,
+        "denominator": 2508664
+      },
+      "margin": {
+        "numerator": -6182026957136,
+        "denominator": 313583
+      }
+    },
+    {
+      "path": "ssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 5429248,
+        "denominator": 125
+      },
+      "alpha": {
+        "numerator": 107084719,
+        "denominator": 2508664
+      },
+      "margin": {
+        "numerator": -714000696054336,
+        "denominator": 39197875
+      }
+    },
+    {
+      "path": "sssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 569344,
+        "denominator": 33
+      },
+      "alpha": {
+        "numerator": 81994752,
+        "denominator": 1923199
+      },
+      "margin": {
+        "numerator": -960894246549768,
+        "denominator": 21155189
+      }
+    },
+    {
+      "path": "sssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 49119232,
+        "denominator": 529
+      },
+      "alpha": {
+        "numerator": 81994752,
+        "denominator": 1923199
+      },
+      "margin": {
+        "numerator": -42931104774887832,
+        "denominator": 1017372271
+      }
+    },
+    {
+      "path": "sssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 636928,
+        "denominator": 35
+      },
+      "alpha": {
+        "numerator": 703909792,
+        "denominator": 16352809
+      },
+      "margin": {
+        "numerator": -74427681557335704,
+        "denominator": 572348315
+      }
+    },
+    {
+      "path": "sssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 62449664,
+        "denominator": 599
+      },
+      "alpha": {
+        "numerator": 703909792,
+        "denominator": 16352809
+      },
+      "margin": {
+        "numerator": -1237490693620075064,
+        "denominator": 9795332591
+      }
+    },
+    {
+      "path": "ssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 338432,
+        "denominator": 9
+      },
+      "alpha": {
+        "numerator": 323243885,
+        "denominator": 7516883
+      },
+      "margin": {
+        "numerator": -20231874738359720,
+        "denominator": 67651947
+      }
+    },
+    {
+      "path": "ssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 139793408,
+        "denominator": 631
+      },
+      "alpha": {
+        "numerator": 323243885,
+        "denominator": 7516883
+      },
+      "margin": {
+        "numerator": -1380961733801480280,
+        "denominator": 4743153173
+      }
+    },
+    {
+      "path": "ssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 750592,
+        "denominator": 19
+      },
+      "alpha": {
+        "numerator": 663144583,
+        "denominator": 15297817
+      },
+      "margin": {
+        "numerator": -248502939064437160,
+        "denominator": 290658523
+      }
+    },
+    {
+      "path": "ssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 174183424,
+        "denominator": 707
+      },
+      "alpha": {
+        "numerator": 663144583,
+        "denominator": 15297817
+      },
+      "margin": {
+        "numerator": -9149937936919648296,
+        "denominator": 10815556619
+      }
+    },
+    {
+      "path": "sssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 3174400,
+        "denominator": 39
+      },
+      "alpha": {
+        "numerator": 3551419777,
+        "denominator": 81994752
+      },
+      "margin": {
+        "numerator": -197882585995676,
+        "denominator": 100737
+      }
+    },
+    {
+      "path": "sssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 193255424,
+        "denominator": 371
+      },
+      "alpha": {
+        "numerator": 3551419777,
+        "denominator": 81994752
+      },
+      "margin": {
+        "numerator": -57789552428647882,
+        "denominator": 29707083
+      }
+    },
+    {
+      "path": "sssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 3493888,
+        "denominator": 41
+      },
+      "alpha": {
+        "numerator": 30696946999,
+        "denominator": 703909792
+      },
+      "margin": {
+        "numerator": -5075410586092064640,
+        "denominator": 901884421
+      }
+    },
+    {
+      "path": "sssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 59184640,
+        "denominator": 103
+      },
+      "alpha": {
+        "numerator": 30696946999,
+        "denominator": 703909792
+      },
+      "margin": {
+        "numerator": -12702067010878603568,
+        "denominator": 2265709643
+      }
+    },
+    {
+      "path": "ssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 3678208,
+        "denominator": 21
+      },
+      "alpha": {
+        "numerator": 70431933904,
+        "denominator": 1616219425
+      },
+      "margin": {
+        "numerator": -438584695294810380968,
+        "denominator": 33940607925
+      }
+    },
+    {
+      "path": "ssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 521396224,
+        "denominator": 431
+      },
+      "alpha": {
+        "numerator": 70431933904,
+        "denominator": 1616219425
+      },
+      "margin": {
+        "numerator": -8970022767782232816504,
+        "denominator": 696590572175
+      }
+    },
+    {
+      "path": "ssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2011136,
+        "denominator": 11
+      },
+      "alpha": {
+        "numerator": 203480908744,
+        "denominator": 4642012081
+      },
+      "margin": {
+        "numerator": -1895839074312307876184,
+        "denominator": 51062132891
+      }
+    },
+    {
+      "path": "ssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 629497856,
+        "denominator": 475
+      },
+      "alpha": {
+        "numerator": 203480908744,
+        "denominator": 4642012081
+      },
+      "margin": {
+        "numerator": -81755358612778532478936,
+        "denominator": 2204955738475
+      }
+    },
+    {
+      "path": "sssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 3375104,
+        "denominator": 9
+      },
+      "alpha": {
+        "numerator": 155579830687,
+        "denominator": 3551419777
+      },
+      "margin": {
+        "numerator": -2723792707303942605016,
+        "denominator": 31962777993
+      }
+    },
+    {
+      "path": "sssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2754887680,
+        "denominator": 991
+      },
+      "alpha": {
+        "numerator": 155579830687,
+        "denominator": 3551419777
+      },
+      "margin": {
+        "numerator": -299549055614972597638376,
+        "denominator": 3519456999007
+      }
+    },
+    {
+      "path": "sssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 18350080,
+        "denominator": 47
+      },
+      "alpha": {
+        "numerator": 1351641886369,
+        "denominator": 30696946999
+      },
+      "margin": {
+        "numerator": -354280957965593857796856,
+        "denominator": 1442756508953
+      }
+    },
+    {
+      "path": "sssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 3284516864,
+        "denominator": 1085
+      },
+      "alpha": {
+        "numerator": 1351641886369,
+        "denominator": 30696946999
+      },
+      "margin": {
+        "numerator": -8174746687345855367861864,
+        "denominator": 33306187493915
+      }
+    },
+    {
+      "path": "ssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2398208,
+        "denominator": 3
+      },
+      "alpha": {
+        "numerator": 3099591330895,
+        "denominator": 70431933904
+      },
+      "margin": {
+        "numerator": -7440521378640731832064,
+        "denominator": 13205987607
+      }
+    },
+    {
+      "path": "ssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 7146389504,
+        "denominator": 1129
+      },
+      "alpha": {
+        "numerator": 3099591330895,
+        "denominator": 70431933904
+      },
+      "margin": {
+        "numerator": -2798906623012103893863552,
+        "denominator": 4969853336101
+      }
+    },
+    {
+      "path": "ssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 20758528,
+        "denominator": 25
+      },
+      "alpha": {
+        "numerator": 8995016936071,
+        "denominator": 203480908744
+      },
+      "margin": {
+        "numerator": -1035088665168235403430464,
+        "denominator": 635877839825
+      }
+    },
+    {
+      "path": "ssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 8427225088,
+        "denominator": 1229
+      },
+      "alpha": {
+        "numerator": 8995016936071,
+        "denominator": 203480908744
+      },
+      "margin": {
+        "numerator": -50876630815367274100193088,
+        "denominator": 31259754605797
+      }
+    },
+    {
+      "path": "sssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 86573056,
+        "denominator": 51
+      },
+      "alpha": {
+        "numerator": 6874295236992,
+        "denominator": 155579830687
+      },
+      "margin": {
+        "numerator": -9875475780122161904694168,
+        "denominator": 2644857121679
+      }
+    },
+    {
+      "path": "sssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 4561076224,
+        "denominator": 319
+      },
+      "alpha": {
+        "numerator": 6874295236992,
+        "denominator": 155579830687
+      },
+      "margin": {
+        "numerator": -185282766749693612588436456,
+        "denominator": 49629965989153
+      }
+    },
+    {
+      "path": "sssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 93257728,
+        "denominator": 53
+      },
+      "alpha": {
+        "numerator": 59959146186352,
+        "denominator": 1351641886369
+      },
+      "margin": {
+        "numerator": -774615182876804893141636008,
+        "denominator": 71637019977557
+      }
+    },
+    {
+      "path": "sssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 10653466624,
+        "denominator": 691
+      },
+      "alpha": {
+        "numerator": 59959146186352,
+        "denominator": 1351641886369
+      },
+      "margin": {
+        "numerator": -10098662268758258219930686360,
+        "denominator": 933984543480979
+      }
+    },
+    {
+      "path": "ssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 96993280,
+        "denominator": 27
+      },
+      "alpha": {
+        "numerator": 27488317350557,
+        "denominator": 619918266179
+      },
+      "margin": {
+        "numerator": -415039883099706183447587320,
+        "denominator": 16737793186833
+      }
+    },
+    {
+      "path": "ssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 5740429312,
+        "denominator": 179
+      },
+      "alpha": {
+        "numerator": 27488317350557,
+        "denominator": 619918266179
+      },
+      "margin": {
+        "numerator": -2751420587532766170479566776,
+        "denominator": 110965369646041
+      }
+    },
+    {
+      "path": "ssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 26017792,
+        "denominator": 7
+      },
+      "alpha": {
+        "numerator": 400264290582409,
+        "denominator": 8995016936071
+      },
+      "margin": {
+        "numerator": -4530968048098373347375133368,
+        "denominator": 62965118552497
+      }
+    },
+    {
+      "path": "ssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 6646661120,
+        "denominator": 193
+      },
+      "alpha": {
+        "numerator": 400264290582409,
+        "denominator": 8995016936071
+      },
+      "margin": {
+        "numerator": -124922888605137223573359673224,
+        "denominator": 1736038268661703
+      }
+    },
+    {
+      "path": "sssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 432013312,
+        "denominator": 57
+      },
+      "alpha": {
+        "numerator": 305782427402209,
+        "denominator": 6874295236992
+      },
+      "margin": {
+        "numerator": -505046773321980111540456448,
+        "denominator": 3061209597723
+      }
+    },
+    {
+      "path": "sssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 114151653376,
+        "denominator": 1597
+      },
+      "alpha": {
+        "numerator": 305782427402209,
+        "denominator": 6874295236992
+      },
+      "margin": {
+        "numerator": -14149926338395791784640859136,
+        "denominator": 85767574167783
+      }
+    },
+    {
+      "path": "sssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 461897728,
+        "denominator": 59
+      },
+      "alpha": {
+        "numerator": 382220773287769,
+        "denominator": 8565592312336
+      },
+      "margin": {
+        "numerator": -15150764213845715466036473472,
+        "denominator": 31585621651739
+      }
+    },
+    {
+      "path": "sssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 131160080384,
+        "denominator": 1715
+      },
+      "alpha": {
+        "numerator": 382220773287769,
+        "denominator": 8565592312336
+      },
+      "margin": {
+        "numerator": -440396520139341070573730566784,
+        "denominator": 918124425978515
+      }
+    },
+    {
+      "path": "ssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 47841280,
+        "denominator": 3
+      },
+      "alpha": {
+        "numerator": 6130996521482608,
+        "denominator": 137441586752785
+      },
+      "margin": {
+        "numerator": -90672852228847708308292338232,
+        "denominator": 82464952051671
+      }
+    },
+    {
+      "path": "ssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 280568791040,
+        "denominator": 1771
+      },
+      "alpha": {
+        "numerator": 6130996521482608,
+        "denominator": 137441586752785
+      },
+      "margin": {
+        "numerator": -53526897696531473724575424792696,
+        "denominator": 48681810027836447
+      }
+    },
+    {
+      "path": "ssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 509870080,
+        "denominator": 31
+      },
+      "alpha": {
+        "numerator": 17905940408566552,
+        "denominator": 400264290582409
+      },
+      "margin": {
+        "numerator": -39732443444525640630867666769528,
+        "denominator": 12408193008054679
+      }
+    },
+    {
+      "path": "ssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 320150437888,
+        "denominator": 1895
+      },
+      "alpha": {
+        "numerator": 17905940408566552,
+        "denominator": 400264290582409
+      },
+      "margin": {
+        "numerator": -2428800642507394916325201697817784,
+        "denominator": 758500830653665055
+      }
+    },
+    {
+      "path": "sssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2108686336,
+        "denominator": 63
+      },
+      "alpha": {
+        "numerator": 441134731789345,
+        "denominator": 9863949271039
+      },
+      "margin": {
+        "numerator": -4560527265813498511643955738392,
+        "denominator": 621428804075457
+      }
+    },
+    {
+      "path": "sssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 341318303744,
+        "denominator": 977
+      },
+      "alpha": {
+        "numerator": 441134731789345,
+        "denominator": 9863949271039
+      },
+      "margin": {
+        "numerator": -70724231139302406209557875332968,
+        "denominator": 9637078437805103
+      }
+    },
+    {
+      "path": "sssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2240806912,
+        "denominator": 65
+      },
+      "alpha": {
+        "numerator": 9228064961958781,
+        "denominator": 205811185616491
+      },
+      "margin": {
+        "numerator": -286341709605780461191769070933288,
+        "denominator": 13377727065071915
+      }
+    },
+    {
+      "path": "sssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 193520205824,
+        "denominator": 521
+      },
+      "alpha": {
+        "numerator": 9228064961958781,
+        "denominator": 205811185616491
+      },
+      "margin": {
+        "numerator": -2295137313844692937202059474400360,
+        "denominator": 107227627706191811
+      }
+    },
+    {
+      "path": "ssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2313158656,
+        "denominator": 33
+      },
+      "alpha": {
+        "numerator": 274824222545854783,
+        "denominator": 6130996521482608
+      },
+      "margin": {
+        "numerator": -620220412984123520981669603481728,
+        "denominator": 12645180325557879
+      }
+    },
+    {
+      "path": "ssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 822844850176,
+        "denominator": 1073
+      },
+      "alpha": {
+        "numerator": 274824222545854783,
+        "denominator": 6130996521482608
+      },
+      "margin": {
+        "numerator": -20166547859254667734493205569413248,
+        "denominator": 411159954221927399
+      }
+    },
+    {
+      "path": "ssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1225785344,
+        "denominator": 17
+      },
+      "alpha": {
+        "numerator": 804529188717023071,
+        "denominator": 17905940408566552
+      },
+      "margin": {
+        "numerator": -5450585809284809442102455556159040,
+        "denominator": 38050123368203923
+      }
+    },
+    {
+      "path": "ssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 927777947648,
+        "denominator": 1141
+      },
+      "alpha": {
+        "numerator": 804529188717023071,
+        "denominator": 17905940408566552
+      },
+      "margin": {
+        "numerator": -365830409582115804197798156844717888,
+        "denominator": 2553834750771804479
+      }
+    },
+    {
+      "path": "sssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 10108272640,
+        "denominator": 69
+      },
+      "alpha": {
+        "numerator": 122857137994899456,
+        "denominator": 2735035337093939
+      },
+      "margin": {
+        "numerator": -20645954080663240504179364200028680,
+        "denominator": 62905812753160597
+      }
+    },
+    {
+      "path": "sssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 3934353620992,
+        "denominator": 2347
+      },
+      "alpha": {
+        "numerator": 122857137994899456,
+        "denominator": 2735035337093939
+      },
+      "margin": {
+        "numerator": -2106784525283340288430949894709482088,
+        "denominator": 6419127936159474833
+      }
+    },
+    {
+      "path": "sssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 10687086592,
+        "denominator": 71
+      },
+      "alpha": {
+        "numerator": 5400383515605520192,
+        "denominator": 119964844505464153
+      },
+      "margin": {
+        "numerator": -628800634405131018287415539132287896,
+        "denominator": 655192612299073451
+      }
+    },
+    {
+      "path": "sssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 4413099868160,
+        "denominator": 2489
+      },
+      "alpha": {
+        "numerator": 5400383515605520192,
+        "denominator": 119964844505464153
+      },
+      "margin": {
+        "numerator": -286564796887256697902569809367545641288,
+        "denominator": 298592497974100276817
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2750414848,
+        "denominator": 9
+      },
+      "alpha": {
+        "numerator": 12368799878588677441,
+        "denominator": 274824222545854783
+      },
+      "margin": {
+        "numerator": -5438041403431882344507391202517306440,
+        "denominator": 2473418002912693047
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 9334226419712,
+        "denominator": 2557
+      },
+      "alpha": {
+        "numerator": 12368799878588677441,
+        "denominator": 274824222545854783
+      },
+      "margin": {
+        "numerator": -1545007879609349405113573488705423215592,
+        "denominator": 702725537049750680131
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 11605639168,
+        "denominator": 37
+      },
+      "alpha": {
+        "numerator": 36280289770287861601,
+        "denominator": 804529188717023071
+      },
+      "margin": {
+        "numerator": -191591095366254759532364245750967440168,
+        "denominator": 29767579982529853627
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 10420316274688,
+        "denominator": 2705
+      },
+      "alpha": {
+        "numerator": 36280289770287861601,
+        "denominator": 804529188717023071
+      },
+      "margin": {
+        "numerator": -14006862165317513479325870579175261871752,
+        "denominator": 2176251455479547407055
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 9546235904,
+        "denominator": 15
+      },
+      "alpha": {
+        "numerator": 27695507449746969601,
+        "denominator": 614285689974497280
+      },
+      "margin": {
+        "numerator": -16582627800572761244929790896191488,
+        "denominator": 1124790692091975
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2748821012480,
+        "denominator": 347
+      },
+      "alpha": {
+        "numerator": 27695507449746969601,
+        "denominator": 614285689974497280
+      },
+      "margin": {
+        "numerator": -76722289581328182844403748976786432,
+        "denominator": 5204031602078871
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 50247761920,
+        "denominator": 77
+      },
+      "alpha": {
+        "numerator": 243922717845348817255,
+        "denominator": 5400383515605520192
+      },
+      "margin": {
+        "numerator": -280704867671370521898706317505870588416,
+        "denominator": 6497336417212891481
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 12220993896448,
+        "denominator": 1465
+      },
+      "alpha": {
+        "numerator": 243922717845348817255,
+        "denominator": 5400383515605520192
+      },
+      "margin": {
+        "numerator": -1068136695669166663906579004520401050112,
+        "denominator": 24723630782381522129
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 51606716416,
+        "denominator": 39
+      },
+      "alpha": {
+        "numerator": 558563158161349865872,
+        "denominator": 12368799878588677441
+      },
+      "margin": {
+        "numerator": -47732009627385877419561405304153259691320,
+        "denominator": 482383195264958420199
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 12868527325184,
+        "denominator": 751
+      },
+      "alpha": {
+        "numerator": 558563158161349865872,
+        "denominator": 12368799878588677441
+      },
+      "margin": {
+        "numerator": -919147153115059029445183470956852861633400,
+        "denominator": 9288968708820096758191
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 6777995264,
+        "denominator": 5
+      },
+      "alpha": {
+        "numerator": 1641134737792684913512,
+        "denominator": 36280289770287861601
+      },
+      "margin": {
+        "numerator": -52650377021518558819493504156024625720872,
+        "denominator": 181401448851439308005
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 14245332779008,
+        "denominator": 791
+      },
+      "alpha": {
+        "numerator": 1641134737792684913512,
+        "denominator": 36280289770287861601
+      },
+      "margin": {
+        "numerator": -8329289623185479600787570339646322942939832,
+        "denominator": 28697709208297698526391
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 222532993024,
+        "denominator": 81
+      },
+      "alpha": {
+        "numerator": 1252582037132492928031,
+        "denominator": 27695507449746969601
+      },
+      "margin": {
+        "numerator": -1491127962076895520120272884408546527791000,
+        "denominator": 2243336103429504537681
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 119770263322624,
+        "denominator": 3241
+      },
+      "alpha": {
+        "numerator": 1252582037132492928031,
+        "denominator": 27695507449746969601
+      },
+      "margin": {
+        "numerator": -59663527331392949330916728351188382462177240,
+        "denominator": 89761139644629928476841
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 233404628992,
+        "denominator": 83
+      },
+      "alpha": {
+        "numerator": 11049038933900725365073,
+        "denominator": 243922717845348817255
+      },
+      "margin": {
+        "numerator": -39506866072046038999159884223745236808060184,
+        "denominator": 20245585581163951832165
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 132088900616192,
+        "denominator": 3407
+      },
+      "alpha": {
+        "numerator": 11049038933900725365073,
+        "denominator": 243922717845348817255
+      },
+      "margin": {
+        "numerator": -1621685452953160936288794611531926071738779384,
+        "denominator": 831044699699103420387785
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 119621550080,
+        "denominator": 21
+      },
+      "alpha": {
+        "numerator": 25297260821037579648367,
+        "denominator": 558563158161349865872
+      },
+      "margin": {
+        "numerator": -3275924417190270928372599754106759980819072,
+        "denominator": 733114145086771698957
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 277144911478784,
+        "denominator": 3487
+      },
+      "alpha": {
+        "numerator": 25297260821037579648367,
+        "denominator": 558563158161349865872
+      },
+      "margin": {
+        "numerator": -543959449247620382355080401096489999729792896,
+        "denominator": 121731858281789186393479
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 250517389312,
+        "denominator": 43
+      },
+      "alpha": {
+        "numerator": 74434305420805231860535,
+        "denominator": 1641134737792684913512
+      },
+      "margin": {
+        "numerator": -115812898784033294557553013474477148482037952,
+        "denominator": 8821099215635681410127
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 304588678758400,
+        "denominator": 3659
+      },
+      "alpha": {
+        "numerator": 74434305420805231860535,
+        "denominator": 1641134737792684913512
+      },
+      "margin": {
+        "numerator": -9854869686917333961855234924076335517697224896,
+        "denominator": 750614000697929262317551
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1026228748288,
+        "denominator": 87
+      },
+      "alpha": {
+        "numerator": 56802708517083521528448,
+        "denominator": 1252582037132492928031
+      },
+      "margin": {
+        "numerator": -1091997384764471323609447081799307080352625848,
+        "denominator": 36324879076842294912899
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 319008561692672,
+        "denominator": 1871
+      },
+      "alpha": {
+        "numerator": 56802708517083521528448,
+        "denominator": 1252582037132492928031
+      },
+      "margin": {
+        "numerator": -70452658841558104167143368427812120618110563688,
+        "denominator": 2343580991474894268346001
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1072936517632,
+        "denominator": 89
+      },
+      "alpha": {
+        "numerator": 501732498605597675139088,
+        "denominator": 11049038933900725365073
+      },
+      "margin": {
+        "numerator": -86921858089813776233233232448357000759381874632,
+        "denominator": 983364465117164557491497
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 43683021848576,
+        "denominator": 245
+      },
+      "alpha": {
+        "numerator": 501732498605597675139088,
+        "denominator": 11049038933900725365073
+      },
+      "margin": {
+        "numerator": -239279272249276800677699493739312010887784106152,
+        "denominator": 2707014538805677714442885
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 219580203008,
+        "denominator": 9
+      },
+      "alpha": {
+        "numerator": 1148575861941408335215153,
+        "denominator": 25297260821037579648367
+      },
+      "margin": {
+        "numerator": -46076501163175205601964329722330181279237421384,
+        "denominator": 227675347389338216835303
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 730882637824000,
+        "denominator": 2003
+      },
+      "alpha": {
+        "numerator": 1148575861941408335215153,
+        "denominator": 25297260821037579648367
+      },
+      "margin": {
+        "numerator": -10254581313643315008301925029490340791933298352536,
+        "denominator": 50670413424538272035679101
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 573109698560,
+        "denominator": 23
+      },
+      "alpha": {
+        "numerator": 3383807133354250707349561,
+        "denominator": 74434305420805231860535
+      },
+      "margin": {
+        "numerator": -203889142303592058058443404336872485466758226648,
+        "denominator": 342397804935704066558461
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 798242757410816,
+        "denominator": 2095
+      },
+      "alpha": {
+        "numerator": 3383807133354250707349561,
+        "denominator": 74434305420805231860535
+      },
+      "margin": {
+        "numerator": -92858207198785405956357331502514908628922354879224,
+        "denominator": 155939869856586960747820825
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 4687956803584,
+        "denominator": 93
+      },
+      "alpha": {
+        "numerator": 2581927334366219728442977,
+        "denominator": 56802708517083521528448
+      },
+      "margin": {
+        "numerator": -1520619606197805821193677684520944083719900160,
+        "denominator": 1115424808295770165149
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 3334111171182592,
+        "denominator": 4279
+      },
+      "alpha": {
+        "numerator": 2581927334366219728442977,
+        "denominator": 56802708517083521528448
+      },
+      "margin": {
+        "numerator": -2588699547378551379818714432403682463754019763200,
+        "denominator": 1898896794879690536095539
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 4887672782848,
+        "denominator": 95
+      },
+      "alpha": {
+        "numerator": 22832769215949696511117855,
+        "denominator": 501732498605597675139088
+      },
+      "margin": {
+        "numerator": -2391487251490257704955953355723734501134892599680,
+        "denominator": 595807342094147239227667
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 3631106012217344,
+        "denominator": 4469
+      },
+      "alpha": {
+        "numerator": 22832769215949696511117855,
+        "denominator": 501732498605597675139088
+      },
+      "margin": {
+        "numerator": -13719584758430991520296340062377497258777994278528,
+        "denominator": 3418052646750634161885037
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 312123326464,
+        "denominator": 3
+      },
+      "alpha": {
+        "numerator": 52262744573056643872349488,
+        "denominator": 1148575861941408335215153
+      },
+      "margin": {
+        "numerator": -31661436255210465983855117790191031596737492271384,
+        "denominator": 3445727585824225005645459
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 7572926064754688,
+        "denominator": 4561
+      },
+      "alpha": {
+        "numerator": 52262744573056643872349488,
+        "denominator": 1148575861941408335215153
+      },
+      "margin": {
+        "numerator": -48135936919633996868631855718042858940104677157267848,
+        "denominator": 5238654506314763416916312833
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 5200131653632,
+        "denominator": 49
+      },
+      "alpha": {
+        "numerator": 154140889900728105120342712,
+        "denominator": 3383807133354250707349561
+      },
+      "margin": {
+        "numerator": -4488459080568930284409897884059596736592052062416648,
+        "denominator": 165806549534358284660128489
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 8225658014531584,
+        "denominator": 4757
+      },
+      "alpha": {
+        "numerator": 154140889900728105120342712,
+        "denominator": 3383807133354250707349561
+      },
+      "margin": {
+        "numerator": -435746935636899729553245842062091975597299876721174568,
+        "denominator": 16096770533366170614861861677
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 21238613278720,
+        "denominator": 99
+      },
+      "alpha": {
+        "numerator": 117599580790471398309235327,
+        "denominator": 2581927334366219728442977
+      },
+      "margin": {
+        "numerator": -15839244653632650700616400266341362657849024197787464,
+        "denominator": 255610806102255753115854723
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 4283325787144192,
+        "denominator": 1213
+      },
+      "alpha": {
+        "numerator": 117599580790471398309235327,
+        "denominator": 2581927334366219728442977
+      },
+      "margin": {
+        "numerator": -194070745099086534720878256854029753355064830393793464,
+        "denominator": 3131877856586224530601331101
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 22089016803328,
+        "denominator": 101
+      },
+      "alpha": {
+        "numerator": 148721321867828899491463663,
+        "denominator": 3261824173707099501588265
+      },
+      "margin": {
+        "numerator": -60176994693654808599502610176317122481282800647562136,
+        "denominator": 329444241544417049660414765
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 9281875298222080,
+        "denominator": 2527
+      },
+      "alpha": {
+        "numerator": 148721321867828899491463663,
+        "denominator": 3261824173707099501588265
+      },
+      "margin": {
+        "numerator": -301123298199474418037935280599852401391562421640216232,
+        "denominator": 1648525937391568088102709131
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 22539988369408,
+        "denominator": 51
+      },
+      "alpha": {
+        "numerator": 2382634503947962143935847775,
+        "denominator": 52262744573056643872349488
+      },
+      "margin": {
+        "numerator": -69650558992864966325607683083632317256245192681305472,
+        "denominator": 166587498326618052343113993
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1206881515208704,
+        "denominator": 161
+      },
+      "alpha": {
+        "numerator": 2382634503947962143935847775,
+        "denominator": 52262744573056643872349488
+      },
+      "margin": {
+        "numerator": -219877254859659492957603712130710781724042040322212992,
+        "denominator": 525893867266382478965516723
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 5854040424448,
+        "denominator": 13
+      },
+      "alpha": {
+        "numerator": 7034086824546736119748170511,
+        "denominator": 154140889900728105120342712
+      },
+      "margin": {
+        "numerator": -308872381212043838952379072811553671422528912570062656,
+        "denominator": 250478946088683170820556907
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2609158272581632,
+        "denominator": 335
+      },
+      "alpha": {
+        "numerator": 7034086824546736119748170511,
+        "denominator": 154140889900728105120342712
+      },
+      "margin": {
+        "numerator": -7959403669692814359319186536360831992057947155444674496,
+        "denominator": 6454649764592989401914351065
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 19104014532608,
+        "denominator": 21
+      },
+      "alpha": {
+        "numerator": 5366003136890006729501494272,
+        "denominator": 117599580790471398309235327
+      },
+      "margin": {
+        "numerator": -331911873650265746735438170706120115969834919551830040,
+        "denominator": 117599580790471398309235327
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 86751639230218240,
+        "denominator": 5461
+      },
+      "alpha": {
+        "numerator": 5366003136890006729501494272,
+        "denominator": 117599580790471398309235327
+      },
+      "margin": {
+        "numerator": -1812570742003662391408017956596621479470021777877474781176,
+        "denominator": 642211310696764306166734120747
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 99127845191680,
+        "denominator": 107
+      },
+      "alpha": {
+        "numerator": 47546332671902949974918508256,
+        "denominator": 1041049253074802296440245641
+      },
+      "margin": {
+        "numerator": -927718716512424104255330625502254095498036915767110244056,
+        "denominator": 111392270079003845719106283587
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 93566996414726144,
+        "denominator": 5675
+      },
+      "alpha": {
+        "numerator": 47546332671902949974918508256,
+        "denominator": 1041049253074802296440245641
+      },
+      "margin": {
+        "numerator": -1696681829264440064691139050116234161766327870649175756984,
+        "denominator": 203722569351707001113737724575
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 50517405335552,
+        "denominator": 27
+      },
+      "alpha": {
+        "numerator": 108808040250527957994405651553,
+        "denominator": 2382634503947962143935847775
+      },
+      "margin": {
+        "numerator": -1226220590751118456083733608891594323356038206336894422744,
+        "denominator": 64331131606594977886267889925
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 194229777018650624,
+        "denominator": 5779
+      },
+      "alpha": {
+        "numerator": 108808040250527957994405651553,
+        "denominator": 2382634503947962143935847775
+      },
+      "margin": {
+        "numerator": -262456621998154618947362199440645546952067907151390747275928,
+        "denominator": 13769244798315273229805264291725
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 104745662414848,
+        "denominator": 55
+      },
+      "alpha": {
+        "numerator": 321506548122559448320583340817,
+        "denominator": 7034086824546736119748170511
+      },
+      "margin": {
+        "numerator": -3110069440045034286992229209047453563732039636604225034632,
+        "denominator": 55267825050010069512307054015
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 209051468638978048,
+        "denominator": 5999
+      },
+      "alpha": {
+        "numerator": 321506548122559448320583340817,
+        "denominator": 7034086824546736119748170511
+      },
+      "margin": {
+        "numerator": -2374566290832866003829144979293075794063322561460895248413816,
+        "denominator": 42197486860455869982369274895489
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 426816670007296,
+        "denominator": 111
+      },
+      "alpha": {
+        "numerator": 245241042361658944815689283457,
+        "denominator": 5366003136890006729501494272
+      },
+      "margin": {
+        "numerator": -74909363738146457435579525683692853716653957630160183296,
+        "denominator": 581666355658975338842447133
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 216759131049033728,
+        "denominator": 3053
+      },
+      "alpha": {
+        "numerator": 245241042361658944815689283457,
+        "denominator": 5366003136890006729501494272
+      },
+      "margin": {
+        "numerator": -2060344932365366525746892124904041492226214526032841269248,
+        "denominator": 15998444899341006391765685559
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 442072393842688,
+        "denominator": 113
+      },
+      "alpha": {
+        "numerator": 2174790881046750137611249204375,
+        "denominator": 47546332671902949974918508256
+      },
+      "margin": {
+        "numerator": -63863468452960232027052369620521906050046105345488581083392,
+        "denominator": 167897987247657292098930982279
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 116419606863675392,
+        "denominator": 1583
+      },
+      "alpha": {
+        "numerator": 2174790881046750137611249204375,
+        "denominator": 47546332671902949974918508256
+      },
+      "margin": {
+        "numerator": -894653721779072573341951574057725879581558868054278610607872,
+        "denominator": 2352057644363199056571749955289
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 450112572620800,
+        "denominator": 57
+      },
+      "alpha": {
+        "numerator": 4976496848927949151675160607568,
+        "denominator": 108808040250527957994405651553
+      },
+      "margin": {
+        "numerator": -5398670468161191328647834456027464253454936687386331723970504,
+        "denominator": 6202058294280093605681122138521
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 482385850236141568,
+        "denominator": 3221
+      },
+      "alpha": {
+        "numerator": 4976496848927949151675160607568,
+        "denominator": 108808040250527957994405651553
+      },
+      "margin": {
+        "numerator": -305072238209597678084871286117582188184361426344291634462507688,
+        "denominator": 350470697646950552699980603652213
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 232890306658304,
+        "denominator": 29
+      },
+      "alpha": {
+        "numerator": 14716079151343588871945845899016,
+        "denominator": 321506548122559448320583340817
+      },
+      "margin": {
+        "numerator": -23981018832678599735864151823276180950191406286282718946948584,
+        "denominator": 9323689895554224001296916883693
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 517201336173854720,
+        "denominator": 3337
+      },
+      "alpha": {
+        "numerator": 14716079151343588871945845899016,
+        "denominator": 321506548122559448320583340817
+      },
+      "margin": {
+        "numerator": -2759471029125802690729457634265106093471686724702135510986090824,
+        "denominator": 1072867351084980879045786608306329
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1896107802099712,
+        "denominator": 117
+      },
+      "alpha": {
+        "numerator": 11224310674843383353706594851743,
+        "denominator": 245241042361658944815689283457
+      },
+      "margin": {
+        "numerator": -168882018155041434521611766415101298234196879175236630846345976,
+        "denominator": 28693201956314096543435646164469
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2141084215448436736,
+        "denominator": 6787
+      },
+      "alpha": {
+        "numerator": 11224310674843383353706594851743,
+        "denominator": 245241042361658944815689283457
+      },
+      "margin": {
+        "numerator": -9796600489044987596374193492923337019706209358153593027400021064,
+        "denominator": 1664450954508579258464083166822659
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1960429232324608,
+        "denominator": 119
+      },
+      "alpha": {
+        "numerator": 99610771314470214987971819485441,
+        "denominator": 2174790881046750137611249204375
+      },
+      "margin": {
+        "numerator": -264864061071909572100864604949888313588507098002648467257637816,
+        "denominator": 15223536167327250963278744430625
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2291536438790979584,
+        "denominator": 7025
+      },
+      "alpha": {
+        "numerator": 99610771314470214987971819485441,
+        "denominator": 2174790881046750137611249204375
+      },
+      "margin": {
+        "numerator": -265810004147166175267588910090588024787341419356290983700486888456,
+        "denominator": 15277905939353419716719025660734375
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 99711960743936,
+        "denominator": 3
+      },
+      "alpha": {
+        "numerator": 227917977804542630885388262918543,
+        "denominator": 4976496848927949151675160607568
+      },
+      "margin": {
+        "numerator": -37148281331084709322154488012270265855743265408606034045236608,
+        "denominator": 933093159173990465939092613919
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 4739105397313372160,
+        "denominator": 7141
+      },
+      "alpha": {
+        "numerator": 227917977804542630885388262918543,
+        "denominator": 4976496848927949151675160607568
+      },
+      "margin": {
+        "numerator": -88425292328425238962865688116586766982879063225369231679261597312,
+        "denominator": 2221072749887155305757020118665193
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 2060209912545280,
+        "denominator": 61
+      },
+      "alpha": {
+        "numerator": 674455422995963261658315543965671,
+        "denominator": 14716079151343588871945845899016
+      },
+      "margin": {
+        "numerator": -13210342120905175841443093088352335063791675334010815283386728256,
+        "denominator": 112210103528994865148587074979997
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 5063558084530536448,
+        "denominator": 7385
+      },
+      "alpha": {
+        "numerator": 674455422995963261658315543965671,
+        "denominator": 14716079151343588871945845899016
+      },
+      "margin": {
+        "numerator": -123024434505529254516119874379941272170755935631231552198451752768,
+        "denominator": 1044983120506465421339616076579165
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 8379378115280896,
+        "denominator": 123
+      },
+      "alpha": {
+        "numerator": 514385297257313001380299855431552,
+        "denominator": 11224310674843383353706594851743
+      },
+      "margin": {
+        "numerator": -123969387723396676353169596115562021103700680231508156263808763352,
+        "denominator": 460196737668578717501970388921463
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 653957080608145408,
+        "denominator": 469
+      },
+      "alpha": {
+        "numerator": 514385297257313001380299855431552,
+        "denominator": 11224310674843383353706594851743
+      },
+      "margin": {
+        "numerator": -1418088849811537270527970560311625322689940211653625636039746766328,
+        "denominator": 5264201706501546792888392985467467
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 8649857975713792,
+        "denominator": 125
+      },
+      "alpha": {
+        "numerator": 4568005627649013240293359671267760,
+        "denominator": 99610771314470214987971819485441
+      },
+      "margin": {
+        "numerator": -1984461152372736440470834706718222998963873091049305365430281507016,
+        "denominator": 2490269282861755374699295487136025
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 5580854940777054208,
+        "denominator": 3877
+      },
+      "alpha": {
+        "numerator": 4568005627649013240293359671267760,
+        "denominator": 99610771314470214987971819485441
+      },
+      "margin": {
+        "numerator": -18102955029997878995315474624014418485274421863242265201693557153448,
+        "denominator": 22717115316835354324021573185003221
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 8791694975696896,
+        "denominator": 63
+      },
+      "alpha": {
+        "numerator": 10451249169265422853842230645911633,
+        "denominator": 227917977804542630885388262918543
+      },
+      "margin": {
+        "numerator": -3740155531668863074676862580334535425645231471400621365411746572104,
+        "denominator": 2051261800240883677968494366266887
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 5761625647499706368,
+        "denominator": 1969
+      },
+      "alpha": {
+        "numerator": 10451249169265422853842230645911633,
+        "denominator": 227917977804542630885388262918543
+      },
+      "margin": {
+        "numerator": -818262915761776764215420714584918372830588414463640532582697905978504,
+        "denominator": 448770498297144440213329489686611167
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 141699561029632,
+        "denominator": 1
+      },
+      "alpha": {
+        "numerator": 30947142450731344093025072715183337,
+        "denominator": 674455422995963261658315543965671
+      },
+      "margin": {
+        "numerator": -3639120940869309826562436128426860199496576668925558616938442199944,
+        "denominator": 674455422995963261658315543965671
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 6136796607082921984,
+        "denominator": 2033
+      },
+      "alpha": {
+        "numerator": 30947142450731344093025072715183337,
+        "denominator": 674455422995963261658315543965671
+      },
+      "margin": {
+        "numerator": -7398332872787306696400218343824947863145565784156782379423439246859016,
+        "denominator": 1371167874950793310951355500882209143
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 36855629763051520,
+        "denominator": 129
+      },
+      "alpha": {
+        "numerator": 23600792726318724011917158836661217,
+        "denominator": 514385297257313001380299855431552
+      },
+      "margin": {
+        "numerator": -6399824660709329866806745175524734016283856152819979363991219637248,
+        "denominator": 518403932392135759203583448052111
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 50646883275083087872,
+        "denominator": 8257
+      },
+      "alpha": {
+        "numerator": 23600792726318724011917158836661217,
+        "denominator": 514385297257313001380299855431552
+      },
+      "margin": {
+        "numerator": -409638389329278570245648738806866098756801172252153633603882302934016,
+        "denominator": 33181870308231511346852624267955663
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 37990325762916352,
+        "denominator": 131
+      },
+      "alpha": {
+        "numerator": 209715020420537358027976718435455951,
+        "denominator": 4568005627649013240293359671267760
+      },
+      "margin": {
+        "numerator": -1366767239632265127988285104031195045084323108565580455930153022752128,
+        "denominator": 37400546076376295904901882308504785
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 53866086195443793920,
+        "denominator": 8519
+      },
+      "alpha": {
+        "numerator": 209715020420537358027976718435455951,
+        "denominator": 4568005627649013240293359671267760
+      },
+      "margin": {
+        "numerator": -1616029162307739977388464694902721090554018453978076535994494492566656,
+        "denominator": 44221409024934027038703557999465963
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 19292031020957696,
+        "denominator": 33
+      },
+      "alpha": {
+        "numerator": 479781169850765465237862682734983920,
+        "denominator": 10451249169265422853842230645911633
+      },
+      "margin": {
+        "numerator": -28836352828290794499851018350342354330599666032904236510958896647597576,
+        "denominator": 344891222585758954176793611315083889
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 111060055438584184832,
+        "denominator": 8647
+      },
+      "alpha": {
+        "numerator": 479781169850765465237862682734983920,
+        "denominator": 10451249169265422853842230645911633
+      },
+      "margin": {
+        "numerator": -7555998269885772677632082226465636221032463599934047093551457749785536824,
+        "denominator": 90371951566638111417173768395197890551
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 39745146320846848,
+        "denominator": 67
+      },
+      "alpha": {
+        "numerator": 1421505225045837787332826892883826264,
+        "denominator": 30947142450731344093025072715183337
+      },
+      "margin": {
+        "numerator": -513340935464099899818132265100023551250716959597895922438701337052169112,
+        "denominator": 2073458544199000054232679871917283579
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 117954714624367525888,
+        "denominator": 8915
+      },
+      "alpha": {
+        "numerator": 1421505225045837787332826892883826264,
+        "denominator": 30947142450731344093025072715183337
+      },
+      "margin": {
+        "numerator": -68304991636752993972361506358123347482244980094665842978661660957016858648,
+        "denominator": 275893774948269932589318523255859449355
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 32281661391503360,
+        "denominator": 27
+      },
+      "alpha": {
+        "numerator": 1083996413921161622622588330664217599,
+        "denominator": 23600792726318724011917158836661217
+      },
+      "margin": {
+        "numerator": -360934326417306895729625223278025197641750986475840167326133331905233032,
+        "denominator": 637221403610605548321763288589852859
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 121515870059013079040,
+        "denominator": 4523
+      },
+      "alpha": {
+        "numerator": 1083996413921161622622588330664217599,
+        "denominator": 23600792726318724011917158836661217
+      },
+      "margin": {
+        "numerator": -60463183643906632814327941952366871294278560297392965230258015923552028168,
+        "denominator": 106746385501139588705901309418218684491
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 166158197189509120,
+        "denominator": 137
+      },
+      "alpha": {
+        "numerator": 9637680814350023102319782894383242937,
+        "denominator": 209715020420537358027976718435455951
+      },
+      "margin": {
+        "numerator": -48202507209825095577716831460844240824233383447845406686362069401663498056,
+        "denominator": 28730957797613618049832810425657465287
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 32221960109138378752,
+        "denominator": 1165
+      },
+      "alpha": {
+        "numerator": 9637680814350023102319782894383242937,
+        "denominator": 209715020420537358027976718435455951
+      },
+      "margin": {
+        "numerator": -409897232842673257717963908923302448194626186987358220936480237055115342696,
+        "denominator": 244317998789926022102592876977306182915
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 168638695421771776,
+        "denominator": 69
+      },
+      "alpha": {
+        "numerator": 22047569700612765607269468098024154751,
+        "denominator": 479781169850765465237862682734983920
+      },
+      "margin": {
+        "numerator": -7941553997546232591747678011958051773832105829342965025491159385143784064,
+        "denominator": 2069056294981426068838282819294618155
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 265385831857502814208,
+        "denominator": 4727
+      },
+      "alpha": {
+        "numerator": 22047569700612765607269468098024154751,
+        "denominator": 479781169850765465237862682734983920
+      },
+      "margin": {
+        "numerator": -544053996324652774450098682216737894949387119568797507656181385002084592512,
+        "denominator": 141745349367785522136211056330516811865
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 86747069385015296,
+        "denominator": 35
+      },
+      "alpha": {
+        "numerator": 65357780243211200782491651036885851839,
+        "denominator": 1421505225045837787332826892883826264
+      },
+      "margin": {
+        "numerator": -70723698669141627668088496066805082963062962791305323276384511550891328192,
+        "denominator": 6219085359575540319581117656366739905
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 281127460667534606336,
+        "denominator": 4867
+      },
+      "alpha": {
+        "numerator": 65357780243211200782491651036885851839,
+        "denominator": 1421505225045837787332826892883826264
+      },
+      "margin": {
+        "numerator": -9834635469220351479532865243851276630705000267002865722654166786997113354944,
+        "denominator": 864808241287261563868608560958197803361
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 704109654241705984,
+        "denominator": 141
+      },
+      "alpha": {
+        "numerator": 49837046981757227434795001726601068544,
+        "denominator": 1083996413921161622622588330664217599
+      },
+      "margin": {
+        "numerator": -1325454398244362469257078807420042978303972254664292530385790432075828053096,
+        "denominator": 50947831454294596263261651541218227153
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1156988888389060132864,
+        "denominator": 9871
+      },
+      "alpha": {
+        "numerator": 49837046981757227434795001726601068544,
+        "denominator": 1083996413921161622622588330664217599
+      },
+      "margin": {
+        "numerator": -278373624788725573009404732093499234607686983988296129866657099299354119626088,
+        "denominator": 10700128601815786376907569411986491919729
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 723953640099807232,
+        "denominator": 143
+      },
+      "alpha": {
+        "numerator": 443321225978559150413861150507441004160,
+        "denominator": 9637680814350023102319782894383242937
+      },
+      "margin": {
+        "numerator": -106260315852308359995064505055579822525005869381451993662774183169017371463416,
+        "denominator": 1378188356452053303631728953896803739991
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1224122218446923497472,
+        "denominator": 10157
+      },
+      "alpha": {
+        "numerator": 443321225978559150413861150507441004160,
+        "denominator": 9637680814350023102319782894383242937
+      },
+      "margin": {
+        "numerator": -7547454742041230855912775226270727443857348356365895349774181173778919020813544,
+        "denominator": 97889924031353184650262034858250598511109
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 91787230686740480,
+        "denominator": 9
+      },
+      "alpha": {
+        "numerator": 1014106023201777217524837838096661059201,
+        "denominator": 22047569700612765607269468098024154751
+      },
+      "margin": {
+        "numerator": -34998863738643221390723197836676546240518299595126062489779040141232699627592,
+        "denominator": 198428127305514890465425212882217392759
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2517457374448392863744,
+        "denominator": 10297
+      },
+      "alpha": {
+        "numerator": 1014106023201777217524837838096661059201,
+        "denominator": 22047569700612765607269468098024154751
+      },
+      "margin": {
+        "numerator": -40042588879645472293139835014338152381169772248956763781045793144185643241445832,
+        "denominator": 227023825207209647458053713005354721471047
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 754564043817091072,
+        "denominator": 73
+      },
+      "alpha": {
+        "numerator": 3007684604268626094247551395608860532417,
+        "denominator": 65357780243211200782491651036885851839
+      },
+      "margin": {
+        "numerator": -2494637431978814806738923676599264703195217883346127877660693287203915156960840,
+        "denominator": 4771117957754417657121890525692667184247
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2660417389219828203520,
+        "denominator": 10589
+      },
+      "alpha": {
+        "numerator": 3007684604268626094247551395608860532417,
+        "denominator": 65357780243211200782491651036885851839
+      },
+      "margin": {
+        "numerator": -361859120098954383397237953551242778765506887031171891569039749272047679141383912,
+        "denominator": 692073534995363405085804092829584285123171
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 3060477421774962688,
+        "denominator": 147
+      },
+      "alpha": {
+        "numerator": 2293321363597919241238518541378192972801,
+        "denominator": 49837046981757227434795001726601068544
+      },
+      "margin": {
+        "numerator": -133706723885630839016731181245962838299462339862567968884596586705565777920,
+        "denominator": 111786589146702765394819110928502763
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1367033467678643716096,
+        "denominator": 2683
+      },
+      "alpha": {
+        "numerator": 2293321363597919241238518541378192972801,
+        "denominator": 49837046981757227434795001726601068544
+      },
+      "margin": {
+        "numerator": -2440375103300323408674456165049306145332323229770803910987857201451938349056,
+        "denominator": 2040295365174173602410201868171244307
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 3143231064927895552,
+        "denominator": 149
+      },
+      "alpha": {
+        "numerator": 20409618659400270837289965034383735787207,
+        "denominator": 443321225978559150413861150507441004160
+      },
+      "margin": {
+        "numerator": -1830220168816673348375493431371029135018284067164427590896500328016963680269312,
+        "denominator": 516053614615666511028635245512568043905
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 2886087629629038788608,
+        "denominator": 5515
+      },
+      "alpha": {
+        "numerator": 20409618659400270837289965034383735787207,
+        "denominator": 443321225978559150413861150507441004160
+      },
+      "margin": {
+        "numerator": -67742712959892305478020419144478792816093897786888368135722020362677702417026048,
+        "denominator": 19100910634935575894784720664441696390175
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 637259347272925184,
+        "denominator": 15
+      },
+      "alpha": {
+        "numerator": 46685095386392522180770647854805389433616,
+        "denominator": 1014106023201777217524837838096661059201
+      },
+      "margin": {
+        "numerator": -123409323155294821467924543838944061084891864260340115324753367830818993908422776,
+        "denominator": 15211590348026658262872567571449915888015
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1482179673363903938560,
+        "denominator": 1397
+      },
+      "alpha": {
+        "numerator": 46685095386392522180770647854805389433616,
+        "denominator": 1014106023201777217524837838096661059201
+      },
+      "margin": {
+        "numerator": -11493521629863124372646280914585450223728746784533322551780491607058243248189256616,
+        "denominator": 1416706114412882772882198459821035499703797
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 817684807344455680,
+        "denominator": 19
+      },
+      "alpha": {
+        "numerator": 138523300702788688093770073283689846757032,
+        "denominator": 3007684604268626094247551395608860532417
+      },
+      "margin": {
+        "numerator": -16566473917719124538370639647056728994290902755107234470533885949176030341477896,
+        "denominator": 688506114230167419165102126705642772481
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1562907822584426921984,
+        "denominator": 1435
+      },
+      "alpha": {
+        "numerator": 138523300702788688093770073283689846757032,
+        "denominator": 3007684604268626094247551395608860532417
+      },
+      "margin": {
+        "numerator": -103849993472101912007299162708377418379555574619524343635147720169796865030187094232,
+        "denominator": 4316027407125478445245236252698714864018395
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 13258597302978740224,
+        "denominator": 153
+      },
+      "alpha": {
+        "numerator": 105617244233725380214865079599350168009759,
+        "denominator": 2293321363597919241238518541378192972801
+      },
+      "margin": {
+        "numerator": -19312233603369523567479362483515206891853794068472420134916873861546026176326880856,
+        "denominator": 350878168630481643909493336830863524838553
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 25671191164156119089152,
+        "denominator": 11629
+      },
+      "alpha": {
+        "numerator": 105617244233725380214865079599350168009759,
+        "denominator": 2293321363597919241238518541378192972801
+      },
+      "margin": {
+        "numerator": -1467855977605125421998816724200154758116020161825270447804598905952818277111331062328,
+        "denominator": 26669034137280202856362732117687006080702829
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 13603122674472583168,
+        "denominator": 155
+      },
+      "alpha": {
+        "numerator": 134336735448042846407372440555950794575495,
+        "denominator": 2915659808485752976755709290626247969601
+      },
+      "margin": {
+        "numerator": -476060038653873952662815482856000559925288864250066714342427314225899025418185784,
+        "denominator": 2915659808485752976755709290626247969601
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 27041386580985641959424,
+        "denominator": 11939
+      },
+      "alpha": {
+        "numerator": 134336735448042846407372440555950794575495,
+        "denominator": 2915659808485752976755709290626247969601
+      },
+      "margin": {
+        "numerator": -5683680801488601120837862155111281873788123673721954668167892988473246167835909486504,
+        "denominator": 34810062453511404789486413220786774509066339
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 6891070379830280192,
+        "denominator": 39
+      },
+      "alpha": {
+        "numerator": 2150880933587383468167038758726556238652591,
+        "denominator": 46685095386392522180770647854805389433616
+      },
+      "margin": {
+        "numerator": -42500213559113083017989616842957120805917904631574502880701490889549397546026492800,
+        "denominator": 113794920004331772815628454146088136744439
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 55492180294856414855168,
+        "denominator": 12091
+      },
+      "alpha": {
+        "numerator": 2150880933587383468167038758726556238652591,
+        "denominator": 46685095386392522180770647854805389433616
+      },
+      "margin": {
+        "numerator": -13176155952390674019749557053516573966857437663930606509518767402557607959110039940480,
+        "denominator": 35279343019804499105481118950778247727615691
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 14133421530595459072,
+        "denominator": 79
+      },
+      "alpha": {
+        "numerator": 6384718992840824607466708503589165510361239,
+        "denominator": 138523300702788688093770073283689846757032
+      },
+      "margin": {
+        "numerator": -1515907682170022146851350907966594032517365619562558867714846705480508149589604509120,
+        "denominator": 1367917594440038294925979473676437236725691
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 58395903176201306374144,
+        "denominator": 12407
+      },
+      "alpha": {
+        "numerator": 6384718992840824607466708503589165510361239,
+        "denominator": 138523300702788688093770073283689846757032
+      },
+      "margin": {
+        "numerator": -238074260920043857923812263971407127279475841716877012974415714003458305657728816865216,
+        "denominator": 214832323977437406647425662403842491089312003
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 57263269262015856640,
+        "denominator": 159
+      },
+      "alpha": {
+        "numerator": 4867822395522618847485286842368945585115264,
+        "denominator": 105617244233725380214865079599350168009759
+      },
+      "margin": {
+        "numerator": -14189162899557577081842030613297130414498931509640662931841628451448270703996304254712,
+        "denominator": 5597713944387445151387849218765558904517227
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 59888536830200244076544,
+        "denominator": 6281
+      },
+      "alpha": {
+        "numerator": 4867822395522618847485286842368945585115264,
+        "denominator": 105617244233725380214865079599350168009759
+      },
+      "margin": {
+        "numerator": -1681549663624927200962923150339380700921229026479204614247505210228094644746958946514648,
+        "denominator": 663381911032029113129567564963518405269296279
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 58695413943519674368,
+        "denominator": 161
+      },
+      "alpha": {
+        "numerator": 43357753958044176817876366215779934095612752,
+        "denominator": 940357148136299924851607083891655562028465
+      },
+      "margin": {
+        "numerator": -1138941777073733236145165833603310400944971227024312249747588436224748532527021221677064,
+        "denominator": 151397500849944287901108740506556545486582865
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 31480977672752227942400,
+        "denominator": 3221
+      },
+      "alpha": {
+        "numerator": 43357753958044176817876366215779934095612752,
+        "denominator": 940357148136299924851607083891655562028465
+      },
+      "margin": {
+        "numerator": -4557181942800614600774369678386870882522485925151667892302009515550854216315834680184200,
+        "denominator": 605778074829404411589405283443004513058737153
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 59438507882035806208,
+        "denominator": 81
+      },
+      "alpha": {
+        "numerator": 99168094169068826710041554199940148707918705,
+        "denominator": 2150880933587383468167038758726556238652591
+      },
+      "margin": {
+        "numerator": -2997835136224387822139272015339611898803763045818883403877132167793090475907293378285448,
+        "denominator": 174221355620578060921530139456851055330859871
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 129082055426102844719104,
+        "denominator": 6521
+      },
+      "alpha": {
+        "numerator": 99168094169068826710041554199940148707918705,
+        "denominator": 2150880933587383468167038758726556238652591
+      },
+      "margin": {
+        "numerator": -241344233621225098619372770159252691007674641902159078744292789902822177064910376588402888,
+        "denominator": 14025894567923327595917259745655873232253545911
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 30448837080651923456,
+        "denominator": 41
+      },
+      "alpha": {
+        "numerator": 294486255340633290902335575523530638817592729,
+        "denominator": 6384718992840824607466708503589165510361239
+      },
+      "margin": {
+        "numerator": -13370800810553892028417149494596486468105910887735513338242366020238979762540156255608264,
+        "denominator": 261773478706473808906135048647155785924810799
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 135581254091556735942656,
+        "denominator": 6685
+      },
+      "alpha": {
+        "numerator": 294486255340633290902335575523530638817592729,
+        "denominator": 6384718992840824607466708503589165510361239
+      },
+      "margin": {
+        "numerator": -2180092766306165078291879690603576677587083462391200493635960390158595439662257136430122856,
+        "denominator": 42681846467140912500914946346493571436764882715
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 49323423118961672192,
+        "denominator": 33
+      },
+      "alpha": {
+        "numerator": 224512379221255850657418948239964863195919457,
+        "denominator": 4867822395522618847485286842368945585115264
+      },
+      "margin": {
+        "numerator": -146617112035050323813122271169247905473740248273567729939202999350071303076219997162496,
+        "denominator": 1254985461345675171617300514048243783662529
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 555675288943220437811200,
+        "denominator": 13531
+      },
+      "alpha": {
+        "numerator": 224512379221255850657418948239964863195919457,
+        "denominator": 4867822395522618847485286842368945585115264
+      },
+      "margin": {
+        "numerator": -60117458877159573682282619944027777536854653424775878162826081113801221416713249801847808,
+        "denominator": 514582069014191840822839189563235958689020603
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 252561867102937415680,
+        "denominator": 167
+      },
+      "alpha": {
+        "numerator": 2000478683057315749280722738633782965359294591,
+        "denominator": 43357753958044176817876366215779934095612752
+      },
+      "margin": {
+        "numerator": -156971218161905672660515985408709507201463064418539411238845518310252288176723563724715904,
+        "denominator": 452546556937086095536584572377203062122958099
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 583134384389644693274624,
+        "denominator": 13865
+      },
+      "alpha": {
+        "numerator": 2000478683057315749280722738633782965359294591,
+        "denominator": 43357753958044176817876366215779934095612752
+      },
+      "margin": {
+        "numerator": -13032370897094743421784685027988300885842261391431121129621454189965162720548396497651069056,
+        "denominator": 37572203664267656973740988598861799139729425405
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 63910582312014708736,
+        "denominator": 21
+      },
+      "alpha": {
+        "numerator": 4575326409609330223823660767787520371598428848,
+        "denominator": 99168094169068826710041554199940148707918705
+      },
+      "margin": {
+        "numerator": -1652164231389050841484930253837450231283566419309217781593775142472246173261776481391324072,
+        "denominator": 2082529977550445360910872638198743122866292805
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1194458041840498475270144,
+        "denominator": 14029
+      },
+      "alpha": {
+        "numerator": 4575326409609330223823660767787520371598428848,
+        "denominator": 99168094169068826710041554199940148707918705
+      },
+      "margin": {
+        "numerator": -1103724381055094964532951231789832294642268504740985179755065659009119246888666411371683555688,
+        "denominator": 1391229193097866569915172963870960346223391512445
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 261695167147244781568,
+        "denominator": 85
+      },
+      "alpha": {
+        "numerator": 13591612697943504169452032091283108903333547512,
+        "denominator": 294486255340633290902335575523530638817592729
+      },
+      "margin": {
+        "numerator": -58971065117493095224871052044694275414495476446929363520259232702873874731014916218304001064,
+        "denominator": 25031331703953829726698523919500104299495381965
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1252408488348057031671808,
+        "denominator": 14369
+      },
+      "alpha": {
+        "numerator": 13591612697943504169452032091283108903333547512,
+        "denominator": 294486255340633290902335575523530638817592729
+      },
+      "margin": {
+        "numerator": -9968885113803038650425538247616229593156077205818177508449079564985516976883887750634340736136,
+        "denominator": 4231473002989559756975659884697611749169989923001
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1059318689951578587136,
+        "denominator": 171
+      },
+      "alpha": {
+        "numerator": 10361671555944190336918489368544614529559255167,
+        "denominator": 224512379221255850657418948239964863195919457
+      },
+      "margin": {
+        "numerator": -206865437770409238953977858277672057316516305733988133304366389466114019960067633343973848584,
+        "denominator": 38391616846834750462418640149033991606502227147
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 320535200681998577303552,
+        "denominator": 1817
+      },
+      "alpha": {
+        "numerator": 10361671555944190336918489368544614529559255167,
+        "denominator": 224512379221255850657418948239964863195919457
+      },
+      "margin": {
+        "numerator": -2198096493735868930873550997049877226919783610903297467611577404907522270383741156575889362008,
+        "denominator": 407938993045021880644530228952016156426985653369
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1083962387112549941248,
+        "denominator": 173
+      },
+      "alpha": {
+        "numerator": 92357860728952564592079032180973105301305055465,
+        "denominator": 2000478683057315749280722738633782965359294591
+      },
+      "margin": {
+        "numerator": -5538650306531557583853709782157246978385766984938020968586434614395205672804548205329519156584,
+        "denominator": 346082812168915624625565033783644453007157964243
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1343233104450794599481344,
+        "denominator": 7441
+      },
+      "alpha": {
+        "numerator": 92357860728952564592079032180973105301305055465,
+        "denominator": 2000478683057315749280722738633782965359294591
+      },
+      "margin": {
+        "numerator": -238225993820238843823441813710469759811566138849378335842291969693725283051521623564463767478408,
+        "denominator": 14885561880629486490397857898173979045238511051631
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 1096716581257263185920,
+        "denominator": 87
+      },
+      "alpha": {
+        "numerator": 211225409716128369971089871699792533819689447583,
+        "denominator": 4575326409609330223823660767787520371598428848
+      },
+      "margin": {
+        "numerator": -910612111319384300582668828096671484564201348818019036457399215510014047090791050566695432064,
+        "denominator": 24878337352250733092041155424844642020566456861
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1374563746338485666054144,
+        "denominator": 3763
+      },
+      "alpha": {
+        "numerator": 211225409716128369971089871699792533819689447583,
+        "denominator": 4575326409609330223823660767787520371598428848
+      },
+      "margin": {
+        "numerator": -39386590516032679575776796274380147284753400558473693765869892758834806889797689426616738770304,
+        "denominator": 1076059579959994352015527216824027447395305484689
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 140224077997807763456,
+        "denominator": 11
+      },
+      "alpha": {
+        "numerator": 627682930090266402466683434152061795121973004911,
+        "denominator": 13591612697943504169452032091283108903333547512
+      },
+      "margin": {
+        "numerator": -2032051293039890103391119126188843791220740082361226167855014398882153201178852066355798500032,
+        "denominator": 18688467459672318232996544125514274742083627829
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 1438909448432098402631680,
+        "denominator": 3851
+      },
+      "alpha": {
+        "numerator": 627682930090266402466683434152061795121973004911,
+        "denominator": 13591612697943504169452032091283108903333547512
+      },
+      "margin": {
+        "numerator": -711402684499692435287199868677370810850117512386749627381590832154116685550983217740801117921984,
+        "denominator": 6542662562472554319569971947941406548342186433589
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 4539051963637156544512,
+        "denominator": 177
+      },
+      "alpha": {
+        "numerator": 478502085076276201297900423966094093491652563968,
+        "denominator": 10361671555944190336918489368544614529559255167
+      },
+      "margin": {
+        "numerator": -152027760205500264048023787838285691851880819854948381888102891163179396518067570397282429762952,
+        "denominator": 611338621800707229878190872744132257243996054853
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 11775157414352706963767296,
+        "denominator": 15577
+      },
+      "alpha": {
+        "numerator": 478502085076276201297900423966094093491652563968,
+        "denominator": 10361671555944190336918489368544614529559255167
+      },
+      "margin": {
+        "numerator": -40137905435950468018238410542417590341237190110386958530757961689606035561698427613343475042016344,
+        "denominator": 161403757826942652878179308893819460526944517736359
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 4641085516794862501888,
+        "denominator": 179
+      },
+      "alpha": {
+        "numerator": 4266465412240329649732996493231349914376044793376,
+        "denominator": 92357860728952564592079032180973105301305055465
+      },
+      "margin": {
+        "numerator": -12214923395829752831248931829262633231958461975093719080998705349294288471178500624501148786540312,
+        "denominator": 16532057070482509061982146760394185848933604928235
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 12316858159752986318864384,
+        "denominator": 15935
+      },
+      "alpha": {
+        "numerator": 4266465412240329649732996493231349914376044793376,
+        "denominator": 92357860728952564592079032180973105301305055465
+      },
+      "margin": {
+        "numerator": -1087401141410877717128221897254067360366223910290983356834484367316808007799933666571494144920842616,
+        "denominator": 1471722510715859116774779377803806432976296058834775
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 469383167563062575104,
+        "denominator": 9
+      },
+      "alpha": {
+        "numerator": 9757211669993359533388604386661189575407357831073,
+        "denominator": 211225409716128369971089871699792533819689447583
+      },
+      "margin": {
+        "numerator": -3212364507101733398409604430275194856388632687595327524666494221912884880448928750554763119609416,
+        "denominator": 1901028687445155329739808845298132804377205028247
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 25188869064791628531630080,
+        "denominator": 16111
+      },
+      "alpha": {
+        "numerator": 9757211669993359533388604386661189575407357831073,
+        "denominator": 211225409716128369971089871699792533819689447583
+      },
+      "margin": {
+        "numerator": -5750489397101780753530792759776868887896027707647981055498046011133801966445243521467649265029513592,
+        "denominator": 3403052575936544168604228922955357512369016690009713
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 4797594611045241978880,
+        "denominator": 91
+      },
+      "alpha": {
+        "numerator": 29003845392449650913762534389389776170708024068721,
+        "denominator": 627682930090266402466683434152061795121973004911
+      },
+      "margin": {
+        "numerator": -286821706609039245258045117148422240788449460508916069677652145394080105346677546333495101175234008,
+        "denominator": 57119146638214242624468192507837623356099543446901
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 26327987793145322335633408,
+        "denominator": 16475
+      },
+      "alpha": {
+        "numerator": 29003845392449650913762534389389776170708024068721,
+        "denominator": 627682930090266402466683434152061795121973004911
+      },
+      "margin": {
+        "numerator": -51927336443779357864025200415647894130548100717033222661059549162451644965147955301771517516686556632,
+        "denominator": 10341076273237138980638609577655218074634505255908725
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 19404821844037841453056,
+        "denominator": 183
+      },
+      "alpha": {
+        "numerator": 22109798733221277585673323964514153212116149425537,
+        "denominator": 478502085076276201297900423966094093491652563968
+      },
+      "margin": {
+        "numerator": -982041958881771745141389289415019147128067175640313384348957126174800965609170146664246341771264,
+        "denominator": 85513556219686078942886501548628143661105878131
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 26911460902270140818653184,
+        "denominator": 8327
+      },
+      "alpha": {
+        "numerator": 22109798733221277585673323964514153212116149425537,
+        "denominator": 478502085076276201297900423966094093491652563968
+      },
+      "margin": {
+        "numerator": -44685592303871657496133051967833139772912576428757540982971367064894862429716139401223575487225856,
+        "denominator": 3891100451591945242390250810903970230961905175939
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 19826791114723947446272,
+        "denominator": 185
+      },
+      "alpha": {
+        "numerator": 197197069050398844243337881859832908050941146937335,
+        "denominator": 4266465412240329649732996493231349914376044793376
+      },
+      "margin": {
+        "numerator": -168375225803048175686716499235109763064391987986495428862908170828384989673169293158488084014269696,
+        "denominator": 4933100632902881157503777195298748338497301792341
+      }
+    },
+    {
+      "path": "sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 439190234020437097971712,
+        "denominator": 133
+      },
+      "alpha": {
+        "numerator": 197197069050398844243337881859832908050941146937335,
+        "denominator": 4266465412240329649732996493231349914376044793376
+      },
+      "margin": {
+        "numerator": -605240676535281280171170116253519797049416303855570078879338102262920016756345514924328473448539392,
+        "denominator": 17732496869623870106702766674992798081625436172469
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 20044693279094641524736,
+        "denominator": 93
+      },
+      "alpha": {
+        "numerator": 450966322630468161710307131226547086162823384320208,
+        "denominator": 9757211669993359533388604386661189575407357831073
+      },
+      "margin": {
+        "numerator": -70831165602352625393387380303650452153001693934665662621561591422429940528119785857349182910445843688,
+        "denominator": 907420685309382436605140207959490630512884278289789
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": false,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 57441830574115227430813696,
+        "denominator": 8603
+      },
+      "alpha": {
+        "numerator": 450966322630468161710307131226547086162823384320208,
+        "denominator": 9757211669993359533388604386661189575407357831073
+      },
+      "margin": {
+        "numerator": -6552263630935910067304426133558803311770278386147223076481721449416467499750515195822146192276043418328,
+        "denominator": 83941291996952872065742163538446213917229499420721019
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "lambda_local",
+      "strength": {
+        "numerator": 10236790039404194299904,
+        "denominator": 47
+      },
+      "alpha": {
+        "numerator": 1340914306887613231706088521429096921122025474091592,
+        "denominator": 29003845392449650913762534389389776170708024068721
+      },
+      "margin": {
+        "numerator": -316299865878470189656261356370132428410664353729533011292681990549492048655790199433167625269483709048,
+        "denominator": 1363180733445133592946839116301319480023277131229887
+      }
+    },
+    {
+      "path": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "smooth": true,
+      "candidate": "L_d",
+      "strength": {
+        "numerator": 59954267893582431506137088,
+        "denominator": 8791
+      },
+      "alpha": {
+        "numerator": 1340914306887613231706088521429096921122025474091592,
+        "denominator": 29003845392449650913762534389389776170708024068721
+      },
+      "margin": {
+        "numerator": -59161534488034711431238161280681043796438658225803664294208606721308756692058580838924015876950917581752,
+        "denominator": 254972804845024881182886439817125522316694239588126311
+      }
+    }
+  ],
+  "complete_depth6_C": {}
+}

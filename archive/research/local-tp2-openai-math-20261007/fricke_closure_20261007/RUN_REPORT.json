@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-07T13:21:18.029859+00:00",
+  "completed_utc": "2026-10-07T13:21:23.160921+00:00",
+  "python": "3.13.5",
+  "implementation": "CPython",
+  "arithmetic": "Python integers and fractions.Fraction; no floating-point proof conclusions",
+  "base_commit": "0f7bb105a3330ba890528bb60b1f85ef6debcef5",
+  "runs": [
+    {
+      "script": "symbolic.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.609,
+      "stdout": "{\"status\": \"PASS\", \"identity_count\": 23, \"positive_maps\": 9}",
+      "stderr": ""
+    },
+    {
+      "script": "author.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.198,
+      "stdout": "{\"status\": \"PASS\", \"depth\": 7, \"state_count\": 255, \"checked_supported_minors\": 13120}",
+      "stderr": ""
+    },
+    {
+      "script": "verifier.py",
+      "exit_code": 0,
+      "elapsed_seconds": 3.321,
+      "stdout": "{\"status\": \"PASS\", \"depth\": 7, \"state_count\": 255, \"checked_supported_minors\": 13120}",
+      "stderr": ""
+    }
+  ],
+  "fixed_sources_unchanged": true,
+  "separate_output_bytes_identical": true,
+  "identity_count": 23,
+  "bounded_depth": 7,
+  "bounded_state_count": 255,
+  "bounded_supported_minors": 13120,
+  "bounded_negative_seed_checks": 382,
+  "regenerated_sha256": {
+    "author_results.json": "3b3fa92cfd566821165d3edcdfcb495519758ddfc2d3d163f40fb2585570ac1e",
+    "verifier_results.json": "3b3fa92cfd566821165d3edcdfcb495519758ddfc2d3d163f40fb2585570ac1e",
+    "symbolic_results.json": "e40924764532591469d18ca1ad6ee47e0ffd0a0390cd4b9184e5b3557de9b079"
+  },
+  "independence": "Separate algorithms by the same model; not blind, external or independent-model review.",
+  "scope": "Written induction proves the algebraic statements. The bounded positive TP2 checks do not prove the full-tree target.",
+  "mathematical_status": "PROOF_CANDIDATE; full-tree Local TP2 remains open"
+}

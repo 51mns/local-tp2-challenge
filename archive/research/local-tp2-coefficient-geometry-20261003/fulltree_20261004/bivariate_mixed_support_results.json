@@ -1,0 +1,42 @@
+{
+  "status": "exact_internal_identity_checks_passed; no_fulltree_proof",
+  "monomial_pair_checks": 36,
+  "canonical_obstructions": [
+    {
+      "path": "root",
+      "pair": [
+        "C",
+        "D"
+      ],
+      "degrees": [
+        2,
+        4
+      ],
+      "character_index": [
+        6,
+        0
+      ],
+      "doubled_mixed_coefficient": -12,
+      "fricke_residual_zero": true,
+      "target_R_S_D_nonnegative_in_this_example": true
+    },
+    {
+      "path": "L",
+      "pair": [
+        "S",
+        "D"
+      ],
+      "degrees": [
+        4,
+        6
+      ],
+      "character_index": [
+        10,
+        0
+      ],
+      "doubled_mixed_coefficient": -192,
+      "fricke_residual_zero": true,
+      "target_R_S_D_nonnegative_in_this_example": true
+    }
+  ]
+}

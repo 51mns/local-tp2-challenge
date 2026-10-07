@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "all-depth coefficient-order lemmas proved in manuscript; Local TP2 remains open",
+  "scalar_mutation_child_identities": "PASS",
+  "incoming_gap_separation_identity": "PASS",
+  "two_step_entry_obstruction_defects": [
+    -4,
+    -67
+  ],
+  "symbolic_barrier_indices_checked": 9,
+  "Fibonacci_constant_term_indices_checked": 20,
+  "canonical_implementation_nodes_checked": 31
+}

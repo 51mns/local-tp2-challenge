@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Saved exact evidence, explicit seed recomputation and integrity only; not a complete replay or a formal mathematical proof.",
+  "root_and_first_children_rechecked": 3,
+  "falsification_frozen_hashes_checked": 14,
+  "manifest_hashes_checked": 56,
+  "bounded_direct_relative_comparisons": 3109051,
+  "actual_negative_exterior_contribution": -72,
+  "naive_root_packet_defect": -388,
+  "independent_trace_formal_checks": 9,
+  "independent_paired_switch_formal_checks": 10,
+  "off_Fricke_auxiliary_state": "Rechecked with exact rational arithmetic; not canonical and not a P_Q closure counterexample.",
+  "full_tree_Local_TP2": "OPEN",
+  "complete_common_predicate_closure": "OPEN"
+}

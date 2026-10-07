@@ -1,0 +1,47 @@
+{
+  "scope": "Formal coefficient identities only; infinite inequalities have an analytic audit, not scan inference.",
+  "checks": {
+    "central_CB_coefficients_4_2_3_4_2": true,
+    "central_Q_linear_form": true,
+    "trace_delta0_perturbation": true,
+    "trace_delta1_perturbation": true,
+    "trace_delta2_perturbation": true,
+    "trace_delta_ge3_perturbation_including_terminal": true,
+    "second_y_five_minor_identity_n1_n2_n3": true,
+    "all_degree1_defect_formulas": true,
+    "all_degree0_defect_formulas": true
+  },
+  "abstract_exception": {
+    "a_halfrow": [
+      2,
+      1
+    ],
+    "a_defects": [
+      2,
+      1
+    ],
+    "ya_halfrow": [
+      4,
+      3,
+      1
+    ],
+    "ya_defects": [
+      2,
+      4,
+      1
+    ],
+    "trace_minus2_halfrow": [
+      31,
+      26,
+      12,
+      3
+    ],
+    "trace_minus2_defects": [
+      -19,
+      238,
+      57,
+      9
+    ]
+  },
+  "imports": []
+}

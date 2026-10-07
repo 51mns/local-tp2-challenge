@@ -1,0 +1,71 @@
+{
+  "status": "FROZEN_PROOF_ADAPTATION_AND_CONDITIONAL_PACKET_AUDIT_NO_FULL_TREE_TP2",
+  "own_files": {
+    "adversarial_classification.md": {
+      "bytes": 8953,
+      "sha256": "a79724afc398b8a2fa58a3dde5017b6a13955e833d7fdb287829a33615f9b862"
+    },
+    "adversarial_frozen.md": {
+      "bytes": 2523,
+      "sha256": "ddd1df0f83e7a5112acf93709ad9d0028b68ebc9f9d9975abe3391ebb85e4cea"
+    },
+    "adversarial_probe.py": {
+      "bytes": 6163,
+      "sha256": "bb9d4f343f16b5a7403c75f28b31f8c0ff46e07b941548521719b3290bc5d35e"
+    },
+    "adversarial_results.json": {
+      "bytes": 3069,
+      "sha256": "3ffad0356a2ce624345b201479691696ae9ffd88527392a396758f7ee1e456a0"
+    },
+    "adversarial_report.md": {
+      "bytes": 5446,
+      "sha256": "c1b2052968a6ed28401547afad79f426478f54a2be1b0332e3d0c0cc859a77ba"
+    },
+    "adversarial_packet_check.py": {
+      "bytes": 3300,
+      "sha256": "1038461e9350d0696fd557d8ec09b1b4b0b3ffd27aecaec52ba52f5ffc00a267"
+    },
+    "adversarial_packet_check_results.json": {
+      "bytes": 1519,
+      "sha256": "5ce88fb45c1eed519b5d4784654ecbd842526764d60c5b009ae3833141ee25c3"
+    },
+    "adversarial_packet_audit.md": {
+      "bytes": 10634,
+      "sha256": "6784a70b121ea065d8ed0d6e902759d37f52a43a4058b4853fbce6abdbf812d5"
+    }
+  },
+  "audited_packet_files": {
+    "packet_transport.md": {
+      "bytes": 14473,
+      "sha256": "c860fdb46012a27da77895a28486dfc518443e75aaa69c00eb97da593b45ec40"
+    },
+    "packet_expanded_predicate.md": {
+      "bytes": 4915,
+      "sha256": "66a33eec04ed67814024f8238f161f058185f93606ef16a28937a2f5de5c4609"
+    },
+    "packet_transport_verify.py": {
+      "bytes": 4594,
+      "sha256": "38c138f5e08d0edf806584ec359bd06cdea9cb65d42c6c6889e1355c1788b3f9"
+    },
+    "packet_transport_results.json": {
+      "bytes": 2350,
+      "sha256": "c3e121af38445bd0f22d1aff3f2216f54fc0d220f3448e90522588d6dff9f456"
+    }
+  },
+  "commands": [
+    "python adversarial_probe.py",
+    "python adversarial_packet_check.py"
+  ],
+  "source": {
+    "paper": "Bittmann et al., A Mirror deformation of Markov Numbers, arXiv:2602.14802v1, Proposition2.3",
+    "url": "https://arxiv.org/html/2602.14802v1",
+    "classification": "integer Laurent consequence is reproof/adaptation; no novelty claim"
+  },
+  "generic_probe": {
+    "states": 6405,
+    "full_PQ_parents": 1888,
+    "both_complete_children_pass": 1888,
+    "classification": "all accepted states are OFF_FRICKE"
+  },
+  "packet_audit": "PASS for both-origin conditional transport, MP2 weakening, two remaining analytic components, and optional MP5/2 fixed-trace block kernels; new child paired MP2/proxy remain open on regular edges; only paired MP2 open on root edges; changed-reference direct bounds not proved"
+}

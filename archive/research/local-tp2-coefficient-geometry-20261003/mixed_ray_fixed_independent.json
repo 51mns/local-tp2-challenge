@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "method": "standalone exact direct Laurent arithmetic",
+  "fixed_rows_verified": 5,
+  "fixed_adjacent_minors_verified": 38,
+  "fixed_minor_tables": {
+    "LR_q0_q1": [
+      32922,
+      52734,
+      23880,
+      3440
+    ],
+    "RL_q0_q1": [
+      492854,
+      857178,
+      477196,
+      109472,
+      10224
+    ],
+    "LR_B0_q0": [
+      36,
+      34,
+      4,
+      0
+    ],
+    "LR_B0_E1": [
+      40,
+      48,
+      8,
+      0
+    ],
+    "RL_B0_q0": [
+      397,
+      504,
+      144,
+      12
+    ],
+    "RL_B0_E1": [
+      408,
+      508,
+      148,
+      12
+    ],
+    "LR_b_q1": [
+      31996,
+      57348,
+      23880,
+      3440
+    ],
+    "RL_b_q0": [
+      346,
+      672,
+      220,
+      24
+    ],
+    "Ay_By": [
+      2232,
+      2790,
+      1860,
+      378,
+      36
+    ]
+  },
+  "strict_remainder_margins": [
+    26844,
+    95214,
+    79830,
+    9786,
+    48
+  ],
+  "scalar_bounds_at_k4_k5": {
+    "4": [
+      "288",
+      "720"
+    ],
+    "5": [
+      "1152/5",
+      "576"
+    ]
+  },
+  "all_k_argument": "90*k/(k+2)>1 for k>=4, separately on each parity",
+  "scope": "fixed tables and scalar bound; continuum and canonical bases separately audited"
+}

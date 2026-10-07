@@ -1,0 +1,42 @@
+{
+  "status": "FROZEN_EXACT_FINITE_BASE_THEOREM_NOT_REGULAR_CLOSURE",
+  "files": [
+    {
+      "file": "quantitative_midpoint_bernstein.md",
+      "bytes": 13050,
+      "sha256": "3ffdba42b10b12b9fb99cb1709acf74e7772055f9884dfdf84b9225a24054e0f"
+    },
+    {
+      "file": "quantitative_midpoint_bernstein.py",
+      "bytes": 12754,
+      "sha256": "f5493c952da7444eed5d42972ab09c277a07a94d3847971d2d4de3f944d8628c"
+    },
+    {
+      "file": "quantitative_midpoint_bernstein_results.json",
+      "bytes": 55828,
+      "sha256": "955f7a226aad769794bc7d73b97172400db75635a640462d742ea9f8ab003c7b"
+    },
+    {
+      "file": "quantitative_midpoint_bernstein_full.json.gz",
+      "bytes": 324151,
+      "sha256": "f15175c91b32e83cd306f6382a07efeab4bb3c457bf9c9c4893894a2edeb89cc"
+    }
+  ],
+  "scope": {
+    "ROOT": "paired MP_2 proved",
+    "ROOT_SHORT_EDGE": "new-center paired MP_2 proved",
+    "ROOT_LONG_EDGE": "new-center paired MP_2 proved",
+    "REGULAR_SHORT_AND_LONG": "new-center paired MP_2 transport OPEN",
+    "REGULAR_PROXY": "OPEN",
+    "FULL_TREE": "OPEN"
+  },
+  "full_certificate": {
+    "file": "quantitative_midpoint_bernstein_full.json.gz",
+    "uncompressed_bytes": 4741996,
+    "gzip_bytes": 324151,
+    "uncompressed_sha256": "f327efbd821aba82504b2708ffd980e00d6b68877c672e5788e0192248096d14",
+    "gzip_sha256": "f15175c91b32e83cd306f6382a07efeab4bb3c457bf9c9c4893894a2edeb89cc",
+    "compression": "gzip.compress(full_json_utf8,mtime=0)"
+  },
+  "independent_audit": "audit_midpoint_base.md; all relative/strict/character certificates and universal corner identities PASS"
+}

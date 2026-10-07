@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "scope": "m=0,1,2 full continuum margins and m0N2,3,4/m1N2,3 direct outer rows",
+  "independence": "Own ordinary-polynomial recurrences, direct Laurent expansion and Bernstein primitives, versus author Laurent convolution; no author code imported",
+  "proof_limits": "Checks numerical hypotheses and row identities only; infinite-m, folded-cone and Jacobi-mixture compatibility proof dependencies remain separate",
+  "source_script_sha256": "96edf4e4a055c8a88e4895e0810d718928816176a2ce9f8f08ad174bcad9a6fc",
+  "source_results_sha256": "b6724aeb776a7a45c9682eea505463b36801a1c3f4b1d4ffb9f8c935519c75bf",
+  "audit_script_sha256": "81a3b6332380301c21080aa2f67cff177d28b9e0988a791e4cc435dcdadbd1e2",
+  "independent_primitives_sha256": "b25efc11fc0a1f68a74133f7445d464e31f7a4957c9ed54f8441c700e8589d0d",
+  "records": [
+    {
+      "m": 0,
+      "all_author_arrays_and_small_outer_rows_match": true,
+      "beta": "221/3",
+      "alpha_trace": "4/5",
+      "gamma_template": "2",
+      "outer_tail_start": 5,
+      "minimum_base_minor": "36",
+      "base_minor_count": 5,
+      "template_margin_bernstein": [
+        "83",
+        "459",
+        "851"
+      ],
+      "trace_margin_bernstein": [
+        "41/5",
+        "1493/5",
+        "605"
+      ],
+      "paired_trace_80_margin_bernstein": [
+        "486317",
+        "575113",
+        "666869",
+        "575113",
+        "768741",
+        "970001",
+        "666869",
+        "970001",
+        "1285693"
+      ],
+      "outer_tail_central_mass_lower": "2560/3",
+      "tail_vs_proxy_threshold_residual": "2339/3",
+      "minimum_fixed_proxy_residual": "28068",
+      "small_outer_certificates": [
+        {
+          "N": 2,
+          "degree_Z": 6,
+          "delta0_Z": "8785816",
+          "mass_Z": "62496",
+          "central_to_mass": "1098227/7812",
+          "proxy_mass_residual": "4181944",
+          "row_sha256": "2e3aa4033c2674d19dcb79780451b889a82720b25c0a5658955711dbc1e1dfbc"
+        },
+        {
+          "N": 3,
+          "degree_Z": 9,
+          "delta0_Z": "145453929401",
+          "mass_Z": "13936385",
+          "central_to_mass": "145453929401/13936385",
+          "proxy_mass_residual": "433281847118/3",
+          "row_sha256": "a47190b2adcc6b635658cd182993e1a0d8674c21a3fc7dd6aa268633edbf94d4"
+        },
+        {
+          "N": 4,
+          "degree_Z": 12,
+          "delta0_Z": "3269722230844360",
+          "mass_Z": "3107751416",
+          "central_to_mass": "408715278855545/388468927",
+          "proxy_mass_residual": "9808479879470144/3",
+          "row_sha256": "7b4990ac663c05ae59c584d58d629537d273af947d65bd258d48e350f73e1d67"
+        }
+      ]
+    },
+    {
+      "m": 1,
+      "all_author_arrays_and_small_outer_rows_match": true,
+      "beta": "1517/6",
+      "alpha_trace": "5",
+      "gamma_template": "40",
+      "outer_tail_start": 4,
+      "minimum_base_minor": "144",
+      "base_minor_count": 6,
+      "template_margin_bernstein": [
+        "28201",
+        "46297",
+        "64521"
+      ],
+      "trace_margin_bernstein": [
+        "1492",
+        "3334",
+        "5192"
+      ],
+      "paired_trace_80_margin_bernstein": null,
+      "outer_tail_central_mass_lower": "625",
+      "tail_vs_proxy_threshold_residual": "2233/6",
+      "minimum_fixed_proxy_residual": "53592",
+      "small_outer_certificates": [
+        {
+          "N": 2,
+          "degree_Z": 9,
+          "delta0_Z": "265341675448",
+          "mass_Z": "19056240",
+          "central_to_mass": "33167709431/2382030",
+          "proxy_mass_residual": "260523622768",
+          "row_sha256": "84ca99953dc9a5e09043824dc050627e090e89378abaa4dc1b8adcbe71b5a55f"
+        },
+        {
+          "N": 3,
+          "degree_Z": 13,
+          "delta0_Z": "222791965139958768",
+          "mass_Z": "28946416408",
+          "central_to_mass": "27848995642494846/3618302051",
+          "proxy_mass_residual": "668353939563030836/3",
+          "row_sha256": "ae1c210029a7345ce70adcfa8449f2d977c1401abcee57235648ae0ef6ca9ab1"
+        }
+      ]
+    },
+    {
+      "m": 2,
+      "all_author_arrays_and_small_outer_rows_match": true,
+      "beta": "2600/3",
+      "alpha_trace": "5",
+      "gamma_template": "707",
+      "outer_tail_start": 2,
+      "minimum_base_minor": "576",
+      "base_minor_count": 7,
+      "template_margin_bernstein": [
+        "69218952",
+        "70645272",
+        "72073000"
+      ],
+      "trace_margin_bernstein": [
+        "252946",
+        "264742",
+        "276554"
+      ],
+      "paired_trace_80_margin_bernstein": null,
+      "outer_tail_central_mass_lower": "3535/4",
+      "tail_vs_proxy_threshold_residual": "205/12",
+      "minimum_fixed_proxy_residual": "9840",
+      "small_outer_certificates": []
+    }
+  ]
+}
